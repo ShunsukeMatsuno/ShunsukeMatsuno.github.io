@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Shunsuke Matsuno</title>
-    <link>https://example.com/</link>
+    <link>https://shunsukematsuno.github.io/</link>
     <description>Recent content on Shunsuke Matsuno</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 01 Dec 2020 21:13:14 -0500</lastBuildDate>
-    <atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://shunsukematsuno.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello R Markdown</title>
-      <link>https://example.com/2020-12-01-r-rmarkdown/</link>
+      <link>https://shunsukematsuno.github.io/2020-12-01-r-rmarkdown/</link>
       <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
-      <guid>https://example.com/2020-12-01-r-rmarkdown/</guid>
+      <guid>https://shunsukematsuno.github.io/2020-12-01-r-rmarkdown/</guid>
       <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
 You can embed an R code chunk like this:
 1summary(cars) 2## speed dist 3## Min. : 4.0 Min. : 2.00 4## 1st Qu.:12.0 1st Qu.: 26.00 5## Median :15.0 Median : 36.00 6## Mean :15.4 Mean : 42.98 7## 3rd Qu.</description>
@@ -58,16 +58,16 @@ You can embed an R code chunk like this:
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f849c">6</span><span>  init.angle <span style="color:#89dceb;font-weight:bold">=</span> <span style="color:#fab387">-50</span>, border <span style="color:#89dceb;font-weight:bold">=</span> <span style="color:#fab387">NA</span>
 </span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f849c">7</span><span>)</span></span></code></pre></div>
 <div class="figure">
-<img src="https://example.com/2020-12-01-r-rmarkdown/index_files/figure-html/pie-1.png" alt="A fancy pie chart." width="672" />
+<img src="https://shunsukematsuno.github.io/2020-12-01-r-rmarkdown/index_files/figure-html/pie-1.png" alt="A fancy pie chart." width="672" />
 <p class="caption"><span id="fig:pie"></span>Figure 1: A fancy pie chart.</p>
 </div>
 ]]></content:encoded>
     </item>
     <item>
       <title>Research</title>
-      <link>https://example.com/research/</link>
+      <link>https://shunsukematsuno.github.io/research/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.com/research/</guid>
+      <guid>https://shunsukematsuno.github.io/research/</guid>
       <description>Working Papers &amp;ldquo;Mandatory vs. Voluntary Disclosure in the Dynamic Market for Lemons,&amp;rdquo; 2024 (with Cyrus Aghamolla)
 [SSRN].
 Work in Progress &amp;ldquo;Disclosure, Signaling, and First-Mover (Dis)advantage&amp;rdquo;
