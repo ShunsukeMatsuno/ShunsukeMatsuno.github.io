@@ -2,36 +2,48 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://shunsukematsuno.github.io/blog/accounting/</loc>
+    <loc>http://localhost:4321/blog/accounting/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>https://shunsukematsuno.github.io/blog/cbs/</loc>
+    <loc>http://localhost:4321/blog/cbs/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>https://shunsukematsuno.github.io/blog/columbia/</loc>
+    <loc>http://localhost:4321/blog/columbia/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>https://shunsukematsuno.github.io/blog/disclosure/</loc>
+    <loc>http://localhost:4321/blog/disclosure/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>https://shunsukematsuno.github.io/2020-12-01-r-rmarkdown/</loc>
+    <loc>http://localhost:4321/2020-12-01-r-rmarkdown/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>https://shunsukematsuno.github.io/blog/</loc>
+    <loc>http://localhost:4321/blog/japan/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>https://shunsukematsuno.github.io/blog/shunsuke-matsuno/</loc>
+    <loc>http://localhost:4321/blog/japanese/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>https://shunsukematsuno.github.io/</loc>
+    <loc>http://localhost:4321/blog/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>https://shunsukematsuno.github.io/blog/theory/</loc>
+    <loc>http://localhost:4321/blog/shunsuke-matsuno/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>https://shunsukematsuno.github.io/blog/voluntary-disclosure/</loc>
+    <loc>http://localhost:4321/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>https://shunsukematsuno.github.io/research/</loc>
+    <loc>http://localhost:4321/blog/theory/</loc>
+    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/blog/voluntary-disclosure/</loc>
+    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/blog/%E6%9D%BE%E9%87%8E/</loc>
+    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/blog/%E6%9D%BE%E9%87%8E-%E8%88%9C%E4%BB%8B/</loc>
+    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/research/</loc>
   </url>
 </urlset>
