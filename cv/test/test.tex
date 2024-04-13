@@ -1,0 +1,41 @@
+\documentclass{article}
+
+\RequirePackage[ % BibLaTeX
+sorting=ydnt, % Sorts entries by year (descending order), name, title
+style=verbose,
+doi=false,
+isbn=false,
+url=false,
+eprint=false,
+backref = false, % include back references in bibliography
+maxcitenames=3, % affects only the citations in the document body
+maxbibnames=99, % affects only the bibliography, pass 99 to print all
+hyperref=true,
+block=none,
+backend=biber % {Options: bibtex, biber}
+]{biblatex}
+\addbibresource{test.bib}
+
+\begin{document}
+
+\title{My Article}
+\author{Nobody Jr.}
+\date{Today}
+\maketitle
+
+
+
+Hello, world!
+
+\section{My Section}
+\begin{equation}
+	\int_0^t = 1/2 dX_t
+\end{equation}
+\cite{Khan2014Incentive}
+
+\cite{Khan2014Incentive}
+\printbibliography[
+	heading=none
+	]
+
+\end{document}
