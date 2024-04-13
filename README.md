@@ -1,8 +1,11 @@
 # Personal Website
 https://shunsukematsuno.github.io
 
-## Hugo ʕ•ᴥ•ʔ Simple
-The website is built using [Hugo-Simple by maolonglong/hugo-simple](https://github.com/maolonglong/hugo-simple), a [Hugo](https://gohugo.io/)-theme based on [Simple.css](https://simplecss.org/) and [Bear Blog](https://bearblog.dev).
-
-## CV
+## Credits
+- [R blogdown](https://github.com/rstudio/blogdown)
+    - Creates static websites using R Markdown and [Hugo](https://gohugo.io/)
+- Hugo ʕ•ᴥ•ʔ Simple  [(maolonglong/hugo-simple)](https://github.com/maolonglong/hugo-simple)
+    - A Hugo theme based on [Simple.css](https://simplecss.org/) and [Bear Blog](https://bearblog.dev).
+- Awesome CV [(posquit0/Awesome-CV)](https://github.com/posquit0/Awesome-CV)
+    - A LaTeX template for nice-looking cv.
 
