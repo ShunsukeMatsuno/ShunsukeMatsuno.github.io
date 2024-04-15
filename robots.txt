@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
 Sitemap: https://shunsukematsuno.github.io/sitemap.xml
-d
