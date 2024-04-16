@@ -1,47 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>https://shunsukematsuno.github.io/blog/accounting/</loc>
-    <changefreq>daily</changefreq>
-  </url><url>
-    <loc>https://shunsukematsuno.github.io/blog/cbs/</loc>
-    <changefreq>daily</changefreq>
-  </url><url>
-    <loc>https://shunsukematsuno.github.io/blog/columbia/</loc>
-    <changefreq>daily</changefreq>
-  </url><url>
-    <loc>https://shunsukematsuno.github.io/blog/disclosure/</loc>
-    <changefreq>daily</changefreq>
-  </url><url>
-    <loc>https://shunsukematsuno.github.io/blog/japan/</loc>
-    <changefreq>daily</changefreq>
-  </url><url>
-    <loc>https://shunsukematsuno.github.io/blog/japanese/</loc>
-    <changefreq>daily</changefreq>
-  </url><url>
-    <loc>https://shunsukematsuno.github.io/blog/</loc>
-    <changefreq>daily</changefreq>
-  </url><url>
-    <loc>https://shunsukematsuno.github.io/research/</loc>
-    <changefreq>daily</changefreq>
-  </url><url>
-    <loc>https://shunsukematsuno.github.io/blog/shunsuke-matsuno/</loc>
-    <changefreq>daily</changefreq>
-  </url><url>
-    <loc>https://shunsukematsuno.github.io/</loc>
-    <changefreq>daily</changefreq>
-  </url><url>
-    <loc>https://shunsukematsuno.github.io/blog/theory/</loc>
-    <changefreq>daily</changefreq>
-  </url><url>
-    <loc>https://shunsukematsuno.github.io/blog/voluntary-disclosure/</loc>
-    <changefreq>daily</changefreq>
-  </url><url>
-    <loc>https://shunsukematsuno.github.io/blog/%E6%9D%BE%E9%87%8E/</loc>
-    <changefreq>daily</changefreq>
-  </url><url>
-    <loc>https://shunsukematsuno.github.io/blog/%E6%9D%BE%E9%87%8E-%E8%88%9C%E4%BB%8B/</loc>
-    <changefreq>daily</changefreq>
-  </url>
-</urlset>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <sitemap>
+    <loc>https://shunsukematsuno.github.io/en/sitemap.xml</loc>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>https://shunsukematsuno.github.io/ja/sitemap.xml</loc>
+    
+  </sitemap>
+  
+</sitemapindex>
