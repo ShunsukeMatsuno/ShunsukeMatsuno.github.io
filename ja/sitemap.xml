@@ -93,19 +93,6 @@
                 href="https://shunsukematsuno.github.io/ja/blog/shunsuke-matsuno/"
                 />
   </url><url>
-    <loc>https://shunsukematsuno.github.io/ja/</loc>
-    <changefreq>daily</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="https://shunsukematsuno.github.io/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://shunsukematsuno.github.io/ja/"
-                />
-  </url><url>
     <loc>https://shunsukematsuno.github.io/ja/blog/theory/</loc>
     <changefreq>daily</changefreq>
     <xhtml:link
@@ -156,6 +143,19 @@
                 rel="alternate"
                 hreflang="ja"
                 href="https://shunsukematsuno.github.io/ja/blog/%E6%9D%BE%E9%87%8E-%E8%88%9C%E4%BB%8B/"
+                />
+  </url><url>
+    <loc>https://shunsukematsuno.github.io/ja/</loc>
+    <changefreq>daily</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://shunsukematsuno.github.io/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://shunsukematsuno.github.io/ja/"
                 />
   </url><url>
     <loc>https://shunsukematsuno.github.io/ja/japanese/</loc>
