@@ -5,7 +5,7 @@ window.onload = function () {
   Array.prototype.forEach.call(elements, function (el, i) {
     el.previousElementSibling.innerHTML =
       el.previousElementSibling.innerHTML +
-      '<br>&nbsp;&nbsp;&nbsp;<span class="abstract-button" style="margin-top: 0px;"> <a href="#" class="expand-link" style="cursor: pointer; display: inline-block;">+ Abstract</a></span>';
+      '<br>&nbsp;&nbsp;&nbsp;<span class="abstract-button" style="margin-top: 0px;"> <a href="#" class="expand-link" style="cursor: pointer; display: inline-block; margin-top: 3px;">+ Abstract</a></span>';
   });
 
   var expandLinks = document.querySelectorAll(".expand-link");
@@ -54,7 +54,7 @@ function replaceExpandableContent() {
       .replace(/<p>\[expand\]<\/p>/g, "")
       .replace(/<p>\[\/expand\]<\/p>/g, "");
     var parentcontent =
-      '<div class="expand" style="display: none; height: 0; overflow: hidden; margin-left: 40px;  margin-top: -40px;">' +
+      '<div class="expand" style="display: none; height: 0; overflow: hidden; margin-left: 20px;  margin-top: -35px;">' +
       content +
       "</div>";
     expandContentDiv.outerHTML = parentcontent;

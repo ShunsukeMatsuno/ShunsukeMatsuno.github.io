@@ -2,102 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://shunsukematsuno.github.io/blog/accounting/</loc>
-    <changefreq>daily</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://shunsukematsuno.github.io/ja/blog/accounting/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="https://shunsukematsuno.github.io/blog/accounting/"
-                />
-  </url><url>
-    <loc>https://shunsukematsuno.github.io/blog/cbs/</loc>
-    <changefreq>daily</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://shunsukematsuno.github.io/ja/blog/cbs/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="https://shunsukematsuno.github.io/blog/cbs/"
-                />
-  </url><url>
-    <loc>https://shunsukematsuno.github.io/blog/columbia/</loc>
-    <changefreq>daily</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://shunsukematsuno.github.io/ja/blog/columbia/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="https://shunsukematsuno.github.io/blog/columbia/"
-                />
-  </url><url>
-    <loc>https://shunsukematsuno.github.io/blog/disclosure/</loc>
-    <changefreq>daily</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://shunsukematsuno.github.io/ja/blog/disclosure/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="https://shunsukematsuno.github.io/blog/disclosure/"
-                />
-  </url><url>
-    <loc>https://shunsukematsuno.github.io/blog/japan/</loc>
-    <changefreq>daily</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://shunsukematsuno.github.io/ja/blog/japan/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="https://shunsukematsuno.github.io/blog/japan/"
-                />
-  </url><url>
-    <loc>https://shunsukematsuno.github.io/blog/japanese/</loc>
-    <changefreq>daily</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://shunsukematsuno.github.io/ja/blog/japanese/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="https://shunsukematsuno.github.io/blog/japanese/"
-                />
-  </url><url>
-    <loc>https://shunsukematsuno.github.io/research/</loc>
-    <changefreq>daily</changefreq>
-  </url><url>
-    <loc>https://shunsukematsuno.github.io/blog/shunsuke-matsuno/</loc>
-    <changefreq>daily</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://shunsukematsuno.github.io/ja/blog/shunsuke-matsuno/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="https://shunsukematsuno.github.io/blog/shunsuke-matsuno/"
-                />
-  </url><url>
     <loc>https://shunsukematsuno.github.io/</loc>
-    <changefreq>daily</changefreq>
+    <lastmod>2018-11-28T15:14:39+10:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
@@ -109,69 +15,162 @@
                 href="https://shunsukematsuno.github.io/"
                 />
   </url><url>
-    <loc>https://shunsukematsuno.github.io/blog/theory/</loc>
-    <changefreq>daily</changefreq>
+    <loc>https://shunsukematsuno.github.io/tags/accounting/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://shunsukematsuno.github.io/ja/blog/theory/"
+                href="https://shunsukematsuno.github.io/ja/tags/accounting/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://shunsukematsuno.github.io/blog/theory/"
+                href="https://shunsukematsuno.github.io/tags/accounting/"
                 />
   </url><url>
-    <loc>https://shunsukematsuno.github.io/blog/voluntary-disclosure/</loc>
-    <changefreq>daily</changefreq>
+    <loc>https://shunsukematsuno.github.io/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://shunsukematsuno.github.io/ja/blog/voluntary-disclosure/"
+                href="https://shunsukematsuno.github.io/ja/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://shunsukematsuno.github.io/blog/voluntary-disclosure/"
+                href="https://shunsukematsuno.github.io/categories/"
                 />
   </url><url>
-    <loc>https://shunsukematsuno.github.io/blog/%E6%9D%BE%E9%87%8E/</loc>
-    <changefreq>daily</changefreq>
+    <loc>https://shunsukematsuno.github.io/tags/cbs/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://shunsukematsuno.github.io/ja/blog/%E6%9D%BE%E9%87%8E/"
+                href="https://shunsukematsuno.github.io/ja/tags/cbs/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://shunsukematsuno.github.io/blog/%E6%9D%BE%E9%87%8E/"
+                href="https://shunsukematsuno.github.io/tags/cbs/"
                 />
   </url><url>
-    <loc>https://shunsukematsuno.github.io/blog/%E6%9D%BE%E9%87%8E-%E8%88%9C%E4%BB%8B/</loc>
-    <changefreq>daily</changefreq>
+    <loc>https://shunsukematsuno.github.io/tags/columbia/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://shunsukematsuno.github.io/ja/blog/%E6%9D%BE%E9%87%8E-%E8%88%9C%E4%BB%8B/"
+                href="https://shunsukematsuno.github.io/ja/tags/columbia/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://shunsukematsuno.github.io/blog/%E6%9D%BE%E9%87%8E-%E8%88%9C%E4%BB%8B/"
+                href="https://shunsukematsuno.github.io/tags/columbia/"
                 />
   </url><url>
-    <loc>https://shunsukematsuno.github.io/blog/%E6%9D%BE%E9%87%8E%E8%88%9C%E4%BB%8B/</loc>
-    <changefreq>daily</changefreq>
+    <loc>https://shunsukematsuno.github.io/tags/disclosure/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://shunsukematsuno.github.io/ja/blog/%E6%9D%BE%E9%87%8E%E8%88%9C%E4%BB%8B/"
+                href="https://shunsukematsuno.github.io/ja/tags/disclosure/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://shunsukematsuno.github.io/blog/%E6%9D%BE%E9%87%8E%E8%88%9C%E4%BB%8B/"
+                href="https://shunsukematsuno.github.io/tags/disclosure/"
+                />
+  </url><url>
+    <loc>https://shunsukematsuno.github.io/tags/japan/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://shunsukematsuno.github.io/ja/tags/japan/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://shunsukematsuno.github.io/tags/japan/"
+                />
+  </url><url>
+    <loc>https://shunsukematsuno.github.io/tags/japanese/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://shunsukematsuno.github.io/ja/tags/japanese/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://shunsukematsuno.github.io/tags/japanese/"
+                />
+  </url><url>
+    <loc>https://shunsukematsuno.github.io/research/</loc>
+  </url><url>
+    <loc>https://shunsukematsuno.github.io/tags/shunsuke-matsuno/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://shunsukematsuno.github.io/ja/tags/shunsuke-matsuno/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://shunsukematsuno.github.io/tags/shunsuke-matsuno/"
+                />
+  </url><url>
+    <loc>https://shunsukematsuno.github.io/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://shunsukematsuno.github.io/ja/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://shunsukematsuno.github.io/tags/"
+                />
+  </url><url>
+    <loc>https://shunsukematsuno.github.io/tags/theory/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://shunsukematsuno.github.io/ja/tags/theory/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://shunsukematsuno.github.io/tags/theory/"
+                />
+  </url><url>
+    <loc>https://shunsukematsuno.github.io/tags/voluntary-disclosure/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://shunsukematsuno.github.io/ja/tags/voluntary-disclosure/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://shunsukematsuno.github.io/tags/voluntary-disclosure/"
+                />
+  </url><url>
+    <loc>https://shunsukematsuno.github.io/tags/%E6%9D%BE%E9%87%8E/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://shunsukematsuno.github.io/ja/tags/%E6%9D%BE%E9%87%8E/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://shunsukematsuno.github.io/tags/%E6%9D%BE%E9%87%8E/"
+                />
+  </url><url>
+    <loc>https://shunsukematsuno.github.io/tags/%E6%9D%BE%E9%87%8E-%E8%88%9C%E4%BB%8B/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://shunsukematsuno.github.io/ja/tags/%E6%9D%BE%E9%87%8E-%E8%88%9C%E4%BB%8B/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://shunsukematsuno.github.io/tags/%E6%9D%BE%E9%87%8E-%E8%88%9C%E4%BB%8B/"
                 />
   </url>
 </urlset>

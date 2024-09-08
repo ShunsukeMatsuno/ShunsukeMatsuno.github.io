@@ -1,44 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Shunsuke Matsuno - Personal Website | CBS</title>
     <link>https://shunsukematsuno.github.io/</link>
     <description>Recent content on Shunsuke Matsuno - Personal Website | CBS</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-US</language>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://shunsukematsuno.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Research</title>
       <link>https://shunsukematsuno.github.io/research/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://shunsukematsuno.github.io/research/</guid>
-      <description>Working Papers &amp;ldquo;Mandatory vs. Voluntary Disclosure in the Dynamic Market for Lemons,&amp;rdquo; 2024 (with Cyrus Aghamolla) [SSRN] , R&amp;amp;R at Review of Financial Studies
-[expand]
-We consider a dynamic adverse selection setting where a privately informed seller can choose to reveal or withhold past trade information to privately informed buyers. Buyers naturally receive less information when the seller can strategically withhold negative news relative to a setting where current buyers always observe the seller&amp;rsquo;s history of trade, i.</description>
-      <content:encoded><![CDATA[<h3 id="working-papers">Working Papers</h3>
-<p>&ldquo;Mandatory vs. Voluntary Disclosure in the Dynamic Market for Lemons,&rdquo; 2024 (with Cyrus Aghamolla) <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4680389" target="_blank" >[SSRN]</a>
-, <em>R&amp;R at Review of Financial Studies</em></p>
-<div style="display:none;" id="ExpandContent">
-<p>[expand]</p>
-<p>We consider a dynamic adverse selection setting where a privately informed seller can choose to reveal or withhold past trade information to privately informed buyers. Buyers naturally receive less information when the seller can strategically withhold negative news relative to a setting where current buyers always observe the seller&rsquo;s history of trade, i.e., mandatory disclosure. Despite the informational disadvantage, we find that strategic disclosure by the seller can be a Pareto improvement and welfare-increasing relative to mandatory disclosure, under which past trade is always disclosed. This occurs because voluntary disclosure can attenuate the seller&rsquo;s incentive to engage in destructive signaling and can lead to more efficient trade.</p>
-<p>[/expand]</p>
-</div>
-<p>&ldquo;Disclosure, Signaling, and First-Mover (Dis)advantage&rdquo; <a href="/papers/StackelbergDisclosure.pdf" target="_blank" >[paper]</a>
-</p>
-<div style="display:none;" id="ExpandContent">
-<p>[expand]</p>
-<p>This paper studies voluntary disclosure in a leader-follower game in a product market. The leader is privately informed about the demand prospect of the market. The leader chooses a production level and decides whether to disclose it. On the one hand, such disclosure is beneficial, as the leader can enjoy the first-mover advantage. On the other hand, the follower learns the leader&rsquo;s private information through disclosed information, so the leader firm has an incentive to contract production to signal low demand. This is costly to the leader, as the leader may end up producing and earning less than the follower (first-mover disadvantage). To avoid such signaling costs, the leader can conceal the production information. In equilibrium, when the leader is long-term oriented, the leader discloses the production plan only when the private demand signal is low. More competition leads to less disclosure. When the leader firm has the short-term incentive of maximizing the stock price, an interval disclosure equilibrium could emerge. I extend the baseline model to the case where the leader may not observe a private signal. I show that this friction allows the leader firm to save the signaling cost by mimicking the uninformed type. This paper offers a theory of endogenous disclosure cost.</p>
-<p>[/expand]</p>
-</div>
-<h3 id="work-in-progress">Work in Progress</h3>
-<p>&ldquo;Leadership and Conformity in Organization&rdquo;</p>
-<div style="display:none;" id="ExpandContent">
-<p>[expand]</p>
-<p>Some organizations are characterized by a conformity culture, where followers are expected to follow the leadership&rsquo;s behavior. In contrast, other organizations exhibit an anticonformity culture. What drives the variation in conformity culture across organizations?
-This paper provides a model of leadership and (anti)conformity culture in organizations. In a stylized coordination game with many followers and one leader, I analyze how conformity culture affects followers&rsquo; behavior and identify the optimal level of conformity. Conformity culture naturally helps coordination among followers, but it may also distort the performance of organizations when the leader is not well-informed. The optimal culture balances the two effects. I show that with strategic complementarity, conformity is optimal, whereas with strategic substitutes, anticonformity is optimal. The optimal culture achieves constrained efficiency. Comparative statics of optimal culture sheds light on the origins of cultural variation across organizations from an informational perspective. The model provides a new perspective on the role of leadership and corporate culture in organizations.</p>
-<p>[/expand]</p>
-</div>
-]]></content:encoded>
+      <description>Working Papers &amp;ldquo;Mandatory vs. Voluntary Disclosure in the Dynamic Market for Lemons,&amp;rdquo; 2024 (with Cyrus Aghamolla) [SSRN], R&amp;amp;R at Review of Financial Studies&#xA;[expand]&#xA;We consider a dynamic adverse selection setting where a privately informed seller can choose to reveal or withhold past trade information to privately informed buyers. Buyers naturally receive less information when the seller can strategically withhold negative news relative to a setting where current buyers always observe the seller&amp;rsquo;s history of trade, i.</description>
     </item>
   </channel>
 </rss>
