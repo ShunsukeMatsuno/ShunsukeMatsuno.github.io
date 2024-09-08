@@ -20,7 +20,7 @@
 % A4 paper size by default, use 'letterpaper' for US letter
 \documentclass[11pt, letterpaper]{awesome-cv-2}
 % Configure page margins with geometry
-\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+\geometry{left=2cm, top=2cm, right=2cm, bottom=2cm, footskip=.5cm}
 
 % Specify the location of the included fonts
 \fontdir[fonts/]
@@ -83,10 +83,16 @@
 % Print the footer with 3 arguments(<left>, <center>, <right>)
 % Leave any of these blank if they are not needed
 \makecvfooter
-  {Last Updated: \monthyeardate\today}
+  % {Last Updated: \monthyeardate\today}
+  {}
+  {\thepage/\pageref{LastPage}}
   {}
   % {Shunsuke Matsuno~~~·~~~Curriculum Vitae}
-  {\thepage/\pageref{LastPage}}
+
+
+\cvheader
+  {Last Updated: \monthyeardate\today}
+  % {Shunsuke Matsuno~~~·~~~Curriculum Vitae}
 
 
 
@@ -104,7 +110,6 @@
 \input{cv_data/research.tex}
 \input{cv_data/teaching.tex}
 \input{cv_data/awards.tex}
-\newpage
 \input{cv_data/ra.tex}
 \input{cv_data/others.tex}
 % \input{cv/skills.tex}a

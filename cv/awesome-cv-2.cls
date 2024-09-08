@@ -580,6 +580,9 @@
   \fancyfoot[C]{\footerstyle{#2}}
   \fancyfoot[R]{\footerstyle{#3}}
 }
+\newcommand*{\cvheader}[1]{%
+  \fancyhead[R]{\footerstyle{#1}}
+}
 
 % Define a section for CV
 % Usage: \cvsection{<section-title>}
