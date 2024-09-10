@@ -5,7 +5,7 @@ window.onload = function () {
   Array.prototype.forEach.call(elements, function (el, i) {
     el.previousElementSibling.innerHTML =
       el.previousElementSibling.innerHTML +
-      '<br>&nbsp;&nbsp;&nbsp;<span class="abstract-button" style="margin-top: 0px;"> <a href="#" class="expand-link" style="cursor: pointer; display: inline-block; margin-top: 3px;">+ Abstract</a></span>';
+      '<br>&nbsp;&nbsp;&nbsp;<span> <a href="#" class="expand-link">+ Abstract</a></span>';
   });
 
   var expandLinks = document.querySelectorAll(".expand-link");
@@ -18,29 +18,10 @@ window.onload = function () {
         expandableDiv.style.display = "block";
         expandableDiv.style.height = "auto";
         this.innerText = "− Abstract"; // Change button text to "- Abstract" when expanded
-        if (!collapseBtn) {
-          collapseBtn = document.createElement("button");
-          collapseBtn.className = "collapse-btn";
-          collapseBtn.style.cursor = "pointer";
-          collapseBtn.style.backgroundColor = "transparent"; // Match the background color of the link
-          collapseBtn.style.border = "none"; // Remove button border
-          collapseBtn.style.marginLeft = "5px"; // Adjust the margin as needed
-          collapseBtn.style.marginTop = "-10px"; // Adjust the margin as needed
-          collapseBtn.onclick = function () {
-            expandableDiv.style.display = "none";
-            link.innerText = "+ Abstract"; // Change button text back to "+ Abstract" when collapsed
-            collapseBtn.style.display = "none";
-          };
-          this.parentNode.replaceChild(collapseBtn); // Append collapse button to the same parent node
-        } else {
-          collapseBtn.style.display = "inline-block";
-        }
+        collapseBtn.style.display = "inline-block";
       } else {
         expandableDiv.style.display = "none";
         this.innerText = "+ Abstract"; // Change button text back to "+ Abstract" when collapsed
-        if (collapseBtn) {
-          collapseBtn.style.display = "none";
-        }
       }
     });
   });
@@ -54,7 +35,7 @@ function replaceExpandableContent() {
       .replace(/<p>\[expand\]<\/p>/g, "")
       .replace(/<p>\[\/expand\]<\/p>/g, "");
     var parentcontent =
-      '<div class="expand" style="display: none; height: 0; overflow: hidden; margin-left: 20px;  margin-top: -35px;">' +
+      '<div class="expand" style="display: none; height: 0; overflow: hidden; margin-left: 20px;  margin-top: -35px">' +
       content +
       "</div>";
     expandContentDiv.outerHTML = parentcontent;
