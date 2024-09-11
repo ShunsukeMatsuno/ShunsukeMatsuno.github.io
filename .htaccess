@@ -1,4 +1,4 @@
 https://shunsukematsuno.github.io/
 RewriteEngine On
-RewriteCond %{HTTP_HOST} ^www.yourdomain.com [NC]
-RewriteRule ^(.*)$ http://yourdomain.com/$1 [L,R=301]
+RewriteCond %{HTTP_HOST} ^www.shunsukematsuno.github.io [NC]
+RewriteRule ^(.*)$ http://shunsukematsuno.github.io/$1 [L,R=301]
