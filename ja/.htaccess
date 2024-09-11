@@ -3,5 +3,10 @@ RewriteEngine On
 RewriteCond %{HTTP_HOST} ^www.shunsukematsuno.github.io [NC]
 RewriteRule ^(.*)$ http://shunsukematsuno.github.io/$1 [L,R=301]
 RewriteBase /
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+
+RewriteCond %{HTTPS} on
 RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
 RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
