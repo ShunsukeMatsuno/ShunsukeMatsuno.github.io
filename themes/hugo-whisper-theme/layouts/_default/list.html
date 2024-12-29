@@ -1,0 +1,19 @@
+{{ define "header_css" }}{{ end }}
+{{ define "body_classes" }}page-default-list{{ end }}
+{{ define "header_classes" }}{{ end }}
+
+{{ define "main" }}
+
+  {{ if .Param "ja_page" }}
+    <h2 class="japanese">松野 舜介</h2>
+    <div class="content_ja">
+      {{.Content}}
+    </div>
+  {{ else }}
+    <h2 class="title">{{ .Title }}</h2>
+    <div class="content">
+      {{ .Content }}
+    </div>
+  {{ end }}
+
+{{ end }}

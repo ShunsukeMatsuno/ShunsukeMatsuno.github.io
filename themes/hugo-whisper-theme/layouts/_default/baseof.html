@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link rel="canonical" href="https://shunsukematsuno.github.io/" />
+  <meta name="referrer" content="no-referrer-when-downgrade" />
+  {{/*  <meta name="viewport" content="width=device-width, initial-scale=.8">  */}}
+  <meta name="viewport" content="width=device-width">
+
+  {{- partial "seo_tags.html" . -}}
+  {{- partial "favicon.html" . -}}
+
+  {{/*  {{ $style := resources.Get "scss/style.scss" | toCSS (dict "targetPath" "css/style.css" "enableSourceMap" false) }}  */}}
+  {{/*  <link rel="stylesheet" href="{{ ($style | minify | fingerprint).RelPermalink }}">  */}}
+  {{ $style := resources.Get "scss/style.scss" | toCSS (dict "targetPath" "css/style.css" "enableSourceMap" false) | minify }}
+  <link href="{{ $style.RelPermalink }}" rel="stylesheet" />
+  {{ with .Params.style }}
+  {{ $extra := resources.Get . | minify }}
+  <link href="{{ $extra.RelPermalink }}" rel="stylesheet" />
+{{ end }}
+
+  {{ block "header_css" . }}{{ end }}
+
+  {{- partial "custom_head.html" . -}}
+
+  <title>
+    {{- block "title" . -}}
+      {{- if not .IsHome -}}
+        {{ with .Title }}{{ . }}&nbsp;|&nbsp;{{ end }}
+      {{- end -}}
+      {{ .Site.Title }}
+    {{- end -}}
+  </title>
+</head>
+
+<div class="container-fluid">
+  <div class="container">
+    <div class="entire">
+      <body>
+      <div class="sidebar">
+        {{ partial "sidebar.html" . }}
+      </div>
+      <div class="right">
+        {{ block "main" . }}
+        {{ end }}
+      </div>
+
+    {{ $scripts := resources.Get "js/scripts.js" }}
+
+    <script type="text/javascript" src="{{ ($scripts | minify | fingerprint).RelPermalink }}"></script>
+
+      </body>
+      <div class="container">
+        {{ partial "footer.html" . }}
+      </div>
+    </div>
+  </div>
+</div>
+
+</html>
