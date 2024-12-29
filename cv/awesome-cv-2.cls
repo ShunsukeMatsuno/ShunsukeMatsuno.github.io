@@ -21,7 +21,7 @@
 %-------------------------------------------------------------------------------
 %                Identification
 %-------------------------------------------------------------------------------
-\ProvidesClass{awesome-cv-2}[2017/02/05 v1.6.1 Awesome Curriculum Vitae Class]
+\ProvidesClass{awesome-cv-2}[2024/11/11]
 \NeedsTeXFormat{LaTeX2e}
 
 
@@ -114,7 +114,7 @@
 %-------------------------------------------------------------------------------
 %% Page Layout
 % Configure page margins with geometry
-\geometry{left=2.0cm, top=1.5cm, right=2.0cm, bottom=2.0cm, footskip=.5cm}
+\geometry{left=2.0cm, top=2cm, right=2.0cm, bottom=3.0cm, footskip=.5cm}
 
 %% Header & Footer
 % Set offset to each header and footer
@@ -648,6 +648,17 @@
   \end{tabular*}%
 }
 
+\newcommand*{\cventrylong}[3]{%
+  \vspace{-1.0mm}
+  \setlength\tabcolsep{0pt}
+  \setlength{\extrarowheight}{0pt}
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 2.5cm} R{2.5cm}}
+      \entrytitlestylesimple{#1} & \entrydatestyle{#2}
+      % \entrytitlestyle{#2} & \entrydatestyle{#4}
+      \ifempty{#3}{}{\\\multicolumn{2}{L{\textwidth}}{\hspace{1cm}\descriptionstyle{#3}}}
+  \end{tabular*}%
+}
+
 % Define an environment for cvsubentry
 \newenvironment{cvsubentries}{%
   \begin{center}
@@ -856,7 +867,7 @@ hyperref=true,
 block=none,
 backend=biber % {Options: bibtex, biber}
 ]{biblatex}
-\addbibresource{cv_data/references.bib}
+\addbibresource{cv_data/references.bib}   
 
 
 % Avoid splitting entries across page break (only for 3 or fewer lines)
