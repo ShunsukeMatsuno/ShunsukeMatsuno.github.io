@@ -16,14 +16,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
-        with:
-          hugo-version: 'latest' # Specify Hugo version if needed
-
-      - name: Build the website
-        run: hugo # Hugo will automatically use the publishDir (docs) from your config.yaml
-
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
