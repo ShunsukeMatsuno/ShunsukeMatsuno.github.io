@@ -1,0 +1,115 @@
+.content_ja {
+  font-family: $font-family-ja !important;
+  -webkit-font-smoothing: antialiased;
+  .highlight {
+    border-radius: 2px;
+    margin-bottom: 20px;
+  }
+  strong {
+    font-weight: bold;
+    font-family: $font-family-ja;
+  }
+  em {
+    font-style: italic;
+    font-weight: normal;
+  }
+  ol {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    list-style-type: decimal;
+    li {
+      margin-bottom: 5px;
+      margin-left: 20px;
+    }
+  }
+  ul {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    list-style-type: disc;
+    li {
+      margin-bottom: 5px;
+      margin-left: 20px;
+    }
+  }
+  a {
+    text-decoration: underline;
+  }
+  p {
+    font-family: $font-family-ja;
+    font-size: 1rem;
+    line-height: 1.4;
+    color: lighten($black, 10%);
+    font-weight: 400;
+    .japanese {
+      font-family: 'Zen Old Mincho'!important;
+    }
+  }
+  h1 {
+    font-family: $font-family-ja;
+    font-size: 2.6rem;
+    line-height: 1.4;
+    font-weight: 300;
+    margin-bottom: 20px;
+  }
+  h2 {
+    font-size: 1.3rem;
+    line-height: 1.4;
+    font-weight: 300;
+    letter-spacing: -0.01em;
+    font-family: $font-family-ja;
+    margin-bottom: 20px;
+  }
+  h3 {
+    font-size: 1.3rem;
+    line-height: 1.4;
+    font-weight: 400;
+    font-family: $font-family-ja;
+    margin-bottom: 20px;
+  }
+  h4 {
+    font-size: 1.1rem;
+    line-height: 1.4;
+    font-weight: 500;
+    font-family: $font-family-ja;
+    margin-bottom: 20px;
+  }
+  h5 {
+    font-size: 1.4rem;
+    line-height: 1.4;
+    font-weight: 600;
+    font-family: $font-family-ja;
+    margin-bottom: 20px;
+  }
+  h6 {
+    font-size: 1.2rem;
+    line-height: 1.4;
+    font-weight: 700;
+    font-family: $font-family_ja;
+    margin-bottom: 20px;
+  }
+  blockquote {
+    background: #f9f9f9;
+    border-left: 10px solid #ccc;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: '\201C''\201D''\2018''\2019';
+  }
+  blockquote:before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+  }
+  blockquote p {
+    display: inline;
+  }
+  table {
+    @extend .table;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}

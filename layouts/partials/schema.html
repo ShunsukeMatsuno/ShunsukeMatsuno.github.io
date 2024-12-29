@@ -1,0 +1,44 @@
+<script type="application/ld+json">
+    {{ if eq .Section "posts" }}
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": {{ .Title }},
+      "image": {{ .Params.featuredImage | absURL }},
+      "datePublished": {{ .PublishDate }},
+      "dateModified": {{ .Lastmod }},
+      "author": {
+        "@type": "Person",
+        "name": {{ .Site.Params.author }}
+      },
+      "mainEntityOfPage": { "@type": "WebPage" },
+       "publisher": {
+        "@type": "Organization",
+        "name": {{ .Site.Params.header }},
+        "logo": {
+          "@type": "ImageObject",
+          "url": {{ .Site.Params.logo }}
+        }
+      },
+      "description": {{ .Summary | plainify | safeHTML }},
+      "keywords": [{{ range $i, $e := .Params.tags }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}]
+    }
+    {{ end }}
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": {{ .Site.Params.header }},
+      "url": {{ .Site.BaseURL }},
+      "affiliation": {
+        "@type": "Organization",
+        "name": {{ .Site.Params.affiliation }}
+      },
+      "sameAs": [
+        "https://scholar.google.com/citations?hl=en&user={{ .Site.Params.googleScholar }}",
+        "https://academics.business.columbia.edu/node/1573",
+        "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=5017016",
+        "https://twitter.com/{{ .Site.Params.twitter }}",
+        "https://github.com/{{ .Site.Params.github }}"
+      ]
+    }
+    </script>

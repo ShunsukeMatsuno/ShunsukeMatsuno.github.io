@@ -1,0 +1,76 @@
+.right {
+  padding-top: 1cm;
+  padding-left: 3vw;
+  margin-left: 35%;
+  //min-width: 200px;
+  padding-right: 3vw;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  width: auto;
+  max-width: 1000px;
+  text-align: justify;
+  text-justify: inter-word;
+  // background-color: gray;
+}
+
+.abstract{
+  display: none;
+  height: 0;
+  overflow: hidden;
+  margin-left: 20px;
+  margin-top: -35px;
+}
+
+.entire {
+  // background: pink;
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  min-height:50vh !important;
+  //margin-left: -5vh;
+  // background: pink;
+  // width: 100%;
+  // max-width: 1200px;
+  // background: rgba(51, 170, 51, .4);
+}
+
+@media (min-width: 1250px) {
+  // margin-left: -5%;
+  max-width: 1200px;
+  .container{
+    // max-width: 1000px;
+    position: static;
+    max-width: 1200px !important;
+  }
+  .entire{
+    margin-left: -10vw !important;
+    position: fixed !important;
+    margin-top: 1vw;
+    top: 0;
+    left: 20vw;
+    min-width: 800px;
+  }
+  .footer-simple{
+    // margin-left: -10vw !important;
+    // position: relative !important;
+  }
+}
+
+.container{
+  min-width: 500px !important;
+  // background-color: rgba(90, 170, 50, .1) !important;
+}
+
+.no-pointer, .no-pointer * {
+  cursor: default !important;
+}
+
+main {
+  flex: 1;
+}
+
+html{
+  scrollbar-gutter: stable both-edges;
+  overflow-x: hidden;
+}
+

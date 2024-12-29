@@ -1,0 +1,68 @@
+baseURL: https://shunsukematsuno.github.io/
+theme: hugo-whisper-theme
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: false
+languages:
+  en:
+    languageCode: en-US
+    languageDirection: ltr
+    languageName: English
+    weight: 0
+  ja:
+    languageCode: ja
+    languageDirection: ltr
+    languageName: Japanese
+    weight: 1
+    title: 松野舜介 - Personal Website | CBS
+    services:
+      googleAnalytics:
+        ID: G-WVF59BPVWG
+    
+title: Shunsuke Matsuno - Personal Website | CBS
+enableRobotsTXT: yes
+module:
+  hugoVersion:
+    extended: true
+    min: 0.55.0
+    summaryLength: 30
+  imports:
+  - path: github.com/hugomods/images
+menu:
+  main:
+    - name: About
+      url: /
+      weight: 1
+    - name: Research
+      url: /research
+      weight: 2
+services:
+  googleAnalytics:
+    ID: G-WVF59BPVWG
+params:
+  author:
+    email: 
+    name: Shunsuke Matsuno
+  dateFormat: '2006-01-02'
+  description: Personal Website of Shunsuke Matsuno (松野 舜介)
+  favicon: favicon
+  title: Personal Website of Shunsuke Matsuno (松野 舜介)
+  header: "Shunsuke Matsuno"
+  github: "ShunsukeMatsuno"
+  googleScholar: "ID"
+  affiliation: "Columbia Business School, Columbia University"
+  
+markup:
+  goldmark:
+    renderer:
+      unsafe: yes
+
+frontmatter:
+  date:
+  - myDate
+  - :default
+  lastmod:
+  - :fileModTime
+
+pygmentsCodeFences: true
+pygmentsCodefencesGuessSyntax: true
+pygmentsUseClasses: true

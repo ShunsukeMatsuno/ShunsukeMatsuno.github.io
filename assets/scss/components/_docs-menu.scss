@@ -1,0 +1,81 @@
+.docs-menu_modified {
+  h1 {
+    font-size: 1.2rem;
+    font-family: "Nanum Myeongjo";  
+    font-weight: 700;
+    font-style: normal;
+    margin-bottom: 1cm;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    li {
+      font-size: 0.9rem;
+      line-height: 1.4;
+      font-weight: 300;
+      margin: 0;
+      padding: 4px 0 4px 0;
+      &.active {
+        a {
+          color: lighten($primary, 10%);
+          font-weight: 400;
+        }
+      }
+      a {
+        color: $black;
+        &:hover {
+          color: $primary;
+        }
+      }
+    }
+  }
+  position: fixed;
+  // padding-left: 5vw;
+  padding-top: 10vw;
+  padding-right: 3vw;
+  // width: 20%;
+  // max-width: 20%;
+  width: 25vw;
+  max-width: 25vw;
+  top: 0;
+  margin-left: 0vw;
+  // background-color: pink;
+  left: 10vw;
+}
+
+// .docs-menu {
+//   h4 {
+//     font-size: 1.2rem;
+//     font-weight: 400;
+//     font-style: italic;
+//     margin-bottom: 1cm;
+//   }
+//   ul {
+//     list-style: none;
+//     padding: 0;
+//     margin: 0;
+//     li {
+//       font-size: 0.9rem;
+//       line-height: 1.4;
+//       font-weight: 400;
+//       margin: 0;
+//       padding: 4px 0 4px 0;
+//       &.active {
+//         a {
+//           color: lighten($primary, 10%);
+//           font-weight: 400;
+//         }
+//       }
+//       a {
+//         color: $black;
+//         &:hover {
+//           color: $primary;
+//         }
+//       }
+//     }
+//   }
+//   position: fixed;
+//   // width: 20%;
+//   margin-left: -1cm;
+// }
