@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.8.5)  2 DEC 2024 19:08
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.8.5)  29 DEC 2024 15:55
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1042,7 +1042,20 @@ LaTeX Font Warning: Font shape `TU/CrimsonPro(4)/m/sc' undefined
 
 LaTeX Font Info:    Font shape `TU/CrimsonPro(0)/b/n' will be
 (Font)              scaled to size 10.0pt on input line 23.
-) (./cv_data/teaching.tex) (./cv_data/awards.tex
+)
+Runaway argument?
+{2024 {https://shunsukematsuno.github.io/papers/Leadership_Matsuno.pd\ETC.
+./cv.tex:110: File ended while scanning use of \paperentry.
+<inserted text> 
+                \par 
+l.110 \input{cv_data/research.tex}
+                                  
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
+(./cv_data/teaching.tex) (./cv_data/awards.tex) (./cv_data/presentations.tex
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1053,7 +1066,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [1
 
-]) (./cv_data/presentations.tex) (./cv_data/ra.tex) (./cv_data/others.tex)
+]) (./cv_data/ra.tex) (./cv_data/others.tex)
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1082,10 +1095,10 @@ Package logreq Info: Writing requests to 'cv.run.xml'.
 Here is how much of TeX's memory you used:
  40205 strings out of 474256
  809394 string characters out of 5746293
- 1944560 words of memory out of 5000000
+ 1946560 words of memory out of 5000000
  62269 multiletter control sequences out of 15000+600000
  560723 words of font info for 95 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 116i,13n,136p,1082b,852s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 116i,12n,136p,1082b,852s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on auxdir/cv.xdv (2 pages, 33832 bytes).
+Output written on auxdir/cv.xdv (2 pages, 28960 bytes).

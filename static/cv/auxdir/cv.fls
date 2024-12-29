@@ -1,4 +1,4 @@
-PWD c:/Users/Matsuno/CBS Dropbox/Shunsuke Matsuno/00_website/whisper/static/cv
+PWD c:/Users/Matsuno/CBS Dropbox/Shunsuke Matsuno/00_website/my-website/static/cv
 INPUT c:/texlive/2024/texmf.cnf
 INPUT c:/texlive/2024/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2024/texmf-var/web2c/xetex/xelatex.fmt
@@ -379,10 +379,10 @@ INPUT cv_data/teaching.tex
 INPUT ./cv_data/awards.tex
 INPUT ./cv_data/awards.tex
 INPUT cv_data/awards.tex
-OUTPUT auxdir/cv.xdv
 INPUT ./cv_data/presentations.tex
 INPUT ./cv_data/presentations.tex
 INPUT cv_data/presentations.tex
+OUTPUT auxdir/cv.xdv
 INPUT ./cv_data/ra.tex
 INPUT ./cv_data/ra.tex
 INPUT cv_data/ra.tex
