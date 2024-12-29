@@ -32,9 +32,12 @@ menu:
     - name: Research
       url: /research
       weight: 2
+
+
 services:
   googleAnalytics:
-    ID: "{{ env "GOOGLE_ANALYTICS_ID" }}"
+    ID: '{{ env "GOOGLE_ANALYTICS_ID" }}'
+
 params:
   author:
     email: 
