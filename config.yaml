@@ -15,10 +15,6 @@ languages:
     languageName: Japanese
     weight: 1
     title: 松野舜介 - Personal Website | CBS
-    services:
-      googleAnalytics:
-        ID: G-WVF59BPVWG
-    
 title: Shunsuke Matsuno - Personal Website | CBS
 enableRobotsTXT: yes
 module:
@@ -38,7 +34,7 @@ menu:
       weight: 2
 services:
   googleAnalytics:
-    ID: G-WVF59BPVWG
+    ID: "{{ env "GOOGLE_ANALYTICS_ID" }}"
 params:
   author:
     email: 
