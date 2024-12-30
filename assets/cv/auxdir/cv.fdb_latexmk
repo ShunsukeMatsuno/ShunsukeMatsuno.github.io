@@ -1,20 +1,20 @@
 # Fdb version 4
-["biber auxdir/cv"] 1735505607.86118 "auxdir/cv.bcf" "auxdir/cv.bbl" "auxdir/cv" 1735505731.27139 0
-  "auxdir/cv.bcf" 1735505731 107965 3d24ffc3d2cc7ad4afa67f50531789ae "xelatex"
+["biber auxdir/cv"] 1735517636.62136 "auxdir/cv.bcf" "auxdir/cv.bbl" "auxdir/cv" 1735517653.59785 0
+  "auxdir/cv.bcf" 1735517652 107965 3d24ffc3d2cc7ad4afa67f50531789ae "xelatex"
   (generated)
   "auxdir/cv.bbl"
   "auxdir/cv.blg"
   (rewritten before read)
-["xdvipdfmx"] 1735505710.67897 "auxdir/cv.xdv" "cv.pdf" "cv" 1735505711.26911 0
-  "auxdir/cv.xdv" 1735505731 28960 6d437f055eb27898160c80846c73f620 "xelatex"
+["xdvipdfmx"] 1735517652.63202 "auxdir/cv.xdv" "cv.pdf" "cv" 1735517653.60459 0
+  "auxdir/cv.xdv" 1735517652 31140 4320c7ac83bb3543c3a3ea9a9a259e0b "xelatex"
   (generated)
   "cv.pdf"
   (rewritten before read)
-["xelatex"] 1735505729.18211 "cv.tex" "auxdir/cv.xdv" "cv" 1735505731.27199 2
-  "auxdir/cv.aux" 1735505731 340 d722d55347a4abf91f2fefeceff050cd "xelatex"
-  "auxdir/cv.bbl" 1735505609 486 76d65a242ec496c9b4361af646ff12cb "biber auxdir/cv"
-  "auxdir/cv.out" 1735505731 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
-  "auxdir/cv.run.xml" 1735505731 2369 799a849cb4fd085dadc15c62ec5ba21d "xelatex"
+["xelatex"] 1735517649.94463 "cv.tex" "auxdir/cv.xdv" "cv" 1735517653.59802 0
+  "auxdir/cv.aux" 1735517652 340 d722d55347a4abf91f2fefeceff050cd "xelatex"
+  "auxdir/cv.bbl" 1735517647 486 76d65a242ec496c9b4361af646ff12cb "biber auxdir/cv"
+  "auxdir/cv.out" 1735517652 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
+  "auxdir/cv.run.xml" 1735517652 2369 799a849cb4fd085dadc15c62ec5ba21d "xelatex"
   "awesome-cv-2.cls" 1735491912 35756 7318f721d052a39e0c1a8656ff8bef98 ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1719347747 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1719351253 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
@@ -201,13 +201,13 @@
   "c:/texlive/2024/texmf-dist/web2c/texmf.cnf" 1719346160 42000 d4442d41499783a67244425458021966 ""
   "c:/texlive/2024/texmf-var/web2c/xetex/xelatex.fmt" 1722891469 10868126 ccb6e044327a32874dd290e3e5dde0f0 ""
   "c:/texlive/2024/texmf.cnf" 1719351299 713 e69b156964470283e0530f5060668171 ""
-  "cv.tex" 1735505637 3936 8a38fa93ce58612bd59cdd6f1d37cbc8 ""
+  "cv.tex" 1735505927 3936 8a38fa93ce58612bd59cdd6f1d37cbc8 ""
   "cv_data/awards.tex" 1735491912 1006 814c93c125e0e62f9fbdaa07124d2bba ""
   "cv_data/education.tex" 1735491912 1254 1fa27f06a355e4c01ff8b25ff0300708 ""
   "cv_data/others.tex" 1735491912 678 c0c2b50abc64d021b112d6dc3094123f ""
   "cv_data/presentations.tex" 1735491912 702 a551b93609a9470d19158d148df1b079 ""
   "cv_data/ra.tex" 1735491912 659 014cd4c59cc1c405a42f80743dfb2550 ""
-  "cv_data/research.tex" 1735505728 3053 3a65c05db9f1bdf4806fdc3d0b110693 ""
+  "cv_data/research.tex" 1735505926 3054 0b09398ad1de1cf89bd21b35262b1057 ""
   "cv_data/teaching.tex" 1735491912 878 897927f75653056580ff83da80ad0e26 ""
   (generated)
   "auxdir/cv.aux"

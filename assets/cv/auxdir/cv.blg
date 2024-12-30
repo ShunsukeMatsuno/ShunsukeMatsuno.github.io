@@ -1,0 +1,9 @@
+[0] Config.pm:308> INFO - This is Biber 2.20
+[9] Config.pm:311> INFO - Logfile is 'auxdir/cv.blg'
+[414] biber-MSWIN64:340> INFO - === 
+[551] Biber.pm:420> INFO - Reading 'auxdir/cv.bcf'
+[645] Biber.pm:994> INFO - Found 0 citekeys in bib section 0
+[669] bbl.pm:676> INFO - Writing 'auxdir/cv.bbl' with encoding 'UTF-8'
+[669] bbl.pm:779> INFO - Output to auxdir/cv.bbl
+[669] Biber.pm:131> WARN - The file 'auxdir/cv.bcf' does not contain any citations!
+[669] Biber.pm:133> INFO - WARNINGS: 1
