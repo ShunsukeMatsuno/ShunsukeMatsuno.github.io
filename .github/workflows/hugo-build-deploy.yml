@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -71,6 +71,9 @@ jobs:
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/" \
             --destination docs
+            
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
