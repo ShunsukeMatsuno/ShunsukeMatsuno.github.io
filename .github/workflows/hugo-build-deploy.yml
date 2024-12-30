@@ -55,8 +55,8 @@ jobs:
           latexmk_use_xelatex: true
           args: -output-directory=static/cv
         
-      # - name: Compile CV
-      #   run: bash scripts/build_cv.sh
+      - name: Copy CV to static
+        run: cp assets/cv/cv.pdf static/cv/cv.pdf
         
       - name: Build with Hugo
         env:
