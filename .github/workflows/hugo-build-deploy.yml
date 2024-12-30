@@ -49,10 +49,10 @@ jobs:
       - name: Compile CV
         uses: xu-cheng/latex-action@v3
         with:
-          root_file: assets/cv/cv.tex
           working_directory: assets/cv
-          latexmk_use_xelatex: true
+          root_file: cv.tex
           extra_fonts: assets/cv/fonts/*
+          latexmk_use_xelatex: true
           args: -output-directory=static/cv
         
       # - name: Compile CV
