@@ -47,7 +47,15 @@ jobs:
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
 
       - name: Compile CV
-        run: bash scripts/build_cv.sh
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: assets/cv/cv.tex
+          output_directory: static/cv
+          compiler: xelatex
+          extra_fonts: assets/cv/fonts/*
+        
+      # - name: Compile CV
+      #   run: bash scripts/build_cv.sh
         
       - name: Build with Hugo
         env:
