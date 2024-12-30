@@ -56,7 +56,9 @@ jobs:
           args: -output-directory=static/cv
         
       - name: Copy CV to static
-        run: cp assets/cv/cv.pdf static/cv/cv.pdf
+        run: | 
+          mkdir static/cv
+          cp assets/cv/cv.pdf static/cv/cv.pdf
         
       - name: Build with Hugo
         env:

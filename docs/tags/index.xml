@@ -2,233 +2,235 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Shunsuke Matsuno - Personal Website | CBS</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://shunsukematsuno.github.io/tags/</link>
     <description>Recent content in Tags on Shunsuke Matsuno - Personal Website | CBS</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</managingEditor>
+    <webMaster>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</webMaster>
+    <atom:link href="https://shunsukematsuno.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Accounting</title>
-      <link>http://localhost:1313/tags/accounting/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/accounting/</guid>
+      <link>https://shunsukematsuno.github.io/tags/accounting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</author>
+      <guid>https://shunsukematsuno.github.io/tags/accounting/</guid>
       <description></description>
     </item>
     <item>
       <title>Adverse Selection</title>
-      <link>http://localhost:1313/tags/adverse-selection/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/adverse-selection/</guid>
+      <link>https://shunsukematsuno.github.io/tags/adverse-selection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</author>
+      <guid>https://shunsukematsuno.github.io/tags/adverse-selection/</guid>
       <description></description>
     </item>
     <item>
       <title>Audit Quality</title>
-      <link>http://localhost:1313/tags/audit-quality/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/audit-quality/</guid>
+      <link>https://shunsukematsuno.github.io/tags/audit-quality/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</author>
+      <guid>https://shunsukematsuno.github.io/tags/audit-quality/</guid>
       <description></description>
     </item>
     <item>
       <title>Auditor Effort</title>
-      <link>http://localhost:1313/tags/auditor-effort/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/auditor-effort/</guid>
+      <link>https://shunsukematsuno.github.io/tags/auditor-effort/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</author>
+      <guid>https://shunsukematsuno.github.io/tags/auditor-effort/</guid>
       <description></description>
     </item>
     <item>
       <title>CBS</title>
-      <link>http://localhost:1313/tags/cbs/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/cbs/</guid>
+      <link>https://shunsukematsuno.github.io/tags/cbs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</author>
+      <guid>https://shunsukematsuno.github.io/tags/cbs/</guid>
       <description></description>
     </item>
     <item>
       <title>Columbia</title>
-      <link>http://localhost:1313/tags/columbia/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/columbia/</guid>
+      <link>https://shunsukematsuno.github.io/tags/columbia/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</author>
+      <guid>https://shunsukematsuno.github.io/tags/columbia/</guid>
       <description></description>
     </item>
     <item>
       <title>Columbia Business</title>
-      <link>http://localhost:1313/tags/columbia-business/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/columbia-business/</guid>
+      <link>https://shunsukematsuno.github.io/tags/columbia-business/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</author>
+      <guid>https://shunsukematsuno.github.io/tags/columbia-business/</guid>
       <description></description>
     </item>
     <item>
       <title>Columbia Business School</title>
-      <link>http://localhost:1313/tags/columbia-business-school/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/columbia-business-school/</guid>
+      <link>https://shunsukematsuno.github.io/tags/columbia-business-school/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</author>
+      <guid>https://shunsukematsuno.github.io/tags/columbia-business-school/</guid>
       <description></description>
     </item>
     <item>
       <title>Conformity</title>
-      <link>http://localhost:1313/tags/conformity/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/conformity/</guid>
+      <link>https://shunsukematsuno.github.io/tags/conformity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</author>
+      <guid>https://shunsukematsuno.github.io/tags/conformity/</guid>
       <description></description>
     </item>
     <item>
       <title>Coordination</title>
-      <link>http://localhost:1313/tags/coordination/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/coordination/</guid>
+      <link>https://shunsukematsuno.github.io/tags/coordination/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</author>
+      <guid>https://shunsukematsuno.github.io/tags/coordination/</guid>
       <description></description>
     </item>
     <item>
       <title>Corporate Culture</title>
-      <link>http://localhost:1313/tags/corporate-culture/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/corporate-culture/</guid>
+      <link>https://shunsukematsuno.github.io/tags/corporate-culture/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</author>
+      <guid>https://shunsukematsuno.github.io/tags/corporate-culture/</guid>
       <description></description>
     </item>
     <item>
       <title>Dynamic Market</title>
-      <link>http://localhost:1313/tags/dynamic-market/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/dynamic-market/</guid>
+      <link>https://shunsukematsuno.github.io/tags/dynamic-market/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</author>
+      <guid>https://shunsukematsuno.github.io/tags/dynamic-market/</guid>
       <description></description>
     </item>
     <item>
       <title>Dynamic Models</title>
-      <link>http://localhost:1313/tags/dynamic-models/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/dynamic-models/</guid>
+      <link>https://shunsukematsuno.github.io/tags/dynamic-models/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</author>
+      <guid>https://shunsukematsuno.github.io/tags/dynamic-models/</guid>
       <description></description>
     </item>
     <item>
       <title>Endogenous Disclosure Cost</title>
-      <link>http://localhost:1313/tags/endogenous-disclosure-cost/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/endogenous-disclosure-cost/</guid>
+      <link>https://shunsukematsuno.github.io/tags/endogenous-disclosure-cost/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</author>
+      <guid>https://shunsukematsuno.github.io/tags/endogenous-disclosure-cost/</guid>
       <description></description>
     </item>
     <item>
       <title>Financial Disclosure</title>
-      <link>http://localhost:1313/tags/financial-disclosure/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/financial-disclosure/</guid>
+      <link>https://shunsukematsuno.github.io/tags/financial-disclosure/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</author>
+      <guid>https://shunsukematsuno.github.io/tags/financial-disclosure/</guid>
       <description></description>
     </item>
     <item>
       <title>First-Mover Advantage</title>
-      <link>http://localhost:1313/tags/first-mover-advantage/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/first-mover-advantage/</guid>
+      <link>https://shunsukematsuno.github.io/tags/first-mover-advantage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</author>
+      <guid>https://shunsukematsuno.github.io/tags/first-mover-advantage/</guid>
       <description></description>
     </item>
     <item>
       <title>Innovation</title>
-      <link>http://localhost:1313/tags/innovation/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/innovation/</guid>
+      <link>https://shunsukematsuno.github.io/tags/innovation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</author>
+      <guid>https://shunsukematsuno.github.io/tags/innovation/</guid>
       <description></description>
     </item>
     <item>
       <title>Intellectual Property</title>
-      <link>http://localhost:1313/tags/intellectual-property/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/intellectual-property/</guid>
+      <link>https://shunsukematsuno.github.io/tags/intellectual-property/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</author>
+      <guid>https://shunsukematsuno.github.io/tags/intellectual-property/</guid>
       <description></description>
     </item>
     <item>
       <title>Japan</title>
-      <link>http://localhost:1313/tags/japan/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/japan/</guid>
+      <link>https://shunsukematsuno.github.io/tags/japan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</author>
+      <guid>https://shunsukematsuno.github.io/tags/japan/</guid>
       <description></description>
     </item>
     <item>
       <title>Leadership</title>
-      <link>http://localhost:1313/tags/leadership/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/leadership/</guid>
+      <link>https://shunsukematsuno.github.io/tags/leadership/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</author>
+      <guid>https://shunsukematsuno.github.io/tags/leadership/</guid>
       <description></description>
     </item>
     <item>
       <title>Mandatory Disclosure</title>
-      <link>http://localhost:1313/tags/mandatory-disclosure/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/mandatory-disclosure/</guid>
+      <link>https://shunsukematsuno.github.io/tags/mandatory-disclosure/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</author>
+      <guid>https://shunsukematsuno.github.io/tags/mandatory-disclosure/</guid>
       <description></description>
     </item>
     <item>
       <title>PCAOB Monitoring</title>
-      <link>http://localhost:1313/tags/pcaob-monitoring/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/pcaob-monitoring/</guid>
+      <link>https://shunsukematsuno.github.io/tags/pcaob-monitoring/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</author>
+      <guid>https://shunsukematsuno.github.io/tags/pcaob-monitoring/</guid>
       <description></description>
     </item>
     <item>
       <title>R&amp;D</title>
-      <link>http://localhost:1313/tags/rd/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/rd/</guid>
+      <link>https://shunsukematsuno.github.io/tags/rd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</author>
+      <guid>https://shunsukematsuno.github.io/tags/rd/</guid>
       <description></description>
     </item>
     <item>
       <title>Regulatory Impact</title>
-      <link>http://localhost:1313/tags/regulatory-impact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/regulatory-impact/</guid>
+      <link>https://shunsukematsuno.github.io/tags/regulatory-impact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</author>
+      <guid>https://shunsukematsuno.github.io/tags/regulatory-impact/</guid>
       <description></description>
     </item>
     <item>
       <title>Shunsuke Matsuno</title>
-      <link>http://localhost:1313/tags/shunsuke-matsuno/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/shunsuke-matsuno/</guid>
+      <link>https://shunsukematsuno.github.io/tags/shunsuke-matsuno/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</author>
+      <guid>https://shunsukematsuno.github.io/tags/shunsuke-matsuno/</guid>
       <description></description>
     </item>
     <item>
       <title>Signaling</title>
-      <link>http://localhost:1313/tags/signaling/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/signaling/</guid>
+      <link>https://shunsukematsuno.github.io/tags/signaling/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</author>
+      <guid>https://shunsukematsuno.github.io/tags/signaling/</guid>
       <description></description>
     </item>
     <item>
       <title>Strategic Patenting</title>
-      <link>http://localhost:1313/tags/strategic-patenting/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/strategic-patenting/</guid>
+      <link>https://shunsukematsuno.github.io/tags/strategic-patenting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</author>
+      <guid>https://shunsukematsuno.github.io/tags/strategic-patenting/</guid>
       <description></description>
     </item>
     <item>
       <title>Structural Estimation</title>
-      <link>http://localhost:1313/tags/structural-estimation/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/structural-estimation/</guid>
+      <link>https://shunsukematsuno.github.io/tags/structural-estimation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</author>
+      <guid>https://shunsukematsuno.github.io/tags/structural-estimation/</guid>
       <description></description>
     </item>
     <item>
       <title>Transparency</title>
-      <link>http://localhost:1313/tags/transparency/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/transparency/</guid>
+      <link>https://shunsukematsuno.github.io/tags/transparency/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</author>
+      <guid>https://shunsukematsuno.github.io/tags/transparency/</guid>
       <description></description>
     </item>
     <item>
       <title>Voluntary Disclosure</title>
-      <link>http://localhost:1313/tags/voluntary-disclosure/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/voluntary-disclosure/</guid>
+      <link>https://shunsukematsuno.github.io/tags/voluntary-disclosure/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</author>
+      <guid>https://shunsukematsuno.github.io/tags/voluntary-disclosure/</guid>
       <description></description>
     </item>
     <item>
       <title>松野</title>
-      <link>http://localhost:1313/tags/%E6%9D%BE%E9%87%8E/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/%E6%9D%BE%E9%87%8E/</guid>
+      <link>https://shunsukematsuno.github.io/tags/%E6%9D%BE%E9%87%8E/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</author>
+      <guid>https://shunsukematsuno.github.io/tags/%E6%9D%BE%E9%87%8E/</guid>
       <description></description>
     </item>
     <item>
       <title>松野 舜介</title>
-      <link>http://localhost:1313/tags/%E6%9D%BE%E9%87%8E-%E8%88%9C%E4%BB%8B/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/%E6%9D%BE%E9%87%8E-%E8%88%9C%E4%BB%8B/</guid>
+      <link>https://shunsukematsuno.github.io/tags/%E6%9D%BE%E9%87%8E-%E8%88%9C%E4%BB%8B/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</author>
+      <guid>https://shunsukematsuno.github.io/tags/%E6%9D%BE%E9%87%8E-%E8%88%9C%E4%BB%8B/</guid>
       <description></description>
     </item>
   </channel>

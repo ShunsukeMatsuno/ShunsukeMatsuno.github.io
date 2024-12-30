@@ -39,7 +39,7 @@ services:
 
 params:
   author:
-    email: 
+    email: SMatsuno26@gsb.columbia.edu
     name: Shunsuke Matsuno
   dateFormat: '2006-01-02'
   description: Personal Website of Shunsuke Matsuno (松野 舜介)

@@ -2,16 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Japan on Shunsuke Matsuno - Personal Website | CBS</title>
-    <link>http://localhost:1313/tags/japan/</link>
+    <link>https://shunsukematsuno.github.io/tags/japan/</link>
     <description>Recent content in Japan on Shunsuke Matsuno - Personal Website | CBS</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <atom:link href="http://localhost:1313/tags/japan/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</managingEditor>
+    <webMaster>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</webMaster>
+    <atom:link href="https://shunsukematsuno.github.io/tags/japan/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Research</title>
-      <link>http://localhost:1313/research/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/research/</guid>
+      <link>https://shunsukematsuno.github.io/research/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</author>
+      <guid>https://shunsukematsuno.github.io/research/</guid>
       <description>Working Papers &amp;ldquo;Mandatory vs. Voluntary Disclosure in the Dynamic Market for Lemons,&amp;rdquo; 2024 (with Cyrus Aghamolla) [SSRN],&#xA;R&amp;amp;R at Review of Financial Studies&#xA;[expand]&#xA;We consider a dynamic adverse selection setting where a privately informed seller can choose to reveal or withhold past trade information to privately informed buyers. Buyers naturally receive less information when the seller can strategically withhold negative news relative to a setting where current buyers always observe the seller&amp;rsquo;s history of trade, i.</description>
     </item>
   </channel>
