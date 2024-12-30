@@ -50,9 +50,9 @@ jobs:
         uses: xu-cheng/latex-action@v3
         with:
           root_file: assets/cv/cv.tex
-          output_directory: static/cv
-          compiler: xelatex
+          latexmk_use_xelatex: true
           extra_fonts: assets/cv/fonts/*
+          args: -output-directory=static/cv
         
       # - name: Compile CV
       #   run: bash scripts/build_cv.sh
