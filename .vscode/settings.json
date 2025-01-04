@@ -7,5 +7,25 @@
                 "xelatexmk"
             ]
         },
-    ]
+    ],
+    "workbench.colorCustomizations": {
+        "activityBar.activeBackground": "#dcfc19",
+        "activityBar.background": "#dcfc19",
+        "activityBar.foreground": "#15202b",
+        "activityBar.inactiveForeground": "#15202b99",
+        "activityBarBadge.background": "#02a3bd",
+        "activityBarBadge.foreground": "#e7e7e7",
+        "commandCenter.border": "#15202b99",
+        "sash.hoverBorder": "#dcfc19",
+        "statusBar.background": "#c0df03",
+        "statusBar.foreground": "#15202b",
+        "statusBarItem.hoverBackground": "#95ad02",
+        "statusBarItem.remoteBackground": "#c0df03",
+        "statusBarItem.remoteForeground": "#15202b",
+        "titleBar.activeBackground": "#c0df03",
+        "titleBar.activeForeground": "#15202b",
+        "titleBar.inactiveBackground": "#c0df0399",
+        "titleBar.inactiveForeground": "#15202b99"
+    },
+    "peacock.color": "#c0df03"
 }
