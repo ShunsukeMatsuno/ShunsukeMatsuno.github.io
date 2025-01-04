@@ -1,11 +1,11 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.12.1)  30 DEC 2024 23:50
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2025.1.1)  4 JAN 2025 06:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **cv.tex
 (./cv.tex
 LaTeX2e <2024-11-01> patch level 1
-L3 programming layer <2024-11-02>
+L3 programming layer <2024-12-09>
 (./awesome-cv-2.cls
 Document Class: awesome-cv-2 2024/11/11
 (/opt/texlive/texdir/texmf-dist/tex/latex/base/article.cls
@@ -73,7 +73,7 @@ Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 
 (/opt/texlive/texdir/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2022/02/03 v1.0f TeX engine tests
+Package: iftex 2024/12/12 v1.0g TeX engine tests
 ))
 \Gm@cnth=\count268
 \Gm@cntv=\count269
@@ -89,7 +89,7 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \Gm@dimlist=\toks21
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-Package: fancyhdr 2024/11/20 v4.4 Extensive control of page headers and footers
+Package: fancyhdr 2024/12/09 v4.5 Extensive control of page headers and footers
 
 \f@nch@headwidth=\skip68
 \f@nch@O@elh=\skip69
@@ -157,7 +157,7 @@ Package: setspace 2022/12/04 v6.7b set line spacing
 (/opt/texlive/texdir/texmf-dist/tex/latex/fontspec/fontspec.sty
 (/opt/texlive/texdir/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 (/opt/texlive/texdir/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2024-11-02 L3 programming layer (loader) 
+Package: expl3 2024-12-09 L3 programming layer (loader) 
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
 File: l3backend-xetex.def 2024-05-08 L3 backend support: XeTeX
@@ -859,14 +859,14 @@ Package: ulem 2019/11/18
 \ULdepth=\dimen282
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/lastpage/lastpage.sty
-Package: lastpage 2024/07/07 v2.1c lastpage: 2.09 or 2e? (HMM)
+Package: lastpage 2024/11/24 v2.1d lastpage: 2.09 or 2e? (HMM)
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/lastpage/lastpage2e.sty
-Package: lastpage2e 2024/07/07 v2.1c Decide which 2e lastpage version to use (H
+Package: lastpage2e 2024/11/24 v2.1d Decide which 2e lastpage version to use (H
 MM)
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/lastpage/lastpagemodern.sty
-Package: lastpagemodern 2024-07-07 v2.1c Refers to last page's name (HMM; JPG)
+Package: lastpagemodern 2024-11-24 v2.1d Refers to last page's name (HMM; JPG)
 \c@lastpagecount=\count369
 ) 
 )) (/opt/texlive/texdir/texmf-dist/tex/latex/biblatex/biblatex.sty
@@ -1098,7 +1098,7 @@ Package biblatex Info: XeTeX detected.
 (biblatex)             Assuming input encoding 'utf8'.
 Package biblatex Info: Document encoding is UTF8 ....
 Package biblatex Info: ... and expl3
-(biblatex)             2024-11-02 L3 programming layer (loader) 
+(biblatex)             2024-12-09 L3 programming layer (loader) 
 (biblatex)             is new enough (at least 2020/04/06),
 (biblatex)             setting 'casechanger=expl3'.
 
@@ -1287,11 +1287,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [2] 
-enddocument/afterlastpage: lastpage setting LastPage.
+enddocument/afterlastpage (AED): lastpage setting LastPage.
 (static/cv/cv.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 1
-L3 programming layer <2024-11-02>
+L3 programming layer <2024-12-09>
  ***********
 
 
@@ -1304,12 +1304,12 @@ Package logreq Info: Writing requests to 'cv.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40197 strings out of 473965
- 811750 string characters out of 5734807
- 1813364 words of memory out of 5000000
- 62537 multiletter control sequences out of 15000+600000
+ 40253 strings out of 473889
+ 813469 string characters out of 5733001
+ 1814775 words of memory out of 5000000
+ 62669 multiletter control sequences out of 15000+600000
  560723 words of font info for 95 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  131i,12n,136p,1082b,852s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on static/cv/cv.xdv (2 pages, 31148 bytes).
+Output written on static/cv/cv.xdv (2 pages, 31128 bytes).
