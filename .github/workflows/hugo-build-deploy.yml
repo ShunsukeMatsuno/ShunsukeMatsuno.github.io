@@ -46,6 +46,18 @@ jobs:
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
 
+
+        - name: Cache Docker layers
+        uses: actions/cache@v3
+        with:
+          path: /var/lib/docker
+          key: ${{ runner.os }}-docker-layers
+          restore-keys: |
+            ${{ runner.os }}-docker-layers
+
+      - name: Pull Docker image
+        run: docker pull ghcr.io/xu-cheng/texlive-full:latest
+
       - name: Compile CV
         uses: xu-cheng/latex-action@v3
         with:

@@ -1,6 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Intellectual Property on Shunsuke Matsuno - Personal Website | CBS</title><link>https://shunsukematsuno.github.io/tags/intellectual-property/</link><description>Recent content in Intellectual Property on Shunsuke Matsuno - Personal Website | CBS</description><generator>Hugo</generator><language>en-US</language><managingEditor>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</managingEditor><webMaster>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</webMaster><atom:link href="https://shunsukematsuno.github.io/tags/intellectual-property/index.xml" rel="self" type="application/rss+xml"/><item><title>Research</title><link>https://shunsukematsuno.github.io/research/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</author><guid>https://shunsukematsuno.github.io/research/</guid><description>&lt;h2 id="working-papers">Working Papers&lt;/h2>
-&lt;p>&amp;ldquo;Mandatory vs. Voluntary Disclosure in the Dynamic Market for Lemons,&amp;rdquo; 2024 (with Cyrus Aghamolla) &lt;a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4680389">[SSRN]&lt;/a>,&lt;br>
-&lt;em>R&amp;amp;R at Review of Financial Studies&lt;/em>&lt;/p>
-&lt;div style="display:none;" id="ExpandContent">&lt;br>
-&lt;p>[expand]&lt;/p>
-&lt;p>We consider a dynamic adverse selection setting where a privately informed seller can choose to reveal or withhold past trade information to privately informed buyers. Buyers naturally receive less information when the seller can strategically withhold negative news relative to a setting where current buyers always observe the seller&amp;rsquo;s history of trade, i.e., mandatory disclosure. Despite the informational disadvantage, we find that strategic disclosure by the seller can be a Pareto improvement and welfare-increasing relative to mandatory disclosure, under which past trade is always disclosed. This occurs because voluntary disclosure can attenuate the seller&amp;rsquo;s incentive to engage in destructive signaling and can lead to more efficient trade.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Intellectual Property on Shunsuke Matsuno - Personal Website | CBS</title>
+    <link>http://localhost:1313/tags/intellectual-property/</link>
+    <description>Recent content in Intellectual Property on Shunsuke Matsuno - Personal Website | CBS</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <managingEditor>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</managingEditor>
+    <webMaster>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</webMaster>
+    <atom:link href="http://localhost:1313/tags/intellectual-property/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Research</title>
+      <link>http://localhost:1313/research/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</author>
+      <guid>http://localhost:1313/research/</guid>
+      <description>Working Papers &amp;ldquo;Mandatory vs. Voluntary Disclosure in the Dynamic Market for Lemons,&amp;rdquo; 2024 (with Cyrus Aghamolla) [SSRN],&#xA;R&amp;amp;R at Review of Financial Studies&#xA;[expand]&#xA;We consider a dynamic adverse selection setting where a privately informed seller can choose to reveal or withhold past trade information to privately informed buyers. Buyers naturally receive less information when the seller can strategically withhold negative news relative to a setting where current buyers always observe the seller&amp;rsquo;s history of trade, i.</description>
+    </item>
+  </channel>
+</rss>
