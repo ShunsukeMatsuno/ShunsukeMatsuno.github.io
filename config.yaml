@@ -62,6 +62,9 @@ frontmatter:
   lastmod:
   - :fileModTime
 
+sitemap:
+  disable: true
+
 pygmentsCodeFences: true
 pygmentsCodefencesGuessSyntax: true
 pygmentsUseClasses: true
