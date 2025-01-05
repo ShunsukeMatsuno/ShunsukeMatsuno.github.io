@@ -46,7 +46,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: [build_cv]
     env:
-      HUGO_VERSION: 0.137.1
+      HUGO_VERSION: 0.140.1
       GOOGLE_ANALYTICS_ID: ${{ secrets.GOOGLE_ANALYTICS_ID }}
 
     steps:
@@ -83,18 +83,6 @@ jobs:
             --baseURL "${{ steps.pages.outputs.base_url }}/" \
             --destination docs
 
-      - name: Generate the sitemap
-        uses: cicirello/generate-sitemap@v1
-        with:
-          base-url-path: https://shunsukematsuno.github.io/
-          additional-extensions: doc docx ppt pptx xls xlsx
-  
-      - name: Output stats
-        run: |
-          echo "sitemap-path = ${{ steps.sitemap.outputs.sitemap-path }}"
-          echo "url-count = ${{ steps.sitemap.outputs.url-count }}"
-          echo "excluded-count = ${{ steps.sitemap.outputs.excluded-count }}"
-            
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
