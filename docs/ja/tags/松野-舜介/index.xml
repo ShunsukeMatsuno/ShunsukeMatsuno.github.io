@@ -1,7 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>松野 舜介 on 松野舜介 - Personal Website | CBS</title><link>https://shunsukematsuno.github.io/ja/tags/%E6%9D%BE%E9%87%8E-%E8%88%9C%E4%BB%8B/</link><description>Recent content in 松野 舜介 on 松野舜介 - Personal Website | CBS</description><generator>Hugo</generator><language>ja</language><managingEditor>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</managingEditor><webMaster>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</webMaster><atom:link href="https://shunsukematsuno.github.io/ja/tags/%E6%9D%BE%E9%87%8E-%E8%88%9C%E4%BB%8B/index.xml" rel="self" type="application/rss+xml"/><item><title>松野 舜介</title><link>https://shunsukematsuno.github.io/ja/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</author><guid>https://shunsukematsuno.github.io/ja/</guid><description>&lt;!-- **氏名** 
-松野 舜介 -->
-&lt;p>&lt;strong>所属&lt;/strong>&lt;br>
-コロンビア大学ビジネススクール 会計学専攻 博士課程&lt;/p>
-&lt;p>&lt;strong>連絡先&lt;/strong> &lt;br>
-Email: &lt;a href="mailto:SMatsuno26@gsb.columbia.edu">SMatsuno26@gsb.columbia.edu&lt;/a>&lt;/p>
-&lt;p>詳細は英語のページをご覧ください。&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>松野 舜介 on 松野舜介 - Personal Website | CBS</title>
+    <link>https://shunsukematsuno.github.io/ja/tags/%E6%9D%BE%E9%87%8E-%E8%88%9C%E4%BB%8B/</link>
+    <description>Recent content in 松野 舜介 on 松野舜介 - Personal Website | CBS</description>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <managingEditor>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</managingEditor>
+    <webMaster>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</webMaster>
+    <atom:link href="https://shunsukematsuno.github.io/ja/tags/%E6%9D%BE%E9%87%8E-%E8%88%9C%E4%BB%8B/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>松野 舜介</title>
+      <link>https://shunsukematsuno.github.io/ja/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</author>
+      <guid>https://shunsukematsuno.github.io/ja/</guid>
+      <description>所属&#xA;コロンビア大学ビジネススクール 会計学専攻 博士課程&#xA;連絡先 Email: SMatsuno26@gsb.columbia.edu&#xA;詳細は英語のページをご覧ください。</description>
+    </item>
+  </channel>
+</rss>
