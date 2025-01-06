@@ -1,6 +1,7 @@
 ---
 title: ''
 # myDate: 2018-11-28T15:14:39+10:00
+metatags: ["Voluntary Disclosure", "Disclosure", "Accounting", "Columbia", "CBS", "Theory", "Shunsuke Matsuno", "Japan", "Japanese", "松野", "松野 舜介", "松野舜介"]
 description: Personal Website of Shunsuke Matsuno (松野 舜介)
 ---
 

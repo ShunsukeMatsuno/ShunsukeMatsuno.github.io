@@ -19,17 +19,23 @@
     {{- end }}
   {{- end }}"
 />
-<meta
+
+<!--<meta
   name="keywords"
   content="{{ if .IsPage -}}
     {{ range $index, $tag := .Params.tags }}{{ $tag }},{{ end }}
   {{- else -}}
     {{ range $plural, $terms := .Site.Taxonomies -}}
       {{ range $term, $val := $terms }}{{ printf "%s," $term }}{{ end }}
-    {{- end }}
+    {{- end -}}
   {{- end -}}
   "
+/>-->
+<meta
+  name="keywords"
+  content="{{ range $index, $tag := .Params.metatags }}{{ $tag }},{{ end }}"
 />
+
 {{ with .Site.Params.author.name }}
   <meta name="author" content="{{ . }}" />
 {{ end }}

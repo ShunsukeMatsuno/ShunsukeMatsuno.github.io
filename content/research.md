@@ -1,6 +1,6 @@
 ---
 title: Research
-tags: [
+metatags: [
   "Voluntary Disclosure",
   "Mandatory Disclosure",
   "Dynamic Market",
