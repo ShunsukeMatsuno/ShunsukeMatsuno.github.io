@@ -36,9 +36,6 @@ tags: [
 ]
 description: >
   Summary of research by Shunsuke Matsuno (松野 舜介), Columbia University. 
-  Projects explore topics such as voluntary and
-
-description: Summary of research by Shunsuke Matsuno (松野 舜介), Columbia University
 ---
 
 ## Working Papers

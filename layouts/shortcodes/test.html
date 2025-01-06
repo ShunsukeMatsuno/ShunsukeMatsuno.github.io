@@ -1,0 +1,20 @@
+<ul>
+    {{ with .Page.Resources.GetMatch "papers/Leadership_Matsuno.pdf" }}
+      <li>{{ .MediaType.Type }}</li>
+      <li>{{ .ResourceType }}</li>
+      <li>{{ .MediaType.MainType }}</li>
+    {{ else }}
+      <li>Resource not found: papers/Leadership_Matsuno.pdf</li>
+    {{ end }}
+  
+    {{ with .Page.Resources.GetMatch "images/lake.jpg" }}
+      <li>{{ .MediaType.Type }}</li>
+      <li>{{ .ResourceType }}</li>
+      <li>{{ .MediaType.MainType }}</li>
+    {{ else }}
+      <li>Resource not found: images/lake.jpg</li>
+    {{ end }}
+  
+  </ul>
+
+  {{ .Site.BaseURL }}

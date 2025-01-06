@@ -1,6 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Innovation on Shunsuke Matsuno - Personal Website | CBS</title><link>https://shunsukematsuno.github.io/tags/innovation/</link><description>Recent content in Innovation on Shunsuke Matsuno - Personal Website | CBS</description><generator>Hugo</generator><language>en-US</language><managingEditor>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</managingEditor><webMaster>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</webMaster><atom:link href="https://shunsukematsuno.github.io/tags/innovation/index.xml" rel="self" type="application/rss+xml"/><item><title>Research</title><link>https://shunsukematsuno.github.io/research/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</author><guid>https://shunsukematsuno.github.io/research/</guid><description>&lt;h2 id="working-papers">Working Papers&lt;/h2>
-&lt;p>&amp;ldquo;Mandatory vs. Voluntary Disclosure in the Dynamic Market for Lemons,&amp;rdquo; 2024 (with Cyrus Aghamolla) &lt;a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4680389">[SSRN]&lt;/a>,&lt;br>
-&lt;em>R&amp;amp;R at Review of Financial Studies&lt;/em>&lt;/p>
-&lt;div style="display:none;" id="ExpandContent">&lt;br>
-&lt;p>[expand]&lt;/p>
-&lt;p>We consider a dynamic adverse selection setting where a privately informed seller can choose to reveal or withhold past trade information to privately informed buyers. Buyers naturally receive less information when the seller can strategically withhold negative news relative to a setting where current buyers always observe the seller&amp;rsquo;s history of trade, i.e., mandatory disclosure. Despite the informational disadvantage, we find that strategic disclosure by the seller can be a Pareto improvement and welfare-increasing relative to mandatory disclosure, under which past trade is always disclosed. This occurs because voluntary disclosure can attenuate the seller&amp;rsquo;s incentive to engage in destructive signaling and can lead to more efficient trade.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Innovation on Shunsuke Matsuno - Personal Website | CBS</title>
+    <link>https://shunsukematsuno.github.io/tags/innovation/</link>
+    <description>Recent content in Innovation on Shunsuke Matsuno - Personal Website | CBS</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <managingEditor>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</managingEditor>
+    <webMaster>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</webMaster>
+    <atom:link href="https://shunsukematsuno.github.io/tags/innovation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Research</title>
+      <link>https://shunsukematsuno.github.io/research/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</author>
+      <guid>https://shunsukematsuno.github.io/research/</guid>
+      <description>&lt;h2 id=&#34;working-papers&#34;&gt;Working Papers&lt;/h2&gt;&#xA;&lt;p&gt;&amp;ldquo;Mandatory vs. Voluntary Disclosure in the Dynamic Market for Lemons,&amp;rdquo; 2024 (with Cyrus Aghamolla) &lt;a href=&#34;https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4680389&#34;&gt;[SSRN]&lt;/a&gt;,&lt;br&gt;&#xA;&lt;em&gt;R&amp;amp;R at Review of Financial Studies&lt;/em&gt;&lt;/p&gt;&#xA;&lt;div style=&#34;display:none;&#34; id=&#34;ExpandContent&#34;&gt;&lt;br&gt;&#xD;&#xA;&lt;p&gt;[expand]&lt;/p&gt;&#xA;&lt;p&gt;We consider a dynamic adverse selection setting where a privately informed seller can choose to reveal or withhold past trade information to privately informed buyers. Buyers naturally receive less information when the seller can strategically withhold negative news relative to a setting where current buyers always observe the seller&amp;rsquo;s history of trade, i.e., mandatory disclosure. Despite the informational disadvantage, we find that strategic disclosure by the seller can be a Pareto improvement and welfare-increasing relative to mandatory disclosure, under which past trade is always disclosed. This occurs because voluntary disclosure can attenuate the seller&amp;rsquo;s incentive to engage in destructive signaling and can lead to more efficient trade.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

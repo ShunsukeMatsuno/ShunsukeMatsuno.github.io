@@ -1,6 +1,6 @@
-+++
+<!-- +++
 title = "Sitemap"
 +++
 
 
-{{< sitemap >}}
+{{< sitemap >}} -->
