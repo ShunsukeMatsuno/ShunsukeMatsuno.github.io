@@ -1,7 +1,40 @@
 ---
 title: ''
 # myDate: 2018-11-28T15:14:39+10:00
-metatags: ["Voluntary Disclosure", "Disclosure", "Accounting", "Columbia", "CBS", "Theory", "Shunsuke Matsuno", "Japan", "Japanese", "松野", "松野 舜介", "松野舜介"]
+metatags: [
+  "Voluntary Disclosure",
+  "Mandatory Disclosure",
+  "Dynamic Market",
+  "Adverse Selection",
+  "Signaling",
+  "First-Mover Advantage",
+  "Endogenous Disclosure Cost",
+  "Leadership",
+  "Corporate Culture",
+  "Conformity",
+  "Coordination",
+  "Transparency",
+  "Strategic Patenting",
+  "Intellectual Property",
+  "Financial Disclosure",
+  "Accounting",
+  "Regulatory Impact",
+  "Innovation",
+  "R&D",
+  "Audit Quality",
+  "PCAOB Monitoring",
+  "Auditor Effort",
+  "Dynamic Models",
+  "Structural Estimation",
+  "Columbia",
+  "Columbia Business School",
+  "Columbia Business",
+  "CBS",
+  "Shunsuke Matsuno",
+  "Japan",
+  "松野",
+  "松野 舜介"
+]
 description: Personal Website of Shunsuke Matsuno (松野 舜介)
 ---
 
