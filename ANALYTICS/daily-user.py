@@ -10,7 +10,8 @@ from google.analytics.data_v1beta.types import (
 import pandas as pd
 import os
 
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] ="my-website-analytics-b37a5d44bcc6.json"
+dirname = os.path.dirname(os.path.abspath(__file__))
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = os.path.join(dirname, "my-website-analytics-b37a5d44bcc6.json")
 GAid = '434705894'
 
 client = BetaAnalyticsDataClient()
@@ -48,7 +49,6 @@ df = df.sort_values('date')
 # Get the last 20 rows (recent access)
 df_recent = df.tail(20)
 
-dirname = os.path.dirname(os.path.abspath(__file__))
 filename = os.path.join(dirname, 'data/raw_data.csv')
 try:
     df.to_csv(filename, index=False)

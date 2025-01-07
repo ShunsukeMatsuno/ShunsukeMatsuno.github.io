@@ -25,7 +25,7 @@ if [[ "$1" == "-h" || "$1" == "--help" ]]; then
 fi
 
 # Run the python script
-conda run --name google-analytics python ./daily-user.py
+conda run --name google-analytics python "$(dirname "$0")/daily-user.py"
 
 # Determine the number of lines to show
 lines_to_show=10
@@ -39,11 +39,11 @@ fi
 # Function to display the data
 display_data() {
     if $show_all; then
-        cat ./data/raw_data.csv | "$1" --style=plain --paging=never --language csv
+        cat "$(dirname "$0")/data/raw_data.csv" | "$1" --style=plain --paging=never --language csv
     else
         {
-            head -n 1 ./data/raw_data.csv
-            tail -n "$lines_to_show" ./data/raw_data.csv
+            head -n 1 "$(dirname "$0")/data/raw_data.csv"
+            tail -n "$lines_to_show" "$(dirname "$0")/data/raw_data.csv"
         } | "$1" --style=plain --paging=never --language csv
     fi
 }
