@@ -9,9 +9,10 @@ from google.analytics.data_v1beta.types import (
 
 import pandas as pd
 import os
+import sys
 
-dirname = os.path.dirname(os.path.abspath(__file__))
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = os.path.join(dirname, "my-website-analytics-b37a5d44bcc6.json")
+dirname = os.path.dirname(os.path.abspath(sys.argv[0]))
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = os.path.join(dirname, "ANALYTICS/my-website-analytics-b37a5d44bcc6.json")
 GAid = '434705894'
 
 client = BetaAnalyticsDataClient()
@@ -26,7 +27,8 @@ request = RunReportRequest(
         Metric(name="activeUsers"),
         Metric(name="newUsers")
     ],
-    date_ranges=[DateRange(start_date="2020-04-01", end_date="today")],
+    # date_ranges=[DateRange(start_date="2020-04-01", end_date="today")],
+    date_ranges=[DateRange(start_date="2020-04-01", end_date="2030-12-31")],
 )
 
 # Execute GA4 request
