@@ -1,4 +1,4 @@
-name: Deploy Hugo Website: Test
+name: Deploy Hugo Website Test
 
 on:
   workflow_dispatch:
