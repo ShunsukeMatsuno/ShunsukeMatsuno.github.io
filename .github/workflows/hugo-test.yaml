@@ -17,34 +17,8 @@ defaults:
     shell: bash
 
 jobs:
-  build_cv:
-    runs-on: ubuntu-latest
-    name: Build CV
-
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          submodules: recursive
-          fetch-depth: 0
-
-      - name: Compile CV
-        uses: xu-cheng/latex-action@v3
-        with:
-          working_directory: assets/cv
-          root_file: cv.tex
-          extra_fonts: assets/cv/fonts/*
-          latexmk_use_xelatex: true
-          args: -output-directory=static/cv
-
-      - name: Copy CV to static
-        run: |
-          mkdir -p static/cv
-          cp assets/cv/cv.pdf static/cv/cv.pdf
-
   build_website:
     runs-on: ubuntu-latest
-    needs: [build_cv]
     env:
       HUGO_VERSION: 0.140.1
       GOOGLE_ANALYTICS_ID: ${{ secrets.GOOGLE_ANALYTICS_ID }}
