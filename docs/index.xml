@@ -12,7 +12,13 @@ title = "Sitemap"
  &lt;li>&lt;a href="https://shunsukematsuno.github.io/test/">TEST&lt;/a>&lt;/li>
  
 &lt;/ul> --></description></item><item><title>Research</title><link>https://shunsukematsuno.github.io/research/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</author><guid>https://shunsukematsuno.github.io/research/</guid><description>&lt;h2 id="working-papers">Working Papers&lt;/h2>
-&lt;p>&amp;ldquo;Mandatory vs. Voluntary Disclosure in the Dynamic Market for Lemons,&amp;rdquo; 2024 (with Cyrus Aghamolla) &lt;a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4680389">[SSRN]&lt;/a>,&lt;br>
+&lt;p>&amp;ldquo;Mandatory vs. Voluntary Disclosure in the Dynamic Market for Lemons,&amp;rdquo; 2024 (with Cyrus Aghamolla) &lt;a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4680389"
+
+ target="_blank"
+ >
+[SSRN]
+&lt;/a>
+,&lt;br>
 &lt;em>R&amp;amp;R at Review of Financial Studies&lt;/em>&lt;/p>
 &lt;div style="display:none;" id="ExpandContent">&lt;br>
 &lt;p>[expand]&lt;/p>
@@ -32,4 +38,10 @@ title = "Sitemap"
  &lt;/ul>
 
  https://shunsukematsuno.github.io/
-&lt;p>This is the &lt;a href="https://shunsukematsuno.github.io/test/papers/Leadership_Matsuno.pdf">paper&lt;/a>&lt;/p></description></item></channel></rss>
+&lt;p>This is the &lt;a href="https://shunsukematsuno.github.io/papers/Leadership_Matsuno.pdf"
+
+ target="_blank"
+ >
+paper
+&lt;/a>
+&lt;/p></description></item></channel></rss>
