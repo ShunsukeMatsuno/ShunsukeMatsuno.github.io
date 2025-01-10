@@ -47,7 +47,7 @@ jobs:
     needs: [build_cv]
     env:
       HUGO_VERSION: 0.140.1
-      GOOGLE_ANALYTICS_ID: ${{ secrets.GOOGLE_ANALYTICS_ID }}
+      # GOOGLE_ANALYTICS_ID: ${{ secrets.GOOGLE_ANALYTICS_ID }}
 
     steps:
       - name: Install Hugo CLI
@@ -76,6 +76,7 @@ jobs:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
           HUGO_ENVIRONMENT: production
         run: |
+          export GOOGLE_ANALYTICS_ID="${{ secrets.GOOGLE_ANALYTICS_ID }}"
           hugo \
             --gc \
             --minify \
