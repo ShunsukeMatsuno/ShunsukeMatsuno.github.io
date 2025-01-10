@@ -35,7 +35,7 @@ menu:
 
 services:
   googleAnalytics:
-    ID: '{{ env "GOOGLE_ANALYTICS_ID" }}'
+    ID: '{{ os.Getenv "GOOGLE_ANALYTICS_ID" }}'
     
 params:
   author:
@@ -57,12 +57,22 @@ markup:
     renderHooks:
       link:
         enableDefault: false
+
 frontmatter:
   date:
   - myDate
   - :default
   lastmod:
   - :fileModTime
+
+security:
+  funcs:
+    getenv:
+    - ^HUGO_
+    - ^CI$
+    - ^USER$
+    - ^HOME$
+    - ^GOOGLE_ANALYTICS_ID$
 
 pygmentsCodeFences: true
 pygmentsCodefencesGuessSyntax: true
