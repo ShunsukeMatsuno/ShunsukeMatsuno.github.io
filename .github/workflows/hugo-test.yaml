@@ -1,4 +1,4 @@
-name: Deploy Hugo Website to GitHub Pages
+name: Deploy Hugo Website: Test
 
 on:
   workflow_dispatch:
@@ -21,7 +21,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       HUGO_VERSION: 0.140.1
-      GOOGLE_ANALYTICS_ID: ${{ secrets.GOOGLE_ANALYTICS_ID }}
+    #   GOOGLE_ANALYTICS_ID: ${{ secrets.GOOGLE_ANALYTICS_ID }}
 
     steps:
       - name: Install Hugo CLI
@@ -49,8 +49,8 @@ jobs:
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
           HUGO_ENVIRONMENT: production
-          GOOGLE_ANALYTICS_ID: ${{ secrets.GOOGLE_ANALYTICS_ID }}
         run: |
+          export GOOGLE_ANALYTICS_ID="${{ secrets.GOOGLE_ANALYTICS_ID }}"
           echo "Hugo Environment Variables:"
           hugo env
           echo "Building site..."
