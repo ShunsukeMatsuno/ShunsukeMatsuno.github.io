@@ -77,11 +77,13 @@ jobs:
           HUGO_ENVIRONMENT: production
           GOOGLE_ANALYTICS_ID: ${{ secrets.GOOGLE_ANALYTICS_ID }}
         run: |
-          hugo \
-            --gc \
-            --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/" \
-            --destination docs
+          echo $GOOGLE_ANALYTICS_ID
+          # hugo \
+          #   --gc \
+          #   --minify \
+          #   --baseURL "${{ steps.pages.outputs.base_url }}/" \
+          #   --destination docs
+          
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
