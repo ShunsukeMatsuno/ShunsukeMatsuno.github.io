@@ -52,7 +52,7 @@ jobs:
           echo "Building site..."
           hugo \
             --gc \
-            --minify \
+            # --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/" \
             --destination docs 
 
