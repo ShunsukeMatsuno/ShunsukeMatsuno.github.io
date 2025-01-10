@@ -27,5 +27,8 @@
         "titleBar.inactiveBackground": "#c0df0399",
         "titleBar.inactiveForeground": "#15202b99"
     },
-    "peacock.color": "#c0df03"
+    "peacock.color": "#c0df03",
+    "cSpell.words": [
+        "anticonformity"
+    ]
 }
