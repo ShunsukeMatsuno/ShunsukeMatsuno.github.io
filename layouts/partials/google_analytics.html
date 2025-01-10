@@ -1,4 +1,4 @@
-{{ $id := os.Getenv "GOOGLE_ANALYTICS_ID" }}
+{{ $id := getenv "GOOGLE_ANALYTICS_ID" }}
 
 <script async src="https://www.googletagmanager.com/gtag/js?id={{ $id }}"></script>
 <script>

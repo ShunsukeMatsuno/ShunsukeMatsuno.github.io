@@ -1,47 +1,34 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Shunsuke Matsuno - Personal Website | CBS</title><link>https://shunsukematsuno.github.io/</link><description>Recent content on Shunsuke Matsuno - Personal Website | CBS</description><generator>Hugo</generator><language>en-US</language><managingEditor>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</managingEditor><webMaster>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</webMaster><atom:link href="https://shunsukematsuno.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://shunsukematsuno.github.io/sitemap/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</author><guid>https://shunsukematsuno.github.io/sitemap/</guid><description>&lt;!-- +++
-title = "Sitemap"
-+++
-
-
-&lt;ul>
- 
- &lt;li>&lt;a href="https://shunsukematsuno.github.io/sitemap/">&lt;/a>&lt;/li>
- 
- &lt;li>&lt;a href="https://shunsukematsuno.github.io/research/">Research&lt;/a>&lt;/li>
- 
- &lt;li>&lt;a href="https://shunsukematsuno.github.io/test/">TEST&lt;/a>&lt;/li>
- 
-&lt;/ul> --></description></item><item><title>Research</title><link>https://shunsukematsuno.github.io/research/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</author><guid>https://shunsukematsuno.github.io/research/</guid><description>&lt;h2 id="working-papers">Working Papers&lt;/h2>
-&lt;p>&amp;ldquo;Mandatory vs. Voluntary Disclosure in the Dynamic Market for Lemons,&amp;rdquo; 2024 (with Cyrus Aghamolla) &lt;a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4680389"
-
- target="_blank"
- >
-[SSRN]
-&lt;/a>
-,&lt;br>
-&lt;em>R&amp;amp;R at Review of Financial Studies&lt;/em>&lt;/p>
-&lt;div style="display:none;" id="ExpandContent">&lt;br>
-&lt;p>[expand]&lt;/p>
-&lt;p>We consider a dynamic adverse selection setting where a privately informed seller can choose to reveal or withhold past trade information to privately informed buyers. Buyers naturally receive less information when the seller can strategically withhold negative news relative to a setting where current buyers always observe the seller&amp;rsquo;s history of trade, i.e., mandatory disclosure. Despite the informational disadvantage, we find that strategic disclosure by the seller can be a Pareto improvement and welfare-increasing relative to mandatory disclosure, under which past trade is always disclosed. This occurs because voluntary disclosure can attenuate the seller&amp;rsquo;s incentive to engage in destructive signaling and can lead to more efficient trade.&lt;/p></description></item><item><title>TEST</title><link>https://shunsukematsuno.github.io/test/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</author><guid>https://shunsukematsuno.github.io/test/</guid><description>&lt;ul>
- 
- &lt;li>application/pdf&lt;/li>
- &lt;li>application&lt;/li>
- &lt;li>application&lt;/li>
- 
- 
- 
- &lt;li>image/jpeg&lt;/li>
- &lt;li>image&lt;/li>
- &lt;li>image&lt;/li>
- 
- 
- &lt;/ul>
-
- https://shunsukematsuno.github.io/
-&lt;p>This is the &lt;a href="https://shunsukematsuno.github.io/papers/Leadership_Matsuno.pdf"
-
- target="_blank"
- >
-paper
-&lt;/a>
-&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shunsuke Matsuno - Personal Website | CBS</title>
+    <link>https://shunsukematsuno.github.io/</link>
+    <description>Recent content on Shunsuke Matsuno - Personal Website | CBS</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <managingEditor>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</managingEditor>
+    <webMaster>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</webMaster>
+    <atom:link href="https://shunsukematsuno.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://shunsukematsuno.github.io/sitemap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</author>
+      <guid>https://shunsukematsuno.github.io/sitemap/</guid>
+      <description>&lt;!-- +++&#xD;&#xA;title = &#34;Sitemap&#34;&#xD;&#xA;+++&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;ul&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;li&gt;&lt;a href=&#34;https://shunsukematsuno.github.io/sitemap/&#34;&gt;&lt;/a&gt;&lt;/li&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;li&gt;&lt;a href=&#34;https://shunsukematsuno.github.io/research/&#34;&gt;Research&lt;/a&gt;&lt;/li&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;li&gt;&lt;a href=&#34;https://shunsukematsuno.github.io/test/&#34;&gt;TEST&lt;/a&gt;&lt;/li&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/ul&gt; --&gt;</description>
+    </item>
+    <item>
+      <title>Research</title>
+      <link>https://shunsukematsuno.github.io/research/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</author>
+      <guid>https://shunsukematsuno.github.io/research/</guid>
+      <description>&lt;h2 id=&#34;working-papers&#34;&gt;Working Papers&lt;/h2&gt;&#xA;&lt;p&gt;&amp;ldquo;Mandatory vs. Voluntary Disclosure in the Dynamic Market for Lemons,&amp;rdquo; 2024 (with Cyrus Aghamolla) &lt;a href=&#34;https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4680389&#34;&#xD;&#xA;&#xD;&#xA; target=&#34;_blank&#34;&#xD;&#xA; &gt;&#xD;&#xA;[SSRN]&#xD;&#xA;&lt;/a&gt;&#xD;&#xA;,&lt;br&gt;&#xA;&lt;em&gt;R&amp;amp;R at Review of Financial Studies&lt;/em&gt;&lt;/p&gt;&#xA;&lt;div style=&#34;display:none;&#34; id=&#34;ExpandContent&#34;&gt;&lt;br&gt;&#xD;&#xA;&lt;p&gt;[expand]&lt;/p&gt;&#xA;&lt;p&gt;We consider a dynamic adverse selection setting where a privately informed seller can choose to reveal or withhold past trade information to privately informed buyers. Buyers naturally receive less information when the seller can strategically withhold negative news relative to a setting where current buyers always observe the seller&amp;rsquo;s history of trade, i.e., mandatory disclosure. Despite the informational disadvantage, we find that strategic disclosure by the seller can be a Pareto improvement and welfare-increasing relative to mandatory disclosure, under which past trade is always disclosed. This occurs because voluntary disclosure can attenuate the seller&amp;rsquo;s incentive to engage in destructive signaling and can lead to more efficient trade.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>TEST</title>
+      <link>https://shunsukematsuno.github.io/test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</author>
+      <guid>https://shunsukematsuno.github.io/test/</guid>
+      <description>&lt;ul&gt;&#xD;&#xA;    &#xD;&#xA;      &lt;li&gt;application/pdf&lt;/li&gt;&#xD;&#xA;      &lt;li&gt;application&lt;/li&gt;&#xD;&#xA;      &lt;li&gt;application&lt;/li&gt;&#xD;&#xA;    &#xD;&#xA;  &#xD;&#xA;    &#xD;&#xA;      &lt;li&gt;image/jpeg&lt;/li&gt;&#xD;&#xA;      &lt;li&gt;image&lt;/li&gt;&#xD;&#xA;      &lt;li&gt;image&lt;/li&gt;&#xD;&#xA;    &#xD;&#xA;  &#xD;&#xA;  &lt;/ul&gt;&#xD;&#xA;&#xD;&#xA;  https://shunsukematsuno.github.io/&#xA;&lt;p&gt;This is the &lt;a href=&#34;https://shunsukematsuno.github.io/papers/Leadership_Matsuno.pdf&#34;&#xD;&#xA;&#xD;&#xA; target=&#34;_blank&#34;&#xD;&#xA; &gt;&#xD;&#xA;paper&#xD;&#xA;&lt;/a&gt;&#xD;&#xA;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
