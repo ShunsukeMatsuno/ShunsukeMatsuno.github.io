@@ -47,14 +47,16 @@ params:
   title: Personal Website of Shunsuke Matsuno (松野 舜介)
   header: "Shunsuke Matsuno"
   github: "ShunsukeMatsuno"
-  googleScholar: "ID"
+  googleScholar: "p4Qxc5YAAAAJ&hl"
   affiliation: "Columbia Business School, Columbia University"
   
 markup:
   goldmark:
     renderer:
       unsafe: yes
-
+    renderHooks:
+      link:
+        enableDefault: false
 frontmatter:
   date:
   - myDate
