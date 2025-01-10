@@ -17,9 +17,27 @@ defaults:
     shell: bash
 
 jobs:
-  build_cv:
+  cv_change_detection:
     runs-on: ubuntu-latest
+    outputs:
+      cv: ${{ steps.filter.outputs.cv }}
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+    - name: Detect changes
+      uses: dorny/paths-filter@v3
+      id: filter
+      with:
+        base: HEAD
+        filters: |
+          cv:
+            - 'assets/cv/**'    # any of the files in cv directory
+
+  build_cv:
     name: Build CV
+    runs-on: ubuntu-latest
+    needs: cv_change_detection
+    if: ${{ needs.cv_change_detection.outputs.cv == 'true' }}
 
     steps:
       - name: Checkout repository
