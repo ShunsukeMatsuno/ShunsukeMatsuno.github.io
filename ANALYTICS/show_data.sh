@@ -25,7 +25,9 @@ if [[ "$1" == "-h" || "$1" == "--help" ]]; then
 fi
 
 # Run the python script
-conda run --name google-analytics python "$(dirname "$0")/daily-user.py"
+script_dir="$(dirname "$0")"
+mkdir -p "$script_dir/data"
+conda run --name google-analytics python "$script_dir/daily-user.py"
 
 # Determine the number of lines to show
 lines_to_show=10
