@@ -71,11 +71,12 @@ jobs:
           commit_message: "Update cv and move to static/cv"
           branch: main
 
-      - name: Update cv-snapshot branch
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "Update cv snapshot"
-          branch: cv-snapshot
+      - name: Push changes from main to cv-snapshot
+        run: |
+          git fetch origin
+          git checkout main
+          git pull origin main
+          git push origin main:cv-snapshot
 
   build_website:
     runs-on: ubuntu-latest
