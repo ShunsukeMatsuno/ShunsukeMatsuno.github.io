@@ -64,7 +64,6 @@ jobs:
         with:
           commit_message: "Update cv and move to static/cv"
           branch: main
-          
       
   build_website:
     runs-on: ubuntu-latest
@@ -110,7 +109,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs
           publish_branch: gh-pages    # Deploy the docs directory to gh-pages branch
-          keep_files: true
+          force_orphan: true
       # - name: Upload artifact
       #   uses: actions/upload-pages-artifact@v3
       #   with:
