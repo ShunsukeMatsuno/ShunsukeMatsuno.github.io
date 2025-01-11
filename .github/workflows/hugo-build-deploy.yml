@@ -31,7 +31,8 @@ jobs:
         base: gh-pages
         filters: |
           cv:
-            - './assets/cv/**'    # any of the files in cv directory
+            - './assets/cv/cv.tex'    
+            - './assets/cv/cv_data/*.tex'
     - run: echo ${{ steps.filter.outputs.cv }}
 
   build_cv:
