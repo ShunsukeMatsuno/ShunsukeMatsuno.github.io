@@ -80,7 +80,7 @@ jobs:
   build_website:
     runs-on: ubuntu-latest
     needs: [cv_change_detection, build_cv]
-    if: needs.build_cv.result == 'success' || needs.build_cv.result == 'skipped'
+    if: always() && (needs.build_cv.result == 'success' || needs.build_cv.result == 'skipped')
     name: Build and Deploy Website
     env:
       HUGO_VERSION: 0.140.2
