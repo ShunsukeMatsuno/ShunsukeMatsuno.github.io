@@ -24,6 +24,8 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
+      with: 
+          ref: gh-pages
     - name: Detect changes
       uses: dorny/paths-filter@v3
       id: filter
@@ -44,6 +46,7 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
+          ref: gh-pages
 
       - name: Compile CV
         uses: xu-cheng/latex-action@v3
@@ -72,6 +75,7 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
+          ref: gh-pages
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
