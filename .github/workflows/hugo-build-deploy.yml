@@ -49,8 +49,7 @@ jobs:
         uses: xu-cheng/latex-action@v3
         if: ${{ needs.cv_change_detection.outputs.cv == 'true' }}
         with:
-          working_directory: assets/cv
-          root_file: cv.tex
+          root_file: assets/cv/cv.tex
           extra_fonts: assets/cv/fonts/*
           latexmk_use_xelatex: true
           args: -output-directory=static/cv
