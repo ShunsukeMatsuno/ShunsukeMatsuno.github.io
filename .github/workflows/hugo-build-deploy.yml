@@ -35,7 +35,7 @@ jobs:
           cv:
             - './assets/cv/cv.tex'    
             - './assets/cv/cv_data/*.tex'
-    - run: echo "CV changed: ${{ steps.filter.outputs.cv }}"
+    - run: echo 'CV changed: ${{ steps.filter.outputs.cv }}'
 
   build_cv:
     name: Build CV
