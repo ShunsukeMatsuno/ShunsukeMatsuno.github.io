@@ -24,21 +24,24 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
+      with: 
+        fetch-depth: 0
     - name: Detect changes
       uses: dorny/paths-filter@v3
       id: filter
       with:
-        base: gh-pages
+        base: cv-snapshot
         filters: |
           cv:
             - './assets/cv/cv.tex'    
             - './assets/cv/cv_data/*.tex'
-    - run: echo ${{ steps.filter.outputs.cv }}
+    - run: echo "CV changed: ${{ steps.filter.outputs.cv }}"
 
   build_cv:
     name: Build CV
     runs-on: ubuntu-latest
     needs: cv_change_detection
+    if: ${{ needs.cv_change_detection.outputs.cv == 'true' }}
 
     steps:
       - name: Checkout repository
@@ -49,7 +52,6 @@ jobs:
 
       - name: Compile CV
         uses: xu-cheng/latex-action@v3
-        if: ${{ needs.cv_change_detection.outputs.cv == 'true' }}
         with:
           working_directory: ./assets/cv
           root_file: cv.tex
@@ -58,18 +60,25 @@ jobs:
   
       - name: Copy CV to static
         run: |
-          mkdir -p ${{ github.workspace}}/static/cv
-          cp ${{ github.workspace}}/assets/cv/cv.pdf ${{ github.workspace}}/static/cv/cv.pdf
+          mkdir -p ${{ github.workspace }}/static/cv
+          cp ${{ github.workspace }}/assets/cv/cv.pdf ${{ github.workspace }}/static/cv/cv.pdf
 
-      - name: Commit and push changes in cv to main
+      - name: Commit and push changes in CV to main
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update cv and move to static/cv"
           branch: main
+
+      - name: Update cv-snapshot branch
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update cv snapshot"
+          branch: cv-snapshot
+
       
   build_website:
     runs-on: ubuntu-latest
-    needs: [build_cv]
+    # needs: [build_cv]
     name: Build and Deploy Website
     env:
       HUGO_VERSION: 0.140.2
@@ -111,23 +120,3 @@ jobs:
           publish_dir: ./docs
           publish_branch: gh-pages    # Deploy the docs directory to gh-pages branch
           force_orphan: true
-      # - name: Upload artifact
-      #   uses: actions/upload-pages-artifact@v3
-      #   with:
-      #     path: ./docs
-
-      # - name: Commit and push changes
-      #   uses: stefanzweifel/git-auto-commit-action@v5
-      #   with:
-      #     commit_message: "Build Website"
-
-  # deploy:
-  #   environment:
-  #     name: github-pages
-  #     url: ${{ steps.deployment.outputs.page_url }}
-  #   runs-on: ubuntu-latest
-  #   needs: build_website
-  #   steps:
-  #     - name: Deploy to GitHub Pages
-  #       id: deployment
-  #       uses: actions/deploy-pages@v4
