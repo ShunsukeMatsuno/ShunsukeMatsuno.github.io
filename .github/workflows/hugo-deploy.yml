@@ -114,7 +114,7 @@ jobs:
           export GOOGLE_ANALYTICS_ID="${{ secrets.GOOGLE_ANALYTICS_ID }}"
           hugo \
             --gc \
-            -- minify \
+            --minify \
             --destination docs
       
       - name: Deploy Pages
