@@ -49,14 +49,14 @@ jobs:
         uses: xu-cheng/latex-action@v3
         if: ${{ needs.cv_change_detection.outputs.cv == 'true' }}
         with:
-          root_file: assets/cv/cv.tex
-          extra_fonts: assets/cv/fonts/*
+          working_directory: ${{ github.workspace }}/assets/cv
+          root_file: cv.tex
+          extra_fonts: ./fonts/*
           latexmk_use_xelatex: true
-          args: -output-directory=assets/cv
   
       - name: Copy CV to static
         run: |
-          mkdir -p static/cv
+          mkdir -p ${{ github.workspace}}/static/cv
           cp assets/cv/cv.pdf static/cv/cv.pdf
 
       - name: Commit and push changes in cv
