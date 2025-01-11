@@ -100,7 +100,7 @@ jobs:
           export GOOGLE_ANALYTICS_ID="${{ secrets.GOOGLE_ANALYTICS_ID }}"
           hugo \
             --gc \
-            --baseURL "${{ steps.pages.outputs.base_url }}/" \
+            # --baseURL "${{ steps.pages.outputs.base_url }}/" \
             --destination docs
       
       - name: Deploy Pages
