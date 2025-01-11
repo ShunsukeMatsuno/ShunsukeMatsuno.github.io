@@ -73,10 +73,7 @@ jobs:
 
       - name: Push changes from main to cv-snapshot
         run: |
-          git fetch origin
-          git checkout main
-          git pull origin main
-          git push origin main:cv-snapshot
+          git push --force origin main:cv-snapshot
 
   build_website:
     runs-on: ubuntu-latest
