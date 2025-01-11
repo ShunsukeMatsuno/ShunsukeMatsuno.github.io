@@ -1,4 +1,4 @@
-name: Deploy Hugo Website to GitHub Pages
+name: Test
 
 on:
   workflow_dispatch:
