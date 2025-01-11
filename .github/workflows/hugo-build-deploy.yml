@@ -52,7 +52,7 @@ jobs:
           root_file: assets/cv/cv.tex
           extra_fonts: assets/cv/fonts/*
           latexmk_use_xelatex: true
-          args: -output-directory=static/cv
+          args: -output-directory=assets/cv
   
       - name: Copy CV to static
         run: |
