@@ -22,6 +22,7 @@ jobs:
     outputs:
       cv: ${{ steps.filter.outputs.cv }}
     steps:
+    - uses: TooMuch4U/runner-post-cleanup@v2.1
     - name: Checkout repository
       uses: actions/checkout@v4
     - name: Detect changes
@@ -39,6 +40,7 @@ jobs:
     needs: cv_change_detection
 
     steps:
+      - uses: TooMuch4U/runner-post-cleanup@v2.1
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
