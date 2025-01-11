@@ -65,10 +65,10 @@ jobs:
         with:
           commit_message: "Update cv and move to static/cv"
       
-
   build_website:
     runs-on: ubuntu-latest
     needs: [build_cv]
+    name: Build and Deploy Website
     env:
       HUGO_VERSION: 0.140.2
 
