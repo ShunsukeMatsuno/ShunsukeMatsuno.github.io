@@ -49,7 +49,7 @@ jobs:
         uses: xu-cheng/latex-action@v3
         if: ${{ needs.cv_change_detection.outputs.cv == 'true' }}
         with:
-          working_directory: ${{ github.workspace }}/assets/cv
+          working_directory: ./assets/cv
           root_file: cv.tex
           extra_fonts: ./fonts/*
           latexmk_use_xelatex: true
@@ -57,12 +57,14 @@ jobs:
       - name: Copy CV to static
         run: |
           mkdir -p ${{ github.workspace}}/static/cv
-          cp assets/cv/cv.pdf static/cv/cv.pdf
+          cp ${{ github.workspace}}/assets/cv/cv.pdf ${{ github.workspace}}/static/cv/cv.pdf
 
-      - name: Commit and push changes in cv
+      - name: Commit and push changes in cv to main
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update cv and move to static/cv"
+          branch: main
+          
       
   build_website:
     runs-on: ubuntu-latest
@@ -108,6 +110,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs
           publish_branch: gh-pages    # Deploy the docs directory to gh-pages branch
+          keep_files: true
       # - name: Upload artifact
       #   uses: actions/upload-pages-artifact@v3
       #   with:
