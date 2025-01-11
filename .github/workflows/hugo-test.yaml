@@ -56,5 +56,5 @@ jobs:
   
       - name: Copy CV to static
         run: |
-          ${{ github.workspace }} \ 
+          echo ${{ github.workspace }} \ 
           ls ${{ github.workspace }} 
