@@ -6,7 +6,6 @@ resources
 my-website-analytics-b37a5d44bcc6.json
 ANALYTICS/data/*.csv
 
-
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
@@ -28,7 +27,6 @@ ANALYTICS/data/*.csv
 # these rules might exclude image files for figures etc.
 # *.ps
 # *.eps
-# *.pdf
 
 ## Generated if empty string is given at "Please type another file name for output:"
 .pdf
