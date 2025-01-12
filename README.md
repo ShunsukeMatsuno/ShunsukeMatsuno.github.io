@@ -65,4 +65,3 @@ Builds the Hugo website and deploys it to the `gh-pages` branch using `peaceiris
 ## Author
 
 **Shunsuke Matsuno**  
-PhD Student in Finance and Accounting
