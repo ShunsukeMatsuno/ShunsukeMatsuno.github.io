@@ -42,16 +42,17 @@ description: Personal Website of Shunsuke Matsuno (松野 舜介)
 
  PhD Candidate in Accounting, Columbia Business School
  
- 
+ **Curriculum Vitae** 
+ <br>
  [CV (pdf)](/cv/cv.pdf "CV")
 
+<br>
 
 **Contact**    
 Email: <SMatsuno26@gsb.columbia.edu>
 
-
 <!-- Education -->
-<p style="text-align:left;">
+<!-- <p style="text-align:left;">
   <b>Education</b>
   <br>
   Columbia Business School, PhD in Accounting<br>
@@ -68,7 +69,33 @@ Email: <SMatsuno26@gsb.columbia.edu>
   <span style="float:left;">
   &emsp;<i>2015-2019</i>
   </span>
+</p> -->
+<br>
+<!-- Education -->
+<p style="text-align:left; margin: 0; padding: 0;">
+  <b>Education</b>
 </p>
+<div style="margin-bottom: 10px;">
+  <div>Columbia Business School</div>
+  <div style="display: flex; justify-content: space-between; margin-left: 20px;">
+    <div style="font-size: 0.9rem;">PhD in Accounting</div>
+    <div style="font-size: 0.9rem;"><i>2021-2026 (Expected)</i></div>
+  </div>
+</div>
+<div style="margin-bottom: 10px;">
+  <div>The University of Tokyo</div>
+  <div style="display: flex; justify-content: space-between; margin-left: 20px;">
+    <div style="font-size: 0.9rem;">MA in Management</div>
+    <div style="font-size: 0.9rem;"><i>2019-2021</i></div>
+  </div>
+</div>
+<div style="margin-bottom: 10px;">
+  <div>The University of Tokyo</div>
+  <div style="display: flex; justify-content: space-between; margin-left: 20px;">
+    <div style="font-size: 0.9rem;">BA in Economics</div>
+    <div style="font-size: 0.9rem;"><i>2015-2019</i></div>
+  </div>
+</div>
 
 <br>
 

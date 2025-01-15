@@ -1,0 +1,13 @@
+name = "Sleek"
+license = "MIT"
+licenselink = ""
+description = "A Hugo theme that is minimal and clean."
+
+homepage = ""
+
+tags = ["docs","responsive","minimal","clean","bootstrap"]
+features = ["docs","bootstrap","scss","netlify","google analytics"]
+
+[author]
+  name = "Shunsuke Matsuno"
+  homepage = "https://shunsukematsuno.github.io/"

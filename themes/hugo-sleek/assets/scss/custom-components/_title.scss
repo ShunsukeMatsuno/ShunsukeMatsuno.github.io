@@ -1,0 +1,12 @@
+@use 'variables' as v;
+
+.title {
+    font-size: 2.5rem;
+    line-height: 1.1;
+    font-family: v.$font-family-base;
+    letter-spacing: -0.2px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    margin-left: -10px;
+}
+  

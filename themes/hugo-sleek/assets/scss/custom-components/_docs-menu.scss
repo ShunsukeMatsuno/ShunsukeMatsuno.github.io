@@ -1,0 +1,41 @@
+@use 'variables' as v;
+
+.docs-menu {
+  h1 {
+    font-size: 1.2rem;
+    font-family: "Nanum Myeongjo";  
+    font-weight: 700;
+    font-style: normal;
+    margin-bottom: 1cm;
+    text-indent: -1em;
+    margin-left: 1em
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    li {
+      font-size: 0.9rem;
+      line-height: 1.4;
+      font-weight: 300;
+      margin: 0;
+      padding: 4px 0 4px 0;
+      &.active {
+        a {
+          color: lighten(v.$primary, 10%);
+          font-weight: 400;
+        }
+      }
+      a {
+        text-decoration: none;
+        color: v.$black;
+        &:hover {
+          color: v.$primary;
+        }
+      }
+    }
+  }
+  & {
+    padding-top: 10vw;
+  }
+}
