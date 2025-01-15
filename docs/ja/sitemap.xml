@@ -2,63 +2,63 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
-        <loc>http://localhost:1313/ja/categories/</loc>
+        <loc>https://shunsukematsuno.github.io/ja/categories/</loc>
         
         <xhtml:link
                         rel="alternate"
                         hreflang="en-US"
-                        href="http://localhost:1313/categories/"
+                        href="https://shunsukematsuno.github.io/categories/"
                         />
           <xhtml:link
                       rel="alternate"
                       hreflang="ja"
-                      href="http://localhost:1313/ja/categories/"
+                      href="https://shunsukematsuno.github.io/ja/categories/"
                       />
       </url>
     
     <url>
-        <loc>http://localhost:1313/ja/tags/</loc>
+        <loc>https://shunsukematsuno.github.io/ja/tags/</loc>
         
         <xhtml:link
                         rel="alternate"
                         hreflang="en-US"
-                        href="http://localhost:1313/tags/"
+                        href="https://shunsukematsuno.github.io/tags/"
                         />
           <xhtml:link
                       rel="alternate"
                       hreflang="ja"
-                      href="http://localhost:1313/ja/tags/"
+                      href="https://shunsukematsuno.github.io/ja/tags/"
                       />
       </url>
     
     <url>
-        <loc>http://localhost:1313/ja/</loc>
+        <loc>https://shunsukematsuno.github.io/ja/</loc>
         
         
           <lastmod>2025-01-11T19:49:43+09:00</lastmod>
         <xhtml:link
                         rel="alternate"
                         hreflang="en-US"
-                        href="http://localhost:1313/"
+                        href="https://shunsukematsuno.github.io/"
                         />
           <xhtml:link
                       rel="alternate"
                       hreflang="ja"
-                      href="http://localhost:1313/ja/"
+                      href="https://shunsukematsuno.github.io/ja/"
                       />
       </url>
     
 
   <url>
-    <loc>http://localhost:1313/papers/Leadership_Matsuno.pdf</loc>
+    <loc>https://shunsukematsuno.github.io/papers/Leadership_Matsuno.pdf</loc>
   </url>
 
   <url>
-    <loc>http://localhost:1313/papers/StackelbergDisclosure.pdf</loc>
+    <loc>https://shunsukematsuno.github.io/papers/StackelbergDisclosure.pdf</loc>
   </url>
 
   <url>
-    <loc>http://localhost:1313/cv/cv.pdf</loc>
+    <loc>https://shunsukematsuno.github.io/cv/cv.pdf</loc>
   </url>
   
 </urlset>

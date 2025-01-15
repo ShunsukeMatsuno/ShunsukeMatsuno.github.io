@@ -2,87 +2,87 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
-        <loc>http://localhost:1313/</loc>
+        <loc>https://shunsukematsuno.github.io/</loc>
         
         
-          <lastmod>2025-01-11T19:49:43+09:00</lastmod>
+          <lastmod>2025-01-15T20:04:55+09:00</lastmod>
         <xhtml:link
                         rel="alternate"
                         hreflang="ja"
-                        href="http://localhost:1313/ja/"
+                        href="https://shunsukematsuno.github.io/ja/"
                         />
           <xhtml:link
                       rel="alternate"
                       hreflang="en-US"
-                      href="http://localhost:1313/"
+                      href="https://shunsukematsuno.github.io/"
                       />
       </url>
     
     <url>
-        <loc>http://localhost:1313/categories/</loc>
+        <loc>https://shunsukematsuno.github.io/categories/</loc>
         
         <xhtml:link
                         rel="alternate"
                         hreflang="ja"
-                        href="http://localhost:1313/ja/categories/"
+                        href="https://shunsukematsuno.github.io/ja/categories/"
                         />
           <xhtml:link
                       rel="alternate"
                       hreflang="en-US"
-                      href="http://localhost:1313/categories/"
+                      href="https://shunsukematsuno.github.io/categories/"
                       />
       </url>
     
     <url>
-        <loc>http://localhost:1313/research/</loc>
+        <loc>https://shunsukematsuno.github.io/research/</loc>
         
         
-          <lastmod>2025-01-11T19:49:43+09:00</lastmod>
-        
-      </url>
-    
-    <url>
-        <loc>http://localhost:1313/sitemap/</loc>
-        
-        
-          <lastmod>2025-01-15T18:47:13+09:00</lastmod>
+          <lastmod>2025-01-15T20:04:55+09:00</lastmod>
         
       </url>
     
     <url>
-        <loc>http://localhost:1313/tags/</loc>
+        <loc>https://shunsukematsuno.github.io/sitemap/</loc>
+        
+        
+          <lastmod>2025-01-15T20:04:55+09:00</lastmod>
+        
+      </url>
+    
+    <url>
+        <loc>https://shunsukematsuno.github.io/tags/</loc>
         
         <xhtml:link
                         rel="alternate"
                         hreflang="ja"
-                        href="http://localhost:1313/ja/tags/"
+                        href="https://shunsukematsuno.github.io/ja/tags/"
                         />
           <xhtml:link
                       rel="alternate"
                       hreflang="en-US"
-                      href="http://localhost:1313/tags/"
+                      href="https://shunsukematsuno.github.io/tags/"
                       />
       </url>
     
     <url>
-        <loc>http://localhost:1313/test/</loc>
+        <loc>https://shunsukematsuno.github.io/test/</loc>
         
         
-          <lastmod>2025-01-13T14:04:08+09:00</lastmod>
+          <lastmod>2025-01-15T20:04:55+09:00</lastmod>
         
       </url>
     
 
   <url>
-    <loc>http://localhost:1313/papers/Leadership_Matsuno.pdf</loc>
+    <loc>https://shunsukematsuno.github.io/papers/Leadership_Matsuno.pdf</loc>
   </url>
 
   <url>
-    <loc>http://localhost:1313/papers/StackelbergDisclosure.pdf</loc>
+    <loc>https://shunsukematsuno.github.io/papers/StackelbergDisclosure.pdf</loc>
   </url>
 
   <url>
-    <loc>http://localhost:1313/cv/cv.pdf</loc>
+    <loc>https://shunsukematsuno.github.io/cv/cv.pdf</loc>
   </url>
   
 </urlset>
