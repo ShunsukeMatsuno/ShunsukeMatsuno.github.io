@@ -2,33 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Shunsuke Matsuno - Personal Website | CBS</title>
-    <link>https://shunsukematsuno.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Shunsuke Matsuno - Personal Website | CBS</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <managingEditor>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</managingEditor>
     <webMaster>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</webMaster>
-    <atom:link href="https://shunsukematsuno.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title></title>
-      <link>https://shunsukematsuno.github.io/sitemap/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</author>
-      <guid>https://shunsukematsuno.github.io/sitemap/</guid>
-      <description>&lt;!-- +++&#xA;title = &#34;Sitemap&#34;&#xA;+++&#xA;&#xA;&#xA;&lt;ul&gt;&#xA;    &#xA;    &lt;li&gt;&lt;a href=&#34;https://shunsukematsuno.github.io/sitemap/&#34;&gt;&lt;/a&gt;&lt;/li&gt;&#xA;    &#xA;    &lt;li&gt;&lt;a href=&#34;https://shunsukematsuno.github.io/research/&#34;&gt;Research&lt;/a&gt;&lt;/li&gt;&#xA;    &#xA;    &lt;li&gt;&lt;a href=&#34;https://shunsukematsuno.github.io/test/&#34;&gt;TEST&lt;/a&gt;&lt;/li&gt;&#xA;    &#xA;&lt;/ul&gt; --&gt;</description>
-    </item>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Research</title>
-      <link>https://shunsukematsuno.github.io/research/</link>
+      <link>http://localhost:1313/research/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</author>
-      <guid>https://shunsukematsuno.github.io/research/</guid>
-      <description>&lt;h2 id=&#34;working-papers&#34;&gt;Working Papers&lt;/h2&gt;&#xA;&lt;p&gt;&amp;ldquo;Mandatory vs. Voluntary Disclosure in the Dynamic Market for Lemons,&amp;rdquo; 2024 (with Cyrus Aghamolla) &lt;a href=&#34;https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4680389&#34;&#xA;&#xA; target=&#34;_blank&#34;&#xA; &gt;&#xA;[SSRN]&#xA;&lt;/a&gt;&#xA;,&lt;br&gt;&#xA;&lt;em&gt;R&amp;amp;R at Review of Financial Studies&lt;/em&gt;&lt;/p&gt;&#xA;&lt;div style=&#34;display:none;&#34; id=&#34;ExpandContent&#34;&gt;&lt;br&gt;&#xA;&lt;p&gt;[expand]&lt;/p&gt;&#xA;&lt;p&gt;We consider a dynamic adverse selection setting where a privately informed seller can choose to reveal or withhold past trade information to privately informed buyers. Buyers naturally receive less information when the seller can strategically withhold negative news relative to a setting where current buyers always observe the seller&amp;rsquo;s history of trade, i.e., mandatory disclosure. Despite the informational disadvantage, we find that strategic disclosure by the seller can be a Pareto improvement and welfare-increasing relative to mandatory disclosure, under which past trade is always disclosed. This occurs because voluntary disclosure can attenuate the seller&amp;rsquo;s incentive to engage in destructive signaling and can lead to more efficient trade.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/research/</guid>
+      <description>&lt;h2 id=&#34;working-papers&#34;&gt;Working Papers&lt;/h2&gt;&#xA;&lt;p&gt;&amp;ldquo;Mandatory vs. Voluntary Disclosure in the Dynamic Market for Lemons,&amp;rdquo; 2024 (with Cyrus Aghamolla) &lt;a href=&#34;https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4680389&#34;&#xD;&#xA;&#xD;&#xA; target=&#34;_blank&#34;&#xD;&#xA; &gt;&#xD;&#xA;[SSRN]&#xD;&#xA;&lt;/a&gt;&#xD;&#xA;,&lt;br&gt;&#xA;&lt;em&gt;R&amp;amp;R at Review of Financial Studies&lt;/em&gt;&lt;/p&gt;&#xA;&lt;div style=&#34;display:none;&#34; id=&#34;ExpandContent&#34;&gt;&lt;br&gt;&#xD;&#xA;&lt;p&gt;[expand]&lt;/p&gt;&#xA;&lt;p&gt;We consider a dynamic adverse selection setting where a privately informed seller can choose to reveal or withhold past trade information to privately informed buyers. Buyers naturally receive less information when the seller can strategically withhold negative news relative to a setting where current buyers always observe the seller&amp;rsquo;s history of trade, i.e., mandatory disclosure. Despite the informational disadvantage, we find that strategic disclosure by the seller can be a Pareto improvement and welfare-increasing relative to mandatory disclosure, under which past trade is always disclosed. This occurs because voluntary disclosure can attenuate the seller&amp;rsquo;s incentive to engage in destructive signaling and can lead to more efficient trade.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>TEST</title>
-      <link>https://shunsukematsuno.github.io/test/</link>
+      <title>Sitemap</title>
+      <link>http://localhost:1313/sitemap/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</author>
-      <guid>https://shunsukematsuno.github.io/test/</guid>
-      <description>&lt;ul&gt;&#xA;    &#xA;      &lt;li&gt;application/pdf&lt;/li&gt;&#xA;      &lt;li&gt;application&lt;/li&gt;&#xA;      &lt;li&gt;application&lt;/li&gt;&#xA;    &#xA;  &#xA;    &#xA;      &lt;li&gt;image/jpeg&lt;/li&gt;&#xA;      &lt;li&gt;image&lt;/li&gt;&#xA;      &lt;li&gt;image&lt;/li&gt;&#xA;    &#xA;  &#xA;  &lt;/ul&gt;&#xA;&#xA;  https://shunsukematsuno.github.io/&#xA;&lt;p&gt;This is the &lt;a href=&#34;https://shunsukematsuno.github.io/papers/Leadership_Matsuno.pdf&#34;&#xA;&#xA; target=&#34;_blank&#34;&#xA; &gt;&#xA;paper&#xA;&lt;/a&gt;&#xA;&lt;/p&gt;</description>
+      <guid>http://localhost:1313/sitemap/</guid>
+      <description>&lt;ul&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;li&gt;&lt;a href=&#34;http://localhost:1313/research/&#34;&gt;Research&lt;/a&gt;&lt;/li&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;li&gt;&lt;a href=&#34;http://localhost:1313/sitemap/&#34;&gt;Sitemap&lt;/a&gt;&lt;/li&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;li&gt;&lt;a href=&#34;http://localhost:1313/test/&#34;&gt;Welcome to My Website&lt;/a&gt;&lt;/li&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Welcome to My Website</title>
+      <link>http://localhost:1313/test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</author>
+      <guid>http://localhost:1313/test/</guid>
+      <description>&lt;p&gt;This is the main content area. You can add sections here for your research, contact details, and other relevant information.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

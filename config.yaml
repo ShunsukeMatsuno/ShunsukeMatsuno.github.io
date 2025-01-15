@@ -1,5 +1,5 @@
 baseURL: https://shunsukematsuno.github.io/
-theme: hugo-whisper-theme
+theme: hugo-sleek
 publishDir: docs
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: false
