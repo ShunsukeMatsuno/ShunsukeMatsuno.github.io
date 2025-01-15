@@ -1,0 +1,77 @@
+// Use variables
+@use 'variables' as v;
+
+.content {
+-webkit-font-smoothing: antialiased;
+.highlight {
+    border-radius: 2px;
+    margin-bottom: 20px;
+}
+
+strong {
+    font-weight: bold;
+}
+em {
+    font-style: italic;
+    font-weight: normal;
+}
+a {
+    text-decoration: underline;
+    color: v.$black;
+    &:hover {
+    color: v.$primary;
+    }
+}
+p {
+    font-family: v.$font-family-base;
+    font-size: 1rem;
+    line-height: 1.4;
+    color: lighten(v.$black, 10%);
+    font-weight: 400;
+}
+h1 {
+    font-family: v.$font-family-base;
+    font-size: 2.6rem;
+    line-height: 1.4;
+    font-weight: 300;
+    margin-bottom: 25px;
+}
+h2 {
+    font-size: 1.3rem;
+    line-height: 1.4;
+    font-weight: 300;
+    letter-spacing: -0.01em;
+    font-family: v.$font-family-base;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    margin-left: -10px;
+}
+h3 {
+    font-size: 1.3rem;
+    line-height: 1.4;
+    font-weight: 400;
+    font-family: v.$font-family-base;
+    margin-bottom: 20px;
+}
+h4 {
+    font-size: 1.1rem;
+    line-height: 1.4;
+    font-weight: 500;
+    font-family: v.$font-family-base;
+    margin-bottom: 20px;
+}
+h5 {
+    font-size: 1.4rem;
+    line-height: 1.4;
+    font-weight: 600;
+    font-family: v.$font-family-base;
+    margin-bottom: 20px;
+}
+h6 {
+    font-size: 1.2rem;
+    line-height: 1.4;
+    font-weight: 700;
+    font-family: v.$font-family-base;
+    margin-bottom: 20px;
+}
+}

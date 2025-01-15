@@ -1,0 +1,9 @@
+{{ with .Site.Params.favicon }}
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
+  <link rel="icon" type="image/x-icon" href="{{ absURL . }}/faviconcbs.ico">
+  <link rel="icon" type="image/png" sizes="192x192" href="{{ absURL . }}/android-chrome-192x192.png" />
+  <link rel="icon" type="image/png" sizes="512x512" href="{{ absURL . }}/android-chrome-512x512.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ absURL . }}/favicon-16x16.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ absURL . }}/favicon-32x32.png" />
+  <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="{{ absURL . }}/apple-touch-icon.png "> 
+{{ end }}

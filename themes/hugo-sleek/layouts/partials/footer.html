@@ -1,0 +1,10 @@
+
+<div class ="footer-simple">
+  {{ if eq .Site.Language.Lang "ja"}}
+    {{/*  Last Updated: {{ time.Now | time.Format ":date_medium" }}   */}}
+    Last Updated: {{ time.Now | time.Format "2006" }} 年  {{ time.Now | time.Format "Jan" }} 
+  {{ else }}
+    Last Updated: {{ time.Now | time.Format "January 2006" }} 
+    {{/*  Last Updated: August 2024  */}}
+  {{ end }}
+</div>

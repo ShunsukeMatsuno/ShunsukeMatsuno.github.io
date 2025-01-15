@@ -1,0 +1,65 @@
+html{
+    scrollbar-gutter: stable both-edges;
+    overflow-x: hidden;
+  }
+  
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    /*height: 100vh;*/
+}
+
+.fixed-left-column {
+    /*height: 100vh;*/
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.95);
+    color: #212529;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+    width: 20%;
+    box-sizing: border-box;
+}
+
+.right-content {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.95);
+    margin-left: 20%;
+    min-height: 90vh;
+    text-align: justify;
+    max-width: 720px;
+    text-justify: inter-word;
+    box-sizing: border-box;
+}
+
+/* Horizontal layout (desktop view) */
+@media (min-width: 769px) {
+    .right-content {
+        padding-right: 30px; /* Extra space between text and scrollbar */
+    }
+}
+
+/* Stacked layout (mobile view) */
+@media (max-width: 768px) {
+    .fixed-left-column {
+        position: relative;
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .right-content {
+        margin-left: 0;
+        width: 100%;
+        padding: 10px; 
+    }
+}
+
+.footer {
+    background-color: #ffffff;
+    box-sizing: border-box;
+    text-align: center;
+}

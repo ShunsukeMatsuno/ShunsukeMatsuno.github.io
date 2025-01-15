@@ -1,0 +1,76 @@
+// Use variables
+@use 'variables' as v;
+
+// Use custom components
+@use 'custom-components/expand' as *;
+@use 'custom-components/content' as *;
+@use 'custom-components/title' as *;
+@use 'custom-components/docs-menu' as *;
+@use 'custom-components/footer-simple' as *;
+
+// Global Style
+html {
+    // scrollbar-gutter: stable both-edges;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: v.$font-family-base;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    // height: 90vh;
+}
+
+.fixed-left-column {
+    background-color: v.$background-color;
+    box-sizing: border-box;
+    color: v.$black;
+    // height: 100vh;
+    left: 0;
+    overflow-y: auto;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    width: 25%;
+    margin-left: 5%;
+}
+
+.right-content {
+    background-color: v.$background-color;
+    box-sizing: border-box;
+    color: v.$black;
+    margin-left: 30%;
+    min-height: 90vh;
+    padding: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+// Horizontal layout (desktop view)
+@media (min-width: 769px) {
+    .right-content {
+        padding-right: 30px; // Extra space between text and scrollbar
+        max-width: min(60vw, 720px);
+    }
+}
+
+// Stacked layout (mobile view)
+@media (max-width: 768px) {
+    .fixed-left-column {
+        position: relative;
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .right-content {
+        margin-left: 5vw;
+        width: 90%;
+        padding: 20px;
+    }
+}
