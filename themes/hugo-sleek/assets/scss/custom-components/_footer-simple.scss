@@ -1,3 +1,6 @@
+// Use variables
+@use 'variables' as v;
+
 .footer-simple {
   background-color: #ffffff;
   box-sizing: border-box;
@@ -5,4 +8,9 @@
   font-size: 0.7rem;
   font-variant: small-caps;
   text-align: center;
+}
+
+.footer-simple_ja {
+  @extend .footer-simple;
+  font-family: v.$font-family-ja;
 }

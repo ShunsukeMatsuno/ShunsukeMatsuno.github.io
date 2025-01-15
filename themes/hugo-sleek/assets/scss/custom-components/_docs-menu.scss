@@ -7,6 +7,8 @@
     font-weight: 700;
     font-style: normal;
     margin-bottom: 1cm;
+    text-indent: -1em;
+    margin-left: 1em
   }
   ul {
     list-style: none;
@@ -33,6 +35,7 @@
       }
     }
   }
-  padding-top: 10vw;
-  // padding-right: 3vw;
+  & {
+    padding-top: 10vw;
+  }
 }

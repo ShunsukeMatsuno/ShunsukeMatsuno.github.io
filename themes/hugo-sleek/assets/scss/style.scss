@@ -10,7 +10,7 @@
 
 // Global Style
 html {
-    // scrollbar-gutter: stable both-edges;
+    scrollbar-gutter: stable both-edges;
     overflow-x: hidden;
 }
 
@@ -23,6 +23,11 @@ body {
     padding: 0;
 }
 
+.japanese {
+    font-family: v.$font-family-ja;
+    padding-bottom: 1cm;
+}
+   
 .container-fluid {
     // height: 90vh;
 }
