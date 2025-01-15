@@ -1,5 +1,5 @@
 ---
-title: ''
+title: 'About'
 # myDate: 2018-11-28T15:14:39+10:00
 metatags: [
   "Voluntary Disclosure",
@@ -40,11 +40,11 @@ description: Personal Website of Shunsuke Matsuno (松野 舜介)
 
  <!-- ![Resize](images/monster_logo.jpg?width=200&quality=100) -->
 
- PhD Candidate in Accounting, Columbia Business School
+PhD Candidate in Accounting, Columbia Business School
  
- **Curriculum Vitae** 
- <br>
- [CV (pdf)](/cv/cv.pdf "CV")
+**Curriculum Vitae** 
+<br>
+[CV (pdf)](/cv/cv.pdf "CV")
 
 <br>
 
