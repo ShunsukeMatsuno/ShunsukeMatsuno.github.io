@@ -23,12 +23,12 @@
 
   {{/*  SCSS to CSS file  (After loading the default Bootstrap to override it)*/}}   
   {{ $opts := dict "transpiler" "dartsass" "targetPath" "css/style.css" }}
-  {{ $style := resources.Get "scss/style.scss" | toCSS $opts | minify }}
-  <link href="{{ $style.RelPermalink }}" rel="stylesheet" />
+  {{ $style := resources.Get "scss/style.scss" | toCSS $opts | minify | fingerprint "sha384" }}
+  <link href="{{ $style.RelPermalink }}" rel="stylesheet" integrity="{{ $style.Data.Integrity }}" crossorigin="anonymous" />
 
   {{/*  Process and link custom JS   */}}
-  {{ $script := resources.Get "js/text-expand.js" | minify }}
-  <script src="{{ $script.RelPermalink }}"></script>
+  {{ $script := resources.Get "js/text-expand.js" | minify | fingerprint "sha384" }}
+  <script src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}" crossorigin="anonymous"></script>
 
   <title>
     {{- block "title" . -}}
