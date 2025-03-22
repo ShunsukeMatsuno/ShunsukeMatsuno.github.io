@@ -1,10 +1,10 @@
 {
-    "latex-workshop.latex.recipe.default": "latexmk (xelatex)",
+    "latex-workshop.latex.recipe.default": "latexmk (lualatex)",
     "latex-workshop.latex.recipes": [
         {
-            "name": "latexmk (xelatex)",
+            "name": "latexmk (lualatex)",
             "tools": [
-                "xelatexmk"
+                "lualatexmk"
             ]
         },
     ],

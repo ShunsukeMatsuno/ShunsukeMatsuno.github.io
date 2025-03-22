@@ -1,0 +1,2 @@
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QShunsuke Matsuno PhD CandidateColumbia Business School\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QacvSectionColorHighlight false\\E$"}

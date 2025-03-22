@@ -8,20 +8,14 @@
 % Claud D. Park <posquit0.bj@gmail.com>
 % http://www.posquit0.com
 %
-% Notes:
-% 1) This class file defines the structure and layout of the template file (cv.tex, resume.tex).
-% 2) It has been written in such a way that under most circumstances you
-% should not need to edit it.
-%
-% Class license:
-% LPPL v1.3c (http://www.latex-project.org/lppl)
+% Modified by Shunsuke Matsuno 
 %
 
 
 %-------------------------------------------------------------------------------
 %                Identification
 %-------------------------------------------------------------------------------
-\ProvidesClass{awesome-cv-2}[2024/11/11]
+\ProvidesClass{awesome-cv-2}[2025/03/22]
 \NeedsTeXFormat{LaTeX2e}
 
 
@@ -82,8 +76,6 @@
 
 %! changed
 % \RequirePackage[default,opentype]{sourcesanspro}
-\RequirePackage[]{CrimsonPro}
-
 
 % Needed for the photo ID
 \RequirePackage[skins]{tcolorbox}
@@ -125,7 +117,6 @@
 \fancyhf{}
 % Enable if you want to make header or footer using fancyhdr
 \pagestyle{fancy}
-
 
 %-------------------------------------------------------------------------------
 %                Configuration for colors
@@ -178,12 +169,20 @@
 % Set the FontAwesome font to be up-to-date.
 % \newfontfamily\FA[Path=\@fontdir]{FontAwesome}
 % Set font for header (default is Roboto)
+
+
+%%%%% Use CrimsonPro
+% \RequirePackage[]{CrimsonPro}
+% \renewcommand*{\scshape}{\uppercase}
 \newfontfamily\headerfont[
   Path=\@fontdir,
   UprightFont=*-Regular,
   ItalicFont=*-Italic,
   BoldFont=*-SemiBold,
   BoldItalicFont=*-SemiBoldItalic,
+  Extension=.ttf,
+  SmallCapsFont=*-Regular,    % ! CripsonPro does not have small caps defined.
+  SmallCapsFeatures={Letters=SmallCaps},
 ]{CrimsonPro}
 
 \newfontfamily\headerfontlight[
@@ -192,14 +191,20 @@
   ItalicFont=*-LightItalic,
   BoldFont=*-Medium,
   BoldItalicFont=*-MediumItalic,
+  Extension=.ttf,
+  SmallCapsFont=*-Light,    % ! CripsonPro does not have small caps defined.
+  SmallCapsFeatures={Letters=SmallCaps},
 ]{CrimsonPro}
+
+%%%%% Use Cochineal
+% \RequirePackage[]{cochineal}
+% \newfontfamily\headerfont[]{cochineal}
+% \newfontfamily\headerfontlight[]{cochineal}
 
 \newcommand*{\footerfont}{\headerfont}
 \newcommand*{\bodyfont}{\headerfont}
 \newcommand*{\bodyfontlight}{\headerfontlight}
 
-% * CripsonPro does not have small caps defined.
-\renewcommand*{\scshape}{\uppercase}
 
 %-------------------------------------------------------------------------------
 %                Configuration for styles
