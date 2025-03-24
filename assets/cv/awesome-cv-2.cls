@@ -40,6 +40,7 @@
 %-------------------------------------------------------------------------------
 %                3rd party packages
 %-------------------------------------------------------------------------------
+\RequirePackage{lipsum}
 % Needed to make fixed length table
 \RequirePackage{array}
 % Needed to handle list environment

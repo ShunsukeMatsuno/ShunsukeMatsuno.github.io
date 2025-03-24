@@ -1,5 +1,5 @@
 {
-    "latex-workshop.latex.recipe.default": "latexmk (lualatex)",
+    "latex-workshop.latex.recipe.default": "latexmk (lualatex_simple)",
     "latex-workshop.latex.recipes": [
         {
             "name": "latexmk (lualatex)",
@@ -8,6 +8,7 @@
             ]
         },
     ],
+    "latex-workshop.latex.autoClean.run": "onBuilt",
     "workbench.colorCustomizations": {
         "activityBar.activeBackground": "#dcfc19",
         "activityBar.background": "#dcfc19",
