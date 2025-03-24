@@ -1,17 +1,17 @@
 #!/usr/bin/env bash
 
 usage() {
-    echo "Usage: $0 [-n LINES] [--all] [-t TYPE]"
+    echo "Usage: $0 [-n LINES] [--all|-a] [--level|-l LEVEL]"
     echo ""
     echo "Options:"
-    echo "  -n LINES    Specify the number of lines to display from the end of the CSV file. Default is 10."
-    echo "  --all       Display all lines of the CSV file."
-    echo "  -t TYPE     Specify the type of data to fetch: 1 for daily user data, 2 for detailed data. Default is 1."
+    echo "  -n LINES           Specify the number of lines to display from the end of the CSV file. Default is 10."
+    echo "  --all, -a          Display all lines of the CSV file."
+    echo "  --level, -l LEVEL  Specify the level of data to fetch: 1 for daily user data, 2 for detailed data. Default is 1."
     echo ""
     echo "Description:"
     echo "  This script runs a Python script using a specified Conda environment and then displays lines of a CSV file."
     echo ""
-    echo "  The script runs either 'daily-user.py' (type 1) or 'details.py' (type 2) using the Conda environment named 'google-analytics'."
+    echo "  The script runs either 'daily-user.py' (level 1) or 'details.py' (level 2) using the Conda environment named 'google-analytics'."
     echo "  It then determines the number of lines to display from the corresponding CSV file."
     echo "  If the '-n' option is provided, it uses the specified number of lines; if '--all' is provided, it shows all lines."
     echo "  Otherwise, it defaults to displaying 10 lines."
@@ -37,11 +37,11 @@ while [[ $# -gt 0 ]]; do
             lines_to_show="$2"
             shift 2
             ;;
-        --all)
+        --all|-a)
             show_all=true
             shift
             ;;
-        -t|--type)
+        -l|--level)
             data_type="$2"
             shift 2
             ;;
