@@ -27,14 +27,7 @@ fi
 
 # Default values
 show_all=false
-data_type=1
-
-# For level=1, lines_to_show=10, for level=2, lines_to_show=30
-if [[ "$data_type" == "1" ]]; then
-    lines_to_show=10
-elif [[ "$data_type" == "2" ]]; then
-    lines_to_show=30
-fi
+data_level=1
 
 # Parse command line arguments
 while [[ $# -gt 0 ]]; do
@@ -48,7 +41,7 @@ while [[ $# -gt 0 ]]; do
             shift
             ;;
         -l|--level)
-            data_type="$2"
+            data_level="$2"
             shift 2
             ;;
         *)
@@ -59,18 +52,27 @@ while [[ $# -gt 0 ]]; do
     esac
 done
 
+
+# For level=1, lines_to_show=10, for level=2, lines_to_show=30
+if [[ "$data_level" == 1 ]]; then
+    lines_to_show=10    
+elif [[ "$data_level" == 2 ]]; then
+    lines_to_show=30
+fi
+
+
 # Run the python script based on data type
 script_dir="$(dirname "$0")"
 mkdir -p "$script_dir/data"
 
-if [[ "$data_type" == "1" ]]; then
+if [[ "$data_level" == 1 ]]; then
     conda run --name google-analytics python "$script_dir/daily-user.py"
     csv_file="$script_dir/data/raw_data.csv"
-elif [[ "$data_type" == "2" ]]; then
+elif [[ "$data_level" == 2 ]]; then
     conda run --name google-analytics python "$script_dir/details.py"
     csv_file="$script_dir/data/raw_data_detail.csv"
 else
-    echo "Invalid data type: $data_type. Must be 1 or 2."
+    echo "Invalid data level: $data_level. Must be 1 or 2."
     usage
     exit 1
 fi
