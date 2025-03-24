@@ -26,9 +26,15 @@ if [[ "$1" == "-h" || "$1" == "--help" ]]; then
 fi
 
 # Default values
-lines_to_show=10
 show_all=false
 data_type=1
+
+# For level=1, lines_to_show=10, for level=2, lines_to_show=30
+if [[ "$data_type" == "1" ]]; then
+    lines_to_show=10
+elif [[ "$data_type" == "2" ]]; then
+    lines_to_show=30
+fi
 
 # Parse command line arguments
 while [[ $# -gt 0 ]]; do
