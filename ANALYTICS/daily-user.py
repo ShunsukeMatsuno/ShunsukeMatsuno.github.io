@@ -17,7 +17,23 @@ logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
 
+# Configuration
+CREDENTIALS_PATH = "my-website-analytics-b37a5d44bcc6.json"
+GA_ID = '434705894'
+OUTPUT_FILE = 'data/raw_data.csv'
+
 def setup_ga_client(credentials_path: str) -> BetaAnalyticsDataClient:
+    """Initialize the Google Analytics client with credentials.
+    
+    Args:
+        credentials_path (str): Path to the Google Analytics credentials JSON file
+        
+    Returns:
+        BetaAnalyticsDataClient: Initialized GA client
+        
+    Raises:
+        Exception: If client initialization fails
+    """
     try:
         os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = credentials_path
         return BetaAnalyticsDataClient()
@@ -26,6 +42,17 @@ def setup_ga_client(credentials_path: str) -> BetaAnalyticsDataClient:
         raise
 
 def create_report_request(ga_id: str) -> RunReportRequest:
+    """Create a report request with specified dimensions and metrics.
+    
+    Args:
+        ga_id (str): Google Analytics property ID
+        
+    Returns:
+        RunReportRequest: Configured request object with:
+            - Dimensions: date, country, city
+            - Metrics: activeUsers, newUsers
+            - Date range: from 2020-04-01 to 2030-12-31
+    """
     return RunReportRequest(
         property=f"properties/{ga_id}",
         dimensions=[
@@ -41,6 +68,18 @@ def create_report_request(ga_id: str) -> RunReportRequest:
     )
 
 def process_response(response) -> pd.DataFrame:
+    """Process the GA response into a pandas DataFrame.
+    
+    Args:
+        response: Google Analytics API response object
+        
+    Returns:
+        pd.DataFrame: Processed DataFrame with:
+            - Columns: date, country, city, activeUsers, newUsers
+            - Sorted by date
+            - Numeric metrics
+            - Properly formatted datetime
+    """
     data = []
     for row in tqdm(response.rows, desc="Processing rows"):
         dimension_values = [value.value for value in row.dimension_values]
@@ -61,6 +100,15 @@ def process_response(response) -> pd.DataFrame:
     return df
 
 def load_existing_data(file_path: Path) -> pd.DataFrame:
+    """Load existing data from CSV file if it exists.
+    
+    Args:
+        file_path (Path): Path to the existing CSV file
+        
+    Returns:
+        pd.DataFrame: Loaded DataFrame with date column converted to datetime,
+                     or empty DataFrame if file doesn't exist
+    """
     if file_path.exists():
         df = pd.read_csv(file_path)
         df['date'] = pd.to_datetime(df['date'])
@@ -68,6 +116,22 @@ def load_existing_data(file_path: Path) -> pd.DataFrame:
     return pd.DataFrame()
 
 def merge_and_save_data(new_df: pd.DataFrame, existing_df: pd.DataFrame, output_path: Path) -> None:
+    """Merge new data with existing data and save to CSV.
+    
+    Args:
+        new_df (pd.DataFrame): New data from GA
+        existing_df (pd.DataFrame): Existing data from CSV
+        output_path (Path): Path where to save the merged data
+        
+    Raises:
+        Exception: If saving fails
+        
+    Note:
+        - Removes duplicates based on date, country, and city
+        - Keeps the most recent version of duplicate entries
+        - Sorts final data by date
+        - Creates output directory if it doesn't exist
+    """
     try:
         if existing_df.empty:
             final_df = new_df
@@ -96,26 +160,44 @@ def merge_and_save_data(new_df: pd.DataFrame, existing_df: pd.DataFrame, output_
         raise
 
 def main():
+    """Main function to run the GA data extraction process.
+    
+    Workflow:
+        1. Load existing data from CSV
+        2. Initialize GA client
+        3. Create and execute report request
+        4. Process response into DataFrame
+        5. Merge with existing data
+        6. Save results
+    
+    Raises:
+        Exception: If any step fails
+    """
     try:
         dirname = Path(os.path.dirname(os.path.abspath(sys.argv[0])))
-        credentials_path = dirname / "my-website-analytics-b37a5d44bcc6.json"
-        output_path = dirname / "data/raw_data.csv"
-        ga_id = '434705894'
+        credentials_path = dirname / CREDENTIALS_PATH
+        output_path = dirname / OUTPUT_FILE
+        ga_id = GA_ID
 
         # Load existing data
         existing_df = load_existing_data(output_path)
         
+        # Setup client and create request
         client = setup_ga_client(str(credentials_path))
         request = create_report_request(ga_id)
         
-        logging.info("Fetching GA4 data...")
+        # Execute request and process response
+        logging.info("Executing Google Analytics request...")
         response = client.run_report(request)
         
         new_df = process_response(response)
+        logging.info(f"Processed {len(new_df)} rows of new data")
+        
+        # Merge and save results
         merge_and_save_data(new_df, existing_df, output_path)
         
     except Exception as e:
-        logging.error(f"An error occurred: {e}")
+        logging.error(f"Error in main execution: {e}")
         sys.exit(1)
 
 if __name__ == "__main__":

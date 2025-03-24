@@ -115,20 +115,19 @@ def process_response(response) -> pd.DataFrame:
     df = df.drop(columns=['deviceCategory', 'deviceModel'])
     
     # Convert newUsers=1 to "New" and newUsers=0 to ""
-    df['newUsers'] = df['newUsers'].apply(lambda x: "New" if x == "1" else "")
+    df['newUsers'] = df['newUsers'].apply(lambda x: "New" if x == "1" else "Return")
 
     # Sort by time
     df = df.sort_values('time')
 
-    # Delete data in linkUrl column if it is in my website
-    df = df[~df['linkUrl'].str.contains('shunsukematsuno.github.io')]
+    # Replace linkUrl with "" in linkUrl column if it is in my website
+    df['linkUrl'] = df['linkUrl'].apply(lambda x: "" if "shunsukematsuno.github.io" in x else x)
 
     # Replace "(not set)" with ""
     df = df.replace("(not set)", "")
-    return df
 
     # Order columns
-    df = df[['time', 'country', 'city', 'device', 'page', 'fileName', 'linkUrl', 'newUsers']]
+    df = df[['time', 'country', 'city', 'device', 'newUsers', 'page', 'fileName', 'linkUrl']]
     return df
 
 def load_existing_data(file_path: Path) -> pd.DataFrame:
