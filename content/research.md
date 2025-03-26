@@ -65,7 +65,7 @@ This paper studies voluntary disclosure in a leader-follower game in a product m
 </div>
 
 
-"Leadership and Conformity in Organization," 2025 [[paper]](/papers/Leadership_Matsuno.pdf "Leadership and Conformity in Organization") 
+"Conformity and Leadership in Organizations," 2025 [[paper]](/papers/Leadership_Matsuno.pdf "Conformity and Leadership in Organizations") 
 
 <div style="display:none;" id="ExpandContent"><br>
 
