@@ -4,7 +4,7 @@ usage() {
     echo "Usage: $0 [-n LINES] [--all|-a] [--level|-l LEVEL]"
     echo ""
     echo "Options:"
-    echo "  -n LINES           Specify the number of lines to display from the end of the CSV file. Default is 10."
+    echo "  -n LINES           Specify the number of lines to display from the end of the CSV file. Default is 10 for --level 1 and 30 for --level 2."
     echo "  --all, -a          Display all lines of the CSV file."
     echo "  --level, -l LEVEL  Specify the level of data to fetch: 1 for daily user data, 2 for detailed data. Default is 1."
     echo ""
@@ -14,7 +14,7 @@ usage() {
     echo "  The script runs either 'daily-user.py' (level 1) or 'details.py' (level 2) using the Conda environment named 'google-analytics'."
     echo "  It then determines the number of lines to display from the corresponding CSV file."
     echo "  If the '-n' option is provided, it uses the specified number of lines; if '--all' is provided, it shows all lines."
-    echo "  Otherwise, it defaults to displaying 10 lines."
+    echo "  Otherwise, it defaults to displaying 10 lines for level 1 and 30 lines for level 2."
     echo ""
     echo "  The script attempts to use the 'bat' or 'batcat' command for displaying the CSV file with syntax highlighting."
     echo "  If neither 'bat' nor 'batcat' is available, it falls back to using the 'cat' command."
@@ -28,6 +28,7 @@ fi
 # Default values
 show_all=false
 data_level=1
+lines_to_show=""
 
 # Parse command line arguments
 while [[ $# -gt 0 ]]; do
@@ -52,14 +53,14 @@ while [[ $# -gt 0 ]]; do
     esac
 done
 
-
-# For level=1, lines_to_show=10, for level=2, lines_to_show=30
-if [[ "$data_level" == 1 ]]; then
-    lines_to_show=10    
-elif [[ "$data_level" == 2 ]]; then
-    lines_to_show=30
+# Set default lines_to_show based on data_level if not specified
+if [[ -z "$lines_to_show" ]]; then
+    if [[ "$data_level" == 1 ]]; then
+        lines_to_show=10    
+    elif [[ "$data_level" == 2 ]]; then
+        lines_to_show=30
+    fi
 fi
-
 
 # Run the python script based on data type
 script_dir="$(dirname "$0")"

@@ -246,7 +246,7 @@ def check_and_archive_data(dirname: Path, output_file: str) -> None:
         
         # Check if we need to archive
         should_archive = True
-        logging.info(f"archive_files: {archive_files}")
+        logging.info(f"archive_files: {archive_files[0][0]}")
         if archive_files:
             latest_archive_date = archive_files[0][1]
             # If the latest archive is less than a month old, don't archive
