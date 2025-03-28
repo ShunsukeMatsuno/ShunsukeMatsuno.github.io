@@ -115,10 +115,18 @@ jobs:
             --gc \
             --minify \
             --destination docs
-      
+      - name: Verify CV PDF in built 'docs' directory
+        run: |
+          echo "Checking for cv.pdf in built docs/cv directory:"
+          ls -l ${{ github.workspace }}/docs/cv/cv.pdf || echo "docs/cv/cv.pdf not found after Hugo build"
+          sha1sum ${{ github.workspace }}/docs/cv/cv.pdf || echo "sha1sum failed - file likely missing in docs"
+          echo "--- Full listing of docs directory: ---"
+          ls -lR ${{ github.workspace }}/docs
+          echo "--- End of docs listing ---"
       - name: Deploy Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs
           publish_branch: gh-pages    # Deploy the docs directory to gh-pages branch
+          keep_files: false
