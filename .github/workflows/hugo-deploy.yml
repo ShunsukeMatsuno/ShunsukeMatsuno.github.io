@@ -33,7 +33,7 @@ jobs:
       with:
         base: cv-snapshot   # compare against cv-snapshot branch
         filters: |
-          cv:
+          cv:     # Any of the tex files in the cv directory
             - './assets/cv/cv.tex'    
             - './assets/cv/cv_data/*.tex'
     - run: | 
