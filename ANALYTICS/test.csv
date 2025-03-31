@@ -1,631 +1,631 @@
-time,country,city,deviceCategory,deviceModel,page,fileName,linkUrl,activeUsers,newUsers,device
-2025-01-25 05:04:00,Singapore,Singapore,mobile,SM-S918B,/,,,1,New,mobile (SM-S918B)
-2025-01-26 02:11:00,Japan,,mobile,,/,,,1,New,mobile
-2025-01-26 02:15:00,Japan,,mobile,,/research/,,,1,Return,mobile
-2025-01-26 02:15:00,Japan,,mobile,,/ja/,,,1,Return,mobile
-2025-01-26 02:15:00,Japan,,mobile,,/,,,1,Return,mobile
-2025-01-26 02:16:00,Japan,,mobile,,/ja/,,,1,Return,mobile
-2025-01-27 09:06:00,United States,New York,desktop,,/,/cv/cv.pdf,,1,Return,desktop
-2025-01-27 09:06:00,United States,New York,desktop,,/,,,1,New,desktop
-2025-01-27 09:17:00,United States,New York,desktop,,/,,,1,Return,desktop
-2025-01-27 14:46:00,United States,Mission Viejo,desktop,,/,/cv/cv.pdf,,1,Return,desktop
-2025-01-27 14:46:00,United States,Mission Viejo,desktop,,/,,,1,New,desktop
-2025-01-27 14:47:00,United States,Mission Viejo,desktop,,/,,,1,Return,desktop
-2025-01-28 08:28:00,United States,San Jose,desktop,,/,/cv/cv.pdf,,1,Return,desktop
-2025-01-28 08:28:00,United States,San Jose,desktop,,/,,,1,New,desktop
-2025-01-28 09:07:00,United States,San Jose,desktop,,/,,,1,Return,desktop
-2025-01-31 13:28:00,United States,San Jose,desktop,,/,/cv/cv.pdf,,1,Return,desktop
-2025-01-31 13:28:00,United States,San Jose,desktop,,/,,,1,New,desktop
-2025-01-31 16:17:00,United States,Hanover,desktop,,/,/cv/cv.pdf,,1,Return,desktop
-2025-01-31 16:17:00,United States,Hanover,desktop,,/,,,1,New,desktop
-2025-01-31 16:18:00,United States,Hanover,desktop,,/,,,1,Return,desktop
-2025-02-01 02:02:00,Japan,,mobile,motorola razr 50,/research/,,,1,Return,mobile (motorola razr 50)
-2025-02-01 02:02:00,Japan,,mobile,motorola razr 50,/,,,1,Return,mobile (motorola razr 50)
-2025-02-01 02:02:00,Japan,,mobile,motorola razr 50,/ja/,,,1,New,mobile (motorola razr 50)
-2025-02-01 02:20:00,Singapore,Singapore,desktop,,/,,,1,New,desktop
-2025-02-01 02:20:00,Singapore,Singapore,desktop,,/research/,/papers/Leadership_Matsuno.pdf,,1,Return,desktop
-2025-02-01 02:20:00,Singapore,Singapore,desktop,,/research/,,,1,Return,desktop
-2025-02-01 02:22:00,Singapore,Singapore,desktop,,/,/cv/cv.pdf,,1,Return,desktop
-2025-02-01 02:22:00,Singapore,Singapore,desktop,,/research/,,,1,Return,desktop
-2025-02-01 02:27:00,Singapore,Singapore,desktop,,/,,,1,Return,desktop
-2025-02-01 11:08:00,United States,Killington,desktop,,/,,,1,New,desktop
-2025-02-01 21:13:00,Japan,Minato City,mobile,SO-52B,/,,,1,New,mobile (SO-52B)
-2025-02-01 21:13:00,Japan,Minato City,mobile,SO-52B,/,/cv/cv.pdf,,1,Return,mobile (SO-52B)
-2025-02-02 11:54:00,United States,New York,mobile,,/,,,1,New,mobile
-2025-02-02 11:55:00,United States,New York,mobile,,/,/cv/cv.pdf,,1,Return,mobile
-2025-02-02 11:55:00,United States,New York,mobile,,/research/,,,1,Return,mobile
-2025-02-02 11:55:00,United States,New York,mobile,,/,,,1,Return,mobile
-2025-02-03 10:50:00,United States,San Jose,desktop,,/,,,1,Return,desktop
-2025-02-03 16:39:00,Switzerland,Zurich,desktop,,/,,,1,New,desktop
-2025-02-03 18:58:00,United States,New York,mobile,,/,,,1,New,mobile
-2025-02-04 00:49:00,United States,,mobile,,/,,,1,New,mobile
-2025-02-04 11:00:00,Japan,Ota City,tablet,,/,,,1,New,tablet
-2025-02-04 11:03:00,Japan,Ota City,tablet,,/,/cv/cv.pdf,,1,Return,tablet
-2025-02-04 11:04:00,Japan,Ota City,tablet,,/,/cv/cv.pdf,,1,Return,tablet
-2025-02-04 11:05:00,Japan,Ota City,tablet,,/,/cv/cv.pdf,,1,Return,tablet
-2025-02-04 11:05:00,Taiwan,Zhongli District,mobile,,/,,,1,New,mobile
-2025-02-04 11:06:00,Japan,Ota City,tablet,,/,,,1,Return,tablet
-2025-02-04 11:06:00,Japan,Ota City,tablet,,/,/cv/cv.pdf,,1,Return,tablet
-2025-02-04 11:06:00,Taiwan,Zhongli District,mobile,,/,/cv/cv.pdf,,1,Return,mobile
-2025-02-04 11:07:00,Japan,Ota City,tablet,,/,,,1,Return,tablet
-2025-02-04 11:07:00,Japan,Ota City,tablet,,/,/cv/cv.pdf,,1,Return,tablet
-2025-02-04 11:07:00,Japan,Ota City,tablet,,/research/,,,1,Return,tablet
-2025-02-04 11:07:00,Japan,Ota City,tablet,,/ja/,,,1,Return,tablet
-2025-02-04 11:11:00,Japan,Ota City,tablet,,/research/,,,1,Return,tablet
-2025-02-04 11:11:00,Japan,Ota City,tablet,,/,,,1,Return,tablet
-2025-02-04 11:12:00,Japan,Ota City,tablet,,/research/,,,1,Return,tablet
-2025-02-04 11:12:00,Japan,Ota City,tablet,,/,/cv/cv.pdf,,1,Return,tablet
-2025-02-04 11:12:00,Japan,Ota City,tablet,,/,,,1,Return,tablet
-2025-02-04 11:13:00,Japan,Ota City,mobile,,/,,,1,New,mobile
-2025-02-04 11:17:00,Japan,Ota City,mobile,,/,,,1,New,mobile
-2025-02-04 11:19:00,Japan,Ota City,mobile,,/,,,1,Return,mobile
-2025-02-04 14:12:00,United States,New York,desktop,,/,,,1,New,desktop
-2025-02-04 16:14:00,Japan,Yokohama,mobile,,/,,,1,New,mobile
-2025-02-04 16:15:00,Japan,Yokohama,mobile,,/research/,/papers/Leadership_Matsuno.pdf,,1,Return,mobile
-2025-02-04 16:15:00,Japan,Yokohama,mobile,,/research/,,,1,New,mobile
-2025-02-04 16:16:00,Japan,Yokohama,mobile,,/,,,1,Return,mobile
-2025-02-04 19:06:00,Japan,Ota City,mobile,,/,,,1,Return,mobile
-2025-02-04 19:34:00,Japan,Ota City,mobile,,/,,,1,New,mobile
-2025-02-04 19:34:00,Japan,Ota City,mobile,,/research/,,,1,Return,mobile
-2025-02-04 19:38:00,Japan,Ota City,mobile,,/research/,,,1,Return,mobile
-2025-02-04 19:38:00,Japan,Ota City,mobile,,/,,,1,Return,mobile
-2025-02-04 23:34:00,United States,Boston,desktop,,/research/,,,1,Return,desktop
-2025-02-04 23:34:00,United States,Boston,desktop,,/,,,1,New,desktop
-2025-02-04 23:35:00,United States,Boston,desktop,,/research/,/papers/Leadership_Matsuno.pdf,,1,Return,desktop
-2025-02-04 23:35:00,United States,Boston,desktop,,/research/,,,1,Return,desktop
-2025-02-04 23:35:00,United States,Boston,desktop,,/,,,1,Return,desktop
-2025-02-05 02:23:00,United States,,desktop,,/,,,1,New,desktop
-2025-02-05 02:24:00,United States,,desktop,,/,,,1,New,desktop
-2025-02-05 10:50:00,Japan,,mobile,MP09,/research/,,,1,Return,mobile (MP09)
-2025-02-05 10:50:00,Japan,,mobile,MP09,/,,,1,New,mobile (MP09)
-2025-02-05 10:51:00,Japan,,mobile,MP09,/,/cv/cv.pdf,,1,Return,mobile (MP09)
-2025-02-05 10:51:00,Japan,,mobile,MP09,/,,,1,Return,mobile (MP09)
-2025-02-05 10:51:00,Japan,,mobile,MP09,/research/,,,1,Return,mobile (MP09)
-2025-02-05 10:52:00,Japan,,mobile,MP09,/,,,1,Return,mobile (MP09)
-2025-02-05 17:44:00,United States,Stanford,desktop,,/,,,1,New,desktop
-2025-02-05 17:50:00,United States,Stanford,desktop,,/,,,1,Return,desktop
-2025-02-05 17:59:00,United States,Stanford,desktop,,/,,,1,Return,desktop
-2025-02-05 18:00:00,United States,Stanford,desktop,,/,,,1,Return,desktop
-2025-02-05 18:09:00,United States,Stanford,desktop,,/,/cv/cv.pdf,,1,Return,desktop
-2025-02-05 19:02:00,United States,Stanford,desktop,,/research/,,https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4680389,1,Return,desktop
-2025-02-05 19:02:00,United States,Stanford,desktop,,/research/,,,1,Return,desktop
-2025-02-05 19:02:00,United States,Stanford,desktop,,/,,,1,Return,desktop
-2025-02-06 09:11:00,Japan,,mobile,,/ja/,,,1,New,mobile
-2025-02-06 09:11:00,Japan,,mobile,,/,,,1,Return,mobile
-2025-02-06 09:12:00,Japan,,mobile,,/,/cv/cv.pdf,,1,Return,mobile
-2025-02-06 09:12:00,Japan,,mobile,,/,,,1,Return,mobile
-2025-02-06 09:16:00,Japan,,mobile,,/ja/,,,1,Return,mobile
-2025-02-06 09:16:00,Japan,,mobile,,/,/cv/cv.pdf,,1,Return,mobile
-2025-02-06 09:16:00,Japan,,mobile,,/,,,1,Return,mobile
-2025-02-06 09:16:00,Japan,,mobile,,/research/,,,1,Return,mobile
-2025-02-06 09:17:00,Japan,,mobile,,/ja/,,,1,Return,mobile
-2025-02-06 09:22:00,Japan,Nagoya,mobile,,/ja/,,,1,New,mobile
-2025-02-06 09:25:00,Japan,Nagoya,mobile,,/ja/,,,1,Return,mobile
-2025-02-06 09:25:00,Japan,Nagoya,mobile,,/,,,1,Return,mobile
-2025-02-06 09:27:00,Japan,Nagoya,mobile,,/,/cv/cv.pdf,,1,Return,mobile
-2025-02-06 09:27:00,Japan,,mobile,,/ja/,,,1,Return,mobile
-2025-02-06 09:27:00,Japan,,mobile,,/,,,1,Return,mobile
-2025-02-06 09:28:00,Japan,Nagoya,mobile,,/research/,,,1,Return,mobile
-2025-02-06 09:28:00,Japan,Nagoya,mobile,,/,,,1,Return,mobile
-2025-02-06 09:29:00,Japan,,mobile,,/,/cv/cv.pdf,,1,Return,mobile
-2025-02-06 09:38:00,Japan,Nagoya,mobile,,/research/,,,1,Return,mobile
-2025-02-06 14:07:00,United States,Stanford,desktop,,/research/,,,1,Return,desktop
-2025-02-06 14:07:00,United States,Stanford,desktop,,/,,,1,New,desktop
-2025-02-06 14:51:00,United States,Stanford,desktop,,/research/,,,1,Return,desktop
-2025-02-06 14:52:00,United States,Stanford,desktop,,/research/,,https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4680389,1,Return,desktop
-2025-02-06 15:10:00,United States,Stanford,desktop,,/,,,1,Return,desktop
-2025-02-06 15:10:00,United States,Stanford,desktop,,/,/cv/cv.pdf,,1,Return,desktop
-2025-02-06 15:13:00,United States,Stanford,desktop,,/,,,1,Return,desktop
-2025-02-06 15:13:00,United States,Stanford,desktop,,/research/,,,1,Return,desktop
-2025-02-06 16:15:00,United States,Stanford,desktop,,/,,,1,Return,desktop
-2025-02-06 16:16:00,United States,Stanford,desktop,,/,,,1,Return,desktop
-2025-02-06 16:55:00,United States,Stanford,desktop,,/research/,,,1,Return,desktop
-2025-02-06 18:45:00,United States,Stanford,desktop,,/,,,1,New,desktop
-2025-02-06 18:45:00,United States,Stanford,desktop,,/research/,,,1,Return,desktop
-2025-02-06 18:45:00,United States,Stanford,desktop,,/research/,,https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4680389,1,Return,desktop
-2025-02-06 19:12:00,United States,Stanford,desktop,,/,,,1,Return,desktop
-2025-02-06 19:12:00,United States,Stanford,desktop,,/research/,,,1,Return,desktop
-2025-02-06 19:13:00,United States,Stanford,desktop,,/,,,1,Return,desktop
-2025-02-06 19:13:00,United States,Stanford,desktop,,/,/cv/cv.pdf,,1,Return,desktop
-2025-02-06 20:37:00,Japan,Setagaya City,desktop,,/,,,1,New,desktop
-2025-02-06 22:54:00,Japan,Kobe,desktop,,/,,,1,New,desktop
-2025-02-06 22:54:00,Japan,Kobe,desktop,,/research/,,,1,Return,desktop
-2025-02-06 22:55:00,Japan,Kobe,desktop,,/,/cv/cv.pdf,,1,Return,desktop
-2025-02-06 22:56:00,Japan,Kobe,desktop,,/,,,1,Return,desktop
-2025-02-07 11:10:00,United States,New York,desktop,,/,,,1,New,desktop
-2025-02-07 11:38:00,United States,New York,desktop,,/,,,1,Return,desktop
-2025-02-07 13:30:00,United States,Stanford,desktop,,/,,,1,Return,desktop
-2025-02-07 13:30:00,United States,Stanford,desktop,,/research/,,,1,Return,desktop
-2025-02-07 13:30:00,United States,Stanford,desktop,,/,/cv/cv.pdf,,1,Return,desktop
-2025-02-08 09:21:00,Japan,Shinagawa City,desktop,,/,,,1,New,desktop
-2025-02-08 22:18:00,Japan,Chiyoda City,desktop,,/research/,,,1,Return,desktop
-2025-02-08 22:18:00,Japan,Chiyoda City,desktop,,/,,,1,New,desktop
-2025-02-08 22:19:00,Japan,Chiyoda City,desktop,,/research/,,,1,Return,desktop
-2025-02-08 22:19:00,Japan,Chiyoda City,desktop,,/,,,1,Return,desktop
-2025-02-08 23:37:00,United States,,desktop,,/,,,1,New,desktop
-2025-02-09 03:16:00,Japan,,desktop,,/,,,1,New,desktop
-2025-02-09 04:20:00,United States,Stanford,desktop,,/,,,1,Return,desktop
-2025-02-09 04:20:00,South Korea,Seoul,desktop,,/,/cv/cv.pdf,,1,Return,desktop
-2025-02-09 04:20:00,South Korea,Seoul,desktop,,/,,,1,New,desktop
-2025-02-09 04:26:00,Japan,,mobile,,/ja/,,,1,New,mobile
-2025-02-09 04:27:00,Japan,,mobile,,/research/,,,1,Return,mobile
-2025-02-09 04:27:00,Japan,,mobile,,/,/cv/cv.pdf,,1,Return,mobile
-2025-02-09 04:27:00,Japan,,mobile,,/ja/,,,1,Return,mobile
-2025-02-09 04:27:00,Japan,,mobile,,/,,,1,Return,mobile
-2025-02-09 04:29:00,Japan,,mobile,,/,,,1,Return,mobile
-2025-02-09 04:39:00,United States,Council Bluffs,desktop,,/,,,1,New,desktop
-2025-02-09 05:47:00,United States,Palo Alto,desktop,,/,,,1,Return,desktop
-2025-02-10 08:52:00,Singapore,Singapore,desktop,,/research/,,,1,Return,desktop
-2025-02-10 08:52:00,Singapore,Singapore,desktop,,/,,,1,New,desktop
-2025-02-10 17:49:00,United States,,desktop,,/,,,1,New,desktop
-2025-02-10 20:51:00,Japan,,desktop,,/ja/,,,1,New,desktop
-2025-02-10 20:51:00,Japan,,desktop,,/research/,,,1,Return,desktop
-2025-02-10 20:52:00,Japan,,desktop,,/research/,,,1,Return,desktop
-2025-02-10 23:28:00,Japan,Shinjuku City,mobile,CPH2013,/,,,1,New,mobile (CPH2013)
-2025-02-10 23:29:00,Japan,Shinjuku City,mobile,CPH2013,/research/,,,1,Return,mobile (CPH2013)
-2025-02-10 23:29:00,Japan,Shinjuku City,mobile,CPH2013,/,,,1,Return,mobile (CPH2013)
-2025-02-11 02:29:00,Hong Kong,Hong Kong,desktop,,/,,,1,New,desktop
-2025-02-11 10:19:00,United States,,desktop,,/,,,1,New,desktop
-2025-02-11 11:09:00,Japan,,desktop,,/ja/,,,1,New,desktop
-2025-02-11 11:09:00,Japan,,desktop,,/,,,1,Return,desktop
-2025-02-11 11:10:00,Japan,,desktop,,/,,,1,Return,desktop
-2025-02-11 11:10:00,Japan,,desktop,,/research/,,,1,Return,desktop
-2025-02-11 11:10:00,Japan,,desktop,,/ja/,,,1,Return,desktop
-2025-02-11 19:53:00,Canada,Toronto,desktop,,/,,,1,Return,desktop
-2025-02-11 19:53:00,Canada,Toronto,desktop,,/,/cv/cv.pdf,,1,Return,desktop
-2025-02-11 19:53:00,Canada,Toronto,desktop,,/research/,,,1,Return,desktop
-2025-02-11 19:53:00,Canada,Toronto,desktop,,/research/,/papers/Leadership_Matsuno.pdf,,1,Return,desktop
-2025-02-12 12:22:00,United States,New York,mobile,SM-G986U1,/,,,1,New,mobile (SM-G986U1)
-2025-02-12 12:23:00,United States,New York,mobile,SM-G986U1,/research/,/papers/Leadership_Matsuno.pdf,,1,Return,mobile (SM-G986U1)
-2025-02-12 12:23:00,United States,New York,mobile,SM-G986U1,/research/,,,1,Return,mobile (SM-G986U1)
-2025-02-12 12:47:00,Japan,,desktop,,/,,,1,New,desktop
-2025-02-12 12:47:00,Japan,,desktop,,/,/cv/cv.pdf,,1,Return,desktop
-2025-02-12 12:47:00,Japan,,desktop,,/research/,,,1,Return,desktop
-2025-02-12 13:22:00,Japan,,desktop,,/,,,1,Return,desktop
-2025-02-12 21:56:00,Japan,,mobile,Pixel 6,/ja/,,,1,New,mobile (Pixel 6)
-2025-02-12 21:57:00,Japan,,mobile,Pixel 6,/ja/,,,1,Return,mobile (Pixel 6)
-2025-02-12 21:57:00,Japan,,mobile,Pixel 6,/research/,,,1,Return,mobile (Pixel 6)
-2025-02-12 21:59:00,Japan,,mobile,Pixel 6,/research/,,,1,Return,mobile (Pixel 6)
-2025-02-12 22:11:00,United States,Charlottesville,desktop,,/,/cv/cv.pdf,,1,Return,desktop
-2025-02-12 22:11:00,United States,Charlottesville,desktop,,/research/,,,1,Return,desktop
-2025-02-12 22:11:00,United States,Charlottesville,desktop,,/,,,1,New,desktop
-2025-02-12 22:12:00,United States,Charlottesville,desktop,,/,,,1,Return,desktop
-2025-02-13 00:48:00,Japan,Muroran,mobile,,/ja/,,,1,New,mobile
-2025-02-13 07:35:00,United States,New York,desktop,,/,,,1,New,desktop
-2025-02-13 11:57:00,Canada,Toronto,desktop,,/,,,1,Return,desktop
-2025-02-13 11:57:00,Canada,Toronto,desktop,,/research/,,,1,Return,desktop
-2025-02-13 12:38:00,United States,Stanford,desktop,,/research/,,,1,Return,desktop
-2025-02-13 12:38:00,United States,Stanford,desktop,,/,,,1,Return,desktop
-2025-02-13 12:39:00,United States,Stanford,desktop,,/research/,/papers/Leadership_Matsuno.pdf,,1,Return,desktop
-2025-02-13 12:39:00,United States,Stanford,desktop,,/research/,,https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4985567,1,Return,desktop
-2025-02-13 18:39:00,Japan,,mobile,,/,,,1,New,mobile
-2025-02-13 21:41:00,United States,Lexington,desktop,,/,,,1,New,desktop
-2025-02-14 01:48:00,Singapore,Singapore,desktop,,/,,,1,New,desktop
-2025-02-14 01:48:00,Singapore,Singapore,desktop,,/,/cv/cv.pdf,,1,Return,desktop
-2025-02-14 01:49:00,Singapore,Singapore,desktop,,/,,,1,Return,desktop
-2025-02-15 03:13:00,Japan,Yokohama,desktop,,/,/cv/cv.pdf,,1,Return,desktop
-2025-02-15 03:13:00,Japan,Yokohama,desktop,,/,,,1,New,desktop
-2025-02-15 05:25:00,,,desktop,,/,,,1,New,desktop
-2025-02-15 06:26:00,United States,,desktop,,/,,,1,New,desktop
-2025-02-15 06:27:00,United States,,desktop,,/,,,1,New,desktop
-2025-02-15 11:05:00,Canada,Burnaby,desktop,,/,,,1,New,desktop
-2025-02-15 23:38:00,United States,Boston,desktop,,/,,,1,New,desktop
-2025-02-15 23:39:00,United States,Boston,desktop,,/research/,,,1,Return,desktop
-2025-02-15 23:39:00,United States,Boston,desktop,,/,/cv/cv.pdf,,1,Return,desktop
-2025-02-15 23:39:00,United States,Boston,desktop,,/,,,1,Return,desktop
-2025-02-17 02:17:00,Japan,,mobile,,/,,,1,New,mobile
-2025-02-17 02:18:00,Japan,,mobile,,/,/cv/cv.pdf,,1,Return,mobile
-2025-02-17 04:39:00,United States,Redwood City,desktop,,/,/cv/cv.pdf,,1,Return,desktop
-2025-02-17 04:39:00,United States,Redwood City,desktop,,/,,,1,New,desktop
-2025-02-17 04:43:00,United States,Redwood City,desktop,,/research/,,,1,Return,desktop
-2025-02-17 04:43:00,United States,Redwood City,desktop,,/,,,1,Return,desktop
-2025-02-17 12:34:00,Hong Kong,,mobile,,/ja/,,,1,New,mobile
-2025-02-17 12:35:00,Hong Kong,,mobile,,/ja/,,,1,Return,mobile
-2025-02-17 12:35:00,Hong Kong,,mobile,,/,,,1,Return,mobile
-2025-02-17 12:35:00,Hong Kong,,mobile,,/,/cv/cv.pdf,,1,Return,mobile
-2025-02-17 12:37:00,Hong Kong,,mobile,,/research/,,,1,Return,mobile
-2025-02-17 12:37:00,Hong Kong,,mobile,,/,,,1,Return,mobile
-2025-02-17 12:38:00,Hong Kong,,mobile,,/research/,/papers/Leadership_Matsuno.pdf,,1,Return,mobile
-2025-02-17 12:57:00,United States,Boardman,desktop,,/,,,1,New,desktop
-2025-02-17 19:50:00,United States,San Jose,mobile,,/,,,1,New,mobile
-2025-02-17 19:51:00,United States,San Jose,mobile,,/,,,1,Return,mobile
-2025-02-17 21:50:00,United States,Englewood,desktop,,/research/,,,1,Return,desktop
-2025-02-17 21:50:00,United States,Englewood,desktop,,/,,,1,New,desktop
-2025-02-17 22:54:00,United States,New York,desktop,,/,,,1,New,desktop
-2025-02-17 23:03:00,United States,New York,desktop,,/research/,,,1,Return,desktop
-2025-02-17 23:03:00,United States,New York,desktop,,/,,,1,Return,desktop
-2025-02-17 23:04:00,United States,New York,desktop,,/,,,1,Return,desktop
-2025-02-17 23:04:00,United States,New York,desktop,,/research/,,,1,Return,desktop
-2025-02-17 23:04:00,United States,New York,desktop,,/,/cv/cv.pdf,,1,Return,desktop
-2025-02-18 06:11:00,Germany,Stuttgart,mobile,SM-A556B,/,,,1,New,mobile (SM-A556B)
-2025-02-18 06:11:00,Germany,Stuttgart,mobile,SM-A556B,/,/cv/cv.pdf,,1,Return,mobile (SM-A556B)
-2025-02-18 10:20:00,United States,Boston,desktop,,/,,,1,New,desktop
-2025-02-18 10:21:00,United States,Boston,desktop,,/,,,1,Return,desktop
-2025-02-18 10:29:00,United States,Boston,desktop,,/,/cv/cv.pdf,,1,Return,desktop
-2025-02-18 10:31:00,United States,Boston,desktop,,/,,,1,Return,desktop
-2025-02-18 13:40:00,United States,Rochester,desktop,,/research/,,,1,Return,desktop
-2025-02-18 13:40:00,United States,Rochester,desktop,,/,,,1,New,desktop
-2025-02-18 18:55:00,United States,Chapel Hill,desktop,,/,,,1,New,desktop
-2025-02-18 18:56:00,United States,Chapel Hill,desktop,,/research/,,,1,Return,desktop
-2025-02-18 18:56:00,United States,Chapel Hill,desktop,,/,,,1,Return,desktop
-2025-02-18 18:57:00,United States,Chapel Hill,desktop,,/research/,,,1,Return,desktop
-2025-02-18 21:35:00,United States,Donalsonville,desktop,,/,,,1,New,desktop
-2025-02-18 21:36:00,United States,Donalsonville,desktop,,/,/cv/cv.pdf,,1,Return,desktop
-2025-02-18 21:36:00,United States,Donalsonville,desktop,,/,,,1,Return,desktop
-2025-02-18 21:38:00,United States,Donalsonville,desktop,,/,,,1,Return,desktop
-2025-02-18 21:38:00,United States,Donalsonville,desktop,,/research/,/papers/Leadership_Matsuno.pdf,,1,Return,desktop
-2025-02-18 21:38:00,United States,Donalsonville,desktop,,/research/,,,1,Return,desktop
-2025-02-18 21:43:00,United States,Donalsonville,desktop,,/,,,1,Return,desktop
-2025-02-18 21:43:00,United States,Donalsonville,desktop,,/research/,,,1,Return,desktop
-2025-02-18 21:45:00,United States,Jersey City,mobile,,/research/,,,1,New,mobile
-2025-02-18 21:46:00,United States,Jersey City,desktop,,/research/,/papers/Leadership_Matsuno.pdf,,1,Return,desktop
-2025-02-18 21:46:00,United States,Jersey City,desktop,,/research/,,,1,New,desktop
-2025-02-18 21:48:00,United States,Yorba Linda,mobile,,/research/,,,1,New,mobile
-2025-02-19 15:14:00,United States,Leesburg,desktop,,/research/,,,1,Return,desktop
-2025-02-19 15:14:00,United States,Leesburg,desktop,,/,,,1,Return,desktop
-2025-02-19 15:15:00,United States,Leesburg,desktop,,/research/,,https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4985567,1,Return,desktop
-2025-02-19 15:15:00,United States,Leesburg,desktop,,/research/,,,1,Return,desktop
-2025-02-19 15:17:00,United States,Leesburg,desktop,,/research/,,,1,Return,desktop
-2025-02-19 19:03:00,United States,Houston,desktop,,/research/,,,1,Return,desktop
-2025-02-19 19:03:00,United States,Houston,desktop,,/,,,1,New,desktop
-2025-02-19 19:05:00,United States,Houston,desktop,,/research/,/papers/Leadership_Matsuno.pdf,,1,Return,desktop
-2025-02-20 02:05:00,United States,San Jose,mobile,,/,,,1,New,mobile
-2025-02-20 04:14:00,Denmark,Odense,desktop,,/,,,1,New,desktop
-2025-02-20 04:14:00,Denmark,Odense,desktop,,/research/,,,1,Return,desktop
-2025-02-20 04:15:00,Denmark,Odense,desktop,,/,/cv/cv.pdf,,1,Return,desktop
-2025-02-20 04:15:00,Denmark,Odense,desktop,,/,,,1,Return,desktop
-2025-02-20 04:20:00,Denmark,Odense,desktop,,/research/,,https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4680389,1,Return,desktop
-2025-02-20 04:20:00,Denmark,Odense,desktop,,/research/,,,1,Return,desktop
-2025-02-20 04:20:00,Denmark,Odense,desktop,,/,,,1,Return,desktop
-2025-02-20 06:02:00,Japan,Nagoya,desktop,,/,,,1,New,desktop
-2025-02-20 06:03:00,Japan,Nagoya,desktop,,/research/,,,1,Return,desktop
-2025-02-20 06:03:00,Japan,Nagoya,desktop,,/,,,1,Return,desktop
-2025-02-20 06:09:00,Japan,Nagoya,desktop,,/research/,,,1,Return,desktop
-2025-02-20 17:40:00,Canada,Kingston,desktop,,/,/cv/cv.pdf,,1,Return,desktop
-2025-02-20 17:40:00,Canada,Kingston,desktop,,/research/,,,1,New,desktop
-2025-02-20 17:40:00,Canada,Kingston,desktop,,/,,,1,Return,desktop
-2025-02-21 06:00:00,South Korea,Seoul,desktop,,/,,,1,New,desktop
-2025-02-21 11:33:00,United States,Boston,desktop,,/research/,/papers/Leadership_Matsuno.pdf,,1,Return,desktop
-2025-02-21 11:33:00,United States,Boston,desktop,,/research/,,https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4985567,1,Return,desktop
-2025-02-21 11:33:00,United States,Boston,desktop,,/research/,,,1,Return,desktop
-2025-02-21 11:33:00,United States,Boston,desktop,,/,/cv/cv.pdf,,1,Return,desktop
-2025-02-21 11:33:00,United States,Boston,desktop,,/,,,1,New,desktop
-2025-02-21 11:34:00,United States,Boston,desktop,,/,,,1,Return,desktop
-2025-02-21 15:02:00,United States,New York,mobile,,/,,,1,New,mobile
-2025-02-21 19:00:00,Taiwan,,mobile,,/research/,,,1,New,mobile
-2025-02-21 19:36:00,United States,Hermiston,mobile,,/,,,1,New,mobile
-2025-02-22 06:08:00,Japan,Uji,desktop,,/ja/,,,1,New,desktop
-2025-02-22 06:08:00,Japan,Uji,desktop,,/,,,1,Return,desktop
-2025-02-22 06:08:00,Japan,Uji,desktop,,/research/,,,1,Return,desktop
-2025-02-22 06:09:00,Japan,Uji,desktop,,/ja/,,,1,Return,desktop
-2025-02-22 06:09:00,Japan,Uji,desktop,,/,/cv/cv.pdf,,1,Return,desktop
-2025-02-22 06:09:00,Japan,Uji,desktop,,/,,,1,Return,desktop
-2025-02-22 06:27:00,Japan,Uji,desktop,,/research/,,,1,Return,desktop
-2025-02-22 06:27:00,Japan,Uji,desktop,,/ja/,,,1,Return,desktop
-2025-02-22 06:27:00,Japan,Uji,desktop,,/,/cv/cv.pdf,,1,Return,desktop
-2025-02-22 06:27:00,Japan,Uji,desktop,,/,,,1,Return,desktop
-2025-02-22 06:31:00,Japan,Uji,desktop,,/research/,,,1,Return,desktop
-2025-02-22 06:31:00,Japan,Uji,desktop,,/,,,1,Return,desktop
-2025-02-22 06:36:00,Japan,Uji,desktop,,/research/,,,1,Return,desktop
-2025-02-23 20:42:00,United States,Urbana,desktop,,/research/,,,1,Return,desktop
-2025-02-23 20:42:00,United States,Urbana,desktop,,/,,,1,New,desktop
-2025-02-23 20:43:00,Singapore,,desktop,,/,,,1,New,desktop
-2025-02-23 20:44:00,Singapore,,desktop,,/,,,1,Return,desktop
-2025-02-23 20:44:00,Singapore,,desktop,,/,/cv/cv.pdf,,1,Return,desktop
-2025-02-23 20:45:00,Singapore,,desktop,,/research/,,https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4680389,1,Return,desktop
-2025-02-23 20:45:00,Singapore,,desktop,,/research/,,,1,Return,desktop
-2025-02-23 20:45:00,Singapore,,desktop,,/,,,1,Return,desktop
-2025-02-23 20:45:00,Singapore,,desktop,,/research/,,https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4985567,1,Return,desktop
-2025-02-23 20:48:00,Singapore,,desktop,,/research/,,,1,Return,desktop
-2025-02-24 11:40:00,United States,Chicago,desktop,,/,/cv/cv.pdf,,1,Return,desktop
-2025-02-24 11:40:00,United States,Chicago,desktop,,/,,,1,New,desktop
-2025-02-24 22:48:00,United States,Newark,desktop,,/,,,1,New,desktop
-2025-02-24 22:48:00,United States,Newark,desktop,,/research/,,,1,Return,desktop
-2025-02-24 22:49:00,United States,Newark,desktop,,/,,,1,Return,desktop
-2025-02-24 22:49:00,United States,Newark,desktop,,/,/cv/cv.pdf,,1,Return,desktop
-2025-02-25 00:02:00,United States,Bridgeport,desktop,,/,,,1,New,desktop
-2025-02-25 00:02:00,United States,Bridgeport,desktop,,/,/cv/cv.pdf,,1,Return,desktop
-2025-02-25 08:07:00,Japan,Saitama,desktop,,/,,,1,Return,desktop
-2025-02-25 08:07:00,Japan,Saitama,desktop,,/,/cv/cv.pdf,,1,Return,desktop
-2025-02-25 08:07:00,Japan,Saitama,desktop,,/ja/,,,1,New,desktop
-2025-02-25 08:11:00,Japan,Saitama,desktop,,/research/,,,1,Return,desktop
-2025-02-25 08:11:00,Japan,Saitama,desktop,,/,,,1,Return,desktop
-2025-02-25 09:26:00,Japan,,desktop,,/,,,1,New,desktop
-2025-02-25 12:45:00,Japan,Shinagawa City,desktop,,/,,,1,New,desktop
-2025-02-25 12:45:00,Japan,Shinagawa City,desktop,,/,/cv/cv.pdf,,1,Return,desktop
-2025-02-25 12:48:00,Japan,Shinagawa City,desktop,,/,,,1,Return,desktop
-2025-02-25 12:48:00,Japan,Shinagawa City,desktop,,/research/,,,1,Return,desktop
-2025-02-25 12:49:00,Japan,Shinagawa City,desktop,,/research/,,,1,Return,desktop
-2025-02-25 14:27:00,United States,Bellingham,desktop,,/,,,1,New,desktop
-2025-02-25 14:27:00,United States,Bellingham,desktop,,/research/,,,1,Return,desktop
-2025-02-25 14:27:00,United States,Bellingham,desktop,,/research/,,https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4985567,1,Return,desktop
-2025-02-28 02:53:00,United States,Palo Alto,desktop,,/,/cv/cv.pdf,,1,Return,desktop
-2025-02-28 02:53:00,United States,Palo Alto,desktop,,/,,,1,New,desktop
-2025-02-28 21:06:00,United States,New York,mobile,,/,,,1,New,mobile
-2025-02-28 21:07:00,United States,New York,mobile,,/,,,1,Return,mobile
-2025-02-28 21:07:00,United States,New York,mobile,,/,/cv/cv.pdf,,1,Return,mobile
-2025-03-01 00:40:00,United States,New York,desktop,,/,,,1,New,desktop
-2025-03-01 00:40:00,United States,New York,desktop,,/research/,,https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4985567,1,Return,desktop
-2025-03-01 00:40:00,United States,New York,desktop,,/research/,,,1,Return,desktop
-2025-03-01 00:41:00,United States,New York,desktop,,/research/,/papers/Leadership_Matsuno.pdf,,1,Return,desktop
-2025-03-01 00:41:00,United States,New York,desktop,,/research/,,,1,Return,desktop
-2025-03-01 00:41:00,United States,New York,desktop,,/,/cv/cv.pdf,,1,Return,desktop
-2025-03-01 00:41:00,United States,New York,desktop,,/,,,1,Return,desktop
-2025-03-01 06:00:00,Taiwan,,desktop,,/,,,1,New,desktop
-2025-03-01 06:00:00,Taiwan,,desktop,,/,/cv/cv.pdf,,1,Return,desktop
-2025-03-01 10:52:00,Taiwan,,desktop,,/,,,1,Return,desktop
-2025-03-01 18:01:00,United States,New York,desktop,,/research/,,,1,Return,desktop
-2025-03-01 18:01:00,United States,New York,desktop,,/,/cv/cv.pdf,,1,Return,desktop
-2025-03-01 18:01:00,United States,New York,desktop,,/,,,1,New,desktop
-2025-03-01 18:04:00,United States,New York,desktop,,/,,,1,Return,desktop
-2025-03-01 21:27:00,Japan,Shibuya,mobile,SC-56C,/,/cv/cv.pdf,,1,Return,mobile (SC-56C)
-2025-03-01 21:27:00,Japan,Shibuya,mobile,SC-56C,/,,,1,New,mobile (SC-56C)
-2025-03-01 21:28:00,Japan,Shibuya,mobile,SC-56C,/ja/,,,1,Return,mobile (SC-56C)
-2025-03-01 21:28:00,Japan,Shibuya,mobile,SC-56C,/,,,1,New,mobile (SC-56C)
-2025-03-02 00:33:00,South Korea,Anyang-si,desktop,,/,/cv/cv.pdf,,1,Return,desktop
-2025-03-02 00:33:00,South Korea,Anyang-si,desktop,,/,,,1,New,desktop
-2025-03-02 00:34:00,South Korea,Anyang-si,desktop,,/research/,,,1,Return,desktop
-2025-03-02 00:34:00,South Korea,Anyang-si,desktop,,/,,,1,Return,desktop
-2025-03-02 00:35:00,South Korea,Anyang-si,desktop,,/research/,,,1,Return,desktop
-2025-03-02 00:35:00,South Korea,Anyang-si,desktop,,/,,,1,Return,desktop
-2025-03-02 02:24:00,China,Wuhan,desktop,,/,/cv/cv.pdf,,1,Return,desktop
-2025-03-02 02:24:00,China,Shanghai,desktop,,/,,,1,New,desktop
-2025-03-02 02:25:00,China,Shanghai,desktop,,/research/,,,1,Return,desktop
-2025-03-02 02:25:00,China,Shanghai,desktop,,/,,,1,Return,desktop
-2025-03-02 08:38:00,Japan,Otsuki,mobile,,/ja/,,,1,New,mobile
-2025-03-02 08:39:00,Japan,Otsuki,mobile,,/ja/,,,1,Return,mobile
-2025-03-02 08:39:00,Japan,Otsuki,mobile,,/,,,1,Return,mobile
-2025-03-02 08:41:00,Japan,Otsuki,mobile,,/ja/,,,1,Return,mobile
-2025-03-02 08:41:00,Japan,Otsuki,mobile,,/,/cv/cv.pdf,,1,Return,mobile
-2025-03-02 08:41:00,Japan,Otsuki,mobile,,/,,,1,Return,mobile
-2025-03-02 13:13:00,United States,West Lafayette,desktop,,/,,,1,New,desktop
-2025-03-02 13:14:00,United States,West Lafayette,desktop,,/,/cv/cv.pdf,,1,Return,desktop
-2025-03-02 13:14:00,United States,West Lafayette,desktop,,/,,,1,Return,desktop
-2025-03-03 22:48:00,United States,Friday Harbor,mobile,,/,,,1,New,mobile
-2025-03-03 23:24:00,Japan,Shinjuku City,desktop,,/ja/,,,1,New,desktop
-2025-03-03 23:29:00,Japan,Shinjuku City,desktop,,/ja/,,,1,Return,desktop
-2025-03-03 23:32:00,United States,Stanford,desktop,,/,,,1,New,desktop
-2025-03-04 02:43:00,Hong Kong,Hong Kong,desktop,,/,,,1,New,desktop
-2025-03-04 02:44:00,Hong Kong,Hong Kong,desktop,,/,,,1,Return,desktop
-2025-03-04 02:44:00,Hong Kong,Hong Kong,desktop,,/,/cv/cv.pdf,,1,Return,desktop
-2025-03-04 02:45:00,Hong Kong,Hong Kong,desktop,,/research/,,,1,Return,desktop
-2025-03-04 02:45:00,Hong Kong,Hong Kong,desktop,,/,,,1,Return,desktop
-2025-03-04 02:45:00,Hong Kong,Hong Kong,desktop,,/research/,,https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4680389,1,Return,desktop
-2025-03-04 02:46:00,Hong Kong,Hong Kong,desktop,,/research/,,https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4985567,1,Return,desktop
-2025-03-04 02:48:00,Hong Kong,Hong Kong,desktop,,/research/,,,1,Return,desktop
-2025-03-04 06:18:00,United Kingdom,Lancaster,desktop,,/,,,1,New,desktop
-2025-03-04 06:18:00,United Kingdom,Lancaster,desktop,,/research/,,,1,Return,desktop
-2025-03-04 06:19:00,United Kingdom,Lancaster,desktop,,/research/,,,1,Return,desktop
-2025-03-04 06:19:00,United Kingdom,Lancaster,desktop,,/research/,,https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4680389,1,Return,desktop
-2025-03-04 06:26:00,United Kingdom,Lancaster,desktop,,/,,,1,Return,desktop
-2025-03-04 06:26:00,United Kingdom,Lancaster,desktop,,/research/,,,1,Return,desktop
-2025-03-04 17:04:00,United States,New York,desktop,,/,,,1,New,desktop
-2025-03-04 17:04:00,United States,New York,desktop,,/research/,,,1,Return,desktop
-2025-03-04 17:06:00,United States,Boston,desktop,,/research/,,,1,New,desktop
-2025-03-04 17:06:00,United States,Chapel Hill,desktop,,/,,,1,Return,desktop
-2025-03-04 17:07:00,United States,Chapel Hill,desktop,,/,/cv/cv.pdf,,1,Return,desktop
-2025-03-04 17:12:00,United States,Chapel Hill,desktop,,/,,,1,Return,desktop
-2025-03-04 17:27:00,United States,New York,desktop,,/,,,1,New,desktop
-2025-03-04 17:28:00,United States,New York,desktop,,/,,,1,Return,desktop
-2025-03-04 21:52:00,United States,Scarsdale,desktop,,/,/cv/cv.pdf,,1,Return,desktop
-2025-03-04 21:52:00,United States,Scarsdale,desktop,,/,,,1,New,desktop
-2025-03-04 21:58:00,United States,Scarsdale,desktop,,/,,,1,Return,desktop
-2025-03-04 21:58:00,United States,Scarsdale,desktop,,/research/,,,1,Return,desktop
-2025-03-05 09:59:00,South Korea,Seoul,desktop,,/,,,1,New,desktop
-2025-03-05 09:59:00,South Korea,Seoul,desktop,,/,/cv/cv.pdf,,1,Return,desktop
-2025-03-05 21:40:00,United States,Jersey City,desktop,,/,,,1,New,desktop
-2025-03-05 21:41:00,United States,Jersey City,desktop,,/,,,1,Return,desktop
-2025-03-05 21:41:00,United States,Jersey City,desktop,,/,/cv/cv.pdf,,1,Return,desktop
-2025-03-05 21:43:00,United States,Jersey City,desktop,,/,,,1,Return,desktop
-2025-03-06 08:17:00,Hong Kong,Hong Kong,desktop,,/,,,1,New,desktop
-2025-03-06 12:24:00,United States,Jersey City,desktop,,/,,,1,Return,desktop
-2025-03-06 12:25:00,United States,Jersey City,desktop,,/,,,1,Return,desktop
-2025-03-06 12:25:00,United States,Jersey City,desktop,,/,/cv/cv.pdf,,1,Return,desktop
-2025-03-06 15:47:00,Poland,Warsaw,desktop,,/,,,1,New,desktop
-2025-03-06 18:03:00,United States,Jersey City,desktop,,/,/cv/cv.pdf,,1,Return,desktop
-2025-03-06 18:03:00,United States,Jersey City,desktop,,/,,,1,Return,desktop
-2025-03-07 04:06:00,United States,New York,mobile,,/,,,1,New,mobile
-2025-03-07 10:03:00,United Kingdom,,mobile,,/,,,1,New,mobile
-2025-03-07 12:25:00,Switzerland,Zurich,desktop,,/,,,1,New,desktop
-2025-03-07 12:44:00,United States,Chicago,desktop,,/,,,1,New,desktop
-2025-03-07 12:45:00,United States,Chicago,desktop,,/research/,,,1,Return,desktop
-2025-03-07 12:45:00,United States,Chicago,desktop,,/,/cv/cv.pdf,,1,Return,desktop
-2025-03-07 12:45:00,United States,Chicago,desktop,,/,,,1,Return,desktop
-2025-03-07 12:46:00,United States,Chicago,desktop,,/research/,,,1,Return,desktop
-2025-03-08 06:34:00,Japan,,mobile,A401OP,/ja/,,,1,New,mobile (A401OP)
-2025-03-09 12:43:00,United States,New York,mobile,SM-G986U1,/,,,1,Return,mobile (SM-G986U1)
-2025-03-09 12:43:00,United States,New York,mobile,SM-G986U1,/research/,,,1,Return,mobile (SM-G986U1)
-2025-03-10 06:52:00,Japan,Osaka,desktop,,/research/,,,1,Return,desktop
-2025-03-10 06:52:00,Japan,Osaka,desktop,,/ja/,,,1,New,desktop
-2025-03-10 06:52:00,Japan,Osaka,desktop,,/,,,1,Return,desktop
-2025-03-10 06:53:00,Japan,Osaka,desktop,,/research/,,,1,Return,desktop
-2025-03-10 10:40:00,United States,Charlotte,desktop,,/research/,,,1,Return,desktop
-2025-03-10 10:40:00,United States,Charlotte,desktop,,/,,,1,New,desktop
-2025-03-10 10:42:00,United States,Charlotte,desktop,,/,,,1,Return,desktop
-2025-03-10 10:42:00,United States,Charlotte,desktop,,/research/,,,1,Return,desktop
-2025-03-10 12:07:00,Japan,Tateyama,mobile,,/,,,1,New,mobile
-2025-03-10 12:07:00,Japan,Tateyama,mobile,,/research/,,,1,Return,mobile
-2025-03-10 16:13:00,United States,Washington,desktop,,/research/,,,1,Return,desktop
-2025-03-10 16:13:00,United States,Washington,desktop,,/,,,1,New,desktop
-2025-03-10 16:15:00,United States,Washington,desktop,,/research/,/papers/Leadership_Matsuno.pdf,,1,Return,desktop
-2025-03-10 16:16:00,United States,Washington,desktop,,/,,,1,Return,desktop
-2025-03-10 16:16:00,United States,Washington,desktop,,/,/cv/cv.pdf,,1,Return,desktop
-2025-03-10 16:16:00,United States,Washington,desktop,,/research/,,,1,Return,desktop
-2025-03-10 16:17:00,United States,Washington,desktop,,/,,,1,Return,desktop
-2025-03-11 14:03:00,United States,Boston,desktop,,/research/,,,1,Return,desktop
-2025-03-11 14:03:00,United States,Boston,desktop,,/,,,1,New,desktop
-2025-03-11 14:04:00,United States,Boston,desktop,,/,/cv/cv.pdf,,1,Return,desktop
-2025-03-11 14:04:00,United States,Boston,desktop,,/,,,1,Return,desktop
-2025-03-11 14:04:00,United States,Boston,desktop,,/research/,,,1,Return,desktop
-2025-03-11 14:05:00,United States,Boston,desktop,,/research/,,https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4985567,1,Return,desktop
-2025-03-11 14:05:00,United States,Boston,desktop,,/research/,,,1,Return,desktop
-2025-03-11 14:13:00,United States,Boston,desktop,,/research/,,,1,Return,desktop
-2025-03-11 15:53:00,United States,New York,desktop,,/,,,1,New,desktop
-2025-03-11 15:53:00,United States,New York,desktop,,/research/,,,1,Return,desktop
-2025-03-11 15:53:00,United States,New York,desktop,,/,/cv/cv.pdf,,1,Return,desktop
-2025-03-12 11:49:00,Japan,Nagasaki,mobile,Pixel 8a,/,,,1,New,mobile (Pixel 8a)
-2025-03-12 11:50:00,Japan,Nagasaki,mobile,Pixel 8a,/,,,1,Return,mobile (Pixel 8a)
-2025-03-12 11:50:00,Japan,Nagasaki,mobile,Pixel 8a,/,/cv/cv.pdf,,1,Return,mobile (Pixel 8a)
-2025-03-12 11:50:00,Japan,Nagasaki,mobile,Pixel 8a,/research/,,,1,Return,mobile (Pixel 8a)
-2025-03-12 11:51:00,Japan,Nagasaki,mobile,Pixel 8a,/,,,1,Return,mobile (Pixel 8a)
-2025-03-13 02:32:00,Japan,Kitakyushu,desktop,,/,,,1,New,desktop
-2025-03-13 02:32:00,Japan,Kitakyushu,desktop,,/,/cv/cv.pdf,,1,Return,desktop
-2025-03-13 02:35:00,Japan,Kitakyushu,desktop,,/,,,1,Return,desktop
-2025-03-13 02:35:00,Japan,Kitakyushu,desktop,,/research/,,,1,Return,desktop
-2025-03-13 02:35:00,Japan,Kitakyushu,desktop,,/research/,,https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4680389,1,Return,desktop
-2025-03-13 07:24:00,Pakistan,Lahore,desktop,,/,,,1,New,desktop
-2025-03-13 07:25:00,Pakistan,Lahore,desktop,,/,,,1,Return,desktop
-2025-03-13 17:30:00,United States,New York,desktop,,/,/cv/cv.pdf,,1,Return,desktop
-2025-03-13 17:30:00,United States,New York,desktop,,/research/,,,1,Return,desktop
-2025-03-13 17:30:00,United States,New York,desktop,,/,,,1,Return,desktop
-2025-03-13 17:31:00,United States,New York,desktop,,/research/,,,1,Return,desktop
-2025-03-13 17:31:00,United States,New York,desktop,,/,,,1,Return,desktop
-2025-03-13 17:32:00,United States,New York,desktop,,/,,,1,Return,desktop
-2025-03-13 17:56:00,United States,Arcata,mobile,,/,,,1,New,mobile
-2025-03-14 11:17:00,United States,New York,desktop,,/research/,,https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4985567,1,Return,desktop
-2025-03-14 11:17:00,United States,New York,desktop,,/research/,,,1,Return,desktop
-2025-03-14 11:17:00,United States,New York,desktop,,/,,,1,New,desktop
-2025-03-14 11:18:00,United States,New York,desktop,,/,,,1,Return,desktop
-2025-03-14 11:18:00,United States,New York,desktop,,/research/,/papers/Leadership_Matsuno.pdf,,1,Return,desktop
-2025-03-14 11:18:00,United States,New York,desktop,,/research/,,,1,Return,desktop
-2025-03-14 11:18:00,United States,New York,desktop,,/,/cv/cv.pdf,,1,Return,desktop
-2025-03-14 11:19:00,United States,New York,desktop,,/,,,1,Return,desktop
-2025-03-14 20:56:00,United States,Cincinnati,desktop,,/,/cv/cv.pdf,,1,Return,desktop
-2025-03-14 20:56:00,United States,Cincinnati,desktop,,/,,,1,New,desktop
-2025-03-15 21:27:00,United States,San Francisco,mobile,,/research/,,,1,Return,mobile
-2025-03-15 21:27:00,United States,San Francisco,mobile,,/,,,1,New,mobile
-2025-03-15 21:27:00,United States,San Francisco,mobile,,/research/,/papers/Leadership_Matsuno.pdf,,1,Return,mobile
-2025-03-16 00:18:00,China,Guangzhou,desktop,,/,,,1,New,desktop
-2025-03-16 19:59:00,United States,,desktop,,/,,,1,New,desktop
-2025-03-17 01:00:00,Japan,,desktop,,/,,,1,New,desktop
-2025-03-17 06:48:00,Somalia,Mogadishu,desktop,,/,,,1,New,desktop
-2025-03-17 11:59:00,United States,,desktop,,/,,,1,New,desktop
-2025-03-17 12:13:00,Canada,Toronto,desktop,,/research/,,,1,Return,desktop
-2025-03-17 12:13:00,Canada,Toronto,desktop,,/,,,1,New,desktop
-2025-03-19 00:19:00,United States,New York,desktop,,/research/,/papers/Leadership_Matsuno.pdf,,1,Return,desktop
-2025-03-19 00:19:00,United States,New York,desktop,,/research/,,https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4985567,1,Return,desktop
-2025-03-19 00:19:00,United States,New York,desktop,,/research/,,,1,Return,desktop
-2025-03-19 00:19:00,United States,New York,desktop,,/,,,1,New,desktop
-2025-03-19 00:21:00,United States,New York,desktop,,/research/,,,1,Return,desktop
-2025-03-19 01:40:00,Japan,Kobe,desktop,,/ja/,,,1,Return,desktop
-2025-03-19 01:40:00,Japan,Kobe,desktop,,/,,,1,New,desktop
-2025-03-19 01:42:00,Japan,Kobe,desktop,,/ja/,,,1,Return,desktop
-2025-03-19 01:42:00,Japan,Kobe,desktop,,/,,,1,Return,desktop
-2025-03-19 12:46:00,Indonesia,,mobile,,/,,,1,New,mobile
-2025-03-19 12:46:00,Indonesia,,mobile,,/,/cv/cv.pdf,,1,Return,mobile
-2025-03-19 16:51:00,United States,Boston,desktop,,/,/cv/cv.pdf,,1,Return,desktop
-2025-03-19 16:51:00,United States,Boston,desktop,,/,,,1,New,desktop
-2025-03-19 16:52:00,United States,Boston,desktop,,/research/,,,1,Return,desktop
-2025-03-19 16:52:00,United States,Boston,desktop,,/,,,1,Return,desktop
-2025-03-19 17:19:00,Japan,Arakawa City,mobile,,/,,,1,New,mobile
-2025-03-19 23:18:00,United States,New York,desktop,,/,,,1,Return,desktop
-2025-03-19 23:19:00,United States,New York,desktop,,/research/,,,1,Return,desktop
-2025-03-19 23:19:00,United States,New York,desktop,,/,/cv/cv.pdf,,1,Return,desktop
-2025-03-19 23:19:00,United States,New York,desktop,,/,,,1,Return,desktop
-2025-03-20 22:12:00,United States,Los Angeles,desktop,,/,,,1,New,desktop
-2025-03-20 22:34:00,United States,Kings Point,desktop,,/,,,1,New,desktop
-2025-03-20 22:35:00,United States,Kings Point,desktop,,/,,,1,Return,desktop
-2025-03-20 22:35:00,United States,Kings Point,desktop,,/research/,,,1,Return,desktop
-2025-03-20 22:35:00,United States,Kings Point,desktop,,/,/cv/cv.pdf,,1,Return,desktop
-2025-03-20 22:49:00,United States,Kings Point,desktop,,/,,,1,Return,desktop
-2025-03-20 23:19:00,United States,Ashburn,desktop,,/,,,1,New,desktop
-2025-03-20 23:24:00,United States,Los Angeles,desktop,,/,,,1,Return,desktop
-2025-03-21 08:50:00,Jordan,Amman,mobile,SM-A556E,/,,,1,New,mobile (SM-A556E)
-2025-03-21 08:50:00,Jordan,Amman,mobile,SM-A556E,/,/cv/cv.pdf,,1,Return,mobile (SM-A556E)
-2025-03-21 08:51:00,Jordan,Amman,mobile,SM-A556E,/,,,1,Return,mobile (SM-A556E)
-2025-03-21 08:52:00,Jordan,Amman,mobile,SM-A556E,/,,,1,Return,mobile (SM-A556E)
-2025-03-21 08:52:00,Jordan,Amman,mobile,SM-A556E,/,/cv/cv.pdf,,1,Return,mobile (SM-A556E)
-2025-03-21 08:53:00,Jordan,Amman,mobile,SM-A556E,/,,,1,Return,mobile (SM-A556E)
-2025-03-21 16:21:00,Japan,Kitakyushu,mobile,F-04K,/research/,,,1,Return,mobile (F-04K)
-2025-03-21 16:21:00,Japan,Kitakyushu,mobile,F-04K,/,,,1,New,mobile (F-04K)
-2025-03-22 00:45:00,United States,Chicago,desktop,,/,,,1,New,desktop
-2025-03-22 00:45:00,United States,Chicago,desktop,,/,/cv/cv.pdf,,1,Return,desktop
-2025-03-22 00:46:00,United States,Chicago,desktop,,/,,,1,Return,desktop
-2025-03-22 01:23:00,Indonesia,Semarang,desktop,,/,/cv/cv.pdf,,1,Return,desktop
-2025-03-22 01:23:00,Indonesia,Semarang,desktop,,/,,,1,New,desktop
-2025-03-22 01:25:00,Indonesia,Semarang,desktop,,/,,,1,Return,desktop
-2025-03-22 13:07:00,United States,Minneapolis,desktop,,/,,,1,New,desktop
-2025-03-22 13:08:00,United States,Minneapolis,desktop,,/research/,,,1,Return,desktop
-2025-03-22 13:08:00,United States,Minneapolis,desktop,,/,,,1,Return,desktop
-2025-03-22 13:09:00,United States,Minneapolis,desktop,,/,/cv/cv.pdf,,1,Return,desktop
-2025-03-22 13:09:00,United States,Minneapolis,desktop,,/,,,1,Return,desktop
-2025-03-23 01:52:00,United States,Palm Springs,desktop,,/,,,1,New,desktop
-2025-03-23 04:58:00,United States,Palm Springs,desktop,,/,,,1,New,desktop
-2025-03-23 06:26:00,United States,New York,mobile,,/,/cv/cv.pdf,,1,Return,mobile
-2025-03-23 06:26:00,United States,New York,mobile,,/,,,1,Return,mobile
-2025-03-23 06:27:00,United States,New York,mobile,,/,,,1,Return,mobile
-2025-03-23 11:40:00,United States,Los Angeles,desktop,,/research/,,,1,Return,desktop
-2025-03-23 11:40:00,United States,Los Angeles,desktop,,/,/cv/cv.pdf,,1,Return,desktop
-2025-03-23 11:40:00,United States,Los Angeles,desktop,,/,,,1,New,desktop
-2025-03-23 23:26:00,United States,New York,mobile,,/,,,1,New,mobile
-2025-03-23 23:27:00,United States,New York,mobile,,/,,,1,Return,mobile
-2025-03-23 23:27:00,United States,New York,mobile,,/research/,,,1,Return,mobile
-2025-03-23 23:28:00,United States,New York,mobile,,/research/,,,1,Return,mobile
-2025-03-23 23:28:00,United States,New York,mobile,,/,/cv/cv.pdf,,1,Return,mobile
-2025-03-23 23:28:00,United States,New York,mobile,,/,,,1,Return,mobile
-2025-03-24 05:17:00,United States,New York,desktop,,/,/cv/cv.pdf,,1,Return,desktop
-2025-03-24 05:17:00,United States,New York,desktop,,/,,,1,New,desktop
-2025-03-24 05:20:00,United States,New York,desktop,,/,,,1,Return,desktop
-2025-03-24 11:24:00,Japan,Mitaka,desktop,,/research/,,,1,Return,desktop
-2025-03-24 11:24:00,Japan,Mitaka,desktop,,/,,,1,New,desktop
-2025-03-24 11:25:00,Japan,Mitaka,desktop,,/research/,,https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4680389,1,Return,desktop
-2025-03-24 11:25:00,Japan,Mitaka,desktop,,/research/,,,1,Return,desktop
-2025-03-24 11:25:00,Japan,Mitaka,desktop,,/,/cv/cv.pdf,,1,Return,desktop
-2025-03-24 11:25:00,Japan,Mitaka,desktop,,/,,,1,Return,desktop
-2025-03-24 11:26:00,Japan,Mitaka,desktop,,/,,,1,Return,desktop
-2025-03-24 18:33:00,United States,Chapel Hill,desktop,,/,/cv/cv.pdf,,1,Return,desktop
-2025-03-24 18:33:00,United States,Chapel Hill,desktop,,/,,,1,Return,desktop
-2025-03-24 18:37:00,United States,Chapel Hill,desktop,,/,,,1,Return,desktop
-2025-03-24 23:23:00,United States,New York,desktop,,/,/cv/cv.pdf,,1,Return,desktop
-2025-03-24 23:23:00,United States,New York,desktop,,/,,,2,New,desktop
-2025-03-24 23:24:00,United States,New York,desktop,,/,,,1,Return,desktop
-2025-03-25 11:46:00,Canada,Toronto,desktop,,/,/cv/cv.pdf,,1,Return,desktop
-2025-03-25 11:46:00,Canada,Toronto,desktop,,/,,,2,Return,desktop
-2025-03-25 20:58:00,United States,Philadelphia,desktop,,/,,,2,Return,desktop
-2025-03-25 20:58:00,United States,Philadelphia,desktop,,/,/cv/cv.pdf,,1,Return,desktop
-2025-03-25 21:01:00,United States,Philadelphia,desktop,,/,,,1,Return,desktop
-2025-03-25 22:40:00,United States,Stanford,desktop,,/research/,,,1,Return,desktop
-2025-03-25 22:40:00,United States,Stanford,desktop,,/,/cv/cv.pdf,,1,Return,desktop
-2025-03-25 22:40:00,United States,Stanford,desktop,,/,,,2,Return,desktop
-2025-03-25 23:29:00,United States,Stanford,desktop,,/,,,1,Return,desktop
-2025-03-26 15:20:00,Japan,Muroran,mobile,,/,,,2,Return,mobile
-2025-03-27 13:38:00,United States,New York,desktop,,/research/,,,1,Return,desktop
-2025-03-27 13:38:00,United States,New York,desktop,,/research/,/papers/Leadership_Matsuno.pdf,,1,Return,desktop
-2025-03-27 13:39:00,United States,New York,desktop,,/research/,,,2,Return,desktop
-2025-03-27 13:39:00,United States,New York,desktop,,/,,,2,Return,desktop
-2025-03-27 13:39:00,United States,New York,desktop,,/,/cv/cv.pdf,,1,Return,desktop
-2025-03-27 13:40:00,United States,New York,desktop,,/research/,,https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4985567,1,Return,desktop
-2025-03-27 13:40:00,United States,New York,desktop,,/research/,,,1,Return,desktop
-2025-03-27 13:40:00,United States,New York,desktop,,/,,,2,Return,desktop
-2025-03-27 13:41:00,United States,New York,desktop,,/,,,1,Return,desktop
-2025-03-27 22:30:00,New Zealand,Auckland,desktop,,/,,,1,Return,desktop
-2025-03-27 22:31:00,New Zealand,Auckland,desktop,,/research/,/papers/Leadership_Matsuno.pdf,,1,Return,desktop
-2025-03-27 22:31:00,New Zealand,Auckland,desktop,,/research/,,,1,Return,desktop
-2025-03-27 22:31:00,New Zealand,Auckland,desktop,,/,,,1,Return,desktop
-2025-03-27 22:44:00,New Zealand,Auckland,desktop,,/,,,1,Return,desktop
-2025-03-27 22:44:00,New Zealand,Auckland,desktop,,/research/,,https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4985567,1,Return,desktop
-2025-03-27 22:44:00,New Zealand,Auckland,desktop,,/research/,,,1,Return,desktop
-2025-03-27 22:58:00,New Zealand,Auckland,desktop,,/research/,,,1,Return,desktop
-2025-03-28 12:44:00,United States,New York,desktop,,/,,,2,Return,desktop
-2025-03-28 12:59:00,United States,New Haven,desktop,,/,,,2,Return,desktop
-2025-03-28 12:59:00,United States,New Haven,desktop,,/,/cv/cv.pdf,,1,Return,desktop
-2025-03-28 14:43:00,Switzerland,,desktop,,/,,,1,Return,desktop
-2025-03-28 14:43:00,Switzerland,,desktop,,/,/cv/cv.pdf,,1,Return,desktop
-2025-03-28 14:52:00,Switzerland,,desktop,,/,,,1,Return,desktop
-2025-03-28 15:38:00,Switzerland,Zufikon,mobile,,/,,,1,Return,mobile
-2025-03-28 15:39:00,Switzerland,Zufikon,mobile,,/,,,1,Return,mobile
-2025-03-29 04:28:00,Switzerland,Zurich,desktop,,/,,,2,Return,desktop
-2025-03-29 04:28:00,Switzerland,Fiesch,desktop,,/,,,2,Return,desktop
-2025-03-29 21:01:00,United States,Toledo,desktop,,/,,,2,Return,desktop
-2025-03-29 23:36:00,Japan,Funabashi,mobile,,/,,,2,Return,mobile
-2025-03-29 23:37:00,Japan,Funabashi,mobile,,/,,,1,Return,mobile
-2025-03-29 23:37:00,Japan,Funabashi,mobile,,/,/cv/cv.pdf,,1,Return,mobile
-2025-03-29 23:39:00,Japan,Funabashi,mobile,,/,,,2,Return,mobile
-2025-03-29 23:39:00,Japan,Funabashi,mobile,,/,/cv/cv.pdf,,1,Return,mobile
-2025-03-29 23:40:00,Japan,Funabashi,mobile,,/,/cv/cv.pdf,,1,Return,mobile
-2025-03-29 23:41:00,Japan,Funabashi,mobile,,/ja/,,,1,Return,mobile
-2025-03-29 23:44:00,Japan,Funabashi,mobile,,/,/cv/cv.pdf,,1,Return,mobile
-2025-03-29 23:44:00,Japan,Funabashi,mobile,,/,,,2,Return,mobile
-2025-03-29 23:49:00,Japan,Funabashi,mobile,,/ja/,,,1,Return,mobile
-2025-03-29 23:51:00,Japan,Funabashi,mobile,,/ja/,,,1,Return,mobile
-2025-03-30 16:06:00,United States,New York,desktop,,/research/,,,0,New,desktop
+time,country,city,device,newUsers,page,fileName,linkUrl
+2025-01-25 05:04:00,Singapore,Singapore,mobile (SM-S918B),New,/,,
+2025-01-26 02:11:00,Japan,,mobile,New,/,,
+2025-01-26 02:15:00,Japan,,mobile,Return,/research/,,
+2025-01-26 02:15:00,Japan,,mobile,Return,/ja/,,
+2025-01-26 02:15:00,Japan,,mobile,Return,/,,
+2025-01-26 02:16:00,Japan,,mobile,Return,/ja/,,
+2025-01-27 09:06:00,United States,New York,desktop,Return,/,/cv/cv.pdf,
+2025-01-27 09:06:00,United States,New York,desktop,New,/,,
+2025-01-27 09:17:00,United States,New York,desktop,Return,/,,
+2025-01-27 14:46:00,United States,Mission Viejo,desktop,Return,/,/cv/cv.pdf,
+2025-01-27 14:46:00,United States,Mission Viejo,desktop,New,/,,
+2025-01-27 14:47:00,United States,Mission Viejo,desktop,Return,/,,
+2025-01-28 08:28:00,United States,San Jose,desktop,Return,/,/cv/cv.pdf,
+2025-01-28 08:28:00,United States,San Jose,desktop,New,/,,
+2025-01-28 09:07:00,United States,San Jose,desktop,Return,/,,
+2025-01-31 13:28:00,United States,San Jose,desktop,Return,/,/cv/cv.pdf,
+2025-01-31 13:28:00,United States,San Jose,desktop,New,/,,
+2025-01-31 16:17:00,United States,Hanover,desktop,Return,/,/cv/cv.pdf,
+2025-01-31 16:17:00,United States,Hanover,desktop,New,/,,
+2025-01-31 16:18:00,United States,Hanover,desktop,Return,/,,
+2025-02-01 02:02:00,Japan,,mobile (motorola razr 50),Return,/research/,,
+2025-02-01 02:02:00,Japan,,mobile (motorola razr 50),Return,/,,
+2025-02-01 02:02:00,Japan,,mobile (motorola razr 50),New,/ja/,,
+2025-02-01 02:20:00,Singapore,Singapore,desktop,New,/,,
+2025-02-01 02:20:00,Singapore,Singapore,desktop,Return,/research/,/papers/Leadership_Matsuno.pdf,
+2025-02-01 02:20:00,Singapore,Singapore,desktop,Return,/research/,,
+2025-02-01 02:22:00,Singapore,Singapore,desktop,Return,/,/cv/cv.pdf,
+2025-02-01 02:22:00,Singapore,Singapore,desktop,Return,/research/,,
+2025-02-01 02:27:00,Singapore,Singapore,desktop,Return,/,,
+2025-02-01 11:08:00,United States,Killington,desktop,New,/,,
+2025-02-01 21:13:00,Japan,Minato City,mobile (SO-52B),New,/,,
+2025-02-01 21:13:00,Japan,Minato City,mobile (SO-52B),Return,/,/cv/cv.pdf,
+2025-02-02 11:54:00,United States,New York,mobile,New,/,,
+2025-02-02 11:55:00,United States,New York,mobile,Return,/,/cv/cv.pdf,
+2025-02-02 11:55:00,United States,New York,mobile,Return,/research/,,
+2025-02-02 11:55:00,United States,New York,mobile,Return,/,,
+2025-02-03 10:50:00,United States,San Jose,desktop,Return,/,,
+2025-02-03 16:39:00,Switzerland,Zurich,desktop,New,/,,
+2025-02-03 18:58:00,United States,New York,mobile,New,/,,
+2025-02-04 00:49:00,United States,,mobile,New,/,,
+2025-02-04 11:00:00,Japan,Ota City,tablet,New,/,,
+2025-02-04 11:03:00,Japan,Ota City,tablet,Return,/,/cv/cv.pdf,
+2025-02-04 11:04:00,Japan,Ota City,tablet,Return,/,/cv/cv.pdf,
+2025-02-04 11:05:00,Japan,Ota City,tablet,Return,/,/cv/cv.pdf,
+2025-02-04 11:05:00,Taiwan,Zhongli District,mobile,New,/,,
+2025-02-04 11:06:00,Japan,Ota City,tablet,Return,/,,
+2025-02-04 11:06:00,Japan,Ota City,tablet,Return,/,/cv/cv.pdf,
+2025-02-04 11:06:00,Taiwan,Zhongli District,mobile,Return,/,/cv/cv.pdf,
+2025-02-04 11:07:00,Japan,Ota City,tablet,Return,/,,
+2025-02-04 11:07:00,Japan,Ota City,tablet,Return,/,/cv/cv.pdf,
+2025-02-04 11:07:00,Japan,Ota City,tablet,Return,/research/,,
+2025-02-04 11:07:00,Japan,Ota City,tablet,Return,/ja/,,
+2025-02-04 11:11:00,Japan,Ota City,tablet,Return,/research/,,
+2025-02-04 11:11:00,Japan,Ota City,tablet,Return,/,,
+2025-02-04 11:12:00,Japan,Ota City,tablet,Return,/research/,,
+2025-02-04 11:12:00,Japan,Ota City,tablet,Return,/,/cv/cv.pdf,
+2025-02-04 11:12:00,Japan,Ota City,tablet,Return,/,,
+2025-02-04 11:13:00,Japan,Ota City,mobile,New,/,,
+2025-02-04 11:17:00,Japan,Ota City,mobile,New,/,,
+2025-02-04 11:19:00,Japan,Ota City,mobile,Return,/,,
+2025-02-04 14:12:00,United States,New York,desktop,New,/,,
+2025-02-04 16:14:00,Japan,Yokohama,mobile,New,/,,
+2025-02-04 16:15:00,Japan,Yokohama,mobile,Return,/research/,/papers/Leadership_Matsuno.pdf,
+2025-02-04 16:15:00,Japan,Yokohama,mobile,New,/research/,,
+2025-02-04 16:16:00,Japan,Yokohama,mobile,Return,/,,
+2025-02-04 19:06:00,Japan,Ota City,mobile,Return,/,,
+2025-02-04 19:34:00,Japan,Ota City,mobile,New,/,,
+2025-02-04 19:34:00,Japan,Ota City,mobile,Return,/research/,,
+2025-02-04 19:38:00,Japan,Ota City,mobile,Return,/research/,,
+2025-02-04 19:38:00,Japan,Ota City,mobile,Return,/,,
+2025-02-04 23:34:00,United States,Boston,desktop,Return,/research/,,
+2025-02-04 23:34:00,United States,Boston,desktop,New,/,,
+2025-02-04 23:35:00,United States,Boston,desktop,Return,/research/,/papers/Leadership_Matsuno.pdf,
+2025-02-04 23:35:00,United States,Boston,desktop,Return,/research/,,
+2025-02-04 23:35:00,United States,Boston,desktop,Return,/,,
+2025-02-05 02:23:00,United States,,desktop,New,/,,
+2025-02-05 02:24:00,United States,,desktop,New,/,,
+2025-02-05 10:50:00,Japan,,mobile (MP09),Return,/research/,,
+2025-02-05 10:50:00,Japan,,mobile (MP09),New,/,,
+2025-02-05 10:51:00,Japan,,mobile (MP09),Return,/,/cv/cv.pdf,
+2025-02-05 10:51:00,Japan,,mobile (MP09),Return,/,,
+2025-02-05 10:51:00,Japan,,mobile (MP09),Return,/research/,,
+2025-02-05 10:52:00,Japan,,mobile (MP09),Return,/,,
+2025-02-05 17:44:00,United States,Stanford,desktop,New,/,,
+2025-02-05 17:50:00,United States,Stanford,desktop,Return,/,,
+2025-02-05 17:59:00,United States,Stanford,desktop,Return,/,,
+2025-02-05 18:00:00,United States,Stanford,desktop,Return,/,,
+2025-02-05 18:09:00,United States,Stanford,desktop,Return,/,/cv/cv.pdf,
+2025-02-05 19:02:00,United States,Stanford,desktop,Return,/research/,,https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4680389
+2025-02-05 19:02:00,United States,Stanford,desktop,Return,/research/,,
+2025-02-05 19:02:00,United States,Stanford,desktop,Return,/,,
+2025-02-06 09:11:00,Japan,,mobile,New,/ja/,,
+2025-02-06 09:11:00,Japan,,mobile,Return,/,,
+2025-02-06 09:12:00,Japan,,mobile,Return,/,/cv/cv.pdf,
+2025-02-06 09:12:00,Japan,,mobile,Return,/,,
+2025-02-06 09:16:00,Japan,,mobile,Return,/ja/,,
+2025-02-06 09:16:00,Japan,,mobile,Return,/,/cv/cv.pdf,
+2025-02-06 09:16:00,Japan,,mobile,Return,/,,
+2025-02-06 09:16:00,Japan,,mobile,Return,/research/,,
+2025-02-06 09:17:00,Japan,,mobile,Return,/ja/,,
+2025-02-06 09:22:00,Japan,Nagoya,mobile,New,/ja/,,
+2025-02-06 09:25:00,Japan,Nagoya,mobile,Return,/ja/,,
+2025-02-06 09:25:00,Japan,Nagoya,mobile,Return,/,,
+2025-02-06 09:27:00,Japan,Nagoya,mobile,Return,/,/cv/cv.pdf,
+2025-02-06 09:27:00,Japan,,mobile,Return,/ja/,,
+2025-02-06 09:27:00,Japan,,mobile,Return,/,,
+2025-02-06 09:28:00,Japan,Nagoya,mobile,Return,/research/,,
+2025-02-06 09:28:00,Japan,Nagoya,mobile,Return,/,,
+2025-02-06 09:29:00,Japan,,mobile,Return,/,/cv/cv.pdf,
+2025-02-06 09:38:00,Japan,Nagoya,mobile,Return,/research/,,
+2025-02-06 14:07:00,United States,Stanford,desktop,Return,/research/,,
+2025-02-06 14:07:00,United States,Stanford,desktop,New,/,,
+2025-02-06 14:51:00,United States,Stanford,desktop,Return,/research/,,
+2025-02-06 14:52:00,United States,Stanford,desktop,Return,/research/,,https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4680389
+2025-02-06 15:10:00,United States,Stanford,desktop,Return,/,,
+2025-02-06 15:10:00,United States,Stanford,desktop,Return,/,/cv/cv.pdf,
+2025-02-06 15:13:00,United States,Stanford,desktop,Return,/,,
+2025-02-06 15:13:00,United States,Stanford,desktop,Return,/research/,,
+2025-02-06 16:15:00,United States,Stanford,desktop,Return,/,,
+2025-02-06 16:16:00,United States,Stanford,desktop,Return,/,,
+2025-02-06 16:55:00,United States,Stanford,desktop,Return,/research/,,
+2025-02-06 18:45:00,United States,Stanford,desktop,New,/,,
+2025-02-06 18:45:00,United States,Stanford,desktop,Return,/research/,,
+2025-02-06 18:45:00,United States,Stanford,desktop,Return,/research/,,https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4680389
+2025-02-06 19:12:00,United States,Stanford,desktop,Return,/,,
+2025-02-06 19:12:00,United States,Stanford,desktop,Return,/research/,,
+2025-02-06 19:13:00,United States,Stanford,desktop,Return,/,,
+2025-02-06 19:13:00,United States,Stanford,desktop,Return,/,/cv/cv.pdf,
+2025-02-06 20:37:00,Japan,Setagaya City,desktop,New,/,,
+2025-02-06 22:54:00,Japan,Kobe,desktop,New,/,,
+2025-02-06 22:54:00,Japan,Kobe,desktop,Return,/research/,,
+2025-02-06 22:55:00,Japan,Kobe,desktop,Return,/,/cv/cv.pdf,
+2025-02-06 22:56:00,Japan,Kobe,desktop,Return,/,,
+2025-02-07 11:10:00,United States,New York,desktop,New,/,,
+2025-02-07 11:38:00,United States,New York,desktop,Return,/,,
+2025-02-07 13:30:00,United States,Stanford,desktop,Return,/,,
+2025-02-07 13:30:00,United States,Stanford,desktop,Return,/research/,,
+2025-02-07 13:30:00,United States,Stanford,desktop,Return,/,/cv/cv.pdf,
+2025-02-08 09:21:00,Japan,Shinagawa City,desktop,New,/,,
+2025-02-08 22:18:00,Japan,Chiyoda City,desktop,Return,/research/,,
+2025-02-08 22:18:00,Japan,Chiyoda City,desktop,New,/,,
+2025-02-08 22:19:00,Japan,Chiyoda City,desktop,Return,/research/,,
+2025-02-08 22:19:00,Japan,Chiyoda City,desktop,Return,/,,
+2025-02-08 23:37:00,United States,,desktop,New,/,,
+2025-02-09 03:16:00,Japan,,desktop,New,/,,
+2025-02-09 04:20:00,United States,Stanford,desktop,Return,/,,
+2025-02-09 04:20:00,South Korea,Seoul,desktop,Return,/,/cv/cv.pdf,
+2025-02-09 04:20:00,South Korea,Seoul,desktop,New,/,,
+2025-02-09 04:26:00,Japan,,mobile,New,/ja/,,
+2025-02-09 04:27:00,Japan,,mobile,Return,/research/,,
+2025-02-09 04:27:00,Japan,,mobile,Return,/,/cv/cv.pdf,
+2025-02-09 04:27:00,Japan,,mobile,Return,/ja/,,
+2025-02-09 04:27:00,Japan,,mobile,Return,/,,
+2025-02-09 04:29:00,Japan,,mobile,Return,/,,
+2025-02-09 04:39:00,United States,Council Bluffs,desktop,New,/,,
+2025-02-09 05:47:00,United States,Palo Alto,desktop,Return,/,,
+2025-02-10 08:52:00,Singapore,Singapore,desktop,Return,/research/,,
+2025-02-10 08:52:00,Singapore,Singapore,desktop,New,/,,
+2025-02-10 17:49:00,United States,,desktop,New,/,,
+2025-02-10 20:51:00,Japan,,desktop,New,/ja/,,
+2025-02-10 20:51:00,Japan,,desktop,Return,/research/,,
+2025-02-10 20:52:00,Japan,,desktop,Return,/research/,,
+2025-02-10 23:28:00,Japan,Shinjuku City,mobile (CPH2013),New,/,,
+2025-02-10 23:29:00,Japan,Shinjuku City,mobile (CPH2013),Return,/research/,,
+2025-02-10 23:29:00,Japan,Shinjuku City,mobile (CPH2013),Return,/,,
+2025-02-11 02:29:00,Hong Kong,Hong Kong,desktop,New,/,,
+2025-02-11 10:19:00,United States,,desktop,New,/,,
+2025-02-11 11:09:00,Japan,,desktop,New,/ja/,,
+2025-02-11 11:09:00,Japan,,desktop,Return,/,,
+2025-02-11 11:10:00,Japan,,desktop,Return,/,,
+2025-02-11 11:10:00,Japan,,desktop,Return,/research/,,
+2025-02-11 11:10:00,Japan,,desktop,Return,/ja/,,
+2025-02-11 19:53:00,Canada,Toronto,desktop,Return,/,,
+2025-02-11 19:53:00,Canada,Toronto,desktop,Return,/,/cv/cv.pdf,
+2025-02-11 19:53:00,Canada,Toronto,desktop,Return,/research/,,
+2025-02-11 19:53:00,Canada,Toronto,desktop,Return,/research/,/papers/Leadership_Matsuno.pdf,
+2025-02-12 12:22:00,United States,New York,mobile (SM-G986U1),New,/,,
+2025-02-12 12:23:00,United States,New York,mobile (SM-G986U1),Return,/research/,/papers/Leadership_Matsuno.pdf,
+2025-02-12 12:23:00,United States,New York,mobile (SM-G986U1),Return,/research/,,
+2025-02-12 12:47:00,Japan,,desktop,New,/,,
+2025-02-12 12:47:00,Japan,,desktop,Return,/,/cv/cv.pdf,
+2025-02-12 12:47:00,Japan,,desktop,Return,/research/,,
+2025-02-12 13:22:00,Japan,,desktop,Return,/,,
+2025-02-12 21:56:00,Japan,,mobile (Pixel 6),New,/ja/,,
+2025-02-12 21:57:00,Japan,,mobile (Pixel 6),Return,/ja/,,
+2025-02-12 21:57:00,Japan,,mobile (Pixel 6),Return,/research/,,
+2025-02-12 21:59:00,Japan,,mobile (Pixel 6),Return,/research/,,
+2025-02-12 22:11:00,United States,Charlottesville,desktop,Return,/,/cv/cv.pdf,
+2025-02-12 22:11:00,United States,Charlottesville,desktop,Return,/research/,,
+2025-02-12 22:11:00,United States,Charlottesville,desktop,New,/,,
+2025-02-12 22:12:00,United States,Charlottesville,desktop,Return,/,,
+2025-02-13 00:48:00,Japan,Muroran,mobile,New,/ja/,,
+2025-02-13 07:35:00,United States,New York,desktop,New,/,,
+2025-02-13 11:57:00,Canada,Toronto,desktop,Return,/,,
+2025-02-13 11:57:00,Canada,Toronto,desktop,Return,/research/,,
+2025-02-13 12:38:00,United States,Stanford,desktop,Return,/research/,,
+2025-02-13 12:38:00,United States,Stanford,desktop,Return,/,,
+2025-02-13 12:39:00,United States,Stanford,desktop,Return,/research/,/papers/Leadership_Matsuno.pdf,
+2025-02-13 12:39:00,United States,Stanford,desktop,Return,/research/,,https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4985567
+2025-02-13 18:39:00,Japan,,mobile,New,/,,
+2025-02-13 21:41:00,United States,Lexington,desktop,New,/,,
+2025-02-14 01:48:00,Singapore,Singapore,desktop,New,/,,
+2025-02-14 01:48:00,Singapore,Singapore,desktop,Return,/,/cv/cv.pdf,
+2025-02-14 01:49:00,Singapore,Singapore,desktop,Return,/,,
+2025-02-15 03:13:00,Japan,Yokohama,desktop,Return,/,/cv/cv.pdf,
+2025-02-15 03:13:00,Japan,Yokohama,desktop,New,/,,
+2025-02-15 05:25:00,,,desktop,New,/,,
+2025-02-15 06:26:00,United States,,desktop,New,/,,
+2025-02-15 06:27:00,United States,,desktop,New,/,,
+2025-02-15 11:05:00,Canada,Burnaby,desktop,New,/,,
+2025-02-15 23:38:00,United States,Boston,desktop,New,/,,
+2025-02-15 23:39:00,United States,Boston,desktop,Return,/research/,,
+2025-02-15 23:39:00,United States,Boston,desktop,Return,/,/cv/cv.pdf,
+2025-02-15 23:39:00,United States,Boston,desktop,Return,/,,
+2025-02-17 02:17:00,Japan,,mobile,New,/,,
+2025-02-17 02:18:00,Japan,,mobile,Return,/,/cv/cv.pdf,
+2025-02-17 04:39:00,United States,Redwood City,desktop,Return,/,/cv/cv.pdf,
+2025-02-17 04:39:00,United States,Redwood City,desktop,New,/,,
+2025-02-17 04:43:00,United States,Redwood City,desktop,Return,/research/,,
+2025-02-17 04:43:00,United States,Redwood City,desktop,Return,/,,
+2025-02-17 12:34:00,Hong Kong,,mobile,New,/ja/,,
+2025-02-17 12:35:00,Hong Kong,,mobile,Return,/ja/,,
+2025-02-17 12:35:00,Hong Kong,,mobile,Return,/,,
+2025-02-17 12:35:00,Hong Kong,,mobile,Return,/,/cv/cv.pdf,
+2025-02-17 12:37:00,Hong Kong,,mobile,Return,/research/,,
+2025-02-17 12:37:00,Hong Kong,,mobile,Return,/,,
+2025-02-17 12:38:00,Hong Kong,,mobile,Return,/research/,/papers/Leadership_Matsuno.pdf,
+2025-02-17 12:57:00,United States,Boardman,desktop,New,/,,
+2025-02-17 19:50:00,United States,San Jose,mobile,New,/,,
+2025-02-17 19:51:00,United States,San Jose,mobile,Return,/,,
+2025-02-17 21:50:00,United States,Englewood,desktop,Return,/research/,,
+2025-02-17 21:50:00,United States,Englewood,desktop,New,/,,
+2025-02-17 22:54:00,United States,New York,desktop,New,/,,
+2025-02-17 23:03:00,United States,New York,desktop,Return,/research/,,
+2025-02-17 23:03:00,United States,New York,desktop,Return,/,,
+2025-02-17 23:04:00,United States,New York,desktop,Return,/,,
+2025-02-17 23:04:00,United States,New York,desktop,Return,/research/,,
+2025-02-17 23:04:00,United States,New York,desktop,Return,/,/cv/cv.pdf,
+2025-02-18 06:11:00,Germany,Stuttgart,mobile (SM-A556B),New,/,,
+2025-02-18 06:11:00,Germany,Stuttgart,mobile (SM-A556B),Return,/,/cv/cv.pdf,
+2025-02-18 10:20:00,United States,Boston,desktop,New,/,,
+2025-02-18 10:21:00,United States,Boston,desktop,Return,/,,
+2025-02-18 10:29:00,United States,Boston,desktop,Return,/,/cv/cv.pdf,
+2025-02-18 10:31:00,United States,Boston,desktop,Return,/,,
+2025-02-18 13:40:00,United States,Rochester,desktop,Return,/research/,,
+2025-02-18 13:40:00,United States,Rochester,desktop,New,/,,
+2025-02-18 18:55:00,United States,Chapel Hill,desktop,New,/,,
+2025-02-18 18:56:00,United States,Chapel Hill,desktop,Return,/research/,,
+2025-02-18 18:56:00,United States,Chapel Hill,desktop,Return,/,,
+2025-02-18 18:57:00,United States,Chapel Hill,desktop,Return,/research/,,
+2025-02-18 21:35:00,United States,Donalsonville,desktop,New,/,,
+2025-02-18 21:36:00,United States,Donalsonville,desktop,Return,/,/cv/cv.pdf,
+2025-02-18 21:36:00,United States,Donalsonville,desktop,Return,/,,
+2025-02-18 21:38:00,United States,Donalsonville,desktop,Return,/,,
+2025-02-18 21:38:00,United States,Donalsonville,desktop,Return,/research/,/papers/Leadership_Matsuno.pdf,
+2025-02-18 21:38:00,United States,Donalsonville,desktop,Return,/research/,,
+2025-02-18 21:43:00,United States,Donalsonville,desktop,Return,/,,
+2025-02-18 21:43:00,United States,Donalsonville,desktop,Return,/research/,,
+2025-02-18 21:45:00,United States,Jersey City,mobile,New,/research/,,
+2025-02-18 21:46:00,United States,Jersey City,desktop,Return,/research/,/papers/Leadership_Matsuno.pdf,
+2025-02-18 21:46:00,United States,Jersey City,desktop,New,/research/,,
+2025-02-18 21:48:00,United States,Yorba Linda,mobile,New,/research/,,
+2025-02-19 15:14:00,United States,Leesburg,desktop,Return,/research/,,
+2025-02-19 15:14:00,United States,Leesburg,desktop,Return,/,,
+2025-02-19 15:15:00,United States,Leesburg,desktop,Return,/research/,,https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4985567
+2025-02-19 15:15:00,United States,Leesburg,desktop,Return,/research/,,
+2025-02-19 15:17:00,United States,Leesburg,desktop,Return,/research/,,
+2025-02-19 19:03:00,United States,Houston,desktop,Return,/research/,,
+2025-02-19 19:03:00,United States,Houston,desktop,New,/,,
+2025-02-19 19:05:00,United States,Houston,desktop,Return,/research/,/papers/Leadership_Matsuno.pdf,
+2025-02-20 02:05:00,United States,San Jose,mobile,New,/,,
+2025-02-20 04:14:00,Denmark,Odense,desktop,New,/,,
+2025-02-20 04:14:00,Denmark,Odense,desktop,Return,/research/,,
+2025-02-20 04:15:00,Denmark,Odense,desktop,Return,/,/cv/cv.pdf,
+2025-02-20 04:15:00,Denmark,Odense,desktop,Return,/,,
+2025-02-20 04:20:00,Denmark,Odense,desktop,Return,/research/,,https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4680389
+2025-02-20 04:20:00,Denmark,Odense,desktop,Return,/research/,,
+2025-02-20 04:20:00,Denmark,Odense,desktop,Return,/,,
+2025-02-20 06:02:00,Japan,Nagoya,desktop,New,/,,
+2025-02-20 06:03:00,Japan,Nagoya,desktop,Return,/research/,,
+2025-02-20 06:03:00,Japan,Nagoya,desktop,Return,/,,
+2025-02-20 06:09:00,Japan,Nagoya,desktop,Return,/research/,,
+2025-02-20 17:40:00,Canada,Kingston,desktop,Return,/,/cv/cv.pdf,
+2025-02-20 17:40:00,Canada,Kingston,desktop,New,/research/,,
+2025-02-20 17:40:00,Canada,Kingston,desktop,Return,/,,
+2025-02-21 06:00:00,South Korea,Seoul,desktop,New,/,,
+2025-02-21 11:33:00,United States,Boston,desktop,Return,/research/,/papers/Leadership_Matsuno.pdf,
+2025-02-21 11:33:00,United States,Boston,desktop,Return,/research/,,https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4985567
+2025-02-21 11:33:00,United States,Boston,desktop,Return,/research/,,
+2025-02-21 11:33:00,United States,Boston,desktop,Return,/,/cv/cv.pdf,
+2025-02-21 11:33:00,United States,Boston,desktop,New,/,,
+2025-02-21 11:34:00,United States,Boston,desktop,Return,/,,
+2025-02-21 15:02:00,United States,New York,mobile,New,/,,
+2025-02-21 19:00:00,Taiwan,,mobile,New,/research/,,
+2025-02-21 19:36:00,United States,Hermiston,mobile,New,/,,
+2025-02-22 06:08:00,Japan,Uji,desktop,New,/ja/,,
+2025-02-22 06:08:00,Japan,Uji,desktop,Return,/,,
+2025-02-22 06:08:00,Japan,Uji,desktop,Return,/research/,,
+2025-02-22 06:09:00,Japan,Uji,desktop,Return,/ja/,,
+2025-02-22 06:09:00,Japan,Uji,desktop,Return,/,/cv/cv.pdf,
+2025-02-22 06:09:00,Japan,Uji,desktop,Return,/,,
+2025-02-22 06:27:00,Japan,Uji,desktop,Return,/research/,,
+2025-02-22 06:27:00,Japan,Uji,desktop,Return,/ja/,,
+2025-02-22 06:27:00,Japan,Uji,desktop,Return,/,/cv/cv.pdf,
+2025-02-22 06:27:00,Japan,Uji,desktop,Return,/,,
+2025-02-22 06:31:00,Japan,Uji,desktop,Return,/research/,,
+2025-02-22 06:31:00,Japan,Uji,desktop,Return,/,,
+2025-02-22 06:36:00,Japan,Uji,desktop,Return,/research/,,
+2025-02-23 20:42:00,United States,Urbana,desktop,Return,/research/,,
+2025-02-23 20:42:00,United States,Urbana,desktop,New,/,,
+2025-02-23 20:43:00,Singapore,,desktop,New,/,,
+2025-02-23 20:44:00,Singapore,,desktop,Return,/,,
+2025-02-23 20:44:00,Singapore,,desktop,Return,/,/cv/cv.pdf,
+2025-02-23 20:45:00,Singapore,,desktop,Return,/research/,,https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4680389
+2025-02-23 20:45:00,Singapore,,desktop,Return,/research/,,
+2025-02-23 20:45:00,Singapore,,desktop,Return,/,,
+2025-02-23 20:45:00,Singapore,,desktop,Return,/research/,,https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4985567
+2025-02-23 20:48:00,Singapore,,desktop,Return,/research/,,
+2025-02-24 11:40:00,United States,Chicago,desktop,Return,/,/cv/cv.pdf,
+2025-02-24 11:40:00,United States,Chicago,desktop,New,/,,
+2025-02-24 22:48:00,United States,Newark,desktop,New,/,,
+2025-02-24 22:48:00,United States,Newark,desktop,Return,/research/,,
+2025-02-24 22:49:00,United States,Newark,desktop,Return,/,,
+2025-02-24 22:49:00,United States,Newark,desktop,Return,/,/cv/cv.pdf,
+2025-02-25 00:02:00,United States,Bridgeport,desktop,New,/,,
+2025-02-25 00:02:00,United States,Bridgeport,desktop,Return,/,/cv/cv.pdf,
+2025-02-25 08:07:00,Japan,Saitama,desktop,Return,/,,
+2025-02-25 08:07:00,Japan,Saitama,desktop,Return,/,/cv/cv.pdf,
+2025-02-25 08:07:00,Japan,Saitama,desktop,New,/ja/,,
+2025-02-25 08:11:00,Japan,Saitama,desktop,Return,/research/,,
+2025-02-25 08:11:00,Japan,Saitama,desktop,Return,/,,
+2025-02-25 09:26:00,Japan,,desktop,New,/,,
+2025-02-25 12:45:00,Japan,Shinagawa City,desktop,New,/,,
+2025-02-25 12:45:00,Japan,Shinagawa City,desktop,Return,/,/cv/cv.pdf,
+2025-02-25 12:48:00,Japan,Shinagawa City,desktop,Return,/,,
+2025-02-25 12:48:00,Japan,Shinagawa City,desktop,Return,/research/,,
+2025-02-25 12:49:00,Japan,Shinagawa City,desktop,Return,/research/,,
+2025-02-25 14:27:00,United States,Bellingham,desktop,New,/,,
+2025-02-25 14:27:00,United States,Bellingham,desktop,Return,/research/,,
+2025-02-25 14:27:00,United States,Bellingham,desktop,Return,/research/,,https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4985567
+2025-02-28 02:53:00,United States,Palo Alto,desktop,Return,/,/cv/cv.pdf,
+2025-02-28 02:53:00,United States,Palo Alto,desktop,New,/,,
+2025-02-28 21:06:00,United States,New York,mobile,New,/,,
+2025-02-28 21:07:00,United States,New York,mobile,Return,/,,
+2025-02-28 21:07:00,United States,New York,mobile,Return,/,/cv/cv.pdf,
+2025-03-01 00:40:00,United States,New York,desktop,New,/,,
+2025-03-01 00:40:00,United States,New York,desktop,Return,/research/,,https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4985567
+2025-03-01 00:40:00,United States,New York,desktop,Return,/research/,,
+2025-03-01 00:41:00,United States,New York,desktop,Return,/research/,/papers/Leadership_Matsuno.pdf,
+2025-03-01 00:41:00,United States,New York,desktop,Return,/research/,,
+2025-03-01 00:41:00,United States,New York,desktop,Return,/,/cv/cv.pdf,
+2025-03-01 00:41:00,United States,New York,desktop,Return,/,,
+2025-03-01 06:00:00,Taiwan,,desktop,New,/,,
+2025-03-01 06:00:00,Taiwan,,desktop,Return,/,/cv/cv.pdf,
+2025-03-01 10:52:00,Taiwan,,desktop,Return,/,,
+2025-03-01 18:01:00,United States,New York,desktop,Return,/research/,,
+2025-03-01 18:01:00,United States,New York,desktop,Return,/,/cv/cv.pdf,
+2025-03-01 18:01:00,United States,New York,desktop,New,/,,
+2025-03-01 18:04:00,United States,New York,desktop,Return,/,,
+2025-03-01 21:27:00,Japan,Shibuya,mobile (SC-56C),Return,/,/cv/cv.pdf,
+2025-03-01 21:27:00,Japan,Shibuya,mobile (SC-56C),New,/,,
+2025-03-01 21:28:00,Japan,Shibuya,mobile (SC-56C),Return,/ja/,,
+2025-03-01 21:28:00,Japan,Shibuya,mobile (SC-56C),New,/,,
+2025-03-02 00:33:00,South Korea,Anyang-si,desktop,Return,/,/cv/cv.pdf,
+2025-03-02 00:33:00,South Korea,Anyang-si,desktop,New,/,,
+2025-03-02 00:34:00,South Korea,Anyang-si,desktop,Return,/research/,,
+2025-03-02 00:34:00,South Korea,Anyang-si,desktop,Return,/,,
+2025-03-02 00:35:00,South Korea,Anyang-si,desktop,Return,/research/,,
+2025-03-02 00:35:00,South Korea,Anyang-si,desktop,Return,/,,
+2025-03-02 02:24:00,China,Wuhan,desktop,Return,/,/cv/cv.pdf,
+2025-03-02 02:24:00,China,Shanghai,desktop,New,/,,
+2025-03-02 02:25:00,China,Shanghai,desktop,Return,/research/,,
+2025-03-02 02:25:00,China,Shanghai,desktop,Return,/,,
+2025-03-02 08:38:00,Japan,Otsuki,mobile,New,/ja/,,
+2025-03-02 08:39:00,Japan,Otsuki,mobile,Return,/ja/,,
+2025-03-02 08:39:00,Japan,Otsuki,mobile,Return,/,,
+2025-03-02 08:41:00,Japan,Otsuki,mobile,Return,/ja/,,
+2025-03-02 08:41:00,Japan,Otsuki,mobile,Return,/,/cv/cv.pdf,
+2025-03-02 08:41:00,Japan,Otsuki,mobile,Return,/,,
+2025-03-02 13:13:00,United States,West Lafayette,desktop,New,/,,
+2025-03-02 13:14:00,United States,West Lafayette,desktop,Return,/,/cv/cv.pdf,
+2025-03-02 13:14:00,United States,West Lafayette,desktop,Return,/,,
+2025-03-03 22:48:00,United States,Friday Harbor,mobile,New,/,,
+2025-03-03 23:24:00,Japan,Shinjuku City,desktop,New,/ja/,,
+2025-03-03 23:29:00,Japan,Shinjuku City,desktop,Return,/ja/,,
+2025-03-03 23:32:00,United States,Stanford,desktop,New,/,,
+2025-03-04 02:43:00,Hong Kong,Hong Kong,desktop,New,/,,
+2025-03-04 02:44:00,Hong Kong,Hong Kong,desktop,Return,/,,
+2025-03-04 02:44:00,Hong Kong,Hong Kong,desktop,Return,/,/cv/cv.pdf,
+2025-03-04 02:45:00,Hong Kong,Hong Kong,desktop,Return,/research/,,
+2025-03-04 02:45:00,Hong Kong,Hong Kong,desktop,Return,/,,
+2025-03-04 02:45:00,Hong Kong,Hong Kong,desktop,Return,/research/,,https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4680389
+2025-03-04 02:46:00,Hong Kong,Hong Kong,desktop,Return,/research/,,https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4985567
+2025-03-04 02:48:00,Hong Kong,Hong Kong,desktop,Return,/research/,,
+2025-03-04 06:18:00,United Kingdom,Lancaster,desktop,New,/,,
+2025-03-04 06:18:00,United Kingdom,Lancaster,desktop,Return,/research/,,
+2025-03-04 06:19:00,United Kingdom,Lancaster,desktop,Return,/research/,,
+2025-03-04 06:19:00,United Kingdom,Lancaster,desktop,Return,/research/,,https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4680389
+2025-03-04 06:26:00,United Kingdom,Lancaster,desktop,Return,/,,
+2025-03-04 06:26:00,United Kingdom,Lancaster,desktop,Return,/research/,,
+2025-03-04 17:04:00,United States,New York,desktop,New,/,,
+2025-03-04 17:04:00,United States,New York,desktop,Return,/research/,,
+2025-03-04 17:06:00,United States,Boston,desktop,New,/research/,,
+2025-03-04 17:06:00,United States,Chapel Hill,desktop,Return,/,,
+2025-03-04 17:07:00,United States,Chapel Hill,desktop,Return,/,/cv/cv.pdf,
+2025-03-04 17:12:00,United States,Chapel Hill,desktop,Return,/,,
+2025-03-04 17:27:00,United States,New York,desktop,New,/,,
+2025-03-04 17:28:00,United States,New York,desktop,Return,/,,
+2025-03-04 21:52:00,United States,Scarsdale,desktop,Return,/,/cv/cv.pdf,
+2025-03-04 21:52:00,United States,Scarsdale,desktop,New,/,,
+2025-03-04 21:58:00,United States,Scarsdale,desktop,Return,/,,
+2025-03-04 21:58:00,United States,Scarsdale,desktop,Return,/research/,,
+2025-03-05 09:59:00,South Korea,Seoul,desktop,New,/,,
+2025-03-05 09:59:00,South Korea,Seoul,desktop,Return,/,/cv/cv.pdf,
+2025-03-05 21:40:00,United States,Jersey City,desktop,New,/,,
+2025-03-05 21:41:00,United States,Jersey City,desktop,Return,/,,
+2025-03-05 21:41:00,United States,Jersey City,desktop,Return,/,/cv/cv.pdf,
+2025-03-05 21:43:00,United States,Jersey City,desktop,Return,/,,
+2025-03-06 08:17:00,Hong Kong,Hong Kong,desktop,New,/,,
+2025-03-06 12:24:00,United States,Jersey City,desktop,Return,/,,
+2025-03-06 12:25:00,United States,Jersey City,desktop,Return,/,,
+2025-03-06 12:25:00,United States,Jersey City,desktop,Return,/,/cv/cv.pdf,
+2025-03-06 15:47:00,Poland,Warsaw,desktop,New,/,,
+2025-03-06 18:03:00,United States,Jersey City,desktop,Return,/,/cv/cv.pdf,
+2025-03-06 18:03:00,United States,Jersey City,desktop,Return,/,,
+2025-03-07 04:06:00,United States,New York,mobile,New,/,,
+2025-03-07 10:03:00,United Kingdom,,mobile,New,/,,
+2025-03-07 12:25:00,Switzerland,Zurich,desktop,New,/,,
+2025-03-07 12:44:00,United States,Chicago,desktop,New,/,,
+2025-03-07 12:45:00,United States,Chicago,desktop,Return,/research/,,
+2025-03-07 12:45:00,United States,Chicago,desktop,Return,/,/cv/cv.pdf,
+2025-03-07 12:45:00,United States,Chicago,desktop,Return,/,,
+2025-03-07 12:46:00,United States,Chicago,desktop,Return,/research/,,
+2025-03-08 06:34:00,Japan,,mobile (A401OP),New,/ja/,,
+2025-03-09 12:43:00,United States,New York,mobile (SM-G986U1),Return,/,,
+2025-03-09 12:43:00,United States,New York,mobile (SM-G986U1),Return,/research/,,
+2025-03-10 06:52:00,Japan,Osaka,desktop,Return,/research/,,
+2025-03-10 06:52:00,Japan,Osaka,desktop,New,/ja/,,
+2025-03-10 06:52:00,Japan,Osaka,desktop,Return,/,,
+2025-03-10 06:53:00,Japan,Osaka,desktop,Return,/research/,,
+2025-03-10 10:40:00,United States,Charlotte,desktop,Return,/research/,,
+2025-03-10 10:40:00,United States,Charlotte,desktop,New,/,,
+2025-03-10 10:42:00,United States,Charlotte,desktop,Return,/,,
+2025-03-10 10:42:00,United States,Charlotte,desktop,Return,/research/,,
+2025-03-10 12:07:00,Japan,Tateyama,mobile,New,/,,
+2025-03-10 12:07:00,Japan,Tateyama,mobile,Return,/research/,,
+2025-03-10 16:13:00,United States,Washington,desktop,Return,/research/,,
+2025-03-10 16:13:00,United States,Washington,desktop,New,/,,
+2025-03-10 16:15:00,United States,Washington,desktop,Return,/research/,/papers/Leadership_Matsuno.pdf,
+2025-03-10 16:16:00,United States,Washington,desktop,Return,/,,
+2025-03-10 16:16:00,United States,Washington,desktop,Return,/,/cv/cv.pdf,
+2025-03-10 16:16:00,United States,Washington,desktop,Return,/research/,,
+2025-03-10 16:17:00,United States,Washington,desktop,Return,/,,
+2025-03-11 14:03:00,United States,Boston,desktop,Return,/research/,,
+2025-03-11 14:03:00,United States,Boston,desktop,New,/,,
+2025-03-11 14:04:00,United States,Boston,desktop,Return,/,/cv/cv.pdf,
+2025-03-11 14:04:00,United States,Boston,desktop,Return,/,,
+2025-03-11 14:04:00,United States,Boston,desktop,Return,/research/,,
+2025-03-11 14:05:00,United States,Boston,desktop,Return,/research/,,https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4985567
+2025-03-11 14:05:00,United States,Boston,desktop,Return,/research/,,
+2025-03-11 14:13:00,United States,Boston,desktop,Return,/research/,,
+2025-03-11 15:53:00,United States,New York,desktop,New,/,,
+2025-03-11 15:53:00,United States,New York,desktop,Return,/research/,,
+2025-03-11 15:53:00,United States,New York,desktop,Return,/,/cv/cv.pdf,
+2025-03-12 11:49:00,Japan,Nagasaki,mobile (Pixel 8a),New,/,,
+2025-03-12 11:50:00,Japan,Nagasaki,mobile (Pixel 8a),Return,/,,
+2025-03-12 11:50:00,Japan,Nagasaki,mobile (Pixel 8a),Return,/,/cv/cv.pdf,
+2025-03-12 11:50:00,Japan,Nagasaki,mobile (Pixel 8a),Return,/research/,,
+2025-03-12 11:51:00,Japan,Nagasaki,mobile (Pixel 8a),Return,/,,
+2025-03-13 02:32:00,Japan,Kitakyushu,desktop,New,/,,
+2025-03-13 02:32:00,Japan,Kitakyushu,desktop,Return,/,/cv/cv.pdf,
+2025-03-13 02:35:00,Japan,Kitakyushu,desktop,Return,/,,
+2025-03-13 02:35:00,Japan,Kitakyushu,desktop,Return,/research/,,
+2025-03-13 02:35:00,Japan,Kitakyushu,desktop,Return,/research/,,https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4680389
+2025-03-13 07:24:00,Pakistan,Lahore,desktop,New,/,,
+2025-03-13 07:25:00,Pakistan,Lahore,desktop,Return,/,,
+2025-03-13 17:30:00,United States,New York,desktop,Return,/,/cv/cv.pdf,
+2025-03-13 17:30:00,United States,New York,desktop,Return,/research/,,
+2025-03-13 17:30:00,United States,New York,desktop,Return,/,,
+2025-03-13 17:31:00,United States,New York,desktop,Return,/research/,,
+2025-03-13 17:31:00,United States,New York,desktop,Return,/,,
+2025-03-13 17:32:00,United States,New York,desktop,Return,/,,
+2025-03-13 17:56:00,United States,Arcata,mobile,New,/,,
+2025-03-14 11:17:00,United States,New York,desktop,Return,/research/,,https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4985567
+2025-03-14 11:17:00,United States,New York,desktop,Return,/research/,,
+2025-03-14 11:17:00,United States,New York,desktop,New,/,,
+2025-03-14 11:18:00,United States,New York,desktop,Return,/,,
+2025-03-14 11:18:00,United States,New York,desktop,Return,/research/,/papers/Leadership_Matsuno.pdf,
+2025-03-14 11:18:00,United States,New York,desktop,Return,/research/,,
+2025-03-14 11:18:00,United States,New York,desktop,Return,/,/cv/cv.pdf,
+2025-03-14 11:19:00,United States,New York,desktop,Return,/,,
+2025-03-14 20:56:00,United States,Cincinnati,desktop,Return,/,/cv/cv.pdf,
+2025-03-14 20:56:00,United States,Cincinnati,desktop,New,/,,
+2025-03-15 21:27:00,United States,San Francisco,mobile,Return,/research/,,
+2025-03-15 21:27:00,United States,San Francisco,mobile,New,/,,
+2025-03-15 21:27:00,United States,San Francisco,mobile,Return,/research/,/papers/Leadership_Matsuno.pdf,
+2025-03-16 00:18:00,China,Guangzhou,desktop,New,/,,
+2025-03-16 19:59:00,United States,,desktop,New,/,,
+2025-03-17 01:00:00,Japan,,desktop,New,/,,
+2025-03-17 06:48:00,Somalia,Mogadishu,desktop,New,/,,
+2025-03-17 11:59:00,United States,,desktop,New,/,,
+2025-03-17 12:13:00,Canada,Toronto,desktop,Return,/research/,,
+2025-03-17 12:13:00,Canada,Toronto,desktop,New,/,,
+2025-03-19 00:19:00,United States,New York,desktop,Return,/research/,/papers/Leadership_Matsuno.pdf,
+2025-03-19 00:19:00,United States,New York,desktop,Return,/research/,,https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4985567
+2025-03-19 00:19:00,United States,New York,desktop,Return,/research/,,
+2025-03-19 00:19:00,United States,New York,desktop,New,/,,
+2025-03-19 00:21:00,United States,New York,desktop,Return,/research/,,
+2025-03-19 01:40:00,Japan,Kobe,desktop,Return,/ja/,,
+2025-03-19 01:40:00,Japan,Kobe,desktop,New,/,,
+2025-03-19 01:42:00,Japan,Kobe,desktop,Return,/ja/,,
+2025-03-19 01:42:00,Japan,Kobe,desktop,Return,/,,
+2025-03-19 12:46:00,Indonesia,,mobile,New,/,,
+2025-03-19 12:46:00,Indonesia,,mobile,Return,/,/cv/cv.pdf,
+2025-03-19 16:51:00,United States,Boston,desktop,Return,/,/cv/cv.pdf,
+2025-03-19 16:51:00,United States,Boston,desktop,New,/,,
+2025-03-19 16:52:00,United States,Boston,desktop,Return,/research/,,
+2025-03-19 16:52:00,United States,Boston,desktop,Return,/,,
+2025-03-19 17:19:00,Japan,Arakawa City,mobile,New,/,,
+2025-03-19 23:18:00,United States,New York,desktop,Return,/,,
+2025-03-19 23:19:00,United States,New York,desktop,Return,/research/,,
+2025-03-19 23:19:00,United States,New York,desktop,Return,/,/cv/cv.pdf,
+2025-03-19 23:19:00,United States,New York,desktop,Return,/,,
+2025-03-20 22:12:00,United States,Los Angeles,desktop,New,/,,
+2025-03-20 22:34:00,United States,Kings Point,desktop,New,/,,
+2025-03-20 22:35:00,United States,Kings Point,desktop,Return,/,,
+2025-03-20 22:35:00,United States,Kings Point,desktop,Return,/research/,,
+2025-03-20 22:35:00,United States,Kings Point,desktop,Return,/,/cv/cv.pdf,
+2025-03-20 22:49:00,United States,Kings Point,desktop,Return,/,,
+2025-03-20 23:19:00,United States,Ashburn,desktop,New,/,,
+2025-03-20 23:24:00,United States,Los Angeles,desktop,Return,/,,
+2025-03-21 08:50:00,Jordan,Amman,mobile (SM-A556E),New,/,,
+2025-03-21 08:50:00,Jordan,Amman,mobile (SM-A556E),Return,/,/cv/cv.pdf,
+2025-03-21 08:51:00,Jordan,Amman,mobile (SM-A556E),Return,/,,
+2025-03-21 08:52:00,Jordan,Amman,mobile (SM-A556E),Return,/,,
+2025-03-21 08:52:00,Jordan,Amman,mobile (SM-A556E),Return,/,/cv/cv.pdf,
+2025-03-21 08:53:00,Jordan,Amman,mobile (SM-A556E),Return,/,,
+2025-03-21 16:21:00,Japan,Kitakyushu,mobile (F-04K),Return,/research/,,
+2025-03-21 16:21:00,Japan,Kitakyushu,mobile (F-04K),New,/,,
+2025-03-22 00:45:00,United States,Chicago,desktop,New,/,,
+2025-03-22 00:45:00,United States,Chicago,desktop,Return,/,/cv/cv.pdf,
+2025-03-22 00:46:00,United States,Chicago,desktop,Return,/,,
+2025-03-22 01:23:00,Indonesia,Semarang,desktop,Return,/,/cv/cv.pdf,
+2025-03-22 01:23:00,Indonesia,Semarang,desktop,New,/,,
+2025-03-22 01:25:00,Indonesia,Semarang,desktop,Return,/,,
+2025-03-22 13:07:00,United States,Minneapolis,desktop,New,/,,
+2025-03-22 13:08:00,United States,Minneapolis,desktop,Return,/research/,,
+2025-03-22 13:08:00,United States,Minneapolis,desktop,Return,/,,
+2025-03-22 13:09:00,United States,Minneapolis,desktop,Return,/,/cv/cv.pdf,
+2025-03-22 13:09:00,United States,Minneapolis,desktop,Return,/,,
+2025-03-23 01:52:00,United States,Palm Springs,desktop,New,/,,
+2025-03-23 04:58:00,United States,Palm Springs,desktop,New,/,,
+2025-03-23 06:26:00,United States,New York,mobile,Return,/,/cv/cv.pdf,
+2025-03-23 06:26:00,United States,New York,mobile,Return,/,,
+2025-03-23 06:27:00,United States,New York,mobile,Return,/,,
+2025-03-23 11:40:00,United States,Los Angeles,desktop,Return,/research/,,
+2025-03-23 11:40:00,United States,Los Angeles,desktop,Return,/,/cv/cv.pdf,
+2025-03-23 11:40:00,United States,Los Angeles,desktop,New,/,,
+2025-03-23 23:26:00,United States,New York,mobile,New,/,,
+2025-03-23 23:27:00,United States,New York,mobile,Return,/,,
+2025-03-23 23:27:00,United States,New York,mobile,Return,/research/,,
+2025-03-23 23:28:00,United States,New York,mobile,Return,/research/,,
+2025-03-23 23:28:00,United States,New York,mobile,Return,/,/cv/cv.pdf,
+2025-03-23 23:28:00,United States,New York,mobile,Return,/,,
+2025-03-24 05:17:00,United States,New York,desktop,Return,/,/cv/cv.pdf,
+2025-03-24 05:17:00,United States,New York,desktop,New,/,,
+2025-03-24 05:20:00,United States,New York,desktop,Return,/,,
+2025-03-24 11:24:00,Japan,Mitaka,desktop,Return,/research/,,
+2025-03-24 11:24:00,Japan,Mitaka,desktop,New,/,,
+2025-03-24 11:25:00,Japan,Mitaka,desktop,Return,/research/,,https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4680389
+2025-03-24 11:25:00,Japan,Mitaka,desktop,Return,/research/,,
+2025-03-24 11:25:00,Japan,Mitaka,desktop,Return,/,/cv/cv.pdf,
+2025-03-24 11:25:00,Japan,Mitaka,desktop,Return,/,,
+2025-03-24 11:26:00,Japan,Mitaka,desktop,Return,/,,
+2025-03-24 18:33:00,United States,Chapel Hill,desktop,Return,/,/cv/cv.pdf,
+2025-03-24 18:33:00,United States,Chapel Hill,desktop,Return,/,,
+2025-03-24 18:37:00,United States,Chapel Hill,desktop,Return,/,,
+2025-03-24 23:23:00,United States,New York,desktop,Return,/,/cv/cv.pdf,
+2025-03-24 23:23:00,United States,New York,desktop,New,/,,
+2025-03-24 23:24:00,United States,New York,desktop,Return,/,,
+2025-03-25 11:46:00,Canada,Toronto,desktop,Return,/,/cv/cv.pdf,
+2025-03-25 11:46:00,Canada,Toronto,desktop,Return,/,,
+2025-03-25 20:58:00,United States,Philadelphia,desktop,Return,/,,
+2025-03-25 20:58:00,United States,Philadelphia,desktop,Return,/,/cv/cv.pdf,
+2025-03-25 21:01:00,United States,Philadelphia,desktop,Return,/,,
+2025-03-25 22:40:00,United States,Stanford,desktop,Return,/research/,,
+2025-03-25 22:40:00,United States,Stanford,desktop,Return,/,/cv/cv.pdf,
+2025-03-25 22:40:00,United States,Stanford,desktop,Return,/,,
+2025-03-25 23:29:00,United States,Stanford,desktop,Return,/,,
+2025-03-26 15:20:00,Japan,Muroran,mobile,Return,/,,
+2025-03-27 13:38:00,United States,New York,desktop,Return,/research/,,
+2025-03-27 13:38:00,United States,New York,desktop,Return,/research/,/papers/Leadership_Matsuno.pdf,
+2025-03-27 13:39:00,United States,New York,desktop,Return,/research/,,
+2025-03-27 13:39:00,United States,New York,desktop,Return,/,,
+2025-03-27 13:39:00,United States,New York,desktop,Return,/,/cv/cv.pdf,
+2025-03-27 13:40:00,United States,New York,desktop,Return,/research/,,https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4985567
+2025-03-27 13:40:00,United States,New York,desktop,Return,/research/,,
+2025-03-27 13:40:00,United States,New York,desktop,Return,/,,
+2025-03-27 13:41:00,United States,New York,desktop,Return,/,,
+2025-03-27 22:30:00,New Zealand,Auckland,desktop,Return,/,,
+2025-03-27 22:31:00,New Zealand,Auckland,desktop,Return,/research/,/papers/Leadership_Matsuno.pdf,
+2025-03-27 22:31:00,New Zealand,Auckland,desktop,Return,/research/,,
+2025-03-27 22:31:00,New Zealand,Auckland,desktop,Return,/,,
+2025-03-27 22:44:00,New Zealand,Auckland,desktop,Return,/,,
+2025-03-27 22:44:00,New Zealand,Auckland,desktop,Return,/research/,,https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4985567
+2025-03-27 22:44:00,New Zealand,Auckland,desktop,Return,/research/,,
+2025-03-27 22:58:00,New Zealand,Auckland,desktop,Return,/research/,,
+2025-03-28 12:44:00,United States,New York,desktop,Return,/,,
+2025-03-28 12:59:00,United States,New Haven,desktop,Return,/,,
+2025-03-28 12:59:00,United States,New Haven,desktop,Return,/,/cv/cv.pdf,
+2025-03-28 14:43:00,Switzerland,,desktop,Return,/,,
+2025-03-28 14:43:00,Switzerland,,desktop,Return,/,/cv/cv.pdf,
+2025-03-28 14:52:00,Switzerland,,desktop,Return,/,,
+2025-03-28 15:38:00,Switzerland,Zufikon,mobile,Return,/,,
+2025-03-28 15:39:00,Switzerland,Zufikon,mobile,Return,/,,
+2025-03-29 04:28:00,Switzerland,Zurich,desktop,Return,/,,
+2025-03-29 04:28:00,Switzerland,Fiesch,desktop,Return,/,,
+2025-03-29 21:01:00,United States,Toledo,desktop,Return,/,,
+2025-03-29 23:36:00,Japan,Funabashi,mobile,Return,/,,
+2025-03-29 23:37:00,Japan,Funabashi,mobile,Return,/,,
+2025-03-29 23:37:00,Japan,Funabashi,mobile,Return,/,/cv/cv.pdf,
+2025-03-29 23:39:00,Japan,Funabashi,mobile,Return,/,,
+2025-03-29 23:39:00,Japan,Funabashi,mobile,Return,/,/cv/cv.pdf,
+2025-03-29 23:40:00,Japan,Funabashi,mobile,Return,/,/cv/cv.pdf,
+2025-03-29 23:41:00,Japan,Funabashi,mobile,Return,/ja/,,
+2025-03-29 23:44:00,Japan,Funabashi,mobile,Return,/,/cv/cv.pdf,
+2025-03-29 23:44:00,Japan,Funabashi,mobile,Return,/,,
+2025-03-29 23:49:00,Japan,Funabashi,mobile,Return,/ja/,,
+2025-03-29 23:51:00,Japan,Funabashi,mobile,Return,/ja/,,
+2025-03-30 16:06:00,United States,New York,desktop,New,/research/,,

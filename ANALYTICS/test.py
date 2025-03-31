@@ -120,7 +120,7 @@ def process_response(response) -> pd.DataFrame:
     df = df.replace("(not set)", "")
 
     # Order columns
-    # df = df[['time', 'country', 'city', 'device', 'newUsers', 'page', 'fileName', 'linkUrl']]
+    df = df[['time', 'country', 'city', 'device', 'newUsers', 'page', 'fileName', 'linkUrl']]
     return df
 
 
