@@ -110,7 +110,7 @@ def process_response(response) -> pd.DataFrame:
     df['device'] = df.apply(
         lambda row: 
         "(not set)" if row['deviceCategory'] == "(not set)" and row['deviceModel'] == "(not set)" else
-        row['deviceCategory'] if row['deviceModel'] == "(not set)" else
+        row['deviceCategory'] if row['deviceModel'] == "(not set)" or row['deviceModel'] == "" else
         f"{row['deviceCategory']} ({row['deviceModel']})",
         axis=1
     )
