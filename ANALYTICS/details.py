@@ -175,10 +175,7 @@ def merge_and_save_data(new_df: pd.DataFrame, existing_df: pd.DataFrame, output_
             combined_df = pd.concat([existing_df, new_df])
             
             # Remove duplicates based on all columns
-            final_df = combined_df.drop_duplicates(
-                subset=combined_df.columns.tolist(),
-                keep='last'
-            )
+            final_df = combined_df.drop_duplicates()
             
             # Sort by time
             final_df = final_df.sort_values('time')
