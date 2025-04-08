@@ -170,14 +170,18 @@ def merge_and_save_data(new_df: pd.DataFrame, existing_df: pd.DataFrame, output_
     try:
         if existing_df.empty:
             final_df = new_df
+            logging.info("No existing data found!")
         else:
             # Combine existing and new data
             combined_df = pd.concat([existing_df, new_df])
 
             # Drop activeUsers column if it exists
-            if 'activeUsers' in final_df.columns:
-                final_df = final_df.drop(columns=['activeUsers'])
-        
+            if 'activeUsers' in combined_df.columns:
+                combined_df = combined_df.drop(columns=['activeUsers'])
+
+            # Replace NaN with ""
+            combined_df = combined_df.fillna("")
+
             # Remove duplicates based on all columns
             final_df = combined_df.drop_duplicates()
             
@@ -190,7 +194,7 @@ def merge_and_save_data(new_df: pd.DataFrame, existing_df: pd.DataFrame, output_
         # Save to file
         final_df.to_csv(output_path, index=False)
         logging.info(f"Data saved successfully to {output_path}")
-        
+
         # Log summary of changes
         if not existing_df.empty:
             new_rows = len(final_df) - len(existing_df)

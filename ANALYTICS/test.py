@@ -15,9 +15,17 @@ from datetime import datetime, timedelta
 import re
 import shutil
 
+# Setup logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s'
+)
+
 # Configuration
 CREDENTIALS_PATH = "my-website-analytics-b37a5d44bcc6.json"
 GA_ID = '434705894'
+OUTPUT_FILE = 'data/raw_data_detail.csv'
+ARCHIVE_DIR = 'data/archive' 
 
 def setup_ga_client(credentials_path: str) -> BetaAnalyticsDataClient:
     """Initialize the Google Analytics client with credentials.
@@ -107,6 +115,9 @@ def process_response(response) -> pd.DataFrame:
         axis=1
     )
 
+    # Drop deviceCategory and deviceModel columns
+    df = df.drop(columns=['deviceCategory', 'deviceModel'])
+    
     # Convert newUsers=1 to "New" and newUsers=0 to ""
     df['newUsers'] = df['newUsers'].apply(lambda x: "New" if x == "1" else "Return")
 
@@ -123,35 +134,50 @@ def process_response(response) -> pd.DataFrame:
     df = df[['time', 'country', 'city', 'device', 'newUsers', 'page', 'fileName', 'linkUrl']]
     return df
 
+def load_existing_data(file_path: Path) -> pd.DataFrame:
+    if file_path.exists():
+        df = pd.read_csv(file_path)
+        df['time'] = pd.to_datetime(df['time'])
+        return df
+    return pd.DataFrame()
 
+def merge_and_save_data(new_df: pd.DataFrame, existing_df: pd.DataFrame, output_path: Path) -> None:
+    if existing_df.empty:
+        final_df = new_df
+    else:
+        # Combine existing and new data
+        combined_df = pd.concat([existing_df, new_df])
+
+        # Drop activeUsers column if it exists
+        if 'activeUsers' in combined_df.columns:
+            combined_df = combined_df.drop(columns=['activeUsers'])
+
+        # # Remove duplicates based on all columns
+        final_df = combined_df.drop_duplicates()
+        print(final_df)
+
+        # number of rows dropped 
+        print(f"Number of rows dropped: {len(combined_df) - len(final_df)}")
+        # # Sort by time
+        # final_df = final_df.sort_values('time')
+            
 def main():
-    """Main function to run the GA data extraction process.
-    
-    Workflow:
-        1. Initialize GA client
-        2. Create and execute report request
-        3. Process response into DataFrame
-        4. Load existing data from CSV
-        5. Merge with existing data
-        6. Save results
-        7. Archive data if needed
-    
-    Raises:
-        Exception: If any step fails
-    """
     # Setup client
     client = setup_ga_client(CREDENTIALS_PATH)
     
     # Create and execute request
     request = create_report_request(GA_ID)
-    logging.info("Executing Google Analytics request...")
     response = client.run_report(request)
     
     # Process response
-    df = process_response(response)
-
-    # Save to csv
-    df.to_csv('test.csv', index=False)
+    new_df = process_response(response)
+    
+    # Load existing data and merge
+    dirname = Path(os.path.dirname(os.path.abspath(__file__)))
+    output_path = dirname / OUTPUT_FILE
+    
+    existing_df = load_existing_data(output_path)
+    merge_and_save_data(new_df, existing_df, output_path)
 
 if __name__ == "__main__":
     main()
