@@ -173,17 +173,17 @@ def merge_and_save_data(new_df: pd.DataFrame, existing_df: pd.DataFrame, output_
         else:
             # Combine existing and new data
             combined_df = pd.concat([existing_df, new_df])
-            
-            # Remove duplicates based on all columns
-            final_df = combined_df.drop_duplicates()
-            
-            # Sort by time
-            final_df = final_df.sort_values('time')
 
             # Drop activeUsers column if it exists
             if 'activeUsers' in final_df.columns:
                 final_df = final_df.drop(columns=['activeUsers'])
         
+            # Remove duplicates based on all columns
+            final_df = combined_df.drop_duplicates()
+            
+            # Sort by time
+            final_df = final_df.sort_values('time')
+            
         # Ensure the output path is absolute
         output_path = output_path.resolve()
         
