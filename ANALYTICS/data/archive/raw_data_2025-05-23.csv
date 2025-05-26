@@ -1,0 +1,846 @@
+date,country,city,activeUsers,newUsers
+2024-04-01,United States,New York,4,4
+2024-04-02,United States,New York,1,0
+2024-04-04,United States,New York,2,0
+2024-04-05,United States,New York,3,1
+2024-04-06,United States,New York,4,0
+2024-04-06,United States,Ashburn,3,3
+2024-04-06,United States,Philadelphia,1,0
+2024-04-07,United States,New York,4,0
+2024-04-08,United States,New York,2,0
+2024-04-09,Japan,Ota City,1,1
+2024-04-09,United States,New York,2,0
+2024-04-10,United States,New York,1,0
+2024-04-11,United States,New York,3,0
+2024-04-12,United States,New York,2,4
+2024-04-13,United States,Ashburn,6,6
+2024-04-13,United States,New York,3,0
+2024-04-14,United States,Ashburn,2,2
+2024-04-14,United States,Boston,1,0
+2024-04-14,United States,New York,8,4
+2024-04-15,United States,New York,3,0
+2024-04-15,United States,Philadelphia,1,0
+2024-04-16,United States,Ashburn,4,4
+2024-04-16,Germany,(not set),1,1
+2024-04-16,United States,New York,5,1
+2024-04-17,United States,Ashburn,1,1
+2024-04-17,United States,New York,6,1
+2024-04-18,United States,New York,3,1
+2024-04-19,United States,New York,2,0
+2024-04-19,Japan,Iwaizumi,1,1
+2024-04-19,United States,Philadelphia,1,0
+2024-04-21,Japan,Saitama,1,1
+2024-04-22,United States,New York,1,0
+2024-04-24,United States,(not set),2,2
+2024-04-25,United States,New York,1,0
+2024-04-26,United States,Newark,1,0
+2024-04-27,United States,New York,1,0
+2024-04-29,United States,New Haven,1,0
+2024-04-29,Japan,Mihara,1,1
+2024-04-29,United States,Wallingford,1,1
+2024-05-04,United States,(not set),2,2
+2024-05-04,Japan,Chiyoda City,1,1
+2024-05-05,United States,New York,1,1
+2024-05-06,United States,New York,1,1
+2024-05-07,United States,Stanford,1,1
+2024-05-07,United States,(not set),2,2
+2024-05-09,United States,New York,1,1
+2024-05-09,Brazil,Brasilia,1,1
+2024-05-10,United States,Hamburg,1,1
+2024-05-10,United States,New York,1,1
+2024-05-11,Canada,Toronto,1,1
+2024-05-12,United States,New York,1,1
+2024-05-15,China,Shanghai,1,1
+2024-05-15,Canada,Burnaby,1,1
+2024-05-18,United States,(not set),1,1
+2024-05-18,United States,Abbeville,1,1
+2024-05-18,United States,New York,1,0
+2024-05-18,United States,Salt Lake City,1,1
+2024-05-20,Japan,Yokohama,1,1
+2024-05-24,United States,Chicago,1,1
+2024-05-26,United States,Houston,1,1
+2024-05-27,United States,(not set),2,2
+2024-05-27,United States,Rochester,1,1
+2024-05-28,China,(not set),4,4
+2024-05-28,United States,(not set),2,2
+2024-05-28,United States,Durham,2,2
+2024-05-28,United States,University City,2,2
+2024-05-30,United States,(not set),2,2
+2024-05-30,United States,Durham,2,2
+2024-05-30,United States,Ashburn,1,1
+2024-05-30,United States,Chapel Hill,1,0
+2024-05-30,United States,Prescott,1,1
+2024-05-31,United States,Keene,1,0
+2024-05-31,United States,Grand Ledge,1,1
+2024-06-01,Japan,Kakegawa,1,1
+2024-06-01,Japan,Shinagawa City,1,1
+2024-06-02,United States,New York,1,0
+2024-06-04,United States,Chicago,1,1
+2024-06-05,United States,Palo Alto,1,1
+2024-06-07,United Kingdom,London,1,1
+2024-06-07,Japan,Minato City,1,1
+2024-06-07,Japan,Hirakata,1,1
+2024-06-07,United States,New York,1,1
+2024-06-09,United States,Boston,1,1
+2024-06-09,Japan,Minato City,1,1
+2024-06-09,United States,New York,1,0
+2024-06-10,United States,Ashburn,1,1
+2024-06-10,United States,Las Vegas,1,1
+2024-06-10,Japan,Chuo City,1,1
+2024-06-10,China,Shanghai,1,1
+2024-06-11,United States,New York,1,1
+2024-06-12,United States,Chicago,1,1
+2024-06-15,Japan,Bunkyo City,1,1
+2024-06-16,United States,New York,1,0
+2024-06-16,Japan,(not set),1,1
+2024-06-17,Japan,Chuo City,1,0
+2024-06-17,China,Nanjing,1,1
+2024-06-17,(not set),(not set),2,2
+2024-06-18,United States,Houston,1,1
+2024-06-19,Taiwan,(not set),1,1
+2024-06-23,United States,New York,1,0
+2024-06-23,United Kingdom,Birmingham,1,1
+2024-06-24,Italy,Naples,1,1
+2024-06-25,United States,Los Angeles,1,1
+2024-07-02,Japan,(not set),1,1
+2024-07-03,United States,New York,1,0
+2024-07-03,United States,Schnecksville,1,1
+2024-07-10,United States,Cambridge,1,1
+2024-07-11,Germany,Mannheim,1,1
+2024-07-12,Japan,Sapporo,1,1
+2024-07-12,China,Huainan,1,1
+2024-07-12,United States,New York,1,1
+2024-07-13,Japan,Minato City,1,1
+2024-07-13,United States,(not set),1,1
+2024-07-13,Austria,Vienna,1,1
+2024-07-14,(not set),(not set),1,1
+2024-07-14,Canada,Burnaby,1,1
+2024-07-14,France,Paris,1,1
+2024-07-14,United States,Coffeyville,1,1
+2024-07-14,United States,(not set),2,2
+2024-07-15,United States,Boardman,1,1
+2024-07-15,United States,Boise,1,1
+2024-07-15,United States,Los Angeles,1,1
+2024-07-15,United States,Newton,1,1
+2024-07-15,United States,San Mateo,1,1
+2024-07-15,Hong Kong,(not set),2,2
+2024-07-15,United States,Gardiner,2,2
+2024-07-16,South Korea,Seoul,1,1
+2024-07-17,Japan,Ibaraki,1,1
+2024-07-17,United States,(not set),2,2
+2024-07-18,South Korea,Seoul,1,0
+2024-07-19,United States,New York,1,1
+2024-07-20,South Korea,Seoul,1,0
+2024-07-22,China,(not set),11,11
+2024-07-22,Japan,Taito City,1,1
+2024-07-22,China,Dingxi,1,1
+2024-07-23,Japan,Shinjuku City,1,1
+2024-07-23,United States,(not set),2,2
+2024-07-26,United States,Hackensack,1,1
+2024-07-28,United States,(not set),2,2
+2024-07-29,(not set),(not set),1,1
+2024-07-29,United States,New York,2,2
+2024-07-30,Japan,Osaka,1,0
+2024-07-31,Germany,Mannheim,1,1
+2024-08-01,United States,Houston,1,1
+2024-08-01,United States,Los Angeles,1,1
+2024-08-03,China,Diqing Tibetan Autonomous Prefecture,1,1
+2024-08-03,China,Xi'An,1,1
+2024-08-03,China,Shenzhen,1,1
+2024-08-03,China,(not set),4,4
+2024-08-04,Japan,Sumida City,1,1
+2024-08-05,Japan,Kitakyushu,1,1
+2024-08-06,United States,New York,1,0
+2024-08-07,United States,New York,1,1
+2024-08-07,United States,Columbus,1,1
+2024-08-07,United States,(not set),1,1
+2024-08-07,Malaysia,Kuala Lumpur,1,1
+2024-08-08,United States,New York,3,3
+2024-08-09,United States,Baltimore,2,2
+2024-08-09,United States,New York,3,3
+2024-08-10,United States,New York,3,2
+2024-08-10,United States,Boston,1,1
+2024-08-11,Japan,Osaka,1,1
+2024-08-11,United States,New York,2,2
+2024-08-12,India,Pune,1,1
+2024-08-12,China,Wuhan,1,1
+2024-08-12,United States,New York,2,2
+2024-08-12,United States,Howard City,1,1
+2024-08-12,United States,Nanticoke,1,0
+2024-08-12,China,Xilingol League,1,1
+2024-08-12,China,Beijing,2,2
+2024-08-12,China,(not set),1,1
+2024-08-13,United Kingdom,London,1,1
+2024-08-14,Germany,Leipzig,1,1
+2024-08-14,Japan,Utsunomiya,1,0
+2024-08-14,Japan,Akashi,1,1
+2024-08-14,Japan,Shinjuku City,1,1
+2024-08-14,Germany,Frankfurt,1,1
+2024-08-15,United States,(not set),2,2
+2024-08-15,United States,New York,1,1
+2024-08-15,Japan,Kyoto,1,1
+2024-08-16,France,Toulouse,1,1
+2024-08-16,United States,Los Angeles,1,1
+2024-08-16,United States,New York,1,3
+2024-08-18,Japan,Chiyoda City,1,1
+2024-08-18,China,Jiaxing,1,1
+2024-08-18,China,Tianjin,1,1
+2024-08-18,United States,(not set),2,2
+2024-08-18,China,Nanning,1,1
+2024-08-18,China,Xi'An,1,1
+2024-08-18,China,(not set),5,5
+2024-08-19,Malaysia,Kuala Lumpur,1,1
+2024-08-21,Japan,Shibuya City,1,1
+2024-08-21,China,Shanghai,1,1
+2024-08-21,Japan,Kitakyushu,1,1
+2024-08-22,Japan,Kitakyushu,1,0
+2024-08-22,United States,New York,1,1
+2024-08-22,China,(not set),2,2
+2024-08-22,China,Xiamen,1,1
+2024-08-22,China,Xilingol League,1,1
+2024-08-22,China,Shanghai,1,1
+2024-08-22,China,Diqing Tibetan Autonomous Prefecture,1,1
+2024-08-22,China,Chongqing,1,1
+2024-08-22,China,Beijing,1,1
+2024-08-23,United States,Houston,1,0
+2024-08-24,United States,Houston,1,1
+2024-08-24,United States,Cambridge,1,1
+2024-08-24,United States,New York,1,1
+2024-08-25,United States,(not set),2,2
+2024-08-25,United States,Waltham,1,1
+2024-08-25,Japan,Yokohama,1,1
+2024-08-26,Japan,Toyonaka,1,1
+2024-08-26,Indonesia,West Karawang,1,1
+2024-08-27,Japan,Shinjuku City,1,1
+2024-08-27,Japan,Toyonaka,1,0
+2024-08-27,Japan,Chiyoda City,1,0
+2024-08-27,United States,(not set),2,2
+2024-08-28,China,(not set),9,9
+2024-08-28,China,Beijing,1,1
+2024-08-28,China,Chongqing,1,1
+2024-08-28,China,Tianjin,1,1
+2024-08-28,China,Shanghai,2,2
+2024-08-28,China,Hangzhou,1,1
+2024-08-30,Japan,Osaka,1,1
+2024-09-01,United States,(not set),2,2
+2024-09-01,Japan,Kobe,1,1
+2024-09-02,United States,New York,1,1
+2024-09-02,United States,Los Angeles,1,1
+2024-09-03,United States,Houston,1,1
+2024-09-03,Japan,(not set),1,1
+2024-09-04,Canada,Toronto,1,1
+2024-09-05,Japan,Itabashi City,1,1
+2024-09-06,United States,(not set),1,1
+2024-09-07,United States,(not set),2,2
+2024-09-07,Japan,Osaka,1,1
+2024-09-09,United States,Washington,3,3
+2024-09-09,United Kingdom,(not set),1,1
+2024-09-09,United States,Ashburn,1,1
+2024-09-09,Russia,Lobnya,1,1
+2024-09-09,United States,(not set),2,1
+2024-09-09,Netherlands,(not set),1,0
+2024-09-09,United States,Mountain View,1,1
+2024-09-09,Seychelles,(not set),3,3
+2024-09-09,United States,San Jose,2,2
+2024-09-10,Singapore,(not set),1,1
+2024-09-11,Indonesia,Surabaya,1,1
+2024-09-12,Indonesia,Jakarta,1,1
+2024-09-13,Japan,Osaka,1,1
+2024-09-13,Indonesia,(not set),1,1
+2024-09-14,Japan,Kitakyushu,1,1
+2024-09-15,Germany,Steinfeld,1,1
+2024-09-17,United States,New York,2,2
+2024-09-18,United States,(not set),2,2
+2024-09-18,India,(not set),1,1
+2024-09-18,Singapore,Singapore,1,1
+2024-09-19,Japan,(not set),1,1
+2024-09-19,Japan,Kawasaki,1,1
+2024-09-20,United States,New York,1,1
+2024-09-21,Japan,(not set),1,1
+2024-09-21,Germany,(not set),1,1
+2024-09-21,Türkiye,Istanbul,1,1
+2024-09-21,Japan,Kawasaki,1,0
+2024-09-21,Japan,Shibuya City,2,2
+2024-09-22,United States,Ocala,1,0
+2024-09-22,United States,Bloomsburg,1,1
+2024-09-24,United States,New York,1,0
+2024-09-25,United States,(not set),2,2
+2024-09-25,United States,New York,1,1
+2024-09-25,Japan,Chiyoda City,1,1
+2024-09-25,Japan,(not set),1,1
+2024-09-25,United States,Richardson,1,1
+2024-09-26,United States,Los Angeles,1,1
+2024-09-27,United States,Seattle,1,1
+2024-09-28,United States,Chapel Hill,1,1
+2024-09-28,United States,New York,2,1
+2024-09-28,(not set),(not set),1,1
+2024-09-29,Japan,Kawaguchi,1,1
+2024-09-29,United States,New York,1,1
+2024-09-29,South Korea,Daegu,1,1
+2024-09-30,United States,Gainesville,1,1
+2024-09-30,United States,New York,1,1
+2024-10-01,United States,New York,2,0
+2024-10-01,Japan,Tsukuba,1,1
+2024-10-01,United States,(not set),2,2
+2024-10-03,Thailand,Bang Kadi,1,1
+2024-10-04,Taiwan,(not set),1,1
+2024-10-04,United States,New York,1,1
+2024-10-05,Japan,Shibuya City,1,1
+2024-10-05,United States,New York,1,1
+2024-10-06,Japan,Kanazawa,1,1
+2024-10-06,United States,Jersey City,1,1
+2024-10-08,Malaysia,Kuala Lumpur,1,1
+2024-10-08,Japan,Setagaya City,1,1
+2024-10-08,United States,Midlothian,2,2
+2024-10-08,United States,New York,1,0
+2024-10-09,Japan,Awara,1,1
+2024-10-09,United States,New York,1,1
+2024-10-09,United States,Chicago,1,1
+2024-10-09,Japan,Chiyoda City,1,1
+2024-10-10,United States,New York,1,1
+2024-10-11,Japan,Sapporo,1,1
+2024-10-11,Australia,Sydney,1,1
+2024-10-12,United States,New York,1,1
+2024-10-13,United States,Midlothian,2,2
+2024-10-14,United States,New York,2,2
+2024-10-14,France,Toulouse,1,1
+2024-10-15,United States,Chicago,1,1
+2024-10-15,United States,Hancock,1,1
+2024-10-16,United States,New York,2,1
+2024-10-16,United States,Evanston,1,1
+2024-10-16,United States,Atlanta,1,0
+2024-10-16,Japan,Taito City,1,1
+2024-10-16,Japan,Kakegawa,1,1
+2024-10-17,United States,Rochester,1,1
+2024-10-17,United States,Washington,3,3
+2024-10-17,United States,Richardson,1,1
+2024-10-17,United States,(not set),2,2
+2024-10-18,United States,Atlanta,1,1
+2024-10-19,United States,Palo Alto,1,1
+2024-10-20,United States,Salt Lake City,1,1
+2024-10-20,United States,New York,1,1
+2024-10-20,Japan,Shinagawa City,1,1
+2024-10-20,United States,(not set),2,2
+2024-10-21,United States,Ashburn,1,1
+2024-10-21,Taiwan,(not set),1,1
+2024-10-21,United States,(not set),2,2
+2024-10-22,South Korea,Seoul,1,1
+2024-10-22,Japan,Kitakyushu,1,0
+2024-10-23,United States,(not set),2,2
+2024-10-23,United States,Cambridge,1,1
+2024-10-23,Taiwan,(not set),2,1
+2024-10-24,United States,(not set),2,2
+2024-10-24,United States,New York,1,1
+2024-10-24,United States,Los Angeles,1,1
+2024-10-24,United States,Gainesville,1,1
+2024-10-24,Japan,Hirakata,1,1
+2024-10-24,Canada,Edmonton,1,1
+2024-10-25,United States,Evanston,1,1
+2024-10-25,Taiwan,(not set),1,0
+2024-10-25,Germany,Berlin,1,1
+2024-10-25,Canada,Edmonton,1,0
+2024-10-26,Hong Kong,(not set),1,1
+2024-10-28,United States,New York,1,0
+2024-10-28,Japan,Setagaya City,1,1
+2024-10-28,United States,Houghton,1,0
+2024-10-29,Germany,Koblenz,1,1
+2024-10-30,Malaysia,Kuala Lumpur,1,0
+2024-10-30,Japan,Kyoto,1,1
+2024-10-30,Hong Kong,Hong Kong,1,1
+2024-10-31,United States,Gainesville,1,1
+2024-10-31,United States,(not set),1,1
+2024-11-01,United States,New York,2,2
+2024-11-01,South Korea,Seoul,1,1
+2024-11-02,Japan,Toyonaka,1,1
+2024-11-02,United States,Ithaca,1,1
+2024-11-02,United States,Pearl City,1,1
+2024-11-02,United States,New York,3,1
+2024-11-02,United States,(not set),1,1
+2024-11-03,United States,(not set),1,1
+2024-11-03,Japan,Zushi,1,1
+2024-11-04,United States,Columbus,1,1
+2024-11-04,United States,Philadelphia,1,1
+2024-11-04,United States,New York,4,3
+2024-11-04,United States,Austin,1,0
+2024-11-05,United States,San Jose,1,1
+2024-11-05,Japan,Shinjuku City,2,2
+2024-11-05,United States,New York,2,1
+2024-11-05,Japan,Suginami City,3,3
+2024-11-05,United States,Houston,1,1
+2024-11-05,Japan,(not set),1,1
+2024-11-05,United States,(not set),1,1
+2024-11-05,Japan,Otsuki,1,1
+2024-11-05,Japan,Chiyoda City,2,2
+2024-11-06,United States,Des Moines,1,1
+2024-11-06,Japan,Takatsuki,1,1
+2024-11-06,Japan,(not set),1,0
+2024-11-06,Japan,Kawasaki,1,1
+2024-11-06,Japan,Oyama,1,1
+2024-11-06,United States,(not set),2,2
+2024-11-06,United States,Ashburn,2,2
+2024-11-06,United States,Chesaning,1,1
+2024-11-06,United States,Los Angeles,1,1
+2024-11-06,United States,Coffeyville,1,1
+2024-11-07,United States,New York,1,1
+2024-11-08,United States,St. Louis,1,1
+2024-11-08,United States,West Lafayette,1,1
+2024-11-08,United States,Clayton,1,1
+2024-11-09,United States,Durham,1,1
+2024-11-09,United States,New York,2,2
+2024-11-09,India,Mumbai,1,1
+2024-11-09,United States,(not set),1,1
+2024-11-10,United States,Ashburn,1,1
+2024-11-10,Japan,Nakano City,1,1
+2024-11-10,Taiwan,(not set),1,1
+2024-11-10,United States,New York,1,0
+2024-11-10,United States,Washington,1,1
+2024-11-11,United States,New York,3,1
+2024-11-13,Malaysia,Puchong,1,1
+2024-11-13,United States,Kearney,1,1
+2024-11-13,United States,(not set),1,1
+2024-11-14,United States,(not set),1,1
+2024-11-15,Japan,Kawasaki,1,1
+2024-11-15,China,Xiamen,1,1
+2024-11-15,China,Sanya,2,2
+2024-11-15,China,(not set),5,5
+2024-11-15,China,Beijing,1,1
+2024-11-15,China,Dali,1,1
+2024-11-15,China,Kunming,1,1
+2024-11-15,China,Nanning,1,1
+2024-11-15,China,Suzhou,1,1
+2024-11-15,China,Hefei,1,1
+2024-11-15,China,Xilingol League,1,1
+2024-11-15,China,Tianjin,1,1
+2024-11-15,China,Qingdao,3,3
+2024-11-15,China,Guangzhou,1,1
+2024-11-15,China,Xi'An,2,2
+2024-11-15,China,Jinhua,2,2
+2024-11-16,Japan,Shinjuku City,2,2
+2024-11-16,Japan,(not set),1,0
+2024-11-16,United States,(not set),1,1
+2024-11-16,Japan,Shibuya City,1,1
+2024-11-16,Japan,Musashino,1,1
+2024-11-17,United States,Los Angeles,1,1
+2024-11-17,Japan,(not set),1,1
+2024-11-18,United States,New York,1,0
+2024-11-18,United States,(not set),1,1
+2024-11-18,Hong Kong,Hong Kong,1,1
+2024-11-19,United States,Boston,1,1
+2024-11-20,United States,Seaford,1,1
+2024-11-20,Japan,Shinjuku City,1,1
+2024-11-20,Canada,(not set),1,1
+2024-11-21,United States,Aurora,1,1
+2024-11-23,United States,New York,1,1
+2024-11-23,Japan,Shinjuku City,1,1
+2024-11-24,Japan,Kitakyushu,1,1
+2024-11-25,United States,San Jose,1,1
+2024-11-26,Japan,Shinjuku City,1,1
+2024-11-30,Japan,Adachi City,1,1
+2024-11-30,United States,(not set),2,2
+2024-11-30,Japan,Chiyoda City,1,1
+2024-11-30,Japan,Osaka,1,1
+2024-12-01,Japan,Funabashi,1,1
+2024-12-01,Germany,Frankfurt,1,1
+2024-12-02,United States,Chicago,1,1
+2024-12-03,United States,New York,2,2
+2024-12-05,Japan,Matsudo,1,1
+2024-12-05,Singapore,Singapore,1,1
+2024-12-05,Taiwan,Zhongli District,1,1
+2024-12-05,United States,New York,1,1
+2024-12-06,Italy,Naples,1,1
+2024-12-06,Japan,(not set),1,1
+2024-12-07,Taiwan,Zhongzheng District,1,1
+2024-12-07,Taiwan,Taoyuan District,1,1
+2024-12-07,Japan,(not set),1,1
+2024-12-07,Taiwan,(not set),1,1
+2024-12-08,Taiwan,(not set),1,1
+2024-12-09,Taiwan,(not set),1,1
+2024-12-10,United States,San Diego,1,1
+2024-12-10,United States,Honolulu,1,1
+2024-12-10,Taiwan,(not set),1,1
+2024-12-10,Japan,Soja,1,1
+2024-12-10,Japan,Shibuya City,1,1
+2024-12-10,Japan,Matsuyama,1,1
+2024-12-12,United States,San Diego,1,1
+2024-12-12,Japan,(not set),1,1
+2024-12-13,Sweden,Stockholm,1,1
+2024-12-14,United States,Pearl City,1,1
+2024-12-15,Japan,Osaka,1,1
+2024-12-17,United States,New York,2,1
+2024-12-18,Japan,Kobe,1,1
+2024-12-19,Belgium,Etterbeek,1,1
+2024-12-19,United States,Durham,1,1
+2024-12-19,United States,(not set),1,1
+2024-12-20,United States,Jersey City,1,1
+2024-12-20,United States,Iowa City,1,1
+2024-12-20,Hong Kong,Hong Kong,1,1
+2024-12-20,Germany,Goslar,1,1
+2024-12-23,South Korea,Seoul,1,1
+2024-12-24,South Korea,Seoul,1,0
+2024-12-25,Japan,Yanagawa,1,1
+2024-12-26,Japan,Chiyoda City,1,1
+2024-12-26,Japan,Osaka,1,1
+2024-12-26,Singapore,Singapore,1,1
+2024-12-26,United States,Madison,1,1
+2024-12-29,United States,Palm Beach Gardens,1,0
+2024-12-29,China,Guangzhou,1,1
+2025-01-10,United States,Washington,1,1
+2025-01-10,Japan,Karuizawa,2,1
+2025-01-11,Taiwan,Zhongzheng District,1,1
+2025-01-11,Taiwan,(not set),2,2
+2025-01-12,Canada,Toronto,1,1
+2025-01-12,United States,Cambridge,1,1
+2025-01-12,United States,Dallas,1,1
+2025-01-12,United States,Morton Grove,1,1
+2025-01-12,United States,Rochester,1,1
+2025-01-12,United States,New York,1,1
+2025-01-13,United States,Ashburn,1,1
+2025-01-13,Spain,Madrid,1,1
+2025-01-13,Netherlands,(not set),1,1
+2025-01-13,Russia,Saint Petersburg,1,1
+2025-01-13,Sweden,(not set),2,2
+2025-01-13,United States,San Jose,3,3
+2025-01-13,United States,Moses Lake,3,3
+2025-01-13,United States,(not set),3,3
+2025-01-13,Switzerland,(not set),1,1
+2025-01-13,Poland,Warsaw,1,1
+2025-01-13,France,Strasbourg,1,1
+2025-01-13,Cyprus,(not set),1,1
+2025-01-13,Norway,Oslo Municipality,1,1
+2025-01-14,United States,Los Angeles,1,1
+2025-01-15,Japan,Chiyoda City,1,0
+2025-01-16,United States,New York,1,1
+2025-01-16,United States,Boston,1,1
+2025-01-17,United States,(not set),2,2
+2025-01-18,Japan,Chiyoda City,1,0
+2025-01-19,United States,Franklin,1,1
+2025-01-21,Japan,Katsuura,1,0
+2025-01-21,Japan,Oyama,1,1
+2025-01-21,Canada,Toronto,1,0
+2025-01-22,United States,New York,1,1
+2025-01-22,(not set),(not set),1,1
+2025-01-22,United States,Boston,1,1
+2025-01-25,Singapore,Singapore,1,1
+2025-01-26,Japan,(not set),1,1
+2025-01-27,United States,Mission Viejo,1,1
+2025-01-27,United States,New York,1,1
+2025-01-28,United States,San Jose,1,1
+2025-01-31,United States,San Jose,1,1
+2025-01-31,United States,Hanover,1,1
+2025-02-01,United States,Killington,1,1
+2025-02-01,Japan,(not set),1,1
+2025-02-01,Japan,Minato City,1,1
+2025-02-01,Singapore,Singapore,1,1
+2025-02-02,United States,New York,1,1
+2025-02-03,United States,New York,1,1
+2025-02-03,Switzerland,Zurich,1,1
+2025-02-03,United States,San Jose,1,0
+2025-02-04,Japan,Yokohama,2,2
+2025-02-04,Japan,Ota City,4,4
+2025-02-04,United States,New York,1,1
+2025-02-04,United States,Boston,1,1
+2025-02-04,United States,(not set),1,1
+2025-02-04,Taiwan,Zhongli District,1,1
+2025-02-05,United States,Stanford,1,1
+2025-02-05,United States,(not set),2,2
+2025-02-05,Japan,(not set),1,1
+2025-02-06,Japan,Setagaya City,1,1
+2025-02-06,Japan,Kobe,1,1
+2025-02-06,Japan,(not set),1,1
+2025-02-06,United States,Stanford,3,2
+2025-02-06,Japan,Nagoya,1,1
+2025-02-07,United States,Stanford,1,0
+2025-02-07,United States,New York,1,1
+2025-02-08,Japan,Shinagawa City,1,1
+2025-02-08,United States,(not set),1,1
+2025-02-08,Japan,Chiyoda City,1,1
+2025-02-09,United States,Council Bluffs,1,1
+2025-02-09,Japan,(not set),2,2
+2025-02-09,United States,Stanford,1,0
+2025-02-09,United States,Palo Alto,1,0
+2025-02-09,South Korea,Seoul,1,1
+2025-02-10,Japan,(not set),1,1
+2025-02-10,Japan,Shinjuku City,1,1
+2025-02-10,Singapore,Singapore,1,1
+2025-02-10,United States,(not set),1,1
+2025-02-11,Hong Kong,Hong Kong,1,1
+2025-02-11,Japan,(not set),1,1
+2025-02-11,United States,(not set),1,1
+2025-02-11,Canada,Toronto,1,0
+2025-02-12,United States,Charlottesville,1,1
+2025-02-12,Japan,(not set),2,2
+2025-02-12,United States,New York,1,1
+2025-02-13,Canada,Toronto,1,0
+2025-02-13,United States,Stanford,1,0
+2025-02-13,United States,New York,1,1
+2025-02-13,United States,Lexington,1,1
+2025-02-13,Japan,Muroran,1,1
+2025-02-13,Japan,(not set),1,1
+2025-02-14,Singapore,Singapore,1,1
+2025-02-15,Japan,Yokohama,1,1
+2025-02-15,United States,Boston,1,1
+2025-02-15,Canada,Burnaby,1,1
+2025-02-15,(not set),(not set),1,1
+2025-02-15,United States,(not set),2,2
+2025-02-17,United States,New York,1,1
+2025-02-17,United States,Englewood,1,1
+2025-02-17,United States,San Jose,1,1
+2025-02-17,Hong Kong,(not set),1,1
+2025-02-17,United States,Redwood City,1,1
+2025-02-17,Japan,(not set),1,1
+2025-02-17,United States,Boardman,1,1
+2025-02-18,United States,Donalsonville,1,1
+2025-02-18,United States,Chapel Hill,1,1
+2025-02-18,United States,Boston,1,1
+2025-02-18,Germany,Stuttgart,1,1
+2025-02-18,United States,Yorba Linda,1,1
+2025-02-18,United States,Jersey City,2,2
+2025-02-18,United States,Rochester,1,1
+2025-02-19,United States,Houston,1,1
+2025-02-19,United States,Leesburg,1,0
+2025-02-20,United States,San Jose,1,1
+2025-02-20,Canada,Kingston,1,1
+2025-02-20,Denmark,Odense,1,1
+2025-02-20,Japan,Nagoya,1,1
+2025-02-21,South Korea,Seoul,1,1
+2025-02-21,United States,Boston,1,1
+2025-02-21,United States,Hermiston,1,1
+2025-02-21,United States,New York,1,1
+2025-02-21,Taiwan,(not set),1,1
+2025-02-22,Japan,Uji,1,1
+2025-02-23,United States,Urbana,1,1
+2025-02-23,Singapore,(not set),1,1
+2025-02-24,United States,Newark,1,1
+2025-02-24,United States,Chicago,1,1
+2025-02-25,United States,Bridgeport,1,1
+2025-02-25,United States,Bellingham,1,1
+2025-02-25,Japan,Saitama,1,1
+2025-02-25,Japan,(not set),1,1
+2025-02-25,Japan,Shinagawa City,1,1
+2025-02-28,United States,New York,1,1
+2025-02-28,United States,Palo Alto,1,1
+2025-03-01,United States,New York,2,2
+2025-03-01,Japan,Shibuya,1,2
+2025-03-01,Taiwan,(not set),1,1
+2025-03-02,United States,West Lafayette,1,1
+2025-03-02,Japan,Otsuki,1,1
+2025-03-02,South Korea,Anyang-si,1,1
+2025-03-02,China,Wuhan,1,0
+2025-03-02,China,Shanghai,1,1
+2025-03-03,Japan,Shinjuku City,1,1
+2025-03-03,United States,Stanford,1,1
+2025-03-03,United States,Friday Harbor,1,1
+2025-03-04,Hong Kong,Hong Kong,1,1
+2025-03-04,United Kingdom,Lancaster,1,1
+2025-03-04,United States,Boston,1,1
+2025-03-04,United States,Scarsdale,1,1
+2025-03-04,United States,New York,2,2
+2025-03-04,United States,Chapel Hill,1,0
+2025-03-05,South Korea,Seoul,1,1
+2025-03-05,United States,Jersey City,1,1
+2025-03-06,United States,Jersey City,1,0
+2025-03-06,Poland,Warsaw,1,1
+2025-03-06,Hong Kong,Hong Kong,1,1
+2025-03-07,United States,Chicago,1,1
+2025-03-07,Switzerland,Zurich,1,1
+2025-03-07,United Kingdom,(not set),1,1
+2025-03-07,United States,New York,1,1
+2025-03-08,Japan,(not set),1,1
+2025-03-09,United States,New York,1,0
+2025-03-10,Japan,Osaka,1,1
+2025-03-10,Japan,Tateyama,1,1
+2025-03-10,United States,Washington,1,1
+2025-03-10,United States,Charlotte,1,1
+2025-03-11,United States,New York,1,1
+2025-03-11,United States,Boston,1,1
+2025-03-12,Japan,Nagasaki,1,1
+2025-03-13,Japan,Kitakyushu,1,1
+2025-03-13,United States,Arcata,1,1
+2025-03-13,United States,New York,1,0
+2025-03-13,Pakistan,Lahore,1,1
+2025-03-14,United States,Cincinnati,1,1
+2025-03-14,United States,New York,1,1
+2025-03-15,United States,San Francisco,1,1
+2025-03-16,China,Guangzhou,1,1
+2025-03-16,United States,(not set),1,1
+2025-03-17,Somalia,Mogadishu,1,1
+2025-03-17,Canada,Toronto,1,1
+2025-03-17,Japan,(not set),1,1
+2025-03-17,United States,(not set),1,1
+2025-03-19,United States,Boston,1,1
+2025-03-19,United States,New York,1,1
+2025-03-19,Japan,Kobe,1,1
+2025-03-19,Indonesia,(not set),1,1
+2025-03-19,Japan,Arakawa City,1,1
+2025-03-20,United States,Los Angeles,1,1
+2025-03-20,United States,Kings Point,1,1
+2025-03-20,United States,Ashburn,1,1
+2025-03-21,Jordan,Amman,1,1
+2025-03-21,Japan,Kitakyushu,1,1
+2025-03-22,United States,Minneapolis,1,1
+2025-03-22,United States,Chicago,1,1
+2025-03-22,Indonesia,Semarang,1,1
+2025-03-23,United States,Palm Springs,2,2
+2025-03-23,United States,New York,2,1
+2025-03-23,United States,Los Angeles,1,1
+2025-03-24,Japan,Mitaka,1,1
+2025-03-24,United States,New York,3,2
+2025-03-24,United States,Chapel Hill,2,0
+2025-03-25,United States,Philadelphia,2,0
+2025-03-25,United States,Stanford,2,0
+2025-03-25,Canada,Toronto,2,0
+2025-03-26,Japan,Muroran,2,0
+2025-03-27,United States,New York,2,0
+2025-03-27,New Zealand,Auckland,2,0
+2025-03-28,United States,New York,2,0
+2025-03-28,United States,New Haven,2,0
+2025-03-28,Switzerland,Zufikon,2,0
+2025-03-28,Switzerland,(not set),2,0
+2025-03-28,Switzerland,,1,1
+2025-03-29,Switzerland,Fiesch,2,0
+2025-03-29,United States,Toledo,2,0
+2025-03-29,Japan,Funabashi,2,0
+2025-03-29,Switzerland,Zurich,2,0
+2025-03-30,United States,New York,1,1
+2025-03-31,Hong Kong,Hong Kong,1,1
+2025-03-31,United States,Brookline,2,0
+2025-03-31,United States,Toledo,1,0
+2025-03-31,United States,New York,2,0
+2025-03-31,Switzerland,Zufikon,1,0
+2025-04-01,China,(not set),1,1
+2025-04-01,Japan,Ota City,2,0
+2025-04-01,United States,Los Angeles,2,0
+2025-04-01,China,Chongqing,1,1
+2025-04-01,Japan,Chiyoda City,2,0
+2025-04-01,China,Xilingol League,1,1
+2025-04-01,China,Zhuhai,1,1
+2025-04-02,Singapore,Singapore,1,1
+2025-04-02,United States,Parsippany-Troy Hills,2,0
+2025-04-02,United States,(not set),1,0
+2025-04-03,United States,,1,1
+2025-04-03,Hong Kong,Hong Kong,2,0
+2025-04-03,United States,(not set),1,0
+2025-04-04,Germany,Mannheim,2,0
+2025-04-04,United States,New York,2,0
+2025-04-04,South Korea,Ulsan,3,0
+2025-04-04,United States,(not set),1,0
+2025-04-04,United States,,0,1
+2025-04-05,Japan,Kita City,3,1
+2025-04-07,United States,,1,1
+2025-04-07,United States,(not set),1,0
+2025-04-07,Japan,Chiyoda City,2,0
+2025-04-08,Japan,Shinagawa City,2,0
+2025-04-08,Hong Kong,Hong Kong,2,0
+2025-04-08,United States,Jersey City,2,0
+2025-04-08,Japan,Gotemba,2,0
+2025-04-09,United States,Chapel Hill,2,0
+2025-04-09,Japan,Yokohama,2,0
+2025-04-09,United States,Houston,2,0
+2025-04-10,Denmark,Odense,2,0
+2025-04-10,Australia,Adelaide,2,0
+2025-04-10,Taiwan,(not set),1,1
+2025-04-10,Taiwan,,1,1
+2025-04-10,Poland,Lublin,2,0
+2025-04-11,United States,Chicago,2,0
+2025-04-11,United States,Boydton,2,0
+2025-04-12,United States,Stanford,2,0
+2025-04-13,Japan,Shinjuku City,1,1
+2025-04-13,Japan,Yokohama,2,0
+2025-04-13,United States,New York,2,0
+2025-04-14,United States,Chapel Hill,2,0
+2025-04-14,United States,Houston,2,0
+2025-04-14,United States,Wheaton,2,0
+2025-04-14,United States,Chicago,3,0
+2025-04-15,United States,Sandy Springs,2,0
+2025-04-15,United States,(not set),1,0
+2025-04-15,Japan,Higashiosaka,2,0
+2025-04-15,United States,,0,2
+2025-04-16,United States,Magee,1,0
+2025-04-16,United States,Warren,2,0
+2025-04-16,United States,Honolulu,2,0
+2025-04-17,Japan,Nishinomiya,2,0
+2025-04-17,United States,New York,2,0
+2025-04-18,United States,New York,1,0
+2025-04-18,United States,Los Angeles,1,0
+2025-04-18,United States,Boston,1,0
+2025-04-18,United States,Fort Lee,2,0
+2025-04-19,United States,Boston,1,0
+2025-04-19,United States,Humboldt,1,0
+2025-04-20,United States,New York,3,0
+2025-04-20,United States,San Diego,1,1
+2025-04-20,Japan,Fukuoka,1,1
+2025-04-20,Japan,Kawasaki,1,1
+2025-04-20,Japan,Shinagawa City,2,1
+2025-04-21,Japan,Kyoto,2,0
+2025-04-21,Indonesia,(not set),1,0
+2025-04-22,United States,West Lafayette,2,0
+2025-04-22,United States,Boston,1,0
+2025-04-22,Canada,Toronto,2,0
+2025-04-22,United States,New York,1,0
+2025-04-23,Japan,Tokushima,2,0
+2025-04-23,United States,Ann Arbor,2,0
+2025-04-23,Japan,Akashi,2,0
+2025-04-25,United States,Manor,2,0
+2025-04-26,United States,Manor,1,0
+2025-04-26,United States,Marlboro Township,2,0
+2025-04-27,Japan,,1,1
+2025-04-27,United States,New York,2,0
+2025-04-27,Japan,Hiroshima,2,0
+2025-04-27,Japan,Tateyama,2,0
+2025-04-27,Japan,(not set),2,0
+2025-04-28,Canada,Toronto,2,0
+2025-04-28,Japan,Kobe,2,0
+2025-04-28,United States,Manor,2,0
+2025-04-30,Japan,,1,1
+2025-04-30,,,1,1
+2025-04-30,Japan,(not set),2,0
+2025-04-30,(not set),(not set),2,0
+2025-05-01,United States,Chapel Hill,2,0
+2025-05-02,United States,New York,3,0
+2025-05-03,Spain,Seville,2,0
+2025-05-03,Japan,Oyama,2,0
+2025-05-03,(not set),(not set),2,0
+2025-05-04,Taiwan,(not set),1,1
+2025-05-04,Taiwan,,1,1
+2025-05-04,United States,New York,1,0
+2025-05-05,Canada,Toronto,1,1
+2025-05-05,Japan,Shibuya,1,1
+2025-05-07,United States,West Lafayette,2,0
+2025-05-07,Czechia,Prague,1,1
+2025-05-07,United States,Austin,2,0
+2025-05-08,Indonesia,Kuta Selatan,1,1
+2025-05-08,Indonesia,Jakarta,2,0
+2025-05-08,United States,Lafayette,2,0
+2025-05-08,United States,Marlboro Township,2,0
+2025-05-09,Japan,Chiyoda City,2,0
+2025-05-11,South Korea,Daejeon,2,0
+2025-05-11,United States,New York,2,0
+2025-05-12,Singapore,Singapore,1,1
+2025-05-12,Japan,Utsunomiya,1,0
+2025-05-12,Japan,Murakami,2,0
+2025-05-12,United States,New York,2,0
+2025-05-13,United States,Wellington,2,0
+2025-05-13,United States,New York,2,0
+2025-05-13,Taiwan,(not set),2,0
+2025-05-13,Germany,(not set),4,2
+2025-05-13,Taiwan,,1,1
+2025-05-13,Japan,Minato City,2,0
+2025-05-13,Germany,,3,3
+2025-05-13,Spain,Madrid,2,0
+2025-05-14,Spain,Madrid,2,0
+2025-05-15,United States,Los Angeles,1,1
+2025-05-15,United States,New York,2,0
+2025-05-16,United States,Chesterfield,2,0
+2025-05-17,United States,(not set),2,0
+2025-05-17,Iran,Qazvin,2,0
+2025-05-18,Japan,Shihoro,2,0
+2025-05-18,Singapore,Singapore,2,0
+2025-05-19,Angola,Luanda,2,0
+2025-05-21,Japan,Shinjuku City,2,0
+2025-05-21,United States,New York,3,0
+2025-05-21,Japan,Takamatsu,2,0
+2025-05-23,United States,Austin,1,0
+2025-05-23,Germany,Frankfurt,1,1
+2025-05-23,Hong Kong,Hong Kong,1,1
+2025-05-23,Japan,Toyonaka,1,0
+2025-05-23,United States,College Station,1,1
