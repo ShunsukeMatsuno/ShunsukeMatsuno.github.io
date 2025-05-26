@@ -31,5 +31,6 @@
     "peacock.color": "#c0df03",
     "cSpell.words": [
         "anticonformity"
-    ]
+    ],
+    "r.lsp.promptToInstall": false
 }

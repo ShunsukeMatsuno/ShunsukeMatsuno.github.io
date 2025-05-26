@@ -18,8 +18,10 @@ This repository hosts the source code and GitHub Actions workflow for deploying 
 
 ## Workflow Summary
 
+TL;DR:After updating files in the `main` branch, commit and push the changes. Then, trigger the `hugo-deploy.yml` workflow manually from the GitHub UI.
+
 ### Deploy Hugo Website to GitHub Pages (`hugo-deploy.yml`)
-This is triggered manually.
+Trigger this workflow manually from the GitHub UI.
 
 #### **1. `cv_change_detection`**
 Detects changes in `cv.tex` and related files under `./assets/cv/`. Outputs a flag indicating if the CV has changed.
@@ -31,7 +33,7 @@ If changes are detected, compiles the CV using LaTeX (`xelatex`) and moves the o
 Builds the Hugo website and deploys it to the `gh-pages` branch using `peaceiris/actions-gh-pages@v4`.
 
 ### pages-build-deployment 
-The deployment workflow runs automatically after updating the `gh-pages` branch. That is, if `hugo-deploy.yml` job is run successfully, then the workflow automatically publishes the `gh-pages` branch as github pages
+The deployment workflow runs automatically after the `hugo-deploy.yml` job is run successfully. The workflow automatically publishes the `gh-pages` branch as github pages.
 
 ---
 
