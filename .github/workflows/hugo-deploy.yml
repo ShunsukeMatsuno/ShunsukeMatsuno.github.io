@@ -94,7 +94,6 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: 0.140.2
           extended: true
 
       # - name: Setup Pages
