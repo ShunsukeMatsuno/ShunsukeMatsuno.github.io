@@ -80,8 +80,6 @@ jobs:
     needs: [cv_change_detection, build_cv]
     if: always() && (needs.build_cv.result == 'success' || needs.build_cv.result == 'skipped')
     name: Build and Deploy Website
-    env:
-      HUGO_VERSION: 0.147.3
 
     steps:
       - name: Checkout repository
@@ -94,6 +92,7 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
+          hugo-version: 0.147.3
           extended: true
 
       # - name: Setup Pages
