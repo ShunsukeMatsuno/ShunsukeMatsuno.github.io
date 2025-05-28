@@ -81,7 +81,7 @@ jobs:
     if: always() && (needs.build_cv.result == 'success' || needs.build_cv.result == 'skipped')
     name: Build and Deploy Website
     env:
-      HUGO_VERSION: 0.140.2
+      HUGO_VERSION: 0.147.3
 
     steps:
       - name: Checkout repository

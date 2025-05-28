@@ -1,6 +1,5 @@
 ---
 title: 松野 舜介
-lang: ja
 description: 松野舜介 個人ウェブサイト
 metatags: [
   "Voluntary Disclosure",
