@@ -798,30 +798,29 @@
 % usage: \paperentry{<title>}{<author>}{<year>}{<link SSRN>}{<link journal>}{<description>}
 \newcommand{\paperentry}[7]{%
   {\fontsize{10pt}{1em}\bfseries\bodyfont\color{darktext} #1}% Title
-  \ifx&#3&% If year is absent
+  \ifx&#3&% If year is absent, skip
   \else
     \hspace{.1cm} \bodyfont\color{graytext}  (#3)% Year
   \fi
   % Link 1
-  \ifx&#4&% If link 1 is absent
+  \ifx&#4&% If link 1 is absent, skip
   \else
     \hspace{.1cm} [\href{#4}{{\fontsize{9pt}{1em}\bodyfont\color{graytext} link}}]% SSRN link
   \fi
   % Link 2 (Publisher)
-  \ifx&#5&% If publisher link is absent
+  \ifx&#5&% If publisher link is absent, skip
   \else
     \hspace{.1cm} [\href{#5}{Publisher}]% Publisher link
   \fi\\
   {\fontsize{10pt}{1em}\bodyfont\color{graytext}\hspace{.2cm} #2}% Authors
   % Journal name
-  \ifx&#6&% If journal name is absent
+  \ifx&#6&% If journal name is absent, skip
   \else
     \\{\fontsize{10pt}{1em}\bodyfont\color{awesome-skyblue}\hspace{.2cm} \textit{#6}}% Journal name
   \fi
   % Description
-  \ifx&#7&% If description is absent
+  \ifx&#7&% If description is absent, skip
   \else
-    % \\{\bodyfont\color{graytext}\hspace{.2cm} {#7}}% description
     \\
     \begin{minipage}[t]{\linewidth}
       \vspace{-0.2cm}
