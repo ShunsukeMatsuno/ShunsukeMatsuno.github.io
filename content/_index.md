@@ -40,37 +40,13 @@ description: Personal Website of Shunsuke Matsuno (松野 舜介)
 
  <!-- ![Resize](images/monster_logo.jpg?width=200&quality=100) -->
 
-PhD Candidate in Accounting, Columbia Business School
- 
-**Curriculum Vitae** 
-<br>
-[CV (pdf)](/cv/cv.pdf "CV")
+{{< two_columns
+    left="Columbia Business School<br>Ph.D. Candidate in Accounting<br><br><br>**Curriculum Vitae**<br>[CV (pdf)](/cv/cv.pdf \"CV\")<br><br><br><br>**Contact**<br>Email: <SMatsuno26@gsb.columbia.edu>"
+    right="![Resize](images/matsuno_headshot.jpg?width=200&quality=100)"
+>}}
 
 <br>
 
-**Contact**    
-Email: <SMatsuno26@gsb.columbia.edu>
-
-<!-- Education -->
-<!-- <p style="text-align:left;">
-  <b>Education</b>
-  <br>
-  Columbia Business School, PhD in Accounting<br>
-  <span style="float:left;">
-  &emsp;<i>2021-2026 (Expected)</i>
-  </span>
-  <br>
-  The University of Tokyo, MA in Management<br>
-  <span style="float:left;">
-  &emsp;<i>2019-2021</i>
-  </span>
-  <br>
-  The University of Tokyo, BA in Economics<br>
-  <span style="float:left;">
-  &emsp;<i>2015-2019</i>
-  </span>
-</p> -->
-<br>
 <!-- Education -->
 <p style="text-align:left; margin: 0; padding: 0;">
   <b>Education</b>
@@ -78,21 +54,21 @@ Email: <SMatsuno26@gsb.columbia.edu>
 <div style="margin-bottom: 10px;">
   <div>Columbia Business School</div>
   <div style="display: flex; justify-content: space-between; margin-left: 20px;">
-    <div style="font-size: 0.9rem;">PhD in Accounting</div>
+    <div style="font-size: 0.9rem;">Ph.D. in Accounting</div>
     <div style="font-size: 0.9rem;"><i>2021-2026 (Expected)</i></div>
   </div>
 </div>
 <div style="margin-bottom: 10px;">
   <div>The University of Tokyo</div>
   <div style="display: flex; justify-content: space-between; margin-left: 20px;">
-    <div style="font-size: 0.9rem;">MA in Management</div>
+    <div style="font-size: 0.9rem;">M.A. in Management</div>
     <div style="font-size: 0.9rem;"><i>2019-2021</i></div>
   </div>
 </div>
 <div style="margin-bottom: 10px;">
   <div>The University of Tokyo</div>
   <div style="display: flex; justify-content: space-between; margin-left: 20px;">
-    <div style="font-size: 0.9rem;">BA in Economics</div>
+    <div style="font-size: 0.9rem;">B.A. in Economics</div>
     <div style="font-size: 0.9rem;"><i>2015-2019</i></div>
   </div>
 </div>
