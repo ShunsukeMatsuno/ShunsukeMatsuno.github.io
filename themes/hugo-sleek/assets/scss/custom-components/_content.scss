@@ -16,10 +16,10 @@
       font-weight: normal;
   }
   a {
-      text-decoration: underline;
-      color: v.$black;
+      text-decoration: none !important;
+      color: v.$secondary !important;
       &:hover {
-      color: v.$primary;
+      color: v.$primary !important;
       }
   }
   p {

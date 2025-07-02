@@ -4,7 +4,7 @@ window.onload = function () {
     var elements = document.querySelectorAll("div.expand");
     elements.forEach(function (el) {
       var previousElement = el.previousElementSibling;
-      previousElement.innerHTML += '<br>&nbsp;&nbsp;&nbsp;<span> <a href="#" class="expand-link">+ Abstract</a></span>';
+      previousElement.innerHTML += '<br>&nbsp;&nbsp;&nbsp;<span> <a href="#" class="expand-link link-underline link-underline-opacity-0">+ Abstract</a></span>';
     });
   
     var expandLinks = document.querySelectorAll(".expand-link");
