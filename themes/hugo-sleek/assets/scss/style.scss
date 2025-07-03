@@ -60,7 +60,7 @@ body {
 // Horizontal layout (desktop view)
 @media (min-width: 769px) {
     .right-content {
-        padding-right: 30px; // Extra space between text and scrollbar
+        padding-right: 20px; // Extra space between text and scrollbar
         max-width: min(60vw, 720px);
     }
 }
