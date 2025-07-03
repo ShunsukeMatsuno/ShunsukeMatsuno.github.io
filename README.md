@@ -9,6 +9,10 @@ This website is built with [Hugo](https://gohugo.io/).
 - `scss` overrides the default bootstrap configurations of the theme
 - `cv` contains the tex sources of cv. Edit cv here. In the build workflow, only `cv.pdf` is copied to `static`.
 
+## Hugo mod
+- Run `hugo mod get -u` to update mod. Can delete old checksums from `go.sum`.
+  - Currently only [hugo image mod](https://github.com/hugomods/images) is used.
+
 
 # Personal Website with Hugo and GitHub Pages
 
@@ -18,7 +22,8 @@ This repository hosts the source code and GitHub Actions workflow for deploying 
 
 ## Workflow Summary
 
-TL;DR:After updating files in the `main` branch, commit and push the changes. Then, trigger the `hugo-deploy.yml` workflow manually from the GitHub UI.
+### TL;DR
+After updating files in the `main` branch, commit and push the changes. Then, trigger the `hugo-deploy.yml` workflow manually from the GitHub UI.
 
 ### Deploy Hugo Website to GitHub Pages (`hugo-deploy.yml`)
 Trigger this workflow manually from the GitHub UI.
