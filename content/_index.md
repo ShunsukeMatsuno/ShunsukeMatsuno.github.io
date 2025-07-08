@@ -43,7 +43,7 @@ description: Personal Website of Shunsuke Matsuno (松野 舜介)
 <!-- With picture -->
 {{< two_columns
     left="Columbia Business School<br>Ph.D. Candidate in Accounting<br><br><br>**Curriculum Vitae**<br>[CV (pdf)](/cv/cv.pdf \"CV\")<br><br><br>**Contact**<br>Email: <SMatsuno26@gsb.columbia.edu>"
-    right="![Shunsuke Matsuno (Portrait)](images/04_6.jpg?width=170&quality=100)<br><br>"
+    right="![Shunsuke Matsuno (Portrait)](images/Shunsuke-Matsuno_BW_2025-May.jpg?width=170&quality=100)<br><br>"
 >}}
 
 <!-- {{< two_columns
