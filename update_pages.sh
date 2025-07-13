@@ -27,4 +27,4 @@ gh workflow run "$WORKFLOW_FILE" --repo "$REPO"
 echo
 echo "Triggered workflow '$WORKFLOW_NAME' ($WORKFLOW_FILE) on $REPO"
 
-echo "Run `gh run watch` to watch the deployment job status"
+echo "Run "gh run watch" to watch the deployment job status"
