@@ -103,8 +103,8 @@ def process_response(response) -> pd.DataFrame:
     df = df.rename(columns={'pagePathPlusQueryString': 'page',
                             'dateHourMinute': 'time'})
     
-    # Format dateHourMinute (YYYYMMDDHHMM)
-    df['time'] = pd.to_datetime(df['time'].astype(str), format="%Y%m%d%H%M")
+    # Format dateHourMinute (YYYYMMDDHHMM) to match archive format "YYYY-MM-DD HH:MM:SS"
+    df['time'] = pd.to_datetime(df['time'].astype(str), format="%Y%m%d%H%M").dt.strftime('%Y-%m-%d %H:%M:%S')
     
     # Create device column combining deviceCategory and deviceModel
     df['device'] = df.apply(
@@ -141,12 +141,12 @@ def load_existing_data(file_path: Path) -> pd.DataFrame:
         file_path (Path): Path to the existing CSV file
         
     Returns:
-        pd.DataFrame: Loaded DataFrame with time column converted to datetime,
+        pd.DataFrame: Loaded DataFrame with time column as string to match format,
             or empty DataFrame if file doesn't exist
     """
     if file_path.exists():
         df = pd.read_csv(file_path)
-        df['time'] = pd.to_datetime(df['time'])
+        # Keep time as string to match archive format - no conversion needed
         return df
     return pd.DataFrame()
 
@@ -290,22 +290,32 @@ def main():
         Exception: If any step fails
     """
     try:
+        dirname = Path(os.path.dirname(os.path.abspath(__file__)))
+        credentials_path = dirname / CREDENTIALS_PATH
+        output_path = dirname / OUTPUT_FILE
+        
+        # Validate credentials file exists
+        if not credentials_path.exists():
+            raise FileNotFoundError(f"Credentials file not found: {credentials_path}")
+        
         # Setup client
-        client = setup_ga_client(CREDENTIALS_PATH)
+        client = setup_ga_client(str(credentials_path))
         
         # Create and execute request
         request = create_report_request(GA_ID)
         logging.info("Executing Google Analytics request...")
         response = client.run_report(request)
         
+        # Validate response
+        if not hasattr(response, 'rows') or len(response.rows) == 0:
+            logging.warning("No data returned from Google Analytics")
+            return
+        
         # Process response
         new_df = process_response(response)
         logging.info(f"Processed {len(new_df)} rows of new data")
         
         # Load existing data and merge
-        dirname = Path(os.path.dirname(os.path.abspath(__file__)))
-        output_path = dirname / OUTPUT_FILE
-        
         existing_df = load_existing_data(output_path)
         
         # Merge and save results

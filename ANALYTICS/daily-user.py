@@ -92,13 +92,16 @@ def process_response(response) -> pd.DataFrame:
     columns = [dim.name for dim in response.dimension_headers] + [metric.name for metric in response.metric_headers]
     df = pd.DataFrame(data, columns=columns)
     
-    # Data cleaning
-    df['date'] = pd.to_datetime(df['date'])
+    # Data cleaning - keep date as string to match archive format
+    df['date'] = pd.to_datetime(df['date']).dt.strftime('%Y-%m-%d')
     df = df.sort_values('date')
     
-    # Convert metrics to numeric
-    df['activeUsers'] = pd.to_numeric(df['activeUsers'])
-    df['newUsers'] = pd.to_numeric(df['newUsers'])
+    # Convert metrics to numeric, then back to int to match archive format
+    df['activeUsers'] = pd.to_numeric(df['activeUsers']).astype(int)
+    df['newUsers'] = pd.to_numeric(df['newUsers']).astype(int)
+    
+    # Replace "(not set)" with ""
+    df = df.replace("(not set)", "")
     
     return df
 
@@ -109,12 +112,12 @@ def load_existing_data(file_path: Path) -> pd.DataFrame:
         file_path (Path): Path to the existing CSV file
         
     Returns:
-        pd.DataFrame: Loaded DataFrame with date column converted to datetime,
+        pd.DataFrame: Loaded DataFrame with date column as string to match format,
                      or empty DataFrame if file doesn't exist
     """
     if file_path.exists():
         df = pd.read_csv(file_path)
-        df['date'] = pd.to_datetime(df['date'])
+        # Keep date as string to match archive format - no conversion needed
         return df
     return pd.DataFrame()
 
@@ -138,15 +141,22 @@ def merge_and_save_data(new_df: pd.DataFrame, existing_df: pd.DataFrame, output_
     try:
         if existing_df.empty:
             final_df = new_df
+            logging.info("No existing data found!")
         else:
             # Combine existing and new data
             combined_df = pd.concat([existing_df, new_df])
+            
+            # Replace NaN with ""
+            combined_df = combined_df.fillna("")
             
             # Remove duplicates based on date, country, and city
             final_df = combined_df.drop_duplicates(subset=['date', 'country', 'city'], keep='last')
             
             # Sort by date
             final_df = final_df.sort_values('date')
+        
+        # Ensure the output path is absolute
+        output_path = output_path.resolve()
         
         # Save to file
         output_path.parent.mkdir(parents=True, exist_ok=True)
@@ -253,6 +263,10 @@ def main():
         output_path = dirname / OUTPUT_FILE
         ga_id = GA_ID
 
+        # Validate credentials file exists
+        if not credentials_path.exists():
+            raise FileNotFoundError(f"Credentials file not found: {credentials_path}")
+
         # Load existing data
         existing_df = load_existing_data(output_path)
         
@@ -263,6 +277,11 @@ def main():
         # Execute request and process response
         logging.info("Executing Google Analytics request...")
         response = client.run_report(request)
+        
+        # Validate response
+        if not hasattr(response, 'rows') or len(response.rows) == 0:
+            logging.warning("No data returned from Google Analytics")
+            return
         
         new_df = process_response(response)
         logging.info(f"Processed {len(new_df)} rows of new data")

@@ -103,8 +103,8 @@ def process_response(response) -> pd.DataFrame:
     df = df.rename(columns={'pagePathPlusQueryString': 'page',
                             'dateHourMinute': 'time'})
     
-    # Format dateHourMinute (YYYYMMDDHHMM)
-    df['time'] = pd.to_datetime(df['time'].astype(str), format="%Y%m%d%H%M")
+    # Format dateHourMinute (YYYYMMDDHHMM) to match archive format "YYYY-MM-DD HH:MM:SS"
+    df['time'] = pd.to_datetime(df['time'].astype(str), format="%Y%m%d%H%M").dt.strftime('%Y-%m-%d %H:%M:%S')
     
     # Create device column combining deviceCategory and deviceModel
     df['device'] = df.apply(
@@ -135,31 +135,47 @@ def process_response(response) -> pd.DataFrame:
     return df
 
 def load_existing_data(file_path: Path) -> pd.DataFrame:
+    """Load existing data from CSV file if it exists."""
     if file_path.exists():
         df = pd.read_csv(file_path)
-        df['time'] = pd.to_datetime(df['time'])
+        # Keep time as string to match archive format - no conversion needed
         return df
     return pd.DataFrame()
 
 def merge_and_save_data(new_df: pd.DataFrame, existing_df: pd.DataFrame, output_path: Path) -> None:
-    if existing_df.empty:
-        final_df = new_df
-    else:
-        # Combine existing and new data
-        combined_df = pd.concat([existing_df, new_df])
+    """Test function to analyze data merging without saving."""
+    try:
+        if existing_df.empty:
+            final_df = new_df
+            print("No existing data found!")
+        else:
+            # Combine existing and new data
+            combined_df = pd.concat([existing_df, new_df])
 
-        # Drop activeUsers column if it exists
-        if 'activeUsers' in combined_df.columns:
-            combined_df = combined_df.drop(columns=['activeUsers'])
+            # Drop activeUsers column if it exists
+            if 'activeUsers' in combined_df.columns:
+                combined_df = combined_df.drop(columns=['activeUsers'])
 
-        # # Remove duplicates based on all columns
-        final_df = combined_df.drop_duplicates()
-        print(final_df)
+            # Replace NaN with ""
+            combined_df = combined_df.fillna("")
 
-        # number of rows dropped 
-        print(f"Number of rows dropped: {len(combined_df) - len(final_df)}")
-        # # Sort by time
-        # final_df = final_df.sort_values('time')
+            # Remove duplicates based on all columns
+            final_df = combined_df.drop_duplicates()
+            
+            # Sort by time
+            final_df = final_df.sort_values('time')
+            
+            print(f"Combined data rows: {len(combined_df)}")
+            print(f"Final data rows: {len(final_df)}")
+            print(f"Number of rows dropped: {len(combined_df) - len(final_df)}")
+            
+        print(f"Final dataset shape: {final_df.shape}")
+        print("\nFirst 5 rows:")
+        print(final_df.head())
+        
+    except Exception as e:
+        logging.error(f"Error in test merge: {e}")
+        raise
             
 def main():
     # Setup client
