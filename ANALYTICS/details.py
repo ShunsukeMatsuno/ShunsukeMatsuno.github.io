@@ -181,12 +181,18 @@ def merge_and_save_data(new_df: pd.DataFrame, existing_df: pd.DataFrame, output_
 
             # Replace NaN with ""
             combined_df = combined_df.fillna("")
+            
+            # Replace "(not set)" with "" in combined data (both new and existing)
+            combined_df = combined_df.replace("(not set)", "")
 
             # Remove duplicates based on all columns
             final_df = combined_df.drop_duplicates()
             
             # Sort by time
             final_df = final_df.sort_values('time')
+            
+        # Apply final cleaning to ensure no "(not set)" values remain
+        final_df = final_df.replace("(not set)", "")
             
         # Ensure the output path is absolute
         output_path = output_path.resolve()

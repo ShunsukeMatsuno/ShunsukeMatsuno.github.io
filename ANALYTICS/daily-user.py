@@ -142,6 +142,7 @@ def merge_and_save_data(new_df: pd.DataFrame, existing_df: pd.DataFrame, output_
         if existing_df.empty:
             final_df = new_df
             logging.info("No existing data found!")
+        
         else:
             # Combine existing and new data
             combined_df = pd.concat([existing_df, new_df])
@@ -149,11 +150,17 @@ def merge_and_save_data(new_df: pd.DataFrame, existing_df: pd.DataFrame, output_
             # Replace NaN with ""
             combined_df = combined_df.fillna("")
             
+            # Replace "(not set)" with "" in combined data (both new and existing)
+            combined_df = combined_df.replace("(not set)", "")
+            
             # Remove duplicates based on date, country, and city
             final_df = combined_df.drop_duplicates(subset=['date', 'country', 'city'], keep='last')
             
             # Sort by date
             final_df = final_df.sort_values('date')
+        
+        # Apply final cleaning to ensure no "(not set)" values remain
+        final_df = final_df.replace("(not set)", "")
         
         # Ensure the output path is absolute
         output_path = output_path.resolve()
