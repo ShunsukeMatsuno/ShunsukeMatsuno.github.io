@@ -664,6 +664,13 @@
       \ifempty{#3}{}{\\\multicolumn{2}{L{\textwidth}}{\hspace{1cm}\descriptionstyle{#3}}}
   \end{tabular*}%
 }
+\newcommand*{\cventryLONG}[1]{%
+  \vspace{-1mm}%
+  \noindent
+  \begin{minipage}{\textwidth}%
+    \entrytitlestylesimple{#1}%
+  \end{minipage}%
+}
 
 % Define an environment for cvsubentry
 \newenvironment{cvsubentries}{%

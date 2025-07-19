@@ -38,6 +38,35 @@ description: >
   Summary of research by Shunsuke Matsuno (松野 舜介), Columbia University. 
 ---
 
+<!-- If you want small cap font for section headings, uncomment the following CSS block. -->
+<!-- 
+<style>
+.content h2 {
+    font-variant: small-caps;
+}
+</style>
+-->
+
+
+## Job Market Paper
+"The Gatekeeping Expert's Dilemma"
+
+<div style="display:none;" id="ExpandContent"><br>
+
+[expand]
+
+In many economic settings, an agent with superior information acts as a gatekeeper (*gatekeeping experts*).
+The gatekeeper would like to communicate her expertise.
+But the gatekeeping expert faces a dilemma: precise communication may let others exploit the information and weaken her gatekeeping power.
+How transparent should a gatekeeping expert be?
+The paper studies this question in the context of financial auditing, where an expert auditor decides whether to accept a manager's financial report.
+I show that the auditor can use deliberately vague language to share her expertise without compromising her gatekeeping power.
+While intuition suggests that more independent auditors communicate more precisely, I show that this relationship can be non-monotonic: less-independent auditors sometimes provide more information to prevent opportunistic reporting by the manager.
+This paper contributes to our understanding of the economic tension between information sharing and gatekeeping.
+
+[/expand]
+</div>
+
 ## Working Papers
 "Mandatory vs. Voluntary Disclosure in the Dynamic Market for Lemons," 2024 (with Cyrus Aghamolla) [[SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4680389),\
  *R&R at Review of Financial Studies*
