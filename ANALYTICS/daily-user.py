@@ -52,7 +52,7 @@ def create_report_request(ga_id: str) -> RunReportRequest:
         
     Returns:
         RunReportRequest: Configured request object with:
-            - Dimensions: date, country, city
+            - Dimensions: date, country, city, cityId
             - Metrics: activeUsers, newUsers
             - Date range: from 2020-04-01 to 2030-12-31
     """
@@ -61,7 +61,8 @@ def create_report_request(ga_id: str) -> RunReportRequest:
         dimensions=[
             Dimension(name="date"),
             Dimension(name="country"),
-            Dimension(name="city")
+            Dimension(name="city"),
+            Dimension(name="cityId")
         ],
         metrics=[
             Metric(name="activeUsers"),
@@ -78,7 +79,7 @@ def process_response(response) -> pd.DataFrame:
         
     Returns:
         pd.DataFrame: Processed DataFrame with:
-            - Columns: date, country, city, activeUsers, newUsers
+            - Columns: date, country, city, cityId, activeUsers, newUsers
             - Sorted by date
             - Numeric metrics
             - Properly formatted datetime
@@ -117,6 +118,10 @@ def load_existing_data(file_path: Path) -> pd.DataFrame:
     """
     if file_path.exists():
         df = pd.read_csv(file_path)
+        # Add cityId column if it doesn't exist (for backward compatibility with archived data)
+        if 'cityId' not in df.columns:
+            df['cityId'] = ''
+            logging.info("Added cityId column with empty values for backward compatibility")
         # Keep date as string to match archive format - no conversion needed
         return df
     return pd.DataFrame()
@@ -133,7 +138,7 @@ def merge_and_save_data(new_df: pd.DataFrame, existing_df: pd.DataFrame, output_
         Exception: If saving fails
         
     Note:
-        - Removes duplicates based on date, country, and city
+        - Removes duplicates based on date, country, city, and cityId
         - Keeps the most recent version of duplicate entries
         - Sorts final data by date
         - Creates output directory if it doesn't exist
@@ -153,8 +158,8 @@ def merge_and_save_data(new_df: pd.DataFrame, existing_df: pd.DataFrame, output_
             # Replace "(not set)" with "" in combined data (both new and existing)
             combined_df = combined_df.replace("(not set)", "")
             
-            # Remove duplicates based on date, country, and city
-            final_df = combined_df.drop_duplicates(subset=['date', 'country', 'city'], keep='last')
+            # Remove duplicates based on date, country, city, and cityId
+            final_df = combined_df.drop_duplicates(subset=['date', 'country', 'city', 'cityId'], keep='last')
             
             # Sort by date
             final_df = final_df.sort_values('date')

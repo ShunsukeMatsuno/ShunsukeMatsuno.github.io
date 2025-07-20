@@ -54,7 +54,7 @@ def create_report_request(ga_id: str) -> RunReportRequest:
         
     Returns:
         RunReportRequest: Configured request object with:
-            - Dimensions: dateHourMinute, country, city, deviceCategory, deviceModel, pagePathPlusQueryString, fileName, linkUrl
+            - Dimensions: dateHourMinute, country, city, cityId, deviceCategory, deviceModel, pagePathPlusQueryString, fileName, linkUrl
             - Metrics: activeUsers, newUsers
             - Date range: from 2020-04-01 to today
     """
@@ -64,6 +64,7 @@ def create_report_request(ga_id: str) -> RunReportRequest:
             Dimension(name="dateHourMinute"),
             Dimension(name="country"),
             Dimension(name="city"),
+            Dimension(name="cityId"),
             Dimension(name="deviceCategory"),
             Dimension(name="deviceModel"),
             Dimension(name="pagePathPlusQueryString"),
@@ -85,7 +86,7 @@ def process_response(response) -> pd.DataFrame:
         
     Returns:
         pd.DataFrame: Processed DataFrame with:
-            - Columns: time, country, city, device, page, fileName, linkUrl, newUsers
+            - Columns: time, country, city, cityId, device, page, fileName, linkUrl, newUsers
             - Sorted by time
             - Numeric metrics
             - Properly formatted datetime (YYYYMMDDHHMM format)
@@ -131,7 +132,7 @@ def process_response(response) -> pd.DataFrame:
     df = df.replace("(not set)", "")
 
     # Order columns
-    df = df[['time', 'country', 'city', 'device', 'newUsers', 'page', 'fileName', 'linkUrl']]
+    df = df[['time', 'country', 'city', 'cityId', 'device', 'newUsers', 'page', 'fileName', 'linkUrl']]
     return df
 
 def load_existing_data(file_path: Path) -> pd.DataFrame:
@@ -146,6 +147,10 @@ def load_existing_data(file_path: Path) -> pd.DataFrame:
     """
     if file_path.exists():
         df = pd.read_csv(file_path)
+        # Add cityId column if it doesn't exist (for backward compatibility with archived data)
+        if 'cityId' not in df.columns:
+            df['cityId'] = ''
+            logging.info("Added cityId column with empty values for backward compatibility")
         # Keep time as string to match archive format - no conversion needed
         return df
     return pd.DataFrame()
