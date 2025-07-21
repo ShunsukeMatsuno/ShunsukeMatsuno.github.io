@@ -35,4 +35,4 @@ else
 fi
 
 # Run Python script with conda environment
-conda run --name google-analytics python filter-geotargets-core.py "$search_string"
+conda run --name google-analytics python scripts/filter-geotargets-core.py "$search_string"

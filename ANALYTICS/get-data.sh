@@ -67,10 +67,10 @@ script_dir="$(dirname "$0")"
 mkdir -p "$script_dir/data"
 
 if [[ "$data_level" == 1 ]]; then
-    conda run --name google-analytics python "$script_dir/daily-user.py"
+    conda run --name google-analytics python "$script_dir/scripts/daily-user.py"
     csv_file="$script_dir/data/raw_data.csv"
 elif [[ "$data_level" == 2 ]]; then
-    conda run --name google-analytics python "$script_dir/details.py"
+    conda run --name google-analytics python "$script_dir/scripts/details.py"
     csv_file="$script_dir/data/raw_data_detail.csv"
 else
     echo "Invalid data level: $data_level. Must be 1 or 2."
