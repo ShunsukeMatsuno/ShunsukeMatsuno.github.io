@@ -24,8 +24,8 @@ logging.basicConfig(
 # Configuration
 CREDENTIALS_PATH = "my-website-analytics-b37a5d44bcc6.json"
 GA_ID = '434705894'
-OUTPUT_FILE = 'data/raw_data_detail.csv'
-ARCHIVE_DIR = 'data/archive' 
+OUTPUT_FILE = '../data/raw_data_detail.csv'
+ARCHIVE_DIR = '../data/archive' 
 
 def setup_ga_client(credentials_path: str) -> BetaAnalyticsDataClient:
     """Initialize the Google Analytics client with credentials.
