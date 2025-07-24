@@ -4,7 +4,7 @@ node_modules
 terminal
 resources
 my-website-analytics-b37a5d44bcc6.json
-ANALYTICS/data/**/*.csv
+ANALYTICS/data/**
 docs/**
 
 ## Core latex/pdflatex auxiliary files:
