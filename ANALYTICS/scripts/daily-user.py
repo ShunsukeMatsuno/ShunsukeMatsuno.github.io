@@ -104,6 +104,9 @@ def process_response(response) -> pd.DataFrame:
     # Replace "(not set)" with ""
     df = df.replace("(not set)", "")
     
+    # Clean cityId by removing .0 suffix if present
+    df['cityId'] = df['cityId'].astype(str).str.replace(r'\.0$', '', regex=True)
+    
     return df
 
 def load_existing_data(file_path: Path) -> pd.DataFrame:
@@ -157,6 +160,9 @@ def merge_and_save_data(new_df: pd.DataFrame, existing_df: pd.DataFrame, output_
             
             # Replace "(not set)" with "" in combined data (both new and existing)
             combined_df = combined_df.replace("(not set)", "")
+            
+            # Clean cityId by removing .0 suffix if present (for existing data compatibility)
+            combined_df['cityId'] = combined_df['cityId'].astype(str).str.replace(r'\.0$', '', regex=True)
             
             # Remove duplicates based on date, country, city, and cityId
             final_df = combined_df.drop_duplicates(subset=['date', 'country', 'city', 'cityId'], keep='last')

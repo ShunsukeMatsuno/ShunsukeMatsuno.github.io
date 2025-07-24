@@ -25,6 +25,9 @@ if [[ "$1" == "-h" || "$1" == "--help" ]]; then
     exit 1
 fi
 
+# conda bin
+export PATH="$PATH:/opt/conda/bin"
+
 # Default values
 show_all=false
 data_level=1
