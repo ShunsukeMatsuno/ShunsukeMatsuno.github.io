@@ -4,7 +4,7 @@
 % This class has been downloaded from:
 % https://github.com/posquit0/Awesome-CV
 %
-% Author:
+% Original Author:
 % Claud D. Park <posquit0.bj@gmail.com>
 % http://www.posquit0.com
 %
@@ -17,7 +17,6 @@
 %-------------------------------------------------------------------------------
 \ProvidesClass{awesome-cv-2}[2025/03/22]
 \NeedsTeXFormat{LaTeX2e}
-
 
 %-------------------------------------------------------------------------------
 %                Class options
@@ -35,7 +34,6 @@
 }
 \ProcessOptions\relax
 \LoadClass{article}
-
 
 %-------------------------------------------------------------------------------
 %                3rd party packages
@@ -322,12 +320,6 @@
 % Usage: \gitlab{<gitlab-nick>}
 \newcommand*{\gitlab}[1]{\def\@gitlab{#1}}
 
-% Defines writer's stackoverflow profile (optional)
-% Usage: \stackoverflow{<so userid>}{<so username>}
-%   e.g.https://stackoverflow.com/users/123456/sam-smith
-%       would be \stackoverflow{123456}{sam-smith}
-\newcommand*{\stackoverflow}[2]{\def\@stackoverflowid{#1}\def\@stackoverflowname{#2}}
-
 % Defines writer's linked-in (optional)
 % Usage: \linkedin{<linked-in-nick>}
 \newcommand*{\linkedin}[1]{\def\@linkedin{#1}}
@@ -335,22 +327,6 @@
 % Defines writer's twitter (optional)
 % Usage: \twitter{<twitter handle>}
 \newcommand*{\twitter}[1]{\def\@twitter{#1}}
-
-% Defines writer's skype (optional)
-% Usage: \skype{<skype account>}
-\newcommand*{\skype}[1]{\def\@skype{#1}}
-
-% Defines writer's reddit (optional)
-% Usage: \reddit{<reddit account>}
-\newcommand*{\reddit}[1]{\def\@reddit{#1}}
-
-% Defines writer's xing (optional)
-% Usage: \xing{<xing name>}
-\newcommand*{\xing}[1]{\def\@xing{#1}}
-
-% Defines writer's medium profile (optional)
-% Usage: \medium{<medium account>}
-\newcommand*{\medium}[1]{\def\@medium{#1}}
 
 % Defines writer's google scholar profile (optional)
 % Usage: \googlescholar{<googlescholar userid>}{<googlescholar username>}
@@ -408,7 +384,6 @@
   \def\@letterenclosure{#2}
 }
 
-
 %-------------------------------------------------------------------------------
 %                Commands for extra
 %-------------------------------------------------------------------------------
@@ -426,7 +401,6 @@
 % Others
 \newcommand{\acvSectionTopSkip}{3mm}
 \newcommand{\acvSectionContentTopSkip}{2.5mm}
-
 
 %-------------------------------------------------------------------------------
 %                Commands for utilities
@@ -696,42 +670,6 @@
   \end{tabular*}
 }
 
-% Define an environment for cvhonor
-\newenvironment{cvhonors}{%
-  \vspace{\acvSectionContentTopSkip}
-  \vspace{-2mm}
-  \begin{center}
-    \setlength\tabcolsep{0pt}
-    \setlength{\extrarowheight}{0pt}
-    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} C{1.5cm} L{\textwidth - 4.0cm} R{2.5cm}}
-}{%
-    \end{tabular*}
-  \end{center}
-}
-% Define a line of cv information(honor, award or something else)
-% Usage: \cvhonor{<position>}{<title>}{<location>}{<date>}
-\newcommand*{\cvhonor}[4]{%
-  \honordatestyle{#4} & \honorpositionstyle{#1}, \honortitlestyle{#2} & \honorlocationstyle{#3} \\
-}
-
-% Define an environment for cvskill
-\newenvironment{cvskills}{%
-  \vspace{\acvSectionContentTopSkip}
-  \vspace{-2.0mm}
-  \begin{center}
-    \setlength\tabcolsep{1ex}
-    \setlength{\extrarowheight}{0pt}
-    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} r L{\textwidth * \real{0.9}}}
-}{%
-    \end{tabular*}
-  \end{center}
-}
-% Define a line of cv information(skill)
-% Usage: \cvskill{<type>}{<skillset>}
-\newcommand*{\cvskill}[2]{%
-	\skilltypestyle{#1} & \skillsetstyle{#2} \\
-}
-
 % Define an environment for cvitems(for cventry)
 \newenvironment{cvitems}{%
   % \vspace{-4.0mm}
@@ -744,7 +682,6 @@
   \end{justify}
   \vspace{3.5mm}
 }
-
 
 %-------------------------------------------------------------------------------
 %                Commands for elements of Cover Letter
@@ -803,7 +740,7 @@
 
 % Paper entry 
 % usage: \paperentry{<title>}{<author>}{<year>}{<link SSRN>}{<link journal>}{<description>}
-\newcommand{\paperentry}[7]{%
+\newcommand{\paperentry}[8]{%
   {\fontsize{10pt}{1em}\bfseries\bodyfont\color{darktext} #1}% Title
   \ifx&#3&% If year is absent, skip
   \else
@@ -833,34 +770,19 @@
       \vspace{-0.2cm}
       \fontsize{9pt}{1em}\bodyfontlight \color{text}#7
     \end{minipage}%
-  \fi\\
-  \vspace{-.25cm}% Adjust vertical spacing
+  \fi
+  % Abstract
+  \ifx&#8&% If abstract is absent, skip
+  \else
+    \\
+    \begin{minipage}[t]{\linewidth}
+      \vspace{-0.2cm}
+      \fontsize{10pt}{1em}\bodyfont \color{darktext}\textit{Abstract}. #8
+    \end{minipage}%
+  \fi
+  % \vspace{-.25cm}% Adjust vertical spacing
 }
 
-% \newcommand{\paperentry}[6]{%
-%   {\fontsize{11pt}{1em}\bfseries\bodyfont\color{darktext} #1}% Title
-%   \ifx&#3&% If year is absent
-%   \else
-%     \hspace{.1cm} (#3)% Year
-%   \fi
-%   % Link 1
-%   \ifx&#4&% If link 1 is absent
-%   \else
-%     \hspace{.1cm} [\href{#4}{{\fontsize{9pt}{1em}\bodyfont\color{graytext} SSRN}}]% SSRN link
-%   \fi
-%   % Link 2 (Publisher)
-%   \ifx&#5&% If publisher link is absent
-%   \else
-%     \hspace{.1cm} [\href{#5}{Publisher}]% Publisher link
-%   \fi\\
-%   {\fontsize{10pt}{1em}\bodyfont\color{graytext}\hspace{.2cm} #2}% Authors
-%   % Journal name
-%   \ifx&#6&% If journal name is absent
-%   \else
-%     \\{\fontsize{10pt}{1em}\bodyfont\color{awesome-skyblue}\hspace{.2cm} \textit{#6}}% Journal name
-%   \fi\\
-%   \vspace{-.4cm}% Adjust vertical spacing
-% }
 %-------------------------------------------------------------------------------
 %                Bibliography
 %-------------------------------------------------------------------------------
@@ -1018,4 +940,70 @@ backend=biber % {Options: bibtex, biber}
 	\ifthenelse{\value{listcount}<\value{liststop}}
 	{\addcomma\space}
 	{}
+}
+
+%-------------------------------------------------------------------------------
+%                References Section
+%-------------------------------------------------------------------------------
+% Define an environment for cvreferences
+\newenvironment{cvreferences}{%
+  \vspace{\acvSectionContentTopSkip}
+  \vspace{-2.5mm}
+}{%
+}
+
+% Define a three-column layout for references
+% Usage: \cvtriplecolumn{content1}{content2}{content3}
+\newcommand{\cvtriplecolumn}[3]{%
+  \noindent
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} p{0.38\textwidth} p{0.38\textwidth} p{0.38\textwidth}}
+    {#1} & {#2} & {#3}
+  \end{tabular*}%
+}
+
+% Define a single reference
+% Usage: \cvreference{name}{title}{institution}{email}{phone}
+\newcommand{\cvreference}[5]{%
+  \begingroup
+  \raggedright
+  {\fontsize{10pt}{1em}\bodyfont\bfseries\color{darktext}#1}%
+  \ifx\\#3\\%
+  \else
+    \\[0.5mm]{\fontsize{9pt}{1em}\bodyfont\color{graytext}#3}%
+  \fi
+  \ifx\\#2\\%
+  \else
+    \\[0.3mm]{\fontsize{9pt}{1em}\bodyfont\color{graytext}#2}%
+  \fi
+  \ifx\\#4\\%
+  \else
+    \\[0.3mm]{\fontsize{8pt}{1em}\bodyfontlight\color{text}\href{mailto:#4}{\faEnvelope\space#4}}%
+  \fi
+  \ifx\\#5\\%
+  \else
+    \\[0.3mm]{\fontsize{8pt}{1em}\bodyfontlight\color{text}\faPhone\space#5}%
+  \fi
+  \endgroup
+}
+\newcommand{\cvreferencechair}[5]{%
+  \begingroup
+  \raggedright
+  {\fontsize{10pt}{1em}{\bodyfont\bfseries\color{darktext}#1} {\bodyfont\color{darktext}(Chair)}}%
+  \ifx\\#3\\%
+  \else
+    \\[0.5mm]{\fontsize{9pt}{1em}\bodyfont\color{graytext}#3}%
+  \fi
+  \ifx\\#2\\%
+  \else
+    \\[0.3mm]{\fontsize{9pt}{1em}\bodyfont\color{graytext}#2}%
+  \fi
+  \ifx\\#4\\%
+  \else
+    \\[0.3mm]{\fontsize{8pt}{1em}\bodyfontlight\color{text}\href{mailto:#4}{\faEnvelope\space#4}}%
+  \fi
+  \ifx\\#5\\%
+  \else
+    \\[0.3mm]{\fontsize{8pt}{1em}\bodyfontlight\color{text}\faPhone\space#5}%
+  \fi
+  \endgroup
 }

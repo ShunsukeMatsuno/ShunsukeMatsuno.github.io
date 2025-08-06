@@ -51,11 +51,6 @@
 \homepage{shunsukematsuno.github.io}
 % \github{posquit0}
 % \linkedin{posquit0}
-% \gitlab{gitlab-id}
-% \twitter{@twit}
-% \skype{skype-id}
-% \reddit{reddit-id}
-% \medium{madium-id}
 % \googlescholar{googlescholar-id}{name-to-display}
 % \googlescholar{googlescholar-id}{}
 % \extrainfo{extra informations}
@@ -74,7 +69,7 @@
 \makecvfooter
   % {Last Updated: \monthyeardate\today}
   {}
-  {\thepage/\pageref{LastPage}}
+  {\thepage/\pageref{LastPage}}    % Don't use \clearpage in the main text. Use \newpage.
   {}
   % {Shunsuke Matsuno~~~·~~~Curriculum Vitae}
 
@@ -82,7 +77,6 @@
 \cvheader
   {Last Updated: \monthyeardate\today}
   % {Shunsuke Matsuno~~~·~~~Curriculum Vitae}
-
 
 
 %-------------------------------------------------------------------------------
@@ -98,6 +92,8 @@
 \input{cv_data/awards.tex}
 % \input{cv_data/academic-service.tex}
 \input{cv_data/others.tex}
+\newpage
+\input{cv_data/references.tex}
 
 %-------------------------------------------------------------------------------
 \end{document}
