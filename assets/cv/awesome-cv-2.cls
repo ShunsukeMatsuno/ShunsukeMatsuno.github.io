@@ -977,11 +977,11 @@ backend=biber % {Options: bibtex, biber}
   \fi
   \ifx\\#4\\%
   \else
-    \\[0.3mm]{\fontsize{8pt}{1em}\bodyfontlight\color{text}\href{mailto:#4}{\faEnvelope\space#4}}%
+    \\[0.3mm]{\fontsize{8pt}{1em}\bodyfontlight\color{text}\href{mailto:#4}{\space#4}}%
   \fi
   \ifx\\#5\\%
   \else
-    \\[0.3mm]{\fontsize{8pt}{1em}\bodyfontlight\color{text}\faPhone\space#5}%
+    \\[0.3mm]{\fontsize{8pt}{1em}\bodyfontlight\color{text}\space#5}%
   \fi
   \endgroup
 }
@@ -999,11 +999,11 @@ backend=biber % {Options: bibtex, biber}
   \fi
   \ifx\\#4\\%
   \else
-    \\[0.3mm]{\fontsize{8pt}{1em}\bodyfontlight\color{text}\href{mailto:#4}{\faEnvelope\space#4}}%
+    \\[0.3mm]{\fontsize{8pt}{1em}\bodyfontlight\color{text}\href{mailto:#4}{\space#4}}%
   \fi
   \ifx\\#5\\%
   \else
-    \\[0.3mm]{\fontsize{8pt}{1em}\bodyfontlight\color{text}\faPhone\space#5}%
+    \\[0.3mm]{\fontsize{8pt}{1em}\bodyfontlight\color{text}\space#5}%
   \fi
   \endgroup
 }
