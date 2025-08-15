@@ -51,18 +51,11 @@ description: >
 ## Job Market Paper
 "The Gatekeeping Expert's Dilemma"
 
-<div style="display:none;" id="ExpandContent"><br>
+<div style="display:none;" id="ExpandContent" data-expanded="true"><br>
 
 [expand]
 
-In many economic settings, an agent with superior information acts as a gatekeeper (*gatekeeping experts*).
-The gatekeeper would like to communicate her expertise.
-But the gatekeeping expert faces a dilemma: precise communication may let others exploit the information and weaken her gatekeeping power.
-How transparent should a gatekeeping expert be?
-The paper studies this question in the context of financial auditing, where an expert auditor decides whether to accept a manager's financial report.
-I show that the auditor can use deliberately vague language to share her expertise without compromising her gatekeeping power.
-While intuition suggests that more independent auditors communicate more precisely, I show that this relationship can be non-monotonic: less-independent auditors sometimes provide more information to prevent opportunistic reporting by the manager.
-This paper contributes to our understanding of the economic tension between information sharing and gatekeeping.
+In many economic settings, an expert with superior information acts as a gatekeeper (*gatekeeping experts*). The gatekeeper influences agents through veto power and communication. But the gatekeeping expert faces a dilemma: precise communication may let others exploit the information and weaken her gatekeeping power. How transparent should a gatekeeping expert be? The paper studies this question in the context of financial auditing, where an expert auditor decides whether to accept a manager's financial report. I show that the auditor can use deliberately vague language to share her expertise without compromising her gatekeeping power. The auditor's independence and expertise determine the equilibrium amount of information she communicates, and these relationships can be non-monotonic. This paper contributes to our understanding of gatekeepers through an informational perspective.
 
 [/expand]
 </div>
