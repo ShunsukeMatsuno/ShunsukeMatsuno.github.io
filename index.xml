@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>About on Shunsuke Matsuno - Personal Website | CBS</title><link>https://shunsukematsuno.github.io/</link><description>Recent content in About on Shunsuke Matsuno - Personal Website | CBS</description><generator>Hugo</generator><language>en-US</language><managingEditor>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</managingEditor><webMaster>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</webMaster><atom:link href="https://shunsukematsuno.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Research</title><link>https://shunsukematsuno.github.io/research/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</author><guid>https://shunsukematsuno.github.io/research/</guid><description>&lt;!-- If you want small cap font for section headings, uncomment the following CSS block. -->
+&lt;!-- 
+&lt;style>
+.content h2 {
+ font-variant: small-caps;
+}
+&lt;/style>
+-->
+&lt;h2 id="job-market-paper">Job Market Paper&lt;/h2>
+&lt;p>&amp;ldquo;The Gatekeeping Expert&amp;rsquo;s Dilemma&amp;rdquo;&lt;/p>
+&lt;div style="display:none;" id="ExpandContent" data-expanded="true">&lt;br>
+&lt;p>[expand]&lt;/p>
+&lt;p>In many economic settings, an expert with superior information acts as a gatekeeper (&lt;em>gatekeeping expert&lt;/em>). The gatekeeper influences agents through veto power and communication. But the gatekeeping expert faces a dilemma: precise communication may let others exploit the information and weaken her gatekeeping power. How transparent should a gatekeeping expert be? The paper studies this question in the context of financial auditing, where an expert auditor decides whether to accept a manager&amp;rsquo;s financial report. I show that the auditor can use deliberately vague language to share her expertise without compromising her gatekeeping power. The auditor&amp;rsquo;s independence and expertise determine the equilibrium amount of information she communicates, and these relationships can be non-monotonic. This paper contributes to our understanding of gatekeepers through an informational perspective.&lt;/p></description></item><item><title>Sitemap</title><link>https://shunsukematsuno.github.io/sitemap/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</author><guid>https://shunsukematsuno.github.io/sitemap/</guid><description>&lt;ul>
+ 
+ &lt;li>&lt;a href="https://shunsukematsuno.github.io/research/">Research&lt;/a>&lt;/li>
+ 
+ &lt;li>&lt;a href="https://shunsukematsuno.github.io/sitemap/">Sitemap&lt;/a>&lt;/li>
+ 
+ &lt;li>&lt;a href="https://shunsukematsuno.github.io/test/">Welcome to My Website&lt;/a>&lt;/li>
+ 
+&lt;/ul></description></item><item><title>Welcome to My Website</title><link>https://shunsukematsuno.github.io/test/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</author><guid>https://shunsukematsuno.github.io/test/</guid><description>&lt;p>This is the main content area. You can add sections here for your research, contact details, and other relevant information.&lt;/p></description></item></channel></rss>
