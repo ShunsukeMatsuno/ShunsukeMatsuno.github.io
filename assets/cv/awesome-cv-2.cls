@@ -574,13 +574,22 @@
 }
 
 % Define a subsection for CV
-% Usage: \cvsubsection{<subsection-title>}
+% Usage:
+% \cvsubsection{<title>}
+% \cvsubsection{<title>}{<extra text>}
+\makeatletter
 \newcommand{\cvsubsection}[1]{%
-  \vspace{\acvSectionContentTopSkip}
-  \vspace{-3mm}
-  \subsectionstyle{#1}
+  \vspace{\acvSectionContentTopSkip}%
+  \vspace{-3mm}%
+  \subsectionstyle{#1}%
+  % If another {…} follows, treat it as unstyled extra text
+  \@ifnextchar\bgroup{\cvsubsection@extra}{\phantomsection}%
+}
+\newcommand{\cvsubsection@extra}[1]{%
+  \nolinebreak\hfill{\scriptsize{\normalfont #1}}%
   \phantomsection
 }
+\makeatother
 
 % Define a paragraph for CV
 \newenvironment{cvparagraph}{%
