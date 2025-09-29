@@ -1,13 +1,10 @@
 {
-    "latex-workshop.latex.recipe.default": "latexmk (lualatex)",
-    "latex-workshop.latex.recipes": [
-        {
-            "name": "latexmk (lualatex)",
-            "tools": [
-                "lualatexmk"
-            ]
-        },
+    "latex-workshop.latex.recipe.default": "latexmk (lualatex_nosynctex)",
+    "peacock.color": "#c0df03",
+    "cSpell.words": [
+        "anticonformity"
     ],
+    "r.lsp.promptToInstall": false,
     "workbench.colorCustomizations": {
         "activityBar.activeBackground": "#dcfc19",
         "activityBar.background": "#dcfc19",
@@ -26,10 +23,5 @@
         "titleBar.activeForeground": "#15202b",
         "titleBar.inactiveBackground": "#c0df0399",
         "titleBar.inactiveForeground": "#15202b99"
-    },
-    "peacock.color": "#c0df03",
-    "cSpell.words": [
-        "anticonformity"
-    ],
-    "r.lsp.promptToInstall": false
+    }
 }
