@@ -51,12 +51,13 @@ description: >
 
 ## Job Market Paper
 "The Gatekeeping Expert's Dilemma"
+[[paper]](/papers/JMP_matsuno.pdf) [[supplementary material]](/papers/supplementary-material_Gatekeeping-Experts-Dilemma.pdf)
 
 <div style="display:none;" id="ExpandContent" data-expanded="true"><br>
 
 [expand]
 
-Gatekeepers do not directly control agents and hold only veto power. Instead, they influence agents through communication. Their expertise helps agents' decisions, while veto power disciplines them. However, they face a dilemma: transparent communication may enable agents to game standards. How can gatekeeping experts effectively influence agents without losing leverage? The paper studies this question in the context of financial auditing, where an expert auditor decides whether to accept a manager's financial report. I show that strategic vagueness is the key: by revealing just enough to prevent the manager from inflating the report, the auditor guides the manager while preserving leverage. This theoretical lens provides a novel rationale for why auditors predominantly accept clients' financial reporting. Comparative statics reveals that greater gatekeeper independence or expertise may dampen communication. This paper contributes to our understanding of how gatekeepers function from an informational perspective.
+Gatekeepers do not directly control agents but instead hold only veto power. They also have expertise and influence agents through communication. Their expertise helps agents' decisions, while veto power disciplines those decisions. However, gatekeepers face a dilemma: transparent communication may let agents game standards. How can gatekeeping experts guide behavior without being gamed? Many economic settings feature this tradeoff, including bank stress tests, environmental regulations, and financial auditing. Using financial auditing as the primary example, I show that strategic vagueness is the key: by revealing just enough to prevent the manager from inflating the report, the auditor guides the manager while preserving her gatekeeping power. This theoretical lens provides a novel rationale for why auditors predominantly accept clients' financial reports. Comparative statics reveals that greater gatekeeper independence or expertise sometimes dampens communication. This paper shows how communication and veto power make gatekeepers effective.
 
 [/expand]
 </div>
