@@ -758,7 +758,8 @@
   % Link 1
   \ifx&#4&% If link 1 is absent, skip
   \else
-    \hspace{.1cm} [\href{#4}{{\fontsize{9pt}{1em}\bodyfont\color{graytext} link}}]% SSRN link
+    % \hspace{.1cm} [\href{#4}{{\fontsize{9pt}{1em}\bodyfont\color{graytext} link}}]% SSRN link
+    \hspace{.1cm} {\fontsize{9pt}{1em}\bodyfont\color{graytext} #4}% SSRN link
   \fi
   % Link 2 (Publisher)
   \ifx&#5&% If publisher link is absent, skip
