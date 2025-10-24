@@ -54,7 +54,7 @@ description: >
 
 ## Job Market Paper
 "The Gatekeeping Expert's Dilemma"
-[[paper]](/papers/JMP_matsuno.pdf) [[supplementary material]](/papers/supplementary-material_Gatekeeping-Experts-Dilemma.pdf)
+[[SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5583773) [[supplementary material]](/papers/supplementary-material_Gatekeeping-Experts-Dilemma.pdf)
 
 <div style="display:none;" id="ExpandContent" data-expanded="true"><br>
 
