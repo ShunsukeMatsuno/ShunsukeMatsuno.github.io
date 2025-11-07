@@ -104,20 +104,19 @@ Some organizations are characterized by a conformity culture, where followers ar
 [/expand]
 </div>
 
-<!-- ## Work in Progress
-
-"The Proprietary Costs of Transparency: Strategic Patenting Under Financial Reporting Mandates" (with Li Azinovic-Yang, Yue Chen, and Sunho Yoo)
+"Strategic Patenting Under Financial Reporting Mandates" (with Li Azinovic-Yang, Yue Chen, and Sunho Yoo)
 
 <div style="display:none;" id="ExpandContent"><br>
 
 [expand]
 
-We examine how financial disclosure regulations influence firms' intellectual property (IP) protection strategies, particularly their patenting behavior. While these regulations enhance transparency, they also expose firms to competitive risks by revealing insights into their product market success. We develop a theoretical model showing that increased disclosure lowers the threshold for patenting, leading firms to patent more but lower value innovations as a defensive measure. Using the Accounting Standards Codification (ASC) 606 revenue disaggregation requirements as an empirical setting, we find that affected firms significantly increase patent filings after the mandate announcement, with a decline in patent quality measured by forward citations, while their R\&D intensity remains unchanged. Leveraging a structural estimation approach, we quantify the proprietary costs imposed by disclosure regulations, highlighting the strategic dimensions of IP management in response to transparency mandates.
+We examine how financial disclosure regulations influence firms' intellectual property (IP) protection strategies.  While disclosure enhances transparency, it also exposes firms to competitive risks by revealing insights into their product market performance. We develop a theoretical framework of transparency and strategic patenting, incorporating both financial disclosure and patent disclosure. Our model predicts that increased financial transparency makes secrecy riskier, compelling firms to lower their patenting threshold. This effect, which leads to more patent filings of lower average quality, is predicted to dominate as long as financial and patent disclosures are substitutes or not strongly complementary. We test these predictions using the revenue disaggregation requirements under ASC 606. In a difference-in-differences design, we find that affected firms significantly increase patent filings. The quality of these patents, measured by forward citations, declines.  We also find that this effect is concentrated among firms that primarily use patenting as their IP protection strategy, and is weaker for those that rely on trade secrecy. 
 
 [/expand]
-</div> -->
+</div>
 
 <!--
+## Work in Progress
 "PCAOB Monitoring and Auditor Effort: Evidence from Dynamic Model Estimation" (with Lisa Liu)
 
 <div style="display:none;" id="ExpandContent"><br>

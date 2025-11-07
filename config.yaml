@@ -16,7 +16,7 @@ languages:
     weight: 1
     title: 松野舜介 - Personal Website | CBS
 title: Shunsuke Matsuno - Personal Website | CBS
-enableRobotsTXT: yes
+enableRobotsTXT: true
 module:
   hugoVersion:
     extended: true
@@ -52,7 +52,7 @@ params:
 markup:
   goldmark:
     renderer:
-      unsafe: yes
+      unsafe: true
     renderHooks:
       link:
         enableDefault: false
