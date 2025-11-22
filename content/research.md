@@ -104,7 +104,7 @@ Some organizations are characterized by a conformity culture, where followers ar
 [/expand]
 </div>
 
-"Strategic Patenting Under Financial Reporting Mandates," 2025  (with Li Azinovic-Yang, Yue Chen, and Sunho Yoo) [[SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5767542)
+"Strategic Patenting Under Financial Disclosure Mandates," 2025  (with Li Azinovic-Yang, Yue Chen, and Sunho Yoo) [[SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5767542)
 
 <div style="display:none;" id="ExpandContent"><br>
 
