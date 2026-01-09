@@ -92,14 +92,14 @@ This paper studies voluntary disclosure in a leader-follower game in a product m
 </div>
 
 
-"Conformity and Leadership in Organizations," 2025 [[SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5291646)
+"How Does Corporate Culture Create Value? Conformity and the Coordination of Dispersed Information," 2025 [[SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5291646)
 <!-- [[paper]](/papers/Leadership_Matsuno.pdf "Conformity and Leadership in Organizations")  -->
 
 <div style="display:none;" id="ExpandContent"><br>
 
 [expand]
 
-Some organizations are characterized by a conformity culture, where followers are expected to conform to the leadership's behavior. In contrast, other organizations exhibit an anticonformity culture. What drives the variation in conformity culture across organizations? This paper develops a model of leadership and (anti)conformity culture in organizations with dispersed information. The optimal culture trades off coordination gains against informational losses. I show that with strategic complementarity, conformity is optimal; whereas with strategic substitutability, anticonformity is optimal. By showing how culture coordinates agents in organizations with dispersed knowledge---much like the price system coordinates agents in decentralized markets (Hayek, 1945)---I contribute to the theory of organizations centered on corporate culture (Kreps, 1990). Comparative statics of optimal culture sheds light on the origins of cultural variation across organizations from an informational perspective.
+Some organizations are characterized by a conformity culture, where followers are expected to conform to their leaders' behavior. In contrast, other organizations exhibit an anticonformity culture. What drives the variation in conformity culture across organizations? This paper develops a model of leadership and conformity/anticonformity culture in organizations with dispersed information. The optimal culture trades off coordination gains against informational losses. With strategic complementarity, conformity is optimal; the degree of optimal conformity is higher when the followers have better information than the leader. The opposite holds with strategic substitutability, where anticonformity is optimal. The optimal culture achieves constrained efficiency by coordinating agents with dispersed knowledge, akin to how prices coordinate agents in decentralized markets. This paper offers an informational perspective on the origins of cultural variation across organizations.
 
 [/expand]
 </div>
