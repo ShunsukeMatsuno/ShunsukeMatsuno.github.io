@@ -55,7 +55,7 @@ markup:
       unsafe: true
     renderHooks:
       link:
-        enableDefault: false
+        useEmbedded: false
 
 frontmatter:
   date:
