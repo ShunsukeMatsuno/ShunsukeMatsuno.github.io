@@ -1,0 +1,20 @@
+{{- $dir := .Get "dir" | default "static/papers" -}}
+{{- $files := os.ReadDir $dir -}}
+
+{{- $pdfs := slice -}}
+{{- range $files -}}
+  {{- if and (not .IsDir) (strings.HasSuffix (strings.ToLower .Name) ".pdf") -}}
+    {{- $pdfs = $pdfs | append . -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if gt (len $pdfs) 0 -}}
+<ul>
+  {{- range sort $pdfs "Name" -}}
+    {{- $href := (printf "papers/%s" .Name) | absURL -}}
+    <li><a href="{{ $href }}" target="_blank" class="link-offset-2 link-underline-success link-underline-opacity-10">{{ .Name }}</a></li>
+  {{- end -}}
+</ul>
+{{- else -}}
+<p>No PDFs found in <code>{{ $dir }}</code>.</p>
+{{- end -}}
