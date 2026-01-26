@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>About on Shunsuke Matsuno - Personal Website | CBS</title><link>https://shunsukematsuno.github.io/</link><description>Recent content in About on Shunsuke Matsuno - Personal Website | CBS</description><generator>Hugo</generator><language>en-US</language><managingEditor>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</managingEditor><webMaster>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</webMaster><atom:link href="https://shunsukematsuno.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Papers (PDF)</title><link>https://shunsukematsuno.github.io/papers/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</author><guid>https://shunsukematsuno.github.io/papers/</guid><description>&lt;ul>
+&lt;li>&lt;a href="https://shunsukematsuno.github.io/papers/JMP_matsuno.pdf" target="_blank"class="link-offset-2 link-underline-success link-underline-opacity-10">The Gatekeeping Expert&amp;rsquo;s Dilemma (2026)&lt;/a>
+
+&lt;ul>
+&lt;li>&lt;a href="https://shunsukematsuno.github.io/papers/supplementary-material_Gatekeeping-Experts-Dilemma.pdf" target="_blank"class="link-offset-2 link-underline-success link-underline-opacity-10">Online Supplementary Material&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="https://shunsukematsuno.github.io/papers/Leadership_Matsuno.pdf" target="_blank"class="link-offset-2 link-underline-success link-underline-opacity-10">How Does Corporate Culture Create Value? (2026)&lt;/a>
+&lt;/li>
+&lt;li>&lt;a href="https://shunsukematsuno.github.io/papers/StrategicPatenting.pdf" target="_blank"class="link-offset-2 link-underline-success link-underline-opacity-10">Strategic Patenting Under Financial Disclosure Mandates (2025) with Li Azinovic-Yang, Yue Chen, and Sunho Yoo&lt;/a>
+&lt;/li>
+&lt;li>&lt;a href="https://shunsukematsuno.github.io/papers/DynamicLemonsDisclosure.pdf" target="_blank"class="link-offset-2 link-underline-success link-underline-opacity-10">Mandatory vs. Voluntary Disclosure in the Dynamic Market for Lemons (2025) with Cyrus Aghamolla&lt;/a>
+&lt;/li>
+&lt;li>&lt;a href="https://shunsukematsuno.github.io/papers/StackelbergDisclosure.pdf" target="_blank"class="link-offset-2 link-underline-success link-underline-opacity-10">Disclosure, Signaling, and First-Mover (Dis)advantage (2024)&lt;/a>
+&lt;/li>
+&lt;/ul></description></item><item><title>Research</title><link>https://shunsukematsuno.github.io/research/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</author><guid>https://shunsukematsuno.github.io/research/</guid><description>&lt;!-- If you want small cap font for section headings, uncomment the following CSS block. -->
+&lt;!-- 
+&lt;style>
+.content h2 {
+ font-variant: small-caps;
+}
+&lt;/style>
+-->
+&lt;h2 id="job-market-paper">Job Market Paper&lt;/h2>
+&lt;p>&amp;ldquo;The Gatekeeping Expert&amp;rsquo;s Dilemma&amp;rdquo;
+&lt;a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5583773" target="_blank" style="font-size: 0.8rem;"class="link-offset-2 link-underline-success link-underline-opacity-10">[SSRN]&lt;/a>
+ &lt;a href="https://shunsukematsuno.github.io/papers/supplementary-material_Gatekeeping-Experts-Dilemma.pdf" target="_blank" style="font-size: 0.8rem;"class="link-offset-2 link-underline-success link-underline-opacity-10">[supplementary material]&lt;/a>
+&lt;/p>
+&lt;div style="display:none;" id="ExpandContent" data-expanded="true">&lt;br>
+&lt;p>[expand]&lt;/p>
+&lt;p>This paper studies how experts with veto power&amp;mdash;gatekeeping experts&amp;mdash;influence agents through communication. Their expertise informs agents&amp;rsquo; decisions, while veto power provides discipline. Gatekeepers face a dilemma: transparent communication can invite gaming, while opacity wastes expertise. How can gatekeeping experts guide behavior without being gamed? Many economic settings feature this tradeoff, including bank stress tests, environmental regulations, and financial auditing. Using financial auditing as the primary setting, I show that strategic vagueness resolves this dilemma: by revealing just enough to prevent the manager from inflating the report, the auditor guides the manager while minimizing opportunities for manipulation. This theoretical lens provides a novel rationale for why auditors predominantly accept clients&amp;rsquo; financial reports. Comparative statics reveal that greater gatekeeper independence or expertise sometimes dampens communication. This paper offers insights into why gatekeepers who lack direct control can still be effective.&lt;/p></description></item><item><title>Welcome to My Website</title><link>https://shunsukematsuno.github.io/test/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>SMatsuno26@gsb.columbia.edu (Shunsuke Matsuno)</author><guid>https://shunsukematsuno.github.io/test/</guid><description>&lt;p>This is the main content area. You can add sections here for your research, contact details, and other relevant information.&lt;/p></description></item></channel></rss>
