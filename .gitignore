@@ -7,6 +7,9 @@ my-website-analytics-b37a5d44bcc6.json
 ANALYTICS/data/
 docs/**
 
+# hugo mis
+.hugo_build.lock
+
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
