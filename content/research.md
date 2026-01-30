@@ -66,7 +66,7 @@ This paper studies how experts with veto power---gatekeeping experts---influence
 </div>
 
 ## Working Papers
-"Mandatory vs. Voluntary Disclosure in the Dynamic Market for Lemons," 2024 (with Cyrus Aghamolla) [[SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4680389),\
+"Mandatory vs. Voluntary Disclosure in the Dynamic Market for Lemons," 2026 (with Cyrus Aghamolla) [[SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4680389),\
  *R&R at Review of Financial Studies*
 
 <div style="display:none;" id="ExpandContent"><br>
@@ -92,7 +92,7 @@ This paper studies voluntary disclosure in a leader-follower game in a product m
 </div>
 
 
-"How Does Corporate Culture Create Value? Conformity and the Coordination of Dispersed Information," 2025 [[SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5291646)
+"How Does Corporate Culture Create Value? Conformity and the Coordination of Dispersed Information," 2026 [[SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5291646)
 <!-- [[paper]](/papers/Leadership_Matsuno.pdf "Conformity and Leadership in Organizations")  -->
 
 <div style="display:none;" id="ExpandContent"><br>
