@@ -54,7 +54,7 @@ description: >
 
 ## Job Market Paper
 "The Gatekeeping Expert's Dilemma"
-[[SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5583773) [[supplementary material]](/papers/supplementary-material_Gatekeeping-Experts-Dilemma.pdf)
+[[SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5583773) [[pdf]](/papers/JMP_matsuno.pdf) [[supplementary material]](/papers/supplementary-material_Gatekeeping-Experts-Dilemma.pdf)
 
 <div style="display:none;" id="ExpandContent" data-expanded="true"><br>
 
@@ -66,7 +66,7 @@ This paper studies how experts with veto power---gatekeeping experts---influence
 </div>
 
 ## Working Papers
-"Mandatory vs. Voluntary Disclosure in the Dynamic Market for Lemons," 2026 (with Cyrus Aghamolla) [[SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4680389),\
+"Mandatory vs. Voluntary Disclosure in the Dynamic Market for Lemons," 2026 (with Cyrus Aghamolla) [[pdf]](/papers/DynamicLemonsDisclosure.pdf) [[SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4680389),\
  *R&R at Review of Financial Studies*
 
 <div style="display:none;" id="ExpandContent"><br>
@@ -79,20 +79,7 @@ We consider a dynamic adverse selection setting where a privately informed selle
 </div>
 
 
-"Disclosure, Signaling, and First-Mover (Dis)advantage," 2024 [[SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4985567)
-<!-- [[paper]](/papers/StackelbergDisclosure.pdf) -->
-
-<div style="display:none;" id="ExpandContent"><br>
-
-[expand]
-
-This paper studies voluntary disclosure in a leader-follower game in a product market. The leader is privately informed about the demand prospect of the market. The leader chooses a production level and decides whether to disclose it. On the one hand, such disclosure is beneficial, as the leader can enjoy the first-mover advantage. On the other hand, the follower learns the leader's private information through disclosed information, so the leader firm has an incentive to contract production to signal low demand. This is costly to the leader, as the leader may end up producing and earning less than the follower (first-mover disadvantage). To avoid such signaling costs, the leader can conceal the production information. In equilibrium, when the leader is long-term oriented, the leader discloses the production plan only when the private demand signal is low. More competition leads to less disclosure. When the leader firm has the short-term incentive of maximizing the stock price, an interval disclosure equilibrium could emerge. I extend the baseline model to the case where the leader may not observe a private signal. I show that this friction allows the leader firm to save the signaling cost by mimicking the uninformed type. This paper offers a theory of endogenous disclosure cost. 
-
-[/expand]
-</div>
-
-
-"How Does Corporate Culture Create Value? Conformity and the Coordination of Dispersed Information," 2026 [[SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5291646)
+"How Does Corporate Culture Create Value? Conformity and the Coordination of Dispersed Information," 2026 [[pdf]](/papers/Leadership_Matsuno.pdf) [[SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5291646)
 <!-- [[paper]](/papers/Leadership_Matsuno.pdf "Conformity and Leadership in Organizations")  -->
 
 <div style="display:none;" id="ExpandContent"><br>
@@ -104,7 +91,7 @@ Some organizations are characterized by a conformity culture, where followers ar
 [/expand]
 </div>
 
-"Strategic Patenting Under Financial Disclosure Mandates," 2025  (with Li Azinovic-Yang, Yue Chen, and Sunho Yoo) [[SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5767542)
+"Strategic Patenting Under Financial Disclosure Mandates," 2025  (with Li Azinovic-Yang, Yue Chen, and Sunho Yoo) [[pdf]](/papers/StrategicPatenting.pdf) [[SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5767542)
 
 <div style="display:none;" id="ExpandContent"><br>
 
@@ -114,6 +101,19 @@ We examine how financial disclosure regulations influence firms' intellectual pr
 
 [/expand]
 </div>
+
+"Disclosure, Signaling, and First-Mover (Dis)advantage," 2024 [[pdf]](/papers/StackelbergDisclosure.pdf) [[SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4985567)
+<!-- [[paper]](/papers/StackelbergDisclosure.pdf) -->
+
+<div style="display:none;" id="ExpandContent"><br>
+
+[expand]
+
+This paper studies voluntary disclosure in a leader-follower game in a product market. The leader is privately informed about the demand prospect of the market. The leader chooses a production level and decides whether to disclose it. On the one hand, such disclosure is beneficial, as the leader can enjoy the first-mover advantage. On the other hand, the follower learns the leader's private information through disclosed information, so the leader firm has an incentive to contract production to signal low demand. This is costly to the leader, as the leader may end up producing and earning less than the follower (first-mover disadvantage). To avoid such signaling costs, the leader can conceal the production information. In equilibrium, when the leader is long-term oriented, the leader discloses the production plan only when the private demand signal is low. More competition leads to less disclosure. When the leader firm has the short-term incentive of maximizing the stock price, an interval disclosure equilibrium could emerge. I extend the baseline model to the case where the leader may not observe a private signal. I show that this friction allows the leader firm to save the signaling cost by mimicking the uninformed type. This paper offers a theory of endogenous disclosure cost. 
+
+[/expand]
+</div>
+
 
 <!--
 ## Work in Progress
