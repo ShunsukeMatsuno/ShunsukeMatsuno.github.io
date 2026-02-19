@@ -66,7 +66,7 @@ This paper studies how experts with veto power---gatekeeping experts---influence
 </div>
 
 ## Working Papers
-"Mandatory vs. Voluntary Disclosure in the Dynamic Market for Lemons," 2026 (with Cyrus Aghamolla) [[pdf]](/papers/DynamicLemonsDisclosure.pdf) [[SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4680389),\
+"Mandatory vs. Voluntary Disclosure in the Dynamic Market for Lemons," 2026 (with Cyrus Aghamolla) [[SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4680389) [[pdf]](/papers/DynamicLemonsDisclosure.pdf),\
  *R&R at Review of Financial Studies*
 
 <div style="display:none;" id="ExpandContent"><br>
@@ -79,7 +79,7 @@ We consider a dynamic adverse selection setting where a privately informed selle
 </div>
 
 
-"How Does Corporate Culture Create Value? Conformity and the Coordination of Dispersed Information," 2026 [[pdf]](/papers/Leadership_Matsuno.pdf) [[SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5291646)
+"How Does Corporate Culture Create Value? Conformity and the Coordination of Dispersed Information," 2026 [[SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5291646) [[pdf]](/papers/Leadership_Matsuno.pdf) 
 <!-- [[paper]](/papers/Leadership_Matsuno.pdf "Conformity and Leadership in Organizations")  -->
 
 <div style="display:none;" id="ExpandContent"><br>
@@ -91,7 +91,7 @@ Some organizations are characterized by a conformity culture, where followers ar
 [/expand]
 </div>
 
-"Strategic Patenting Under Financial Disclosure Mandates," 2025  (with Li Azinovic-Yang, Yue Chen, and Sunho Yoo) [[pdf]](/papers/StrategicPatenting.pdf) [[SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5767542)
+"Strategic Patenting Under Financial Disclosure Mandates," 2025  (with Li Azinovic-Yang, Yue Chen, and Sunho Yoo) [[SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5767542) [[pdf]](/papers/StrategicPatenting.pdf)
 
 <div style="display:none;" id="ExpandContent"><br>
 
@@ -102,7 +102,7 @@ We examine how financial disclosure regulations influence firms' intellectual pr
 [/expand]
 </div>
 
-"Disclosure, Signaling, and First-Mover (Dis)advantage," 2024 [[pdf]](/papers/StackelbergDisclosure.pdf) [[SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4985567)
+"Disclosure, Signaling, and First-Mover (Dis)advantage," 2024 [[SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4985567) [[pdf]](/papers/StackelbergDisclosure.pdf)
 <!-- [[paper]](/papers/StackelbergDisclosure.pdf) -->
 
 <div style="display:none;" id="ExpandContent"><br>
