@@ -40,10 +40,11 @@ description: Personal Website of Shunsuke Matsuno (松野 舜介)
 ---
 
  <!-- ![Resize](images/monster_logo.jpg?width=200&quality=100) -->
+ <div style="margin-bottom: 20px;">Shunsuke Matsuno <span style="font-size:0.8rem;">(SHOON-skeh)</span></div>
 
 <!-- With picture -->
 {{< two_columns
-    left="Columbia Business School<br>Ph.D. Candidate in Accounting<br><br><br>**Curriculum Vitae**<br>[CV (pdf)](/cv/cv.pdf \"CV\")<br><br><br>**Contact**<br>Email: <SMatsuno26@gsb.columbia.edu><br>Mobile: 929-588-1755<br>"
+    left="Columbia Business School<br>Ph.D. Candidate in Accounting<br><br><br>**Curriculum Vitae**<br>[CV (pdf)](/cv/cv.pdf \"CV\")<br><br><br>**Contact**<br>Email: <SMatsuno26@gsb.columbia.edu>"
     right="![Shunsuke Matsuno (Portrait)](images/Shunsuke-Matsuno_BW_2025-May.jpg?width=170&quality=100)<br><br><br><br>"
 >}}
 
@@ -54,8 +55,33 @@ description: Personal Website of Shunsuke Matsuno (松野 舜介)
 
 <br>
 
+<!-- Employement -->
+<p style="text-align:left; margin: 0; padding: 0;">
+  <b>Employement</b>
+</p>
+<div style="margin-bottom: 10px;">
+  <div>The University of Chicago Booth School of Business
+  </div>
+  <div style="display: flex; gap: 10px; margin-left: 20px;">
+    <div style="font-size: 0.9rem;">Assistant Professor of Accounting</div>
+    <div style="font-size: 0.9rem;"><i>2026–Present (Expected)</i></div>
+  </div>
+</div>
+
+<br>
+
 <!-- Education -->
 <p style="text-align:left; margin: 0; padding: 0;">
+  <b>Education</b>
+</p>
+<div style="margin-bottom: 10px;">
+  <div>Columbia Business School</div>
+  <div style="display: flex; gap: 10px; margin-left: 20px;">
+    <div style="font-size: 0.9rem;">Ph.D. in Accounting</div>
+    <div style="font-size: 0.9rem;"><i>2021–2026</i></div>
+  </div>
+</div>
+<!-- <p style="text-align:left; margin: 0; padding: 0;">
   <b>Education</b>
 </p>
 <div style="margin-bottom: 10px;">
@@ -78,7 +104,7 @@ description: Personal Website of Shunsuke Matsuno (松野 舜介)
     <div style="font-size: 0.9rem;">B.A. in Economics</div>
     <div style="font-size: 0.9rem;"><i>2015-2019</i></div>
   </div>
-</div>
+</div> -->
 
 <br>
 
