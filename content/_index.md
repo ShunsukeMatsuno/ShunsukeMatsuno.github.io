@@ -40,11 +40,11 @@ description: Personal Website of Shunsuke Matsuno (松野 舜介)
 ---
 
  <!-- ![Resize](images/monster_logo.jpg?width=200&quality=100) -->
- <div style="margin-bottom: 20px;">Shunsuke Matsuno <span style="font-size:0.8rem;">(SHOON-skeh)</span></div>
+ <!-- <div style="margin-bottom: 20px;">Shunsuke Matsuno <span style="font-size:0.8rem;">(SHOON-skeh)</span></div> -->
 
 <!-- With picture -->
 {{< two_columns
-    left="Columbia Business School<br>Ph.D. Candidate in Accounting<br><br><br>**Curriculum Vitae**<br>[CV (pdf)](/cv/cv.pdf \"CV\")<br><br><br>**Contact**<br>Email: <SMatsuno26@gsb.columbia.edu>"
+    left="Columbia Business School<br>Ph.D. Candidate in Accounting<br><br><br>**Curriculum Vitae**<br>[CV (pdf)](/cv/cv.pdf \"CV\")<br><br><br>**Contact**<br>Email: <SMatsuno26@gsb.columbia.edu> <br>Name pronunciation: <span style=\"font-size:0.85rem;\">''SHOON-skeh''</span>"
     right="![Shunsuke Matsuno (Portrait)](images/Shunsuke-Matsuno_BW_2025-May.jpg?width=170&quality=100)<br><br><br><br>"
 >}}
 
@@ -55,16 +55,16 @@ description: Personal Website of Shunsuke Matsuno (松野 舜介)
 
 <br>
 
-<!-- Employement -->
+<!-- Employment -->
 <p style="text-align:left; margin: 0; padding: 0;">
-  <b>Employement</b>
+  <b>Employment</b>
 </p>
 <div style="margin-bottom: 10px;">
   <div>The University of Chicago Booth School of Business
   </div>
   <div style="display: flex; gap: 10px; margin-left: 20px;">
     <div style="font-size: 0.9rem;">Assistant Professor of Accounting</div>
-    <div style="font-size: 0.9rem;"><i>2026–Present (Expected)</i></div>
+    <div style="font-size: 0.9rem;"><i>Starting July 2026</i></div>
   </div>
 </div>
 
