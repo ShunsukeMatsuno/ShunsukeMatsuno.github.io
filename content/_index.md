@@ -55,6 +55,16 @@ description: Personal Website of Shunsuke Matsuno (松野 舜介)
 
 <br>
 
+<!-- Interest -->
+<p style="text-align:left; margin: 0; padding: 0;">
+  <b>Research Interest</b>
+</p>
+<div style="margin-bottom: 10px;">
+  Information economics and its applications to accounting, with an emphasis on applied theory
+</div>
+<br>
+
+
 <!-- Employment -->
 <p style="text-align:left; margin: 0; padding: 0;">
   <b>Employment</b>
