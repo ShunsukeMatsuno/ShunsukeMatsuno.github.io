@@ -44,8 +44,8 @@ description: Personal Website of Shunsuke Matsuno (松野 舜介)
 
 <!-- With picture -->
 {{< two_columns
-    left="Columbia Business School<br>Ph.D. Candidate in Accounting<br><br><br>**Curriculum Vitae**<br>[CV (pdf)](/cv/cv.pdf \"CV\")<br><br><br>**Contact**<br>Email: <SMatsuno26@gsb.columbia.edu> <br>Name pronunciation: <span style=\"font-size:0.85rem;\">''SHOON-skeh''</span>"
-    right="![Shunsuke Matsuno (Portrait)](images/Shunsuke-Matsuno_BW_2025-May.jpg?width=170&quality=100)<br><br><br><br>"
+    left="Columbia Business School<br>Ph.D. Candidate in Accounting<br><br><br>**Curriculum Vitae**<br>[CV (pdf)](/cv/cv.pdf \"CV\")<br>"
+    right="![Shunsuke Matsuno (Portrait)](images/Shunsuke-Matsuno_BW_2025-May.jpg?width=170&quality=100)<br>"
 >}}
 
 <!-- {{< two_columns
@@ -78,6 +78,16 @@ description: Personal Website of Shunsuke Matsuno (松野 舜介)
   </div>
 </div>
 
+<br>
+
+<!-- Contact -->
+<p style="text-align:left; margin: 0; padding: 0;">
+  <b>Contact</b>
+</p>
+<div style="margin-bottom: 10px;">
+  Email: <a href="mailto:SMatsuno26@gsb.columbia.edu">SMatsuno26@gsb.columbia.edu</a><br>
+  Name pronunciation: <span style=\"font-size:0.85rem;\">''SHOON-skeh''</span>"
+</div>
 <br>
 
 <!-- Education -->
