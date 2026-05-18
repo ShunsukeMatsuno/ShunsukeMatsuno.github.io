@@ -79,7 +79,8 @@ We consider a dynamic adverse selection setting where a privately informed selle
 </div>
 
 
-"How Does Corporate Culture Create Value? Conformity and the Coordination of Dispersed Information," 2026 [[SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5291646) [[pdf]](/papers/Leadership_Matsuno.pdf) 
+"How Does Corporate Culture Create Value? Conformity and the Coordination of Dispersed Information," 2026 [[SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5291646) [[pdf]](/papers/Leadership_Matsuno.pdf) ,\
+ *R&R at Management Science*
 <!-- [[paper]](/papers/Leadership_Matsuno.pdf "Conformity and Leadership in Organizations")  -->
 
 <div style="display:none;" id="ExpandContent"><br>
@@ -91,7 +92,18 @@ Some organizations are characterized by a conformity culture, where followers ar
 [/expand]
 </div>
 
-"Strategic Patenting Under Financial Disclosure Mandates," 2025  (with Li Azinovic-Yang, Yue Chen, and Sunho Yoo) [[SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5767542) [[pdf]](/papers/StrategicPatenting.pdf)
+"PCAOB Monitoring and Auditor Effort: Evidence from Dynamic Model Estimation," 2026 (with Lisa Yao Liu) [[SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6760918) [[pdf]](/papers/PCAOB_dynamic.pdf) 
+
+<div style="display:none;" id="ExpandContent"><br>
+
+[expand]
+
+We develop a dynamic structural model of auditor effort choice under PCAOB monitoring. Auditors face competing pressures: effort is costly, but low effort increases the probability that the PCAOB detects and reports deficiencies, which carry reputational and regulatory consequences. Because PCAOB monitoring intensity depends on deficiency history, auditors work harder not only to avoid current-period deficiencies but also to avoid triggering stricter future monitoring. We decompose auditor incentives into static deterrence (responding to current inspection risk) and dynamic deterrence (avoiding a poor regulatory record to prevent heightened future scrutiny), a distinction reduced-form methods cannot identify. Our proposed estimation recovers preference parameters measuring the cost of effort and the disutility from deficiencies. We design counterfactual analyses comparing dynamic enforcement to static alternatives and examining how the difference in monitoring intensity between auditors with clean versus poor regulatory records affects their behavior. The framework allows policymakers to evaluate alternative PCAOB inspection designs.
+
+[/expand]
+</div>
+
+"Strategic Patenting Under Financial Disclosure Mandates," 2025 (with Li Azinovic-Yang, Yue Chen, and Sunho Yoo) [[SSRN]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5767542) [[pdf]](/papers/StrategicPatenting.pdf)
 
 <div style="display:none;" id="ExpandContent"><br>
 
