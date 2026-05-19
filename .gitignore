@@ -7,6 +7,9 @@ my-website-analytics-b37a5d44bcc6.json
 ANALYTICS/data/
 docs/**
 
+# cv asset (don't ignore cv.pdf in the static folder)
+assets/cv/cv.pdf
+
 # hugo mis
 .hugo_build.lock
 
