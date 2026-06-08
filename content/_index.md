@@ -44,7 +44,7 @@ description: Personal Website of Shunsuke Matsuno (松野 舜介)
 
 <!-- With picture -->
 {{< two_columns
-    left="<br>Columbia Business School<br>Ph.D. Candidate in Accounting<br><br><br>**Curriculum Vitae**<br>[CV (pdf)](/cv/cv.pdf \"CV\")"
+    left="<br>Chicago Booth<br>Assistant Professor of Accounting<br><br><br>**Curriculum Vitae**<br>[CV (pdf)](/cv/cv.pdf \"CV\")"
     right="![Shunsuke Matsuno (Portrait)](images/Shunsuke-Matsuno_BW_2025-May.jpg?width=170&quality=100)<br>"
 >}}
 
@@ -85,7 +85,7 @@ description: Personal Website of Shunsuke Matsuno (松野 舜介)
   <b>Contact</b>
 </p>
 <div style="margin-bottom: 10px;">
-  Email: <a href="mailto:SMatsuno26@gsb.columbia.edu">SMatsuno26@gsb.columbia.edu</a><br>
+  Email: <a href="mailto:SMatsuno26@gsb.columbia.edu">Shunsuke.Matsuno@chicagobooth.edu</a><br>
   Name pronunciation: <span style="font-size:0.85rem;">''SHOON-skeh''</span>"
 </div>
 <br>
