@@ -74,7 +74,7 @@ description: Personal Website of Shunsuke Matsuno (松野 舜介)
   </div>
   <div style="display: flex; gap: 10px; margin-left: 20px;">
     <div style="font-size: 0.9rem;">Assistant Professor of Accounting</div>
-    <div style="font-size: 0.9rem;"><i>Starting July 2026</i></div>
+    <div style="font-size: 0.9rem;"><i>2026–Present</i></div>
   </div>
 </div>
 
