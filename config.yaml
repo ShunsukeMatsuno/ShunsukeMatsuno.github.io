@@ -14,8 +14,8 @@ languages:
     languageDirection: ltr
     languageName: Japanese
     weight: 1
-    title: 松野舜介 - Personal Website | CBS
-title: Shunsuke Matsuno - Personal Website | CBS
+    title: 松野舜介 - Personal Website | Chicago Booth
+title: Shunsuke Matsuno - Personal Website | Chicago Booth
 enableRobotsTXT: true
 module:
   hugoVersion:
@@ -38,7 +38,7 @@ menu:
     
 params:
   author:
-    email: SMatsuno26@gsb.columbia.edu
+    email: Shunsuke.Matsuno@chicagobooth.edu
     name: Shunsuke Matsuno
   dateFormat: '2006-01-02'
   description: Personal Website of Shunsuke Matsuno (松野 舜介)
@@ -47,7 +47,7 @@ params:
   header: "Shunsuke Matsuno"
   github: "ShunsukeMatsuno"
   googleScholar: "p4Qxc5YAAAAJ&hl"
-  affiliation: "Columbia Business School, Columbia University"
+  affiliation: "The University of Chicago Booth School of Business"
   
 markup:
   goldmark:
