@@ -20,7 +20,7 @@ enableRobotsTXT: true
 module:
   hugoVersion:
     extended: true
-    min: 0.55.0
+    min: 0.147.9
     summaryLength: 30
   imports:
   - path: github.com/hugomods/images
@@ -42,7 +42,6 @@ params:
     name: Shunsuke Matsuno
   dateFormat: '2006-01-02'
   description: Personal Website of Shunsuke Matsuno (松野 舜介)
-  favicon: favicon
   title: Personal Website of Shunsuke Matsuno (松野 舜介)
   header: "Shunsuke Matsuno"
   github: "ShunsukeMatsuno"
