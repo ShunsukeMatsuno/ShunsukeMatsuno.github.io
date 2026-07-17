@@ -17,10 +17,11 @@ languages:
     title: 松野舜介 - Personal Website | Chicago Booth
 title: Shunsuke Matsuno - Personal Website | Chicago Booth
 enableRobotsTXT: true
+enableGitInfo: true
 module:
   hugoVersion:
     extended: true
-    min: 0.147.9
+    min: 0.164.0
     summaryLength: 30
   imports:
   - path: github.com/hugomods/images
@@ -61,7 +62,8 @@ frontmatter:
   - myDate
   - :default
   lastmod:
-  - :fileModTime
+  - :git
+  - lastmod
 
 security:
   funcs:
