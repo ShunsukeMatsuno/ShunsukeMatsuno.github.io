@@ -43,11 +43,9 @@ ja_page: true
 松野 舜介  -->
 
 **所属**  
-コロンビア大学ビジネススクール 会計学専攻 博士課程
-
-シカゴ大学ブース・スクール・オブ・ビジネス 会計学 助教授（2025年7月--）
+シカゴ大学ブース・スクール・オブ・ビジネス 会計学 助教授
 
 **連絡先**    
-Email: <SMatsuno26@gsb.columbia.edu>
+Email: <Shunsuke.Matsuno@chicagobooth.edu>
 
 詳細は英語のページをご覧ください。
