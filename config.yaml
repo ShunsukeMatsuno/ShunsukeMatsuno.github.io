@@ -5,14 +5,14 @@ defaultContentLanguage: en
 defaultContentLanguageInSubdir: false
 languages:
   en:
-    languageCode: en-US
-    languageDirection: ltr
-    languageName: English
+    locale: en-US
+    direction: ltr
+    label: English
     weight: 0
   ja:
-    languageCode: ja
-    languageDirection: ltr
-    languageName: Japanese
+    locale: ja
+    direction: ltr
+    label: Japanese
     weight: 1
     title: 松野舜介 - Personal Website | Chicago Booth
 title: Shunsuke Matsuno - Personal Website | Chicago Booth

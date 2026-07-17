@@ -134,4 +134,4 @@ description: Personal Website of Shunsuke Matsuno (松野 舜介)
  <!-- ![picture](images/bridge.jpg?width=400&quality=100) -->
 
 
-<div style="display:none;">[link](https://academics.business.columbia.edu/node/1573)</div>
+<div style="display:none;">[link](https://www.chicagobooth.edu/faculty/directory/m/shunsuke-matsuno)</div>
