@@ -29,9 +29,10 @@ metatags: [
   "Auditor Effort",
   "Dynamic Models",
   "Structural Estimation",
+  "Booth",
+  "University of Chicago",
+  "Chicago Booth",
   "Columbia",
-  "Columbia Business School",
-  "Columbia Business",
   "CBS",
   "Shunsuke Matsuno",
   "Japan",
@@ -39,7 +40,7 @@ metatags: [
   "松野 舜介"
 ]
 description: >
-  Summary of research by Shunsuke Matsuno (松野 舜介), Columbia University. 
+  Summary of research by Shunsuke Matsuno, Chicago Booth
 ---
 
 <!-- If you want small cap font for section headings, uncomment the following CSS block. -->

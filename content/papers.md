@@ -1,6 +1,6 @@
 ---
 title: Papers (PDF)
-description: PDF versions of my papers.
+description: PDF versions of papers by Shunsuke Matsuno
 ---
 
 - [The Gatekeeping Expert's Dilemma (2026)](/papers/JMP_matsuno.pdf)

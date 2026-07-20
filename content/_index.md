@@ -38,7 +38,7 @@ metatags: [
   "松野",
   "松野 舜介"
 ]
-description: Personal Website of Shunsuke Matsuno (松野 舜介)
+description: Personal Website of Shunsuke Matsuno
 ---
 
  <!-- ![Resize](images/monster_logo.jpg?width=200&quality=100) -->
