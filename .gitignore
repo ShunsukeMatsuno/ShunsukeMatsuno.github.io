@@ -314,3 +314,4 @@ TSWLatexianTemp*
 
 # xwatermark package
 *.xwm
+.vscode/settings.json
