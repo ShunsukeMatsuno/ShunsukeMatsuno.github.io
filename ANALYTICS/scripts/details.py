@@ -3,7 +3,8 @@ from google.analytics.data_v1beta.types import (
     DateRange,
     Dimension,
     Metric,
-    RunReportRequest
+    RunReportRequest,
+    OrderBy
 )
 import pandas as pd
 import os
@@ -58,7 +59,7 @@ def create_report_request(ga_id: str) -> RunReportRequest:
             - Metrics: activeUsers, newUsers
             - Date range: from 2020-04-01 to today
     """
-    return RunReportRequest(
+    request = RunReportRequest(
         property=f"properties/{ga_id}",
         dimensions=[
             Dimension(name="dateHourMinute"),
@@ -76,7 +77,35 @@ def create_report_request(ga_id: str) -> RunReportRequest:
             Metric(name="newUsers")
         ],
         date_ranges=[DateRange(start_date="2020-04-01", end_date="today")],
+        limit=10000,
     )
+    # Use every dimension to keep row ordering consistent across pages.
+    request.order_bys = [
+        OrderBy(dimension=OrderBy.DimensionOrderBy(dimension_name=dim.name))
+        for dim in request.dimensions
+    ]
+    return request
+
+
+def fetch_report(client: BetaAnalyticsDataClient, request: RunReportRequest):
+    """Fetch every page so reports larger than 10,000 rows include recent data."""
+    page_request = RunReportRequest(request)
+    page_request.offset = 0
+    response = client.run_report(page_request)
+    logging.info(f"Fetched {len(response.rows)} of {response.row_count} report rows")
+
+    while len(response.rows) < response.row_count:
+        page_request.offset = len(response.rows)
+        page = client.run_report(page_request)
+        if not page.rows:
+            raise RuntimeError(
+                f"Google Analytics returned an empty page at offset {page_request.offset} "
+                f"before all {response.row_count} rows were fetched"
+            )
+        response.rows.extend(page.rows)
+        logging.info(f"Fetched {len(response.rows)} of {response.row_count} report rows")
+
+    return response
 
 def process_response(response) -> pd.DataFrame:
     """Process the GA response into a pandas DataFrame.
@@ -321,7 +350,7 @@ def main():
         # Create and execute request
         request = create_report_request(GA_ID)
         logging.info("Executing Google Analytics request...")
-        response = client.run_report(request)
+        response = fetch_report(client, request)
         
         # Validate response
         if not hasattr(response, 'rows') or len(response.rows) == 0:
