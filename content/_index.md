@@ -88,7 +88,7 @@ description: Personal Website of Shunsuke Matsuno
 </p>
 <div style="margin-bottom: 10px;">
   Email: <a href="mailto:SMatsuno26@gsb.columbia.edu">Shunsuke.Matsuno@chicagobooth.edu</a><br>
-  Name pronunciation: <span style="font-size:0.85rem;">''SHOON-skeh''</span>"
+  Name pronunciation: <span style="font-size:0.85rem;">''SHOON-skeh''</span>
 </div>
 <br>
 
