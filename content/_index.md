@@ -87,7 +87,7 @@ description: Personal Website of Shunsuke Matsuno
   <b>Contact</b>
 </p>
 <div style="margin-bottom: 10px;">
-  Email: <a href="mailto:SMatsuno26@gsb.columbia.edu">Shunsuke.Matsuno@chicagobooth.edu</a><br>
+  Email: <a href="mailto:Shunsuke.Matsuno@chicagobooth.edu">Shunsuke.Matsuno@chicagobooth.edu</a><br>
   Name pronunciation: <span style="font-size:0.85rem;">''SHOON-skeh''</span>
 </div>
 <br>
@@ -133,5 +133,3 @@ description: Personal Website of Shunsuke Matsuno
  <!-- ![picture](images/lake.jpg?width=500&quality=100#center) -->
  <!-- ![picture](images/bridge.jpg?width=400&quality=100) -->
 
-
-<div style="display:none;">[link](https://www.chicagobooth.edu/faculty/directory/m/shunsuke-matsuno)</div>

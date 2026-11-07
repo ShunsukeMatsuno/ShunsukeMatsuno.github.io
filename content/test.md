@@ -1,5 +1,6 @@
 ---
 title: "Welcome to My Website"
+draft: true
 sitemap:
   disable: true
 ---
