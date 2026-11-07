@@ -1,53 +1,21 @@
-<!-- Primary Meta Tags -->
-<meta
-  name="title"
-  content="{{ with .Title -}}
-    {{ . }}
-  {{- else -}}
-    {{ .Site.Title }}
-  {{- end }}"
-/>
-<meta
-  name="description"
-  content="{{ with .Description -}}
-    {{ . }}
-  {{- else -}}
-    {{ if .IsPage -}}
-      {{ .Summary }}
-    {{- else -}}
-      {{ with .Site.Params.description }}{{ . }}{{ end }}
-    {{- end }}
-  {{- end }}"
-/>
-
-<!--<meta
-  name="keywords"
-  content="{{ if .IsPage -}}
-    {{ range $index, $tag := .Params.tags }}{{ $tag }},{{ end }}
-  {{- else -}}
-    {{ range $plural, $terms := .Site.Taxonomies -}}
-      {{ range $term, $val := $terms }}{{ printf "%s," $term }}{{ end }}
-    {{- end -}}
-  {{- end -}}
-  "
-/>-->
-<meta
-  name="keywords"
-  content="{{ range $index, $tag := .Params.metatags }}{{ $tag }},{{ end }}"
-/>
-
+{{- /* Primary meta tags. On the homepage use the site title rather than "About". */ -}}
+{{- $title := cond .IsHome site.Title (.Title | default site.Title) -}}
+{{- $desc := "" -}}
+{{- with .Description }}{{ $desc = . }}{{ else }}{{ if .IsPage }}{{ $desc = .Plain | htmlUnescape | strings.TrimSpace | truncate 158 "…" | htmlUnescape }}{{ else }}{{ $desc = site.Params.description }}{{ end }}{{ end -}}
+<meta name="title" content="{{ $title }}" />
+<meta name="description" content="{{ $desc }}" />
+{{- with .Params.metatags }}
+<meta name="keywords" content="{{ delimit . "," }}" />
+{{- end }}
 {{ with .Site.Params.author.name }}
   <meta name="author" content="{{ . }}" />
 {{ end }}
 
-
 <!-- Open Graph / Facebook -->
 {{ partial  "opengraph.html" . }}
-
 
 <!-- Twitter -->
 {{ partial  "twitter_cards.html" . }}
 
-
-<!-- Microdata -->
+<!-- Structured data -->
 {{ partial  "schema.html" . }}

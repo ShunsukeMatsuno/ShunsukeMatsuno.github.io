@@ -1,5 +1,6 @@
 ---
-title: 'About'
+title: 'Shunsuke Matsuno'
+heading: 'About'
 # myDate: 2018-11-28T15:14:39+10:00
 metatags: [
   "Voluntary Disclosure",
@@ -27,18 +28,18 @@ metatags: [
   "Auditor Effort",
   "Dynamic Models",
   "Structural Estimation",
-  "Columbia",
-  "Columbia Business School",
-  "Chicago",
-  "Booth",
-  "Professor",
-  "CBS",
+  "Chicago Booth",
+  "University of Chicago",
+  "Assistant Professor of Accounting",
   "Shunsuke Matsuno",
-  "Japan",
   "松野",
   "松野 舜介"
 ]
-description: Personal Website of Shunsuke Matsuno
+description: >-
+  Shunsuke Matsuno is an Assistant Professor of Accounting at the University
+  of Chicago Booth School of Business. His research applies information
+  economics to accounting, disclosure, and auditing, with an emphasis on
+  applied theory.
 ---
 
  <!-- ![Resize](images/monster_logo.jpg?width=200&quality=100) -->

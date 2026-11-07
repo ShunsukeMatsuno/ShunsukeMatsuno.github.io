@@ -15,8 +15,12 @@ languages:
     label: Japanese
     weight: 1
     title: 松野舜介 - Personal Website | Chicago Booth
-title: Shunsuke Matsuno - Personal Website | Chicago Booth
+title: Shunsuke Matsuno | Assistant Professor of Accounting, Chicago Booth
 enableRobotsTXT: true
+summaryLength: 30
+disableKinds:
+  - taxonomy
+  - term
 enableGitInfo: true
 module:
   hugoVersion:
@@ -42,11 +46,17 @@ params:
     email: Shunsuke.Matsuno@chicagobooth.edu
     name: Shunsuke Matsuno
   dateFormat: '2006-01-02'
-  description: Personal Website of Shunsuke Matsuno (松野 舜介)
+  description: >-
+    Shunsuke Matsuno (松野 舜介) is an Assistant Professor of Accounting at the
+    University of Chicago Booth School of Business. His research focuses on information economics and its applications to accounting.
+  images:
+  - images/Shunsuke-Matsuno_BW_2025-May.jpg
   title: Personal Website of Shunsuke Matsuno (松野 舜介)
   header: "Shunsuke Matsuno"
   github: "ShunsukeMatsuno"
-  googleScholar: "p4Qxc5YAAAAJ&hl"
+  googleScholar: "p4Qxc5YAAAAJ"
+  ssrn: "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=5017016"
+  facultyPage: "https://www.chicagobooth.edu/faculty/directory/m/shunsuke-matsuno"
   affiliation: "The University of Chicago Booth School of Business"
   
 markup:

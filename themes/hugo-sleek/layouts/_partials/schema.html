@@ -1,44 +1,24 @@
-<script type="application/ld+json">
-    {{ if eq .Section "posts" }}
-    {
-      "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "headline": {{ .Title }},
-      "image": {{ .Params.featuredImage | absURL }},
-      "datePublished": {{ .PublishDate }},
-      "dateModified": {{ .Lastmod }},
-      "author": {
-        "@type": "Person",
-        "name": {{ .Site.Params.author }}
-      },
-      "mainEntityOfPage": { "@type": "WebPage" },
-       "publisher": {
-        "@type": "Organization",
-        "name": {{ .Site.Params.header }},
-        "logo": {
-          "@type": "ImageObject",
-          "url": {{ .Site.Params.logo }}
-        }
-      },
-      "description": {{ .Summary | plainify | safeHTML }},
-      "keywords": [{{ range $i, $e := .Params.tags }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}]
-    }
-    {{ end }}
-    {
-      "@context": "https://schema.org",
-      "@type": "Person",
-      "name": {{ .Site.Params.header }},
-      "url": {{ .Site.BaseURL }},
-      "affiliation": {
-        "@type": "Organization",
-        "name": {{ .Site.Params.affiliation }}
-      },
-      "sameAs": [
-        "https://scholar.google.com/citations?hl=en&user={{ .Site.Params.googleScholar }}",
-        "https://academics.business.columbia.edu/node/1573",
-        "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=5017016",
-        "https://twitter.com/{{ .Site.Params.twitter }}",
-        "https://github.com/{{ .Site.Params.github }}"
-      ]
-    }
-    </script>
+{{- /* schema.org Person (once per page). */ -}}
+{{- $sameAs := slice -}}
+{{- with site.Params.googleScholar }}{{ $sameAs = $sameAs | append (printf "https://scholar.google.com/citations?user=%s" .) }}{{ end -}}
+{{- with site.Params.ssrn }}{{ $sameAs = $sameAs | append . }}{{ end -}}
+{{- with site.Params.facultyPage }}{{ $sameAs = $sameAs | append . }}{{ end -}}
+{{- with site.Params.orcid }}{{ $sameAs = $sameAs | append (printf "https://orcid.org/%s" .) }}{{ end -}}
+{{- with site.Params.github }}{{ $sameAs = $sameAs | append (printf "https://github.com/%s" .) }}{{ end -}}
+{{- $person := dict
+  "@context" "https://schema.org"
+  "@type" "Person"
+  "name" site.Params.author.name
+  "alternateName" "松野 舜介"
+  "url" site.Home.Permalink
+  "email" (printf "mailto:%s" site.Params.author.email)
+  "jobTitle" "Assistant Professor of Accounting"
+  "worksFor" (dict "@type" "CollegeOrUniversity" "name" site.Params.affiliation "url" "https://www.chicagobooth.edu/")
+  "alumniOf" (slice
+      (dict "@type" "CollegeOrUniversity" "name" "Columbia Business School")
+      (dict "@type" "CollegeOrUniversity" "name" "The University of Tokyo"))
+  "knowsAbout" (slice "Accounting" "Information Economics" "Disclosure" "Auditing" "Applied Theory")
+  "sameAs" $sameAs
+-}}
+{{- with site.Params.images }}{{ $person = merge $person (dict "image" (index . 0 | absURL)) }}{{ end }}
+<script type="application/ld+json">{{ $person | jsonify | safeJS }}</script>

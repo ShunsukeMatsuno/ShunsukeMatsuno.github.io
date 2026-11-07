@@ -1,0 +1,39 @@
+{{- /* Google Scholar (Highwire Press) tags + schema.org ScholarlyArticle for paper pages. */ -}}
+{{- if and .IsPage (eq .Section "research") -}}
+<meta name="citation_title" content="{{ .Title }}">
+{{- range .Params.authors }}
+<meta name="citation_author" content="{{ . }}">
+{{- end }}
+<meta name="citation_publication_date" content="{{ .Params.year }}">
+<meta name="citation_abstract_html_url" content="{{ .Permalink }}">
+{{- with .Params.pdf }}{{ with $.Resources.GetMatch . }}
+<meta name="citation_pdf_url" content="{{ .Permalink }}">
+{{- end }}{{ end }}
+<meta name="citation_language" content="en">
+{{- with .Params.keywords }}
+<meta name="citation_keywords" content="{{ delimit . "; " }}">
+{{- end }}
+{{- $authors := slice -}}
+{{- range .Params.authors -}}
+  {{- $a := dict "@type" "Person" "name" . -}}
+  {{- if eq . "Shunsuke Matsuno" -}}
+    {{- $a = merge $a (dict "url" site.Home.Permalink "affiliation" (dict "@type" "CollegeOrUniversity" "name" site.Params.affiliation)) -}}
+  {{- end -}}
+  {{- $authors = $authors | append $a -}}
+{{- end -}}
+{{- $ld := dict
+  "@context" "https://schema.org"
+  "@type" "ScholarlyArticle"
+  "headline" .Title
+  "name" .Title
+  "author" $authors
+  "datePublished" (string .Params.year)
+  "abstract" (.Plain | htmlUnescape | strings.TrimSpace)
+  "url" .Permalink
+  "inLanguage" "en"
+-}}
+{{- with .Params.keywords }}{{ $ld = merge $ld (dict "keywords" (delimit . ", ")) }}{{ end -}}
+{{- with .Params.ssrn }}{{ $ld = merge $ld (dict "sameAs" .) }}{{ end -}}
+{{- with .Params.pdf }}{{ with $.Resources.GetMatch . }}{{ $ld = merge $ld (dict "encoding" (dict "@type" "MediaObject" "encodingFormat" "application/pdf" "contentUrl" .Permalink)) }}{{ end }}{{ end }}
+<script type="application/ld+json">{{ $ld | jsonify | safeJS }}</script>
+{{- end -}}
