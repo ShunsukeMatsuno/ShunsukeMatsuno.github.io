@@ -1,6 +1,6 @@
 ---
 title: 松野 舜介
-description: 松野舜介 個人ウェブサイト
+description: シカゴ大学ブース・スクール・オブ・ビジネス 会計学助教授 松野舜介の個人ウェブサイト。専門は情報経済学とその会計学への応用（ディスクロージャー・監査）。
 metatags: [
   "Voluntary Disclosure",
   "Mandatory Disclosure",
@@ -26,12 +26,7 @@ metatags: [
   "Auditor Effort",
   "Dynamic Models",
   "Structural Estimation",
-  "Columbia",
-  "Columbia Business School",
-  "Columbia Business",
-  "CBS",
   "Shunsuke Matsuno",
-  "Japan",
   "松野",
   "松野 舜介"
 ]

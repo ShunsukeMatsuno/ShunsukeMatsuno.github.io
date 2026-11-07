@@ -48,7 +48,7 @@ description: >-
 <!-- With picture -->
 {{< two_columns
     left="<br>Chicago Booth<br>Assistant Professor of Accounting<br><br>[CV (pdf)](/cv/cv.pdf \"CV\")<br><span class=\"profile-links\"><span class=\"nowrap\">[Google Scholar](https://scholar.google.com/citations?user=p4Qxc5YAAAAJ) ·</span> <span class=\"nowrap\">[SSRN](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=5017016) ·</span> <span class=\"nowrap\">[Booth Faculty Page](https://www.chicagobooth.edu/faculty/directory/m/shunsuke-matsuno)</span></span>"
-    right="![Shunsuke Matsuno (Portrait)](/images/Shunsuke-Matsuno_BW_2025-May.jpg?width=340&quality=90&attr-class=portrait)<br>"
+    right="![Shunsuke Matsuno, Assistant Professor of Accounting at Chicago Booth](/images/Shunsuke-Matsuno_BW_2025-May.jpg?width=340&quality=90&attr-class=portrait)<br>"
 >}}
 
 <!-- {{< two_columns

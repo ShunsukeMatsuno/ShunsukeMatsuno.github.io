@@ -4,6 +4,10 @@ authors: ["Shunsuke Matsuno"]
 year: 2026
 weight: 3
 ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5291646"
+# earlier title / version (structured data only, not shown on the page)
+alternate_title: "Conformity and Leadership in Organizations"
+same_as:
+  - "https://ideas.repec.org/p/kob/dpaper/dp2025-15.html"
 pdf: "Matsuno-How-Does-Corporate-Culture-Create-Value.pdf"
 status: "R&R at Management Science"
 keywords: ["Corporate Culture", "Conformity", "Leadership", "Coordination", "Dispersed Information", "Organizational Economics"]

@@ -17,7 +17,8 @@
 {{- range .Params.authors -}}
   {{- $a := dict "@type" "Person" "name" . -}}
   {{- if eq . "Shunsuke Matsuno" -}}
-    {{- $a = merge $a (dict "url" site.Home.Permalink "affiliation" (dict "@type" "CollegeOrUniversity" "name" site.Params.affiliation)) -}}
+    {{- /* point to the site-wide Person block (schema.html) */ -}}
+    {{- $a = merge $a (dict "@id" (printf "%s#person" site.Home.Permalink) "url" site.Home.Permalink "affiliation" (dict "@type" "CollegeOrUniversity" "name" site.Params.affiliation)) -}}
   {{- end -}}
   {{- $authors = $authors | append $a -}}
 {{- end -}}
@@ -33,7 +34,13 @@
   "inLanguage" "en"
 -}}
 {{- with .Params.keywords }}{{ $ld = merge $ld (dict "keywords" (delimit . ", ")) }}{{ end -}}
-{{- with .Params.ssrn }}{{ $ld = merge $ld (dict "sameAs" .) }}{{ end -}}
+{{- /* Other copies of the same paper: SSRN first, then optional `same_as` list (arXiv, RePEc, ...). */ -}}
+{{- $same := slice -}}
+{{- with .Params.ssrn }}{{ $same = $same | append . }}{{ end -}}
+{{- with .Params.same_as }}{{ range . }}{{ $same = $same | append . }}{{ end }}{{ end -}}
+{{- with $same }}{{ $ld = merge $ld (dict "sameAs" .) }}{{ end -}}
+{{- /* Earlier title the paper circulated under (optional `alternate_title`). */ -}}
+{{- with .Params.alternate_title }}{{ $ld = merge $ld (dict "alternateName" .) }}{{ end -}}
 {{- with .Params.pdf }}{{ with $.Resources.GetMatch . }}{{ $ld = merge $ld (dict "encoding" (dict "@type" "MediaObject" "encodingFormat" "application/pdf" "contentUrl" .Permalink)) }}{{ end }}{{ end }}
 <script type="application/ld+json">{{ $ld | jsonify | safeJS }}</script>
 {{- end -}}

@@ -4,6 +4,10 @@ authors: ["Shunsuke Matsuno"]
 year: 2026
 weight: 1
 ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5583773"
+# other copies of this paper (structured data only, not shown on the page)
+same_as:
+  - "https://arxiv.org/abs/2511.00031"
+  - "https://ideas.repec.org/p/arx/papers/2511.00031.html"
 pdf: "Matsuno-Gatekeeping-Experts-Dilemma.pdf"
 supplementary: "Matsuno-Gatekeeping-Experts-Dilemma-Supplementary-Material.pdf"
 abstract_open: true

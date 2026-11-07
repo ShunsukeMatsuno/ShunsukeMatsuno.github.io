@@ -1,4 +1,4 @@
-{{- /* schema.org Person (once per page). */ -}}
+{{- /* schema.org Person (once per page). Paper pages reference it via "@id". */ -}}
 {{- $sameAs := slice -}}
 {{- with site.Params.googleScholar }}{{ $sameAs = $sameAs | append (printf "https://scholar.google.com/citations?user=%s" .) }}{{ end -}}
 {{- with site.Params.ssrn }}{{ $sameAs = $sameAs | append . }}{{ end -}}
@@ -8,16 +8,20 @@
 {{- $person := dict
   "@context" "https://schema.org"
   "@type" "Person"
+  "@id" (printf "%s#person" site.Home.Permalink)
   "name" site.Params.author.name
-  "alternateName" "松野 舜介"
+  "givenName" "Shunsuke"
+  "familyName" "Matsuno"
+  "alternateName" (slice "松野 舜介" "松野舜介")
+  "description" "Assistant Professor of Accounting and Fujimori/Mou Faculty Scholar at The University of Chicago Booth School of Business, working on information economics and its applications to accounting."
   "url" site.Home.Permalink
   "email" (printf "mailto:%s" site.Params.author.email)
-  "jobTitle" "Assistant Professor of Accounting"
+  "jobTitle" (slice "Assistant Professor of Accounting" "Fujimori/Mou Faculty Scholar")
   "worksFor" (dict "@type" "CollegeOrUniversity" "name" site.Params.affiliation "url" "https://www.chicagobooth.edu/")
   "alumniOf" (slice
       (dict "@type" "CollegeOrUniversity" "name" "Columbia Business School")
-      (dict "@type" "CollegeOrUniversity" "name" "The University of Tokyo"))
-  "knowsAbout" (slice "Accounting" "Information Economics" "Disclosure" "Auditing" "Applied Theory")
+      (dict "@type" "CollegeOrUniversity" "name" "The University of Tokyo" "alternateName" "東京大学"))
+  "knowsAbout" (slice "Accounting" "Information Economics" "Financial Reporting and Disclosure" "Information in Financial Markets" "Organizational Economics" "Managerial Accounting" "Auditing" "Applied Theory")
   "sameAs" $sameAs
 -}}
 {{- with site.Params.images }}{{ $person = merge $person (dict "image" (index . 0 | absURL)) }}{{ end }}
