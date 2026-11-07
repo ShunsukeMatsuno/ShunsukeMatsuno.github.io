@@ -47,7 +47,7 @@ description: >-
 
 <!-- With picture -->
 {{< two_columns
-    left="<br>Chicago Booth<br>Assistant Professor of Accounting<br><br><br>**Curriculum Vitae**<br>[CV (pdf)](/cv/cv.pdf \"CV\")"
+    left="<br>Chicago Booth<br>Assistant Professor of Accounting<br><br>[CV (pdf)](/cv/cv.pdf \"CV\")<br><span class=\"profile-links\"><span class=\"nowrap\">[Google Scholar](https://scholar.google.com/citations?user=p4Qxc5YAAAAJ) ·</span> <span class=\"nowrap\">[SSRN](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=5017016) ·</span> <span class=\"nowrap\">[Booth Faculty Page](https://www.chicagobooth.edu/faculty/directory/m/shunsuke-matsuno)</span></span>"
     right="![Shunsuke Matsuno (Portrait)](/images/Shunsuke-Matsuno_BW_2025-May.jpg?width=340&quality=90&attr-class=portrait)<br>"
 >}}
 
@@ -60,15 +60,43 @@ description: >-
 
 <!-- Interest -->
 <p style="text-align:left; margin: 0; padding: 0;">
-  <b>Research Interest</b>
+  <b>Research Interests</b>
 </p>
 <div style="margin-bottom: 10px;">
   Information economics and its applications to accounting, with an emphasis on applied theory
 </div>
 <br>
 
+<!-- Education (one line per degree, year right-aligned as in the CV) -->
+<p style="text-align:left; margin: 0; padding: 0;">
+  <b>Education</b>
+</p>
+<div style="margin-bottom: 10px;">
+  <div class="edu-row">
+    <div>Columbia Business School, <span class="nowrap degree">Ph.D. in Accounting</span></div>
+    <div class="date"><i>2026</i></div>
+  </div>
+  <div class="edu-row">
+    <div>The University of Tokyo, <span class="nowrap degree">M.A. in Management</span></div>
+    <div class="date"><i>2021</i></div>
+  </div>
+  <div class="edu-row">
+    <div>The University of Tokyo, <span class="nowrap degree">B.A. in Economics</span></div>
+    <div class="date"><i>2019</i></div>
+  </div>
+</div>
+<br>
 
-<!-- Employment -->
+<!-- Contact -->
+<p style="text-align:left; margin: 0; padding: 0;">
+  <b>Contact</b>
+</p>
+<div style="margin-bottom: 10px;">
+  Email: <a href="mailto:Shunsuke.Matsuno@chicagobooth.edu">Shunsuke.Matsuno@chicagobooth.edu</a><br>
+  Name pronunciation: <span style="font-size:0.85rem;">''SHOON-skeh''</span>
+</div>
+
+<!-- Previous Employment block (redundant with the header while there is one position)
 <p style="text-align:left; margin: 0; padding: 0;">
   <b>Employment</b>
 </p>
@@ -80,30 +108,8 @@ description: >-
     <div class="date" style="font-size: 0.9rem;"><i>2026–Present</i></div>
   </div>
 </div>
+-->
 
-<br>
-
-<!-- Contact -->
-<p style="text-align:left; margin: 0; padding: 0;">
-  <b>Contact</b>
-</p>
-<div style="margin-bottom: 10px;">
-  Email: <a href="mailto:Shunsuke.Matsuno@chicagobooth.edu">Shunsuke.Matsuno@chicagobooth.edu</a><br>
-  Name pronunciation: <span style="font-size:0.85rem;">''SHOON-skeh''</span>
-</div>
-<br>
-
-<!-- Education -->
-<p style="text-align:left; margin: 0; padding: 0;">
-  <b>Education</b>
-</p>
-<div style="margin-bottom: 10px;">
-  <div>Columbia Business School</div>
-  <div style="display: flex; gap: 10px; margin-left: 20px;">
-    <div style="font-size: 0.9rem;">Ph.D. in Accounting</div>
-    <div class="date" style="font-size: 0.9rem;"><i>2021–2026</i></div>
-  </div>
-</div>
 <!-- <p style="text-align:left; margin: 0; padding: 0;">
   <b>Education</b>
 </p>
