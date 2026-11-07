@@ -26,9 +26,41 @@ module:
   hugoVersion:
     extended: true
     min: 0.164.0
-    summaryLength: 30
   imports:
   - path: github.com/hugomods/images
+  # Adding mounts replaces Hugo's defaults, so they are re-declared here.
+  # Paper PDFs live in static/papers (old URLs keep working) and are also
+  # mounted into each paper's page bundle so the PDF sits in the same
+  # directory as its abstract page (required by Google Scholar).
+  mounts:
+  - source: content
+    target: content
+  - source: static
+    target: static
+  - source: layouts
+    target: layouts
+  - source: assets
+    target: assets
+  - source: data
+    target: data
+  - source: i18n
+    target: i18n
+  - source: archetypes
+    target: archetypes
+  - source: static/papers/JMP_matsuno.pdf
+    target: content/research/gatekeeping-experts-dilemma/Matsuno-Gatekeeping-Experts-Dilemma.pdf
+  - source: static/papers/supplementary-material_Gatekeeping-Experts-Dilemma.pdf
+    target: content/research/gatekeeping-experts-dilemma/Matsuno-Gatekeeping-Experts-Dilemma-Supplementary-Material.pdf
+  - source: static/papers/DynamicLemonsDisclosure.pdf
+    target: content/research/mandatory-voluntary-disclosure-dynamic-market-for-lemons/Aghamolla-Matsuno-Mandatory-vs-Voluntary-Disclosure-Dynamic-Market-for-Lemons.pdf
+  - source: static/papers/Leadership_Matsuno.pdf
+    target: content/research/corporate-culture-conformity-coordination/Matsuno-How-Does-Corporate-Culture-Create-Value.pdf
+  - source: static/papers/PCAOB_dynamic.pdf
+    target: content/research/pcaob-monitoring-auditor-effort/Liu-Matsuno-PCAOB-Monitoring-and-Auditor-Effort.pdf
+  - source: static/papers/StrategicPatenting.pdf
+    target: content/research/strategic-patenting-financial-disclosure-mandates/Azinovic-Yang-Chen-Matsuno-Yoo-Strategic-Patenting.pdf
+  - source: static/papers/StackelbergDisclosure.pdf
+    target: content/research/disclosure-signaling-first-mover-disadvantage/Matsuno-Disclosure-Signaling-First-Mover-Disadvantage.pdf
 menu:
   main:
     - name: About

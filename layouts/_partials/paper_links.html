@@ -1,0 +1,5 @@
+{{- /* [SSRN] [pdf] [supplementary material] links for a paper page (context: the paper page). */ -}}
+{{- $cls := "link-offset-2 link-underline-success link-underline-opacity-10" -}}
+{{- with .Params.ssrn }}<a href="{{ . }}" target="_blank" style="font-size: 0.8rem;" class="{{ $cls }}">[SSRN]</a>{{ end }}
+{{- with .Params.pdf }}{{ with $.Resources.GetMatch . }} <a href="{{ .RelPermalink }}" target="_blank" style="font-size: 0.8rem;" class="{{ $cls }}">[pdf]</a>{{ end }}{{ end }}
+{{- with .Params.supplementary }}{{ with $.Resources.GetMatch . }} <a href="{{ .RelPermalink }}" target="_blank" style="font-size: 0.8rem;" class="{{ $cls }}">[supplementary material]</a>{{ end }}{{ end -}}

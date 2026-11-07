@@ -1,0 +1,17 @@
+{{ define "main" }}
+  <h2 class="title paper-title">{{ .RenderString .Title }}</h2>
+  <div class="content paper">
+    <p class="paper-meta">
+      {{ partial "author_list.html" .Params.authors }}<br>
+      {{ .Params.year }}{{ with .Params.status }}, <em>{{ . }}</em>{{ end }}
+    </p>
+    <p class="paper-links">{{ partial "paper_links.html" . }}</p>
+
+    <p class="paper-abstract-label"><b>Abstract</b></p>
+    <div class="paper-abstract">
+      {{ .Content }}
+    </div>
+
+    <p class="paper-back"><a href="{{ "research/" | relLangURL }}">← Research</a></p>
+  </div>
+{{ end }}

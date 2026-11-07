@@ -1,0 +1,13 @@
+{{ define "main" }}
+  <h2 class="title">{{ .Title }}</h2>
+  <div class="content">
+    <ul>
+    {{- range (where (site.GetPage "/research").Pages "Params.hidden" "!=" true).ByWeight }}
+      {{- $p := . }}
+      <li><a href="{{ .RelPermalink }}">{{ .RenderString .Title }}</a> ({{ .Params.year }})
+        {{- with .Params.pdf }}{{ with $p.Resources.GetMatch . }} <a href="{{ .RelPermalink }}" target="_blank" style="font-size: 0.8rem;">[pdf]</a>{{ end }}{{ end }}
+      </li>
+    {{- end }}
+    </ul>
+  </div>
+{{ end }}

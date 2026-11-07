@@ -1,0 +1,22 @@
+{{ define "main" }}
+  <h2 class="title">{{ .Title }}</h2>
+  <div class="content research-list">
+    {{ .Content }}
+
+    <h2 id="working-papers">Working Papers</h2>
+    {{ range (where .Pages "Params.hidden" "!=" true).ByWeight }}
+      {{- $coauthors := slice -}}
+      {{- range .Params.authors }}{{ if ne . "Shunsuke Matsuno" }}{{ $coauthors = $coauthors | append . }}{{ end }}{{ end -}}
+      <p>“{{ .RenderString .Title }},” {{ .Params.year }}
+        {{- with $coauthors }} (with {{ partial "author_list.html" . }}){{ end }}
+        {{ partial "paper_links.html" . }}
+        {{- with .Params.status }}<br>
+        <em>{{ . }}</em>{{ end }}
+      </p>
+
+      <div style="display:none;" id="ExpandContent"{{ if .Params.abstract_open }} data-expanded="true"{{ end }}><br>
+        {{ .Content }}
+      </div>
+    {{ end }}
+  </div>
+{{ end }}

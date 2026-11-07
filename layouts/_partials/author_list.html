@@ -1,0 +1,12 @@
+{{- /* Joins a slice of names: "A", "A and B", "A, B, and C". */ -}}
+{{- $names := . -}}
+{{- $n := len $names -}}
+{{- $out := "" -}}
+{{- if eq $n 1 -}}
+  {{- $out = index $names 0 -}}
+{{- else if eq $n 2 -}}
+  {{- $out = printf "%s and %s" (index $names 0) (index $names 1) -}}
+{{- else if gt $n 2 -}}
+  {{- $out = printf "%s, and %s" (delimit (first (sub $n 1) $names) ", ") (index $names (sub $n 1)) -}}
+{{- end -}}
+{{- return $out -}}
