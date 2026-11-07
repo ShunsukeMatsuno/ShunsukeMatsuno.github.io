@@ -20,3 +20,7 @@ $line-height-base: 1.4;
 
 // Headings & Paragraph
 $paragraph-color: #333;
+
+// Layout
+$top-offset: 3.5rem;      // distance from top of page to the sidebar name / page title (desktop)
+$mobile-gutter: 7vw;      // left/right margin on phones (sidebar and content share it)

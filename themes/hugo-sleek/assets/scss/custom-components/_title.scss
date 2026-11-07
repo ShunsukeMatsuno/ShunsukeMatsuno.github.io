@@ -10,3 +10,19 @@
     margin-left: -10px;
 }
   
+// Paper pages: long titles need a smaller size than the page title
+.title.paper-title {
+    font-size: 1.8rem;
+    line-height: 1.25;
+}
+
+@media (max-width: 768px) {
+    .title {
+        margin-left: 0;
+        margin-top: 1.6rem;
+        margin-bottom: 1.4rem;
+    }
+    .title.paper-title {
+        font-size: 1.45rem;
+    }
+}

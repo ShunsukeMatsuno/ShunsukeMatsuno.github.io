@@ -22,8 +22,7 @@
       padding: 4px 0 4px 0;
       &.active {
         a {
-          color: lighten(v.$primary, 10%);
-          font-weight: 400;
+          font-weight: 600;
         }
       }
       a {
@@ -36,6 +35,24 @@
     }
   }
   & {
-    padding-top: 10vw;
+    padding-top: v.$top-offset;
+  }
+
+  // Phones: name, then the menu as one row
+  @media (max-width: 768px) {
+    & {
+      padding-top: 2.2rem;
+    }
+    h1 {
+      margin-bottom: 0.6rem;
+    }
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0 1.4rem;
+      li {
+        padding: 6px 0;
+      }
+    }
   }
 }

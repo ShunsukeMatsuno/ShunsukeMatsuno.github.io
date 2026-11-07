@@ -48,7 +48,7 @@ description: >-
 <!-- With picture -->
 {{< two_columns
     left="<br>Chicago Booth<br>Assistant Professor of Accounting<br><br><br>**Curriculum Vitae**<br>[CV (pdf)](/cv/cv.pdf \"CV\")"
-    right="![Shunsuke Matsuno (Portrait)](images/Shunsuke-Matsuno_BW_2025-May.jpg?width=170&quality=100)<br>"
+    right="![Shunsuke Matsuno (Portrait)](/images/Shunsuke-Matsuno_BW_2025-May.jpg?width=340&quality=90&attr-class=portrait)<br>"
 >}}
 
 <!-- {{< two_columns
@@ -77,7 +77,7 @@ description: >-
   </div>
   <div style="display: flex; gap: 10px; margin-left: 20px;">
     <div style="font-size: 0.9rem;">Assistant Professor of Accounting</div>
-    <div style="font-size: 0.9rem;"><i>2026–Present</i></div>
+    <div class="date" style="font-size: 0.9rem;"><i>2026–Present</i></div>
   </div>
 </div>
 
@@ -101,7 +101,7 @@ description: >-
   <div>Columbia Business School</div>
   <div style="display: flex; gap: 10px; margin-left: 20px;">
     <div style="font-size: 0.9rem;">Ph.D. in Accounting</div>
-    <div style="font-size: 0.9rem;"><i>2021–2026</i></div>
+    <div class="date" style="font-size: 0.9rem;"><i>2021–2026</i></div>
   </div>
 </div>
 <!-- <p style="text-align:left; margin: 0; padding: 0;">
@@ -111,21 +111,21 @@ description: >-
   <div>Columbia Business School</div>
   <div style="display: flex; justify-content: space-between; margin-left: 20px;">
     <div style="font-size: 0.9rem;">Ph.D. in Accounting</div>
-    <div style="font-size: 0.9rem;"><i>2021-2026 (Expected)</i></div>
+    <div class="date" style="font-size: 0.9rem;"><i>2021-2026 (Expected)</i></div>
   </div>
 </div>
 <div style="margin-bottom: 10px;">
   <div>The University of Tokyo</div>
   <div style="display: flex; justify-content: space-between; margin-left: 20px;">
     <div style="font-size: 0.9rem;">M.A. in Management</div>
-    <div style="font-size: 0.9rem;"><i>2019-2021</i></div>
+    <div class="date" style="font-size: 0.9rem;"><i>2019-2021</i></div>
   </div>
 </div>
 <div style="margin-bottom: 10px;">
   <div>The University of Tokyo</div>
   <div style="display: flex; justify-content: space-between; margin-left: 20px;">
     <div style="font-size: 0.9rem;">B.A. in Economics</div>
-    <div style="font-size: 0.9rem;"><i>2015-2019</i></div>
+    <div class="date" style="font-size: 0.9rem;"><i>2015-2019</i></div>
   </div>
 </div> -->
 

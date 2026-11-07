@@ -90,3 +90,47 @@
     font-family: v.$font-family-ja !important;
   }
 }
+// Portrait on the About page (served at 2x, displayed at 170px)
+.portrait img {
+  width: 170px;
+  height: auto;
+}
+
+// Keep date ranges such as "2026–Present" on one line
+.content .date {
+  white-space: nowrap;
+}
+
+// Paper pages
+.content.paper {
+  .paper-meta {
+    margin-bottom: 0.4rem;
+  }
+  .paper-links {
+    margin-bottom: 1.6rem;
+  }
+  .paper-abstract-label {
+    margin-bottom: 0.3rem;
+  }
+  .paper-abstract p {
+    text-align: left;
+  }
+  .paper-back {
+    margin-top: 2rem;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .portrait img {
+    width: 120px;
+  }
+  .content h2 {
+    margin-left: 0;
+  }
+  // a little more room around the small [SSRN] [pdf] links for tapping
+  .research-list > p,
+  .content.paper .paper-links {
+    line-height: 1.75;
+  }
+}
