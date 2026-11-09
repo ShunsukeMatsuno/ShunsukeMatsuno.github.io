@@ -1,4 +1,5 @@
 // Use variables
+@use 'sass:color';
 @use 'variables' as v;
 
 .content {
@@ -26,7 +27,7 @@
       font-family: v.$font-family-base;
       font-size: 1rem;
       line-height: 1.4;
-      color: lighten(v.$black, 10%);
+      color: color.adjust(v.$black, $lightness: 10%, $space: hsl);
       font-weight: 400;
   }
   h1 {

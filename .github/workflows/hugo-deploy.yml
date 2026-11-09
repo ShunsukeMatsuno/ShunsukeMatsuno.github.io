@@ -24,11 +24,11 @@ jobs:
       cv: ${{ steps.filter.outputs.cv }}
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v6
+      uses: actions/checkout@v7.0.1
       with: 
         fetch-depth: 0
     - name: Detect changes
-      uses: dorny/paths-filter@v4
+      uses: dorny/paths-filter@v4.0.3
       id: filter
       with:
         base: cv-snapshot   # compare against cv-snapshot branch
@@ -47,13 +47,13 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7.0.1
         with:
           submodules: recursive
           fetch-depth: 0
 
       - name: Compile CV
-        uses: xu-cheng/latex-action@v4
+        uses: xu-cheng/latex-action@4.1.0
         with:
           working_directory: ./assets/cv
           root_file: cv.tex
@@ -66,7 +66,7 @@ jobs:
           cp ${{ github.workspace }}/assets/cv/cv.pdf ${{ github.workspace }}/static/cv/cv.pdf
 
       - name: Commit and push changes in CV to main
-        uses: stefanzweifel/git-auto-commit-action@v7
+        uses: stefanzweifel/git-auto-commit-action@v7.2.1
         with:
           commit_message: "Update cv and move to static/cv"
           branch: main
@@ -83,23 +83,29 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7.0.1
         with:
           submodules: recursive
           fetch-depth: 0
           ref: main
 
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3
+        uses: peaceiris/actions-hugo@v3.2.1
         with:
-          hugo-version: 0.164.0
+          hugo-version: 0.169.0
           extended: true
 
       # - name: Setup Pages
       #   id: pages
       #   uses: actions/configure-pages@v5
       - name: Install Dart Sass
-        run: sudo snap install dart-sass
+        env:
+          DART_SASS_VERSION: 1.108.1
+        run: |
+          curl -fsSL "https://github.com/sass/dart-sass/releases/download/${DART_SASS_VERSION}/dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz" \
+            | tar xz -C "${RUNNER_TEMP}"
+          echo "${RUNNER_TEMP}/dart-sass" >> "${GITHUB_PATH}"
+          "${RUNNER_TEMP}/dart-sass/sass" --version
         
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
@@ -116,7 +122,7 @@ jobs:
             --destination docs
 
       - name: Deploy Pages
-        uses: peaceiris/actions-gh-pages@v4
+        uses: peaceiris/actions-gh-pages@v4.1.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs

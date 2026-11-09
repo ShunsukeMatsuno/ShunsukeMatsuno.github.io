@@ -1,3 +1,5 @@
+@use 'sass:color';
+
 // Main colors
 $primary: #1de9b6 !default;
 $secondary: #ffca28 !default;
@@ -7,7 +9,7 @@ $background-color: #ffffff !default;
 // Links
 $link-color: #333333;
 $link-decoration: none;
-$link-hover-color: lighten($link-color, 20%);
+$link-hover-color: color.adjust($link-color, $lightness: 20%, $space: hsl);
 $link-hover-decoration: underline;
 
 // Fonts

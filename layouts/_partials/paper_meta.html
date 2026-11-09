@@ -10,7 +10,7 @@
 <meta name="citation_pdf_url" content="{{ .Permalink }}">
 {{- end }}{{ end }}
 <meta name="citation_language" content="en">
-{{- with .Params.keywords }}
+{{- with .Keywords }}
 <meta name="citation_keywords" content="{{ delimit . "; " }}">
 {{- end }}
 {{- $authors := slice -}}
@@ -33,7 +33,7 @@
   "url" .Permalink
   "inLanguage" "en"
 -}}
-{{- with .Params.keywords }}{{ $ld = merge $ld (dict "keywords" (delimit . ", ")) }}{{ end -}}
+{{- with .Keywords }}{{ $ld = merge $ld (dict "keywords" (delimit . ", ")) }}{{ end -}}
 {{- /* Other copies of the same paper: SSRN first, then optional `same_as` list (arXiv, RePEc, ...). */ -}}
 {{- $same := slice -}}
 {{- with .Params.ssrn }}{{ $same = $same | append . }}{{ end -}}
